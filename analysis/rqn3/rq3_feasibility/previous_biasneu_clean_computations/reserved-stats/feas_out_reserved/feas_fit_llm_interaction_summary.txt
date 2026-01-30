@@ -1,0 +1,63 @@
+Cumulative Link Mixed Model fitted with the adaptive Gauss-Hermite 
+quadrature approximation with 5 quadrature points 
+
+formula: rating_ord ~ scenario * base_model + (1 | id_key)
+data:    feas_llm
+
+ link  threshold nobs logLik  AIC     niter      max.grad cond.H 
+ logit flexible  2160 -696.54 1439.08 2349(4807) 5.21e-04 2.1e+03
+
+Random effects:
+ Groups Name        Variance Std.Dev.
+ id_key (Intercept) 0.007557 0.08693 
+Number of groups:  id_key 24 
+
+Coefficients:
+                                          Estimate Std. Error z value Pr(>|z|)
+scenarioBIAS_WORD                        2.163e-05  1.008e+00   0.000   1.0000
+scenarioBIAS_EXAMPLE                     2.484e-05  1.008e+00   0.000   1.0000
+scenarioBIAS_NUM_LOW                     2.763e-05  1.008e+00   0.000   1.0000
+scenarioBIAS_NUM_HIGH                    2.303e-06  6.172e-01   0.000   1.0000
+base_modelgemma3-12b                     2.717e-05  8.728e-01   0.000   1.0000
+base_modelllama                          3.242e+00  6.335e-01   5.117 3.11e-07
+base_modelllama-pro                      1.824e+00  8.598e-01   2.121   0.0339
+base_modelmistral                        2.328e-05  8.743e-01   0.000   1.0000
+base_modelphi4                           2.238e-05  7.984e-01   0.000   1.0000
+scenarioBIAS_WORD:base_modelllama       -9.916e-02  8.815e-01  -0.112   0.9104
+scenarioBIAS_EXAMPLE:base_modelllama    -3.702e-01  8.878e-01  -0.417   0.6767
+scenarioBIAS_NUM_LOW:base_modelllama    -5.639e-01  8.904e-01  -0.633   0.5265
+scenarioBIAS_WORD:base_modelmistral      3.070e-01  1.178e+00   0.261   0.7943
+scenarioBIAS_EXAMPLE:base_modelmistral  -1.906e-05  1.182e+00   0.000   1.0000
+scenarioBIAS_NUM_LOW:base_modelmistral  -2.157e-05  1.182e+00   0.000   1.0000
+scenarioBIAS_NUM_HIGH:base_modelmistral -3.356e-05  8.728e-01   0.000   1.0000
+scenarioBIAS_WORD:base_modelphi4        -3.691e-05  1.127e+00   0.000   1.0000
+scenarioBIAS_EXAMPLE:base_modelphi4     -2.022e-05  1.127e+00   0.000   1.0000
+scenarioBIAS_NUM_LOW:base_modelphi4     -1.937e-05  1.127e+00   0.000   1.0000
+                                           
+scenarioBIAS_WORD                          
+scenarioBIAS_EXAMPLE                       
+scenarioBIAS_NUM_LOW                       
+scenarioBIAS_NUM_HIGH                      
+base_modelgemma3-12b                       
+base_modelllama                         ***
+base_modelllama-pro                     *  
+base_modelmistral                          
+base_modelphi4                             
+scenarioBIAS_WORD:base_modelllama          
+scenarioBIAS_EXAMPLE:base_modelllama       
+scenarioBIAS_NUM_LOW:base_modelllama       
+scenarioBIAS_WORD:base_modelmistral        
+scenarioBIAS_EXAMPLE:base_modelmistral     
+scenarioBIAS_NUM_LOW:base_modelmistral     
+scenarioBIAS_NUM_HIGH:base_modelmistral    
+scenarioBIAS_WORD:base_modelphi4           
+scenarioBIAS_EXAMPLE:base_modelphi4        
+scenarioBIAS_NUM_LOW:base_modelphi4        
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -5.8111     0.9426  -6.165
+2|3  -3.5885     0.8427  -4.258
+3|4   3.5886     0.8427   4.258

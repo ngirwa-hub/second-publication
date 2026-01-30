@@ -1,0 +1,126 @@
+==== CLMM summary ====
+Cumulative Link Mixed Model fitted with the adaptive Gauss-Hermite 
+quadrature approximation with 5 quadrature points 
+
+formula: rating_ord ~ scenario * base_model + (1 | id_key)
+data:    feas_llm_i
+
+ link  threshold nobs logLik  AIC     niter      max.grad cond.H 
+ logit flexible  2160 -696.54 1439.08 2246(4603) 2.36e-04 6.0e+02
+
+Random effects:
+ Groups Name        Variance Std.Dev.
+ id_key (Intercept) 0.007559 0.08694 
+Number of groups:  id_key 24 
+
+Coefficients:
+                                             Estimate Std. Error z value
+scenarioBIAS_WORD                          -3.945e-05  6.172e-01   0.000
+scenarioBIAS_EXAMPLE                       -4.336e-05  6.172e-01   0.000
+scenarioBIAS_NUM_LOW                       -4.322e-05  6.172e-01   0.000
+scenarioBIAS_NUM_HIGH                      -4.448e-05  6.172e-01   0.000
+base_modelllama-pro                         1.824e+00  3.232e-01   5.643
+base_modelmistral                          -7.038e-06  3.598e-01   0.000
+base_modelgemma3-12b                       -7.161e-06  3.599e-01   0.000
+scenarioBIAS_WORD:base_modelllama-pro       1.319e+00  6.938e-01   1.901
+scenarioBIAS_EXAMPLE:base_modelllama-pro    1.048e+00  7.017e-01   1.493
+scenarioBIAS_NUM_LOW:base_modelllama-pro    8.540e-01  7.050e-01   1.211
+scenarioBIAS_NUM_HIGH:base_modelllama-pro   1.418e+00  6.937e-01   2.044
+scenarioBIAS_WORD:base_modelmistral         3.071e-01  8.674e-01   0.354
+scenarioBIAS_EXAMPLE:base_modelmistral      4.633e-05  8.728e-01   0.000
+scenarioBIAS_NUM_LOW:base_modelmistral      4.689e-05  8.728e-01   0.000
+scenarioBIAS_NUM_HIGH:base_modelmistral     4.322e-05  8.728e-01   0.000
+scenarioBIAS_WORD:base_modelgemma3-12b      4.838e-05  8.728e-01   0.000
+scenarioBIAS_EXAMPLE:base_modelgemma3-12b   4.642e-05  8.728e-01   0.000
+scenarioBIAS_NUM_LOW:base_modelgemma3-12b   4.681e-05  8.728e-01   0.000
+scenarioBIAS_NUM_HIGH:base_modelgemma3-12b  4.265e-05  8.728e-01   0.000
+                                           Pr(>|z|)    
+scenarioBIAS_WORD                            0.9999    
+scenarioBIAS_EXAMPLE                         0.9999    
+scenarioBIAS_NUM_LOW                         0.9999    
+scenarioBIAS_NUM_HIGH                        0.9999    
+base_modelllama-pro                        1.67e-08 ***
+base_modelmistral                            1.0000    
+base_modelgemma3-12b                         1.0000    
+scenarioBIAS_WORD:base_modelllama-pro        0.0573 .  
+scenarioBIAS_EXAMPLE:base_modelllama-pro     0.1354    
+scenarioBIAS_NUM_LOW:base_modelllama-pro     0.2258    
+scenarioBIAS_NUM_HIGH:base_modelllama-pro    0.0410 *  
+scenarioBIAS_WORD:base_modelmistral          0.7233    
+scenarioBIAS_EXAMPLE:base_modelmistral       1.0000    
+scenarioBIAS_NUM_LOW:base_modelmistral       1.0000    
+scenarioBIAS_NUM_HIGH:base_modelmistral      1.0000    
+scenarioBIAS_WORD:base_modelgemma3-12b       1.0000    
+scenarioBIAS_EXAMPLE:base_modelgemma3-12b    1.0000    
+scenarioBIAS_NUM_LOW:base_modelgemma3-12b    1.0000    
+scenarioBIAS_NUM_HIGH:base_modelgemma3-12b   1.0000    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -5.8111     0.5036  -11.54
+2|3  -3.5886     0.2745  -13.07
+3|4   3.5886     0.2745   13.07
+
+==== Estimated location by base_model (link scale) ====
+ base_model emmean    SE  df asymp.LCL asymp.UCL
+ phi4         1.94 0.275 Inf      1.40      2.48
+ llama-pro    4.69 0.230 Inf      4.24      5.14
+ mistral      2.00 0.275 Inf      1.46      2.54
+ gemma3-12b   1.94 0.275 Inf      1.40      2.48
+
+Results are averaged over the levels of: scenario 
+Confidence level used: 0.95 
+
+==== Scenario effects within each base_model (OR vs NEU) ====
+base_model = phi4:
+ contrast             estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ BIAS_WORD - NEU     -3.95e-05 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_EXAMPLE - NEU  -4.34e-05 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_NUM_LOW - NEU  -4.32e-05 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_NUM_HIGH - NEU -4.45e-05 0.617 Inf   -1.5140      1.51   0.000  1.0000
+
+base_model = llama-pro:
+ contrast             estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ BIAS_WORD - NEU      1.32e+00 0.317 Inf    0.5412      2.10   4.161  0.0001
+ BIAS_EXAMPLE - NEU   1.05e+00 0.334 Inf    0.2285      1.87   3.137  0.0065
+ BIAS_NUM_LOW - NEU   8.54e-01 0.341 Inf    0.0181      1.69   2.506  0.0434
+ BIAS_NUM_HIGH - NEU  1.42e+00 0.317 Inf    0.6409      2.19   4.477  <.0001
+
+base_model = mistral:
+ contrast             estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ BIAS_WORD - NEU      3.07e-01 0.609 Inf   -1.1880      1.80   0.504  0.9301
+ BIAS_EXAMPLE - NEU   3.00e-06 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_NUM_LOW - NEU   3.70e-06 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_NUM_HIGH - NEU -1.30e-06 0.617 Inf   -1.5140      1.51   0.000  1.0000
+
+base_model = gemma3-12b:
+ contrast             estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ BIAS_WORD - NEU      8.90e-06 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_EXAMPLE - NEU   3.10e-06 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_NUM_LOW - NEU   3.60e-06 0.617 Inf   -1.5140      1.51   0.000  1.0000
+ BIAS_NUM_HIGH - NEU -1.80e-06 0.617 Inf   -1.5140      1.51   0.000  1.0000
+
+Confidence level used: 0.95 
+Conf-level adjustment: dunnettx method for 4 estimates 
+P value adjustment: dunnettx method for 4 tests 
+
+==== Base_model differences in NEU (OR vs reference base_model) ====
+ contrast                     estimate    SE  df asymp.LCL asymp.UCL z.ratio
+ (NEU llama-pro) - NEU phi4   1.82e+00 0.323 Inf     1.061     2.586   5.643
+ NEU mistral - NEU phi4      -7.00e-06 0.360 Inf    -0.849     0.849   0.000
+ (NEU gemma3-12b) - NEU phi4 -7.20e-06 0.360 Inf    -0.849     0.849   0.000
+ p.value
+  <.0001
+  1.0000
+  1.0000
+
+Confidence level used: 0.95 
+Conf-level adjustment: dunnettx method for 3 estimates 
+P value adjustment: dunnettx method for 3 tests 
+
+NOTE:
+- The CLMM summary shows coefficients for k-1 base_model contrasts vs the reference.
+- The emmeans tables above list EVERY base_model explicitly, so you can see all 4.
+- If some base_models have zero rating variation, estimates can be unstable or very wide.

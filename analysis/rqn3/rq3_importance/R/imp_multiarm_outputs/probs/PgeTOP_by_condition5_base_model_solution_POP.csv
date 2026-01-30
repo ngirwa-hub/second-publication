@@ -1,0 +1,221 @@
+condition5,base_model,dc_solution,prob_ge_top,top_k
+CONTEXT,gemma3,DC-DC converter,0.9472781744101557,4
+ANCHOR_WORD,gemma3,DC-DC converter,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,DC-DC converter,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,DC-DC converter,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,DC-DC converter,0.903310348923463,4
+CONTEXT,llama,DC-DC converter,0.4468188469216283,4
+ANCHOR_WORD,llama,DC-DC converter,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,DC-DC converter,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,DC-DC converter,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,DC-DC converter,0.5999773231655416,4
+CONTEXT,mistral,DC-DC converter,0.7972560771061858,4
+ANCHOR_WORD,mistral,DC-DC converter,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,DC-DC converter,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,DC-DC converter,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,DC-DC converter,0.6964754518538057,4
+CONTEXT,phi4,DC-DC converter,0.9924864607837207,4
+ANCHOR_WORD,phi4,DC-DC converter,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,DC-DC converter,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,DC-DC converter,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,DC-DC converter,0.9943054910588086,4
+CONTEXT,gemma3,DC connectors,0.9472781744101557,4
+ANCHOR_WORD,gemma3,DC connectors,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,DC connectors,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,DC connectors,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,DC connectors,0.903310348923463,4
+CONTEXT,llama,DC connectors,0.4468188469216283,4
+ANCHOR_WORD,llama,DC connectors,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,DC connectors,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,DC connectors,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,DC connectors,0.5999773231655416,4
+CONTEXT,mistral,DC connectors,0.7972560771061858,4
+ANCHOR_WORD,mistral,DC connectors,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,DC connectors,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,DC connectors,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,DC connectors,0.6964754518538057,4
+CONTEXT,phi4,DC connectors,0.9924864607837207,4
+ANCHOR_WORD,phi4,DC connectors,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,DC connectors,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,DC connectors,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,DC connectors,0.9943054910588086,4
+CONTEXT,gemma3,DC measurement device,0.9472781744101557,4
+ANCHOR_WORD,gemma3,DC measurement device,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,DC measurement device,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,DC measurement device,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,DC measurement device,0.903310348923463,4
+CONTEXT,llama,DC measurement device,0.4468188469216283,4
+ANCHOR_WORD,llama,DC measurement device,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,DC measurement device,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,DC measurement device,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,DC measurement device,0.5999773231655416,4
+CONTEXT,mistral,DC measurement device,0.7972560771061858,4
+ANCHOR_WORD,mistral,DC measurement device,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,DC measurement device,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,DC measurement device,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,DC measurement device,0.6964754518538057,4
+CONTEXT,phi4,DC measurement device,0.9924864607837207,4
+ANCHOR_WORD,phi4,DC measurement device,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,DC measurement device,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,DC measurement device,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,DC measurement device,0.9943054910588086,4
+CONTEXT,gemma3,DC solution design tool,0.9472781744101557,4
+ANCHOR_WORD,gemma3,DC solution design tool,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,DC solution design tool,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,DC solution design tool,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,DC solution design tool,0.903310348923463,4
+CONTEXT,llama,DC solution design tool,0.4468188469216283,4
+ANCHOR_WORD,llama,DC solution design tool,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,DC solution design tool,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,DC solution design tool,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,DC solution design tool,0.5999773231655416,4
+CONTEXT,mistral,DC solution design tool,0.7972560771061858,4
+ANCHOR_WORD,mistral,DC solution design tool,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,DC solution design tool,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,DC solution design tool,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,DC solution design tool,0.6964754518538057,4
+CONTEXT,phi4,DC solution design tool,0.9924864607837207,4
+ANCHOR_WORD,phi4,DC solution design tool,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,DC solution design tool,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,DC solution design tool,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,DC solution design tool,0.9943054910588086,4
+CONTEXT,gemma3,LVAC-LVDC interlink converter,0.9472781744101557,4
+ANCHOR_WORD,gemma3,LVAC-LVDC interlink converter,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,LVAC-LVDC interlink converter,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,LVAC-LVDC interlink converter,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,LVAC-LVDC interlink converter,0.903310348923463,4
+CONTEXT,llama,LVAC-LVDC interlink converter,0.4468188469216283,4
+ANCHOR_WORD,llama,LVAC-LVDC interlink converter,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,LVAC-LVDC interlink converter,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,LVAC-LVDC interlink converter,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,LVAC-LVDC interlink converter,0.5999773231655416,4
+CONTEXT,mistral,LVAC-LVDC interlink converter,0.7972560771061858,4
+ANCHOR_WORD,mistral,LVAC-LVDC interlink converter,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,LVAC-LVDC interlink converter,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,LVAC-LVDC interlink converter,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,LVAC-LVDC interlink converter,0.6964754518538057,4
+CONTEXT,phi4,LVAC-LVDC interlink converter,0.9924864607837207,4
+ANCHOR_WORD,phi4,LVAC-LVDC interlink converter,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,LVAC-LVDC interlink converter,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,LVAC-LVDC interlink converter,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,LVAC-LVDC interlink converter,0.9943054910588086,4
+CONTEXT,gemma3,Network design tool for DC solutions,0.9472781744101557,4
+ANCHOR_WORD,gemma3,Network design tool for DC solutions,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,Network design tool for DC solutions,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,Network design tool for DC solutions,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,Network design tool for DC solutions,0.903310348923463,4
+CONTEXT,llama,Network design tool for DC solutions,0.4468188469216283,4
+ANCHOR_WORD,llama,Network design tool for DC solutions,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,Network design tool for DC solutions,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,Network design tool for DC solutions,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,Network design tool for DC solutions,0.5999773231655416,4
+CONTEXT,mistral,Network design tool for DC solutions,0.7972560771061858,4
+ANCHOR_WORD,mistral,Network design tool for DC solutions,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,Network design tool for DC solutions,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,Network design tool for DC solutions,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,Network design tool for DC solutions,0.6964754518538057,4
+CONTEXT,phi4,Network design tool for DC solutions,0.9924864607837207,4
+ANCHOR_WORD,phi4,Network design tool for DC solutions,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,Network design tool for DC solutions,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,Network design tool for DC solutions,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,Network design tool for DC solutions,0.9943054910588086,4
+CONTEXT,gemma3,Protection DC system design tool,0.9472781744101557,4
+ANCHOR_WORD,gemma3,Protection DC system design tool,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,Protection DC system design tool,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,Protection DC system design tool,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,Protection DC system design tool,0.903310348923463,4
+CONTEXT,llama,Protection DC system design tool,0.4468188469216283,4
+ANCHOR_WORD,llama,Protection DC system design tool,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,Protection DC system design tool,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,Protection DC system design tool,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,Protection DC system design tool,0.5999773231655416,4
+CONTEXT,mistral,Protection DC system design tool,0.7972560771061858,4
+ANCHOR_WORD,mistral,Protection DC system design tool,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,Protection DC system design tool,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,Protection DC system design tool,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,Protection DC system design tool,0.6964754518538057,4
+CONTEXT,phi4,Protection DC system design tool,0.9924864607837207,4
+ANCHOR_WORD,phi4,Protection DC system design tool,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,Protection DC system design tool,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,Protection DC system design tool,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,Protection DC system design tool,0.9943054910588086,4
+CONTEXT,gemma3,Semiconductor-based circuit breaker,0.9472781744101557,4
+ANCHOR_WORD,gemma3,Semiconductor-based circuit breaker,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,Semiconductor-based circuit breaker,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,Semiconductor-based circuit breaker,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,Semiconductor-based circuit breaker,0.903310348923463,4
+CONTEXT,llama,Semiconductor-based circuit breaker,0.4468188469216283,4
+ANCHOR_WORD,llama,Semiconductor-based circuit breaker,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,Semiconductor-based circuit breaker,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,Semiconductor-based circuit breaker,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,Semiconductor-based circuit breaker,0.5999773231655416,4
+CONTEXT,mistral,Semiconductor-based circuit breaker,0.7972560771061858,4
+ANCHOR_WORD,mistral,Semiconductor-based circuit breaker,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,Semiconductor-based circuit breaker,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,Semiconductor-based circuit breaker,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,Semiconductor-based circuit breaker,0.6964754518538057,4
+CONTEXT,phi4,Semiconductor-based circuit breaker,0.9924864607837207,4
+ANCHOR_WORD,phi4,Semiconductor-based circuit breaker,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,Semiconductor-based circuit breaker,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,Semiconductor-based circuit breaker,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,Semiconductor-based circuit breaker,0.9943054910588086,4
+CONTEXT,gemma3,Smart and sustainable DC cables,0.9472781744101557,4
+ANCHOR_WORD,gemma3,Smart and sustainable DC cables,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,Smart and sustainable DC cables,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,Smart and sustainable DC cables,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,Smart and sustainable DC cables,0.903310348923463,4
+CONTEXT,llama,Smart and sustainable DC cables,0.4468188469216283,4
+ANCHOR_WORD,llama,Smart and sustainable DC cables,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,Smart and sustainable DC cables,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,Smart and sustainable DC cables,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,Smart and sustainable DC cables,0.5999773231655416,4
+CONTEXT,mistral,Smart and sustainable DC cables,0.7972560771061858,4
+ANCHOR_WORD,mistral,Smart and sustainable DC cables,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,Smart and sustainable DC cables,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,Smart and sustainable DC cables,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,Smart and sustainable DC cables,0.6964754518538057,4
+CONTEXT,phi4,Smart and sustainable DC cables,0.9924864607837207,4
+ANCHOR_WORD,phi4,Smart and sustainable DC cables,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,Smart and sustainable DC cables,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,Smart and sustainable DC cables,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,Smart and sustainable DC cables,0.9943054910588086,4
+CONTEXT,gemma3,Solid-state circuit breaker,0.9472781744101557,4
+ANCHOR_WORD,gemma3,Solid-state circuit breaker,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,Solid-state circuit breaker,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,Solid-state circuit breaker,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,Solid-state circuit breaker,0.903310348923463,4
+CONTEXT,llama,Solid-state circuit breaker,0.4468188469216283,4
+ANCHOR_WORD,llama,Solid-state circuit breaker,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,Solid-state circuit breaker,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,Solid-state circuit breaker,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,Solid-state circuit breaker,0.5999773231655416,4
+CONTEXT,mistral,Solid-state circuit breaker,0.7972560771061858,4
+ANCHOR_WORD,mistral,Solid-state circuit breaker,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,Solid-state circuit breaker,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,Solid-state circuit breaker,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,Solid-state circuit breaker,0.6964754518538057,4
+CONTEXT,phi4,Solid-state circuit breaker,0.9924864607837207,4
+ANCHOR_WORD,phi4,Solid-state circuit breaker,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,Solid-state circuit breaker,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,Solid-state circuit breaker,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,Solid-state circuit breaker,0.9943054910588086,4
+CONTEXT,gemma3,Static protection system,0.9472781744101557,4
+ANCHOR_WORD,gemma3,Static protection system,0.9686696306317704,4
+ANCHOR_EXAMPLE,gemma3,Static protection system,0.9490280734470569,4
+ANCHOR_LOW_NUM,gemma3,Static protection system,0.9153562646692995,4
+ANCHOR_HIGH_NUM,gemma3,Static protection system,0.903310348923463,4
+CONTEXT,llama,Static protection system,0.4468188469216283,4
+ANCHOR_WORD,llama,Static protection system,0.5294320938616683,4
+ANCHOR_EXAMPLE,llama,Static protection system,0.37182776797872485,4
+ANCHOR_LOW_NUM,llama,Static protection system,0.49256394104225587,4
+ANCHOR_HIGH_NUM,llama,Static protection system,0.5999773231655416,4
+CONTEXT,mistral,Static protection system,0.7972560771061858,4
+ANCHOR_WORD,mistral,Static protection system,0.5902932243393899,4
+ANCHOR_EXAMPLE,mistral,Static protection system,0.745162140044975,4
+ANCHOR_LOW_NUM,mistral,Static protection system,0.31705609296340087,4
+ANCHOR_HIGH_NUM,mistral,Static protection system,0.6964754518538057,4
+CONTEXT,phi4,Static protection system,0.9924864607837207,4
+ANCHOR_WORD,phi4,Static protection system,0.9992917010871315,4
+ANCHOR_EXAMPLE,phi4,Static protection system,0.9929163755737085,4
+ANCHOR_LOW_NUM,phi4,Static protection system,0.9799178912019426,4
+ANCHOR_HIGH_NUM,phi4,Static protection system,0.9943054910588086,4

@@ -1,0 +1,7 @@
+=== OVERALL MODEL INFO ===
+model_class: clmm
+link: logit; type: CLMM; K_levels: 4
+nobs: 26400
+formula: rating ~ condition + base_model + condition:base_model + (1 | 
+formula:     pair_id) + (1 | dc_solution)
+predictions_add_dc_solution_RE: TRUE

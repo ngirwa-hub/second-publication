@@ -1,0 +1,12 @@
+base_model,variant_id,bias_type,iteration,barrier_id,rows_for_barrier,row_ids_for_barrier
+llama,llama_generalist,BIAS_WORD,8,8,2,"['BIAS_WORD_llama_generalist_08_b1_20250906_191856', 'BIAS_WORD_llama_generalist_08_b5_20250906_191856']"
+llama,llama_generalist2,BIAS_EXAMPLE,2,2,2,"['BIAS_EXAMPLE_llama_generalist2_02_b4_20250906_230557', 'BIAS_EXAMPLE_llama_generalist2_02_b5_20250906_230557']"
+llama,llama_normative,BIAS_EXAMPLE,3,4,2,"['BIAS_EXAMPLE_llama_normative_03_b2_20250908_080914', 'BIAS_EXAMPLE_llama_normative_03_b3_20250908_080914']"
+llama,llama_subject_matter,BIAS_EXAMPLE,5,7,2,"['BIAS_EXAMPLE_llama_subject_matter_05_b1_20250908_090148', 'BIAS_EXAMPLE_llama_subject_matter_05_b3_20250908_090148']"
+llama,llama_subject_matter,BIAS_EXAMPLE,9,7,2,"['BIAS_EXAMPLE_llama_subject_matter_09_b1_20250908_195323', 'BIAS_EXAMPLE_llama_subject_matter_09_b5_20250908_195323']"
+llama,llama_subject_matter,BIAS_NUM_LOW,6,11,2,"['BIAS_NUM_LOW_llama_subject_matter_06_b2_20250909_095507', 'BIAS_NUM_LOW_llama_subject_matter_06_b3_20250909_095507']"
+llama,llama_subject_matter2,BIAS_EXAMPLE,2,8,2,"['BIAS_EXAMPLE_llama_subject_matter2_02_b1_20250906_230557', 'BIAS_EXAMPLE_llama_subject_matter2_02_b5_20250906_230557']"
+llama,llama_subject_matter2,BIAS_EXAMPLE,3,7,2,"['BIAS_EXAMPLE_llama_subject_matter2_03_b6_20250908_080914', 'BIAS_EXAMPLE_llama_subject_matter2_03_b10_20250908_080914']"
+llama,llama_subject_matter2,BIAS_EXAMPLE,3,9,2,"['BIAS_EXAMPLE_llama_subject_matter2_03_b7_20250908_080914', 'BIAS_EXAMPLE_llama_subject_matter2_03_b9_20250908_080914']"
+llama,llama_subject_matter2,BIAS_NUM_HIGH,9,4,2,"['BIAS_NUM_HIGH_llama_subject_matter2_09_b1_20250909_142603', 'BIAS_NUM_HIGH_llama_subject_matter2_09_b4_20250909_142603']"
+llama,llama_subject_matter2,BIAS_NUM_LOW,2,7,2,"['BIAS_NUM_LOW_llama_subject_matter2_02_b1_20250909_071733', 'BIAS_NUM_LOW_llama_subject_matter2_02_b4_20250909_071733']"

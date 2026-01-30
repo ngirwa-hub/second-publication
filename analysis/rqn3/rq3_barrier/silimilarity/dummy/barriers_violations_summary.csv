@@ -1,0 +1,21 @@
+base_model,variant_id,arm,iteration,rows,n_unique_ids,any_na_ids,ids_list,count_ok,uniq_ok,valid_ids_ok,all_ok,issue
+gemma3,gemma3_generalist2,ANCHOR_NUM_HIGH,0,5,4,0,"(1, 4, 5, 5, 6)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+gemma3,gemma3_normative,ANCHOR_NUM_LOW,2,5,4,0,"(1, 5, 5, 6, 10)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+gemma3,gemma3_subject_matter2,ANCHOR_EXAMPLE,0,5,4,0,"(1, 5, 5, 6, 10)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+gemma3,gemma3_subject_matter2,ANCHOR_NUM_HIGH,7,5,4,0,"(1, 5, 5, 6, 10)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,generalist2_llama,CONTEXT,34,5,4,0,"(1, 6, 7, 7, 9)",True,False,True,False,"CONTEXT duplicate barrier_ids (unique=4, rows=5)"
+llama,llama_generalist,ANCHOR_EXAMPLE,1,5,4,0,"(2, 7, 7, 8, 11)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_generalist,ANCHOR_EXAMPLE,2,5,4,0,"(6, 7, 7, 10, 11)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_normative,ANCHOR_EXAMPLE,3,5,4,0,"(2, 3, 4, 4, 7)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_normative,ANCHOR_EXAMPLE,5,5,4,0,"(4, 6, 6, 7, 10)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_normative2,ANCHOR_EXAMPLE,4,5,4,0,"(2, 3, 4, 4, 9)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_subject_matter,ANCHOR_EXAMPLE,7,5,4,0,"(1, 3, 3, 4, 6)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_subject_matter,ANCHOR_EXAMPLE,9,5,3,0,"(2, 4, 4, 4, 8)",True,False,True,False,ANCHOR unique_ids=3 (expected 5)
+llama,llama_subject_matter2,ANCHOR_EXAMPLE,5,5,4,0,"(1, 3, 4, 4, 5)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_subject_matter2,ANCHOR_EXAMPLE,6,5,4,0,"(4, 4, 7, 9, 10)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_subject_matter2,ANCHOR_EXAMPLE,8,5,4,0,"(1, 3, 4, 7, 7)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,llama_subject_matter2,ANCHOR_EXAMPLE,9,5,4,0,"(1, 3, 3, 4, 7)",True,False,True,False,ANCHOR unique_ids=4 (expected 5)
+llama,subject_matter2_llama,CONTEXT,7,5,4,0,"(2, 3, 3, 4, 5)",True,False,True,False,"CONTEXT duplicate barrier_ids (unique=4, rows=5)"
+llama,subject_matter2_llama,CONTEXT,28,5,4,0,"(1, 2, 4, 4, 6)",True,False,True,False,"CONTEXT duplicate barrier_ids (unique=4, rows=5)"
+llama,subject_matter_llama,CONTEXT,35,5,4,0,"(1, 6, 7, 7, 9)",True,False,True,False,"CONTEXT duplicate barrier_ids (unique=4, rows=5)"
+mistral,generalist2_mistral,CONTEXT,9,5,4,0,"(1, 2, 4, 5, 5)",True,False,True,False,"CONTEXT duplicate barrier_ids (unique=4, rows=5)"

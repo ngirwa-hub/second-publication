@@ -1,0 +1,33 @@
+Base Model Pairwise Comparisons by Scenario (OR, 95% CI)
+
+      scenario                   contrast    OR         95% CI    p
+           NEU         phi4 - (llama-pro)  0.16 (-2.65, -0.99) <NA>
+           NEU             phi4 - mistral  1.00  (-0.92, 0.92) <NA>
+           NEU        phi4 - (gemma3-12b)  1.00  (-0.92, 0.92) <NA>
+           NEU      (llama-pro) - mistral  6.20   (0.99, 2.65) <NA>
+           NEU (llama-pro) - (gemma3-12b)  6.20   (0.99, 2.65) <NA>
+           NEU     mistral - (gemma3-12b)  1.00  (-0.92, 0.92) <NA>
+     BIAS_WORD         phi4 - (llama-pro)  0.04 (-4.77, -1.51) <NA>
+     BIAS_WORD             phi4 - mistral  0.74  (-2.34, 1.73) <NA>
+     BIAS_WORD        phi4 - (gemma3-12b)  1.00  (-2.05, 2.05) <NA>
+     BIAS_WORD      (llama-pro) - mistral 17.04   (1.24, 4.43) <NA>
+     BIAS_WORD (llama-pro) - (gemma3-12b) 23.16   (1.51, 4.77) <NA>
+     BIAS_WORD     mistral - (gemma3-12b)  1.36  (-1.73, 2.34) <NA>
+  BIAS_EXAMPLE         phi4 - (llama-pro)  0.06 (-4.52, -1.22) <NA>
+  BIAS_EXAMPLE             phi4 - mistral  1.00  (-2.05, 2.05) <NA>
+  BIAS_EXAMPLE        phi4 - (gemma3-12b)  1.00  (-2.05, 2.05) <NA>
+  BIAS_EXAMPLE      (llama-pro) - mistral 17.66   (1.22, 4.52) <NA>
+  BIAS_EXAMPLE (llama-pro) - (gemma3-12b) 17.66   (1.22, 4.52) <NA>
+  BIAS_EXAMPLE     mistral - (gemma3-12b)  1.00  (-2.05, 2.05) <NA>
+  BIAS_NUM_LOW         phi4 - (llama-pro)  0.07 (-4.34, -1.02) <NA>
+  BIAS_NUM_LOW             phi4 - mistral  1.00  (-2.05, 2.05) <NA>
+  BIAS_NUM_LOW        phi4 - (gemma3-12b)  1.00  (-2.05, 2.05) <NA>
+  BIAS_NUM_LOW      (llama-pro) - mistral 14.55   (1.02, 4.34) <NA>
+  BIAS_NUM_LOW (llama-pro) - (gemma3-12b) 14.55   (1.02, 4.34) <NA>
+  BIAS_NUM_LOW     mistral - (gemma3-12b)  1.00  (-2.05, 2.05) <NA>
+ BIAS_NUM_HIGH         phi4 - (llama-pro)  0.04 (-4.87, -1.61) <NA>
+ BIAS_NUM_HIGH             phi4 - mistral  1.00  (-2.05, 2.05) <NA>
+ BIAS_NUM_HIGH        phi4 - (gemma3-12b)  1.00  (-2.05, 2.05) <NA>
+ BIAS_NUM_HIGH      (llama-pro) - mistral 25.57   (1.61, 4.87) <NA>
+ BIAS_NUM_HIGH (llama-pro) - (gemma3-12b) 25.57   (1.61, 4.87) <NA>
+ BIAS_NUM_HIGH     mistral - (gemma3-12b)  1.00  (-2.05, 2.05) <NA>

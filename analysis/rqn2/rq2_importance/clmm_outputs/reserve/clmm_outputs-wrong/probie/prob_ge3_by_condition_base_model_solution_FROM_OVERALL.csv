@@ -1,0 +1,89 @@
+condition,base_model,dc_solution,prob_geq,threshold_k
+ZEROSHOT,gemma3,DC-DC converter,0.6486922798884104,3
+CONTEXT,gemma3,DC-DC converter,0.8261491034627502,3
+ZEROSHOT,llama,DC-DC converter,0.18914714175679725,3
+CONTEXT,llama,DC-DC converter,0.4762222267687738,3
+ZEROSHOT,mistral,DC-DC converter,0.4063837462605494,3
+CONTEXT,mistral,DC-DC converter,0.6732345805103445,3
+ZEROSHOT,phi4,DC-DC converter,0.8074443398593185,3
+CONTEXT,phi4,DC-DC converter,0.951469003911582,3
+ZEROSHOT,gemma3,DC connectors,0.6486922798884104,3
+CONTEXT,gemma3,DC connectors,0.8261491034627502,3
+ZEROSHOT,llama,DC connectors,0.18914714175679725,3
+CONTEXT,llama,DC connectors,0.4762222267687738,3
+ZEROSHOT,mistral,DC connectors,0.4063837462605494,3
+CONTEXT,mistral,DC connectors,0.6732345805103445,3
+ZEROSHOT,phi4,DC connectors,0.8074443398593185,3
+CONTEXT,phi4,DC connectors,0.951469003911582,3
+ZEROSHOT,gemma3,DC measurement device,0.6486922798884104,3
+CONTEXT,gemma3,DC measurement device,0.8261491034627502,3
+ZEROSHOT,llama,DC measurement device,0.18914714175679725,3
+CONTEXT,llama,DC measurement device,0.4762222267687738,3
+ZEROSHOT,mistral,DC measurement device,0.4063837462605494,3
+CONTEXT,mistral,DC measurement device,0.6732345805103445,3
+ZEROSHOT,phi4,DC measurement device,0.8074443398593185,3
+CONTEXT,phi4,DC measurement device,0.951469003911582,3
+ZEROSHOT,gemma3,DC solution design tool,0.6486922798884104,3
+CONTEXT,gemma3,DC solution design tool,0.8261491034627502,3
+ZEROSHOT,llama,DC solution design tool,0.18914714175679725,3
+CONTEXT,llama,DC solution design tool,0.4762222267687738,3
+ZEROSHOT,mistral,DC solution design tool,0.4063837462605494,3
+CONTEXT,mistral,DC solution design tool,0.6732345805103445,3
+ZEROSHOT,phi4,DC solution design tool,0.8074443398593185,3
+CONTEXT,phi4,DC solution design tool,0.951469003911582,3
+ZEROSHOT,gemma3,LVAC-LVDC interlink converter,0.6486922798884104,3
+CONTEXT,gemma3,LVAC-LVDC interlink converter,0.8261491034627502,3
+ZEROSHOT,llama,LVAC-LVDC interlink converter,0.18914714175679725,3
+CONTEXT,llama,LVAC-LVDC interlink converter,0.4762222267687738,3
+ZEROSHOT,mistral,LVAC-LVDC interlink converter,0.4063837462605494,3
+CONTEXT,mistral,LVAC-LVDC interlink converter,0.6732345805103445,3
+ZEROSHOT,phi4,LVAC-LVDC interlink converter,0.8074443398593185,3
+CONTEXT,phi4,LVAC-LVDC interlink converter,0.951469003911582,3
+ZEROSHOT,gemma3,Network design tool for DC solutions,0.6486922798884104,3
+CONTEXT,gemma3,Network design tool for DC solutions,0.8261491034627502,3
+ZEROSHOT,llama,Network design tool for DC solutions,0.18914714175679725,3
+CONTEXT,llama,Network design tool for DC solutions,0.4762222267687738,3
+ZEROSHOT,mistral,Network design tool for DC solutions,0.4063837462605494,3
+CONTEXT,mistral,Network design tool for DC solutions,0.6732345805103445,3
+ZEROSHOT,phi4,Network design tool for DC solutions,0.8074443398593185,3
+CONTEXT,phi4,Network design tool for DC solutions,0.951469003911582,3
+ZEROSHOT,gemma3,Protection DC system design tool,0.6486922798884104,3
+CONTEXT,gemma3,Protection DC system design tool,0.8261491034627502,3
+ZEROSHOT,llama,Protection DC system design tool,0.18914714175679725,3
+CONTEXT,llama,Protection DC system design tool,0.4762222267687738,3
+ZEROSHOT,mistral,Protection DC system design tool,0.4063837462605494,3
+CONTEXT,mistral,Protection DC system design tool,0.6732345805103445,3
+ZEROSHOT,phi4,Protection DC system design tool,0.8074443398593185,3
+CONTEXT,phi4,Protection DC system design tool,0.951469003911582,3
+ZEROSHOT,gemma3,Semiconductor-based circuit breaker,0.6486922798884104,3
+CONTEXT,gemma3,Semiconductor-based circuit breaker,0.8261491034627502,3
+ZEROSHOT,llama,Semiconductor-based circuit breaker,0.18914714175679725,3
+CONTEXT,llama,Semiconductor-based circuit breaker,0.4762222267687738,3
+ZEROSHOT,mistral,Semiconductor-based circuit breaker,0.4063837462605494,3
+CONTEXT,mistral,Semiconductor-based circuit breaker,0.6732345805103445,3
+ZEROSHOT,phi4,Semiconductor-based circuit breaker,0.8074443398593185,3
+CONTEXT,phi4,Semiconductor-based circuit breaker,0.951469003911582,3
+ZEROSHOT,gemma3,Smart and sustainable DC cables,0.6486922798884104,3
+CONTEXT,gemma3,Smart and sustainable DC cables,0.8261491034627502,3
+ZEROSHOT,llama,Smart and sustainable DC cables,0.18914714175679725,3
+CONTEXT,llama,Smart and sustainable DC cables,0.4762222267687738,3
+ZEROSHOT,mistral,Smart and sustainable DC cables,0.4063837462605494,3
+CONTEXT,mistral,Smart and sustainable DC cables,0.6732345805103445,3
+ZEROSHOT,phi4,Smart and sustainable DC cables,0.8074443398593185,3
+CONTEXT,phi4,Smart and sustainable DC cables,0.951469003911582,3
+ZEROSHOT,gemma3,Solid-state circuit breaker,0.6486922798884104,3
+CONTEXT,gemma3,Solid-state circuit breaker,0.8261491034627502,3
+ZEROSHOT,llama,Solid-state circuit breaker,0.18914714175679725,3
+CONTEXT,llama,Solid-state circuit breaker,0.4762222267687738,3
+ZEROSHOT,mistral,Solid-state circuit breaker,0.4063837462605494,3
+CONTEXT,mistral,Solid-state circuit breaker,0.6732345805103445,3
+ZEROSHOT,phi4,Solid-state circuit breaker,0.8074443398593185,3
+CONTEXT,phi4,Solid-state circuit breaker,0.951469003911582,3
+ZEROSHOT,gemma3,Static protection system,0.6486922798884104,3
+CONTEXT,gemma3,Static protection system,0.8261491034627502,3
+ZEROSHOT,llama,Static protection system,0.18914714175679725,3
+CONTEXT,llama,Static protection system,0.4762222267687738,3
+ZEROSHOT,mistral,Static protection system,0.4063837462605494,3
+CONTEXT,mistral,Static protection system,0.6732345805103445,3
+ZEROSHOT,phi4,Static protection system,0.8074443398593185,3
+CONTEXT,phi4,Static protection system,0.951469003911582,3

@@ -1,0 +1,57 @@
+# packages
+library(tidyverse)
+library(scales)
+
+# ---- load your CSV ----
+df <- readr::read_csv("../merged_feasibility_zeroshot_context.csv", show_col_types = FALSE)
+
+rating_levels <- 0:4
+
+plot_df <- df %>%
+  mutate(
+    condition = stringr::str_to_lower(condition),
+    condition = dplyr::recode(condition,
+      "zeroshot"="zeroshot", "context"="context", .default = condition
+    ),
+    rating = as.integer(rating)
+  ) %>%
+  count(base_model, condition, rating, name = "n") %>%
+  group_by(base_model, condition) %>%
+  tidyr::complete(rating = rating_levels, fill = list(n = 0)) %>%
+  mutate(total = sum(n),
+         pct = if_else(total > 0, n / total, NA_real_)) %>%
+  ungroup() %>%
+  mutate(
+    rating = factor(rating, levels = rating_levels),
+    condition = factor(condition, levels = c("zeroshot","context"),
+                       labels = c("Zeroshot","Context"))
+  )
+
+  #create base_model 'label_map'
+  label_map <- c(
+    "phi4" = "Phi4",
+    "gemma3" = "Gemma3:12B",
+    "llama" = "LlaMa-Pro",
+    "mistral" = "Mistral"
+  )
+  #map the labels to the plot
+  plot_df <- plot_df %>%
+    mutate(base_model = recode(base_model, !!!label_map))
+
+#imply the mapping to ggplot
+
+ggplot(plot_df, aes(x = rating, y = base_model, fill = pct)) +
+  geom_tile(color = "white", linewidth = 0.3) +
+  geom_text(aes(label = percent(pct, accuracy = 1)), size = 3, na.rm = TRUE) +
+  scale_fill_gradient(low = "white", high = "steelblue",
+                      labels = percent_format(accuracy = 1), na.value = "grey90") +
+  facet_grid(. ~ condition) +
+  labs(title = "Distribution of Ratings per Base Model by Condition",
+       x = "Rating (0–4)", y = "Base model", fill = "% of ratings") +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid = element_blank(),
+    legend.position = "bottom",
+    plot.title = element_text(hjust = 0.5))
+
+  #save plot
+  ggsave("02_rating_distribution.png", width = 8, height = 5)

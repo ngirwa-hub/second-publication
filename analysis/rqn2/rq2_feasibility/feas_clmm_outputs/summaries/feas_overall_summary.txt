@@ -1,0 +1,48 @@
+=== FEASIBILITY CLMM (overall) ===
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: rating ~ condition + base_model + condition:base_model + (1 |  
+    pair_id)
+data:    df
+
+ link  threshold nobs logLik  AIC    niter       max.grad cond.H
+ logit flexible  2400 -400.08 858.15 3664(64917) 2.04e+03 NaN   
+
+Random effects:
+ Groups  Name        Variance Std.Dev.
+ pair_id (Intercept) 5368     73.27   
+Number of groups:  pair_id 1806 
+
+Coefficients:
+                                   Estimate Std. Error z value Pr(>|z|)
+conditionCONTEXT                   -13.9354        NaN     NaN      NaN
+base_modelgemma3-12b               -11.8490        NaN     NaN      NaN
+base_modelgemma3_generalist          0.2502        NaN     NaN      NaN
+base_modelgemma3_generalist2         0.2502        NaN     NaN      NaN
+base_modelgemma3_normative           0.2502        NaN     NaN      NaN
+base_modelgemma3_normative2          0.2502        NaN     NaN      NaN
+base_modelgemma3_subject_matter      0.2502        NaN     NaN      NaN
+base_modelgemma3_subject_matter2     0.2502        NaN     NaN      NaN
+base_modelllama                     10.5105        NaN     NaN      NaN
+base_modelllama-pro                -16.7471        NaN     NaN      NaN
+base_modelllama_generalist           0.2502        NaN     NaN      NaN
+base_modelllama_generalist2          0.2502        NaN     NaN      NaN
+base_modelllama_normative            0.2502        NaN     NaN      NaN
+base_modelllama_normative2           0.2502        NaN     NaN      NaN
+base_modelllama_subject_matter      25.4573        NaN     NaN      NaN
+base_modelllama_subject_matter2      0.2502        NaN     NaN      NaN
+base_modelmistral                   -8.1678        NaN     NaN      NaN
+base_modelmistral_generalist         0.2502        NaN     NaN      NaN
+base_modelmistral_generalist2        0.2502        NaN     NaN      NaN
+base_modelmistral_normative          0.2502        NaN     NaN      NaN
+base_modelmistral_normative2         0.2502        NaN     NaN      NaN
+base_modelmistral_subject_matter     0.2502        NaN     NaN      NaN
+base_modelmistral_subject_matter2    0.2502        NaN     NaN      NaN
+base_modelphi4                      -3.1748        NaN     NaN      NaN
+conditionCONTEXT:base_modelmistral   8.2799        NaN     NaN      NaN
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -47.293        NaN     NaN
+2|3  -30.254        NaN     NaN
+3|4    9.462        NaN     NaN

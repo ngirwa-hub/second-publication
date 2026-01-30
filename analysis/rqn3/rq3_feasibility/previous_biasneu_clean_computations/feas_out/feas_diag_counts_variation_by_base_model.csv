@@ -1,0 +1,5 @@
+base_model,NEU,BIAS_WORD,BIAS_EXAMPLE,BIAS_NUM_LOW,BIAS_NUM_HIGH,n_levels
+gemma3-12b,300,60,60,60,60,1
+llama-pro,300,60,60,60,60,4
+mistral,300,60,60,60,60,2
+phi4,300,60,60,60,60,1

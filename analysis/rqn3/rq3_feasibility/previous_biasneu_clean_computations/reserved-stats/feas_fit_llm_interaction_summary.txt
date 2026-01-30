@@ -1,0 +1,63 @@
+Cumulative Link Mixed Model fitted with the adaptive Gauss-Hermite 
+quadrature approximation with 5 quadrature points 
+
+formula: rating_ord ~ scenario * base_model + (1 | id_key)
+data:    feas_llm
+
+ link  threshold nobs logLik  AIC     niter      max.grad cond.H 
+ logit flexible  2160 -696.54 1439.08 2246(4603) 2.36e-04 6.0e+02
+
+Random effects:
+ Groups Name        Variance Std.Dev.
+ id_key (Intercept) 0.007559 0.08694 
+Number of groups:  id_key 24 
+
+Coefficients:
+                                             Estimate Std. Error z value
+scenarioBIAS_WORD                          -3.945e-05  6.172e-01   0.000
+scenarioBIAS_EXAMPLE                       -4.336e-05  6.172e-01   0.000
+scenarioBIAS_NUM_LOW                       -4.322e-05  6.172e-01   0.000
+scenarioBIAS_NUM_HIGH                      -4.448e-05  6.172e-01   0.000
+base_modelllama-pro                         1.824e+00  3.232e-01   5.643
+base_modelmistral                          -7.038e-06  3.598e-01   0.000
+base_modelgemma3-12b                       -7.161e-06  3.599e-01   0.000
+scenarioBIAS_WORD:base_modelllama-pro       1.319e+00  6.938e-01   1.901
+scenarioBIAS_EXAMPLE:base_modelllama-pro    1.048e+00  7.017e-01   1.493
+scenarioBIAS_NUM_LOW:base_modelllama-pro    8.540e-01  7.050e-01   1.211
+scenarioBIAS_NUM_HIGH:base_modelllama-pro   1.418e+00  6.937e-01   2.044
+scenarioBIAS_WORD:base_modelmistral         3.071e-01  8.674e-01   0.354
+scenarioBIAS_EXAMPLE:base_modelmistral      4.633e-05  8.728e-01   0.000
+scenarioBIAS_NUM_LOW:base_modelmistral      4.689e-05  8.728e-01   0.000
+scenarioBIAS_NUM_HIGH:base_modelmistral     4.322e-05  8.728e-01   0.000
+scenarioBIAS_WORD:base_modelgemma3-12b      4.838e-05  8.728e-01   0.000
+scenarioBIAS_EXAMPLE:base_modelgemma3-12b   4.642e-05  8.728e-01   0.000
+scenarioBIAS_NUM_LOW:base_modelgemma3-12b   4.681e-05  8.728e-01   0.000
+scenarioBIAS_NUM_HIGH:base_modelgemma3-12b  4.265e-05  8.728e-01   0.000
+                                           Pr(>|z|)    
+scenarioBIAS_WORD                            0.9999    
+scenarioBIAS_EXAMPLE                         0.9999    
+scenarioBIAS_NUM_LOW                         0.9999    
+scenarioBIAS_NUM_HIGH                        0.9999    
+base_modelllama-pro                        1.67e-08 ***
+base_modelmistral                            1.0000    
+base_modelgemma3-12b                         1.0000    
+scenarioBIAS_WORD:base_modelllama-pro        0.0573 .  
+scenarioBIAS_EXAMPLE:base_modelllama-pro     0.1354    
+scenarioBIAS_NUM_LOW:base_modelllama-pro     0.2258    
+scenarioBIAS_NUM_HIGH:base_modelllama-pro    0.0410 *  
+scenarioBIAS_WORD:base_modelmistral          0.7233    
+scenarioBIAS_EXAMPLE:base_modelmistral       1.0000    
+scenarioBIAS_NUM_LOW:base_modelmistral       1.0000    
+scenarioBIAS_NUM_HIGH:base_modelmistral      1.0000    
+scenarioBIAS_WORD:base_modelgemma3-12b       1.0000    
+scenarioBIAS_EXAMPLE:base_modelgemma3-12b    1.0000    
+scenarioBIAS_NUM_LOW:base_modelgemma3-12b    1.0000    
+scenarioBIAS_NUM_HIGH:base_modelgemma3-12b   1.0000    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -5.8111     0.5036  -11.54
+2|3  -3.5886     0.2745  -13.07
+3|4   3.5886     0.2745   13.07

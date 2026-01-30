@@ -1,0 +1,25 @@
+base_model,variant_id,model,total_count,n_selected_unique,selected_set,jaccard_unique_vs_canon5,top5_set,jaccard_top5_vs_first5
+gemma3,gemma3_generalist,generalist,200,6,"[1, 2, 3, 4, 6, 8]",0.5714285714285714,"[1, 2, 3, 4, 8]",0.6666666666666666
+gemma3,gemma3_generalist2,generalist2,200,7,"[1, 2, 3, 4, 6, 7, 8]",0.5,"[1, 2, 3, 4, 8]",0.6666666666666666
+gemma3,gemma3_normative,normative,200,8,"[1, 2, 3, 4, 6, 7, 8, 9]",0.4444444444444444,"[1, 2, 3, 4, 8]",0.6666666666666666
+gemma3,gemma3_normative2,normative2,200,7,"[1, 2, 3, 4, 6, 7, 8]",0.5,"[1, 2, 3, 4, 8]",0.6666666666666666
+gemma3,gemma3_subject_matter,subject_matter,200,6,"[1, 2, 3, 4, 7, 8]",0.5714285714285714,"[1, 2, 3, 4, 8]",0.6666666666666666
+gemma3,gemma3_subject_matter2,subject_matter2,200,7,"[1, 2, 3, 4, 6, 7, 8]",0.5,"[1, 2, 3, 4, 8]",0.6666666666666666
+llama,llama_generalist,generalist,199,11,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",0.45454545454545453,"[1, 2, 3, 4, 5]",1.0
+llama,llama_generalist2,generalist2,200,10,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 11]",0.5,"[1, 2, 3, 4, 5]",1.0
+llama,llama_normative,normative,199,11,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",0.45454545454545453,"[1, 2, 3, 4, 5]",1.0
+llama,llama_normative2,normative2,195,11,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",0.45454545454545453,"[1, 2, 3, 4, 5]",1.0
+llama,llama_subject_matter,subject_matter,200,8,"[1, 2, 3, 4, 5, 6, 9, 10]",0.625,"[1, 2, 3, 4, 5]",1.0
+llama,llama_subject_matter2,subject_matter2,199,10,"[1, 2, 3, 4, 5, 6, 8, 9, 10, 11]",0.5,"[1, 2, 3, 4, 5]",1.0
+mistral,mistral_generalist,generalist,200,8,"[1, 2, 3, 4, 5, 6, 7, 8]",0.625,"[1, 2, 3, 4, 5]",1.0
+mistral,mistral_generalist2,generalist2,200,9,"[1, 2, 3, 4, 5, 6, 7, 8, 10]",0.5555555555555556,"[1, 2, 3, 4, 5]",1.0
+mistral,mistral_normative,normative,200,8,"[1, 2, 3, 4, 5, 6, 8, 10]",0.625,"[1, 2, 3, 4, 5]",1.0
+mistral,mistral_normative2,normative2,200,6,"[1, 2, 3, 4, 5, 8]",0.8333333333333334,"[1, 2, 3, 4, 5]",1.0
+mistral,mistral_subject_matter,subject_matter,200,9,"[1, 2, 3, 4, 5, 6, 7, 8, 10]",0.5555555555555556,"[1, 2, 3, 4, 5]",1.0
+mistral,mistral_subject_matter2,subject_matter2,200,7,"[1, 2, 3, 4, 5, 8, 10]",0.7142857142857143,"[1, 2, 3, 4, 5]",1.0
+phi4,phi4_generalist,generalist,200,6,"[1, 2, 3, 4, 6, 8]",0.5714285714285714,"[1, 2, 3, 4, 6]",0.6666666666666666
+phi4,phi4_generalist2,generalist2,200,7,"[1, 2, 3, 4, 6, 7, 8]",0.5,"[1, 2, 3, 4, 6]",0.6666666666666666
+phi4,phi4_normative,normative,200,6,"[1, 2, 3, 4, 6, 8]",0.5714285714285714,"[1, 2, 3, 4, 6]",0.6666666666666666
+phi4,phi4_normative2,normative2,200,7,"[1, 2, 3, 4, 5, 6, 8]",0.7142857142857143,"[1, 2, 3, 4, 6]",0.6666666666666666
+phi4,phi4_subject_matter,subject_matter,200,7,"[1, 2, 3, 4, 5, 6, 8]",0.7142857142857143,"[1, 2, 3, 4, 6]",0.6666666666666666
+phi4,phi4_subject_matter2,subject_matter2,200,7,"[1, 2, 3, 4, 5, 6, 8]",0.7142857142857143,"[1, 2, 3, 4, 6]",0.6666666666666666

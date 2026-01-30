@@ -1,0 +1,45 @@
+category,prob,condition,dc_solution
+0,9.910920342309868e-13,ZEROSHOT,DC-DC converter
+1,0.9999999999990089,ZEROSHOT,DC-DC converter
+0,8.183498802282867e-13,CONTEXT,DC-DC converter
+1,0.9999999999991817,CONTEXT,DC-DC converter
+0,0.0732285933804506,ZEROSHOT,DC connectors
+1,0.9267714066195494,ZEROSHOT,DC connectors
+0,0.07322880681042698,CONTEXT,DC connectors
+1,0.926771193189573,CONTEXT,DC connectors
+0,0.6176936188410875,ZEROSHOT,DC measurement device
+1,0.38230638115891247,ZEROSHOT,DC measurement device
+0,0.09343199183007894,CONTEXT,DC measurement device
+1,0.906568008169921,CONTEXT,DC measurement device
+0,0.02569844159935776,ZEROSHOT,DC solution design tool
+1,0.9743015584006423,ZEROSHOT,DC solution design tool
+0,8.174704051740255e-13,CONTEXT,DC solution design tool
+1,0.9999999999991825,CONTEXT,DC solution design tool
+0,0.6919269110501569,ZEROSHOT,LVAC-LVDC interlink converter
+1,0.3080730889498431,ZEROSHOT,LVAC-LVDC interlink converter
+0,0.226930782058094,CONTEXT,LVAC-LVDC interlink converter
+1,0.773069217941906,CONTEXT,LVAC-LVDC interlink converter
+0,0.043360557895607825,ZEROSHOT,Network design tool for DC solutions
+1,0.9566394421043922,ZEROSHOT,Network design tool for DC solutions
+0,0.01344149795391514,CONTEXT,Network design tool for DC solutions
+1,0.9865585020460849,CONTEXT,Network design tool for DC solutions
+0,0.10133121438053284,ZEROSHOT,Protection DC system design tool
+1,0.8986687856194672,ZEROSHOT,Protection DC system design tool
+0,0.008494424752679785,CONTEXT,Protection DC system design tool
+1,0.9915055752473202,CONTEXT,Protection DC system design tool
+0,0.06347016074417633,ZEROSHOT,Semiconductor-based circuit breaker
+1,0.9365298392558237,ZEROSHOT,Semiconductor-based circuit breaker
+0,8.17470405174037e-13,CONTEXT,Semiconductor-based circuit breaker
+1,0.9999999999991825,CONTEXT,Semiconductor-based circuit breaker
+0,0.03612470230561658,ZEROSHOT,Smart and sustainable DC cables
+1,0.9638752976943834,ZEROSHOT,Smart and sustainable DC cables
+0,8.17470405174037e-13,CONTEXT,Smart and sustainable DC cables
+1,0.9999999999991825,CONTEXT,Smart and sustainable DC cables
+0,0.011104266991043889,ZEROSHOT,Solid-state circuit breaker
+1,0.9888957330089561,ZEROSHOT,Solid-state circuit breaker
+0,8.17470405174037e-13,CONTEXT,Solid-state circuit breaker
+1,0.9999999999991825,CONTEXT,Solid-state circuit breaker
+0,0.3909662901234299,ZEROSHOT,Static protection system
+1,0.6090337098765701,ZEROSHOT,Static protection system
+0,8.17470405174037e-13,CONTEXT,Static protection system
+1,0.9999999999991825,CONTEXT,Static protection system

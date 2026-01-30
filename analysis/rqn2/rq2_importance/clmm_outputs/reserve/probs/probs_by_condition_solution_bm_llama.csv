@@ -1,0 +1,67 @@
+category,prob,condition,dc_solution
+0,6.21057888815713e-4,ZEROSHOT,DC-DC converter
+1,0.6233850893073982,ZEROSHOT,DC-DC converter
+2,0.37599385280378606,ZEROSHOT,DC-DC converter
+0,3.7917343931767014e-4,CONTEXT,DC-DC converter
+1,0.5028494935405874,CONTEXT,DC-DC converter
+2,0.4967713330200949,CONTEXT,DC-DC converter
+0,0.004496260105481935,ZEROSHOT,DC connectors
+1,0.9189450435103081,ZEROSHOT,DC connectors
+2,0.07655869638420987,ZEROSHOT,DC connectors
+0,8.417345395404393e-4,CONTEXT,DC connectors
+1,0.6914485841420621,CONTEXT,DC connectors
+2,0.3077096813183975,CONTEXT,DC connectors
+0,0.004904281917848765,ZEROSHOT,DC measurement device
+1,0.9244834546280571,ZEROSHOT,DC measurement device
+2,0.0706122634540941,ZEROSHOT,DC measurement device
+0,0.0033216108895956333,CONTEXT,DC measurement device
+1,0.8956703669309893,CONTEXT,DC measurement device
+2,0.10100802217941507,CONTEXT,DC measurement device
+0,0.002437985645080124,ZEROSHOT,DC solution design tool
+1,0.8647026784931955,ZEROSHOT,DC solution design tool
+2,0.13285933586172438,ZEROSHOT,DC solution design tool
+0,4.177699740252327e-4,CONTEXT,DC solution design tool
+1,0.5270272955417442,CONTEXT,DC solution design tool
+2,0.4725549344842306,CONTEXT,DC solution design tool
+0,8.976464783335543e-4,ZEROSHOT,LVAC-LVDC interlink converter
+1,0.7049322825269564,ZEROSHOT,LVAC-LVDC interlink converter
+2,0.29417007099471004,ZEROSHOT,LVAC-LVDC interlink converter
+0,0.0018524421267481414,CONTEXT,LVAC-LVDC interlink converter
+1,0.830257629632447,CONTEXT,LVAC-LVDC interlink converter
+2,0.16788992824080484,CONTEXT,LVAC-LVDC interlink converter
+0,8.027340871311328e-4,ZEROSHOT,Network design tool for DC solutions
+1,0.6812818782743157,ZEROSHOT,Network design tool for DC solutions
+2,0.3179153876385531,ZEROSHOT,Network design tool for DC solutions
+0,6.992070671668569e-4,CONTEXT,Network design tool for DC solutions
+1,0.6506984090211806,CONTEXT,Network design tool for DC solutions
+2,0.34860238391165255,CONTEXT,Network design tool for DC solutions
+0,9.587544198785197e-4,ZEROSHOT,Protection DC system design tool
+1,0.7183703237194285,ZEROSHOT,Protection DC system design tool
+2,0.280670921860693,ZEROSHOT,Protection DC system design tool
+0,4.669760193669326e-4,CONTEXT,Protection DC system design tool
+1,0.5546300923454445,CONTEXT,Protection DC system design tool
+2,0.44490293163518857,CONTEXT,Protection DC system design tool
+0,0.09195504972773261,ZEROSHOT,Semiconductor-based circuit breaker
+1,0.9043609248134166,ZEROSHOT,Semiconductor-based circuit breaker
+2,0.003684025458850826,ZEROSHOT,Semiconductor-based circuit breaker
+0,8.93050173035555e-5,CONTEXT,Semiconductor-based circuit breaker
+1,0.19249398919008773,CONTEXT,Semiconductor-based circuit breaker
+2,0.8074167057926087,CONTEXT,Semiconductor-based circuit breaker
+0,2.9117004742897003e-4,ZEROSHOT,Smart and sustainable DC cables
+1,0.43722235797004005,ZEROSHOT,Smart and sustainable DC cables
+2,0.562486471982531,ZEROSHOT,Smart and sustainable DC cables
+0,2.5633925601956613e-4,CONTEXT,Smart and sustainable DC cables
+1,0.4061841489699092,CONTEXT,Smart and sustainable DC cables
+2,0.5935595117740713,CONTEXT,Smart and sustainable DC cables
+0,0.005603904279937393,ZEROSHOT,Solid-state circuit breaker
+1,0.9320909387388349,ZEROSHOT,Solid-state circuit breaker
+2,0.06230515698122774,ZEROSHOT,Solid-state circuit breaker
+0,6.76615660965427e-5,CONTEXT,Solid-state circuit breaker
+1,0.1529829667687065,CONTEXT,Solid-state circuit breaker
+2,0.8469493716651969,CONTEXT,Solid-state circuit breaker
+0,0.08727388365739444,ZEROSHOT,Static protection system
+1,0.9088253266538582,ZEROSHOT,Static protection system
+2,0.003900789688747408,ZEROSHOT,Static protection system
+0,1.7944524246735395e-4,CONTEXT,Static protection system
+1,0.3238295359541032,CONTEXT,Static protection system
+2,0.6759910188034295,CONTEXT,Static protection system

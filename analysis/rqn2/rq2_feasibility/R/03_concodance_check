@@ -1,0 +1,41 @@
+library(dplyr); library(tidyr)
+
+# ---- load your CSV ----
+df <- readr::read_csv("../merged_feasibility_zeroshot_context.csv", show_col_types = FALSE)
+
+# Recreate the binary outcome the clogit used
+df_bin <- df %>%
+  mutate(y_ge3 = as.integer(as.integer(as.character(rating)) >= 3)) %>%
+  droplevels()
+
+# For each base_model, count discordant pairs within strata
+disc <- df_bin %>%
+  select(base_model, pair_id, condition, y_ge3) %>%
+  mutate(condition = as.character(condition)) %>%
+  pivot_wider(names_from = condition, values_from = y_ge3) %>%
+  # keep only complete pairs
+  filter(!is.na(ZEROSHOT), !is.na(CONTEXT)) %>%
+  mutate(
+    disc_up   = as.integer(ZEROSHOT == 0 & CONTEXT == 1),  # improvement
+    disc_down = as.integer(ZEROSHOT == 1 & CONTEXT == 0)   # worsening
+  ) %>%
+  group_by(base_model) %>%
+  summarise(
+    n_pairs        = n(),
+    n_disc_up      = sum(disc_up, na.rm = TRUE),
+    n_disc_down    = sum(disc_down, na.rm = TRUE),
+    n_concord_11   = sum(ZEROSHOT==1 & CONTEXT==1, na.rm = TRUE),
+    n_concord_00   = sum(ZEROSHOT==0 & CONTEXT==0, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    # Conditional log-OR MLE equals log(n_disc_up / n_disc_down) for matched pairs
+    cond_logOR = ifelse(n_disc_down==0 & n_disc_up>0, Inf,
+                  ifelse(n_disc_up==0 & n_disc_down>0, -Inf,
+                  ifelse(n_disc_up==0 & n_disc_down==0, NA_real_,
+                         log(n_disc_up / n_disc_down)))),
+    cond_OR = exp(cond_logOR)
+  )
+
+#save to csv
+write.csv(disc, "03_discordant_pairs.csv", row.names = FALSE)

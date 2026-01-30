@@ -1,0 +1,1201 @@
+row_id,source,condition,base_model,variant_id,model,rating,label,iteration,timestamp
+llama_generalist_00_20250617_185210,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,0.0,20250617_185210
+llama_generalist2_00_20250617_185210,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,0.0,20250617_185210
+llama_normative_00_20250617_185210,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,0.0,20250617_185210
+llama_normative2_00_20250617_185210,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,0.0,20250617_185210
+llama_subject_matter_00_20250617_185210,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,0.0,20250617_185210
+llama_subject_matter2_00_20250617_185210,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,0.0,20250617_185210
+llama_generalist_01_20250617_185251,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,1.0,20250617_185251
+llama_generalist2_01_20250617_185251,llm,ZEROSHOT,llama,llama_generalist2,generalist2,4,Very feasible,1.0,20250617_185251
+llama_normative_01_20250617_185251,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,1.0,20250617_185251
+llama_normative2_01_20250617_185251,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,1.0,20250617_185251
+llama_subject_matter_01_20250617_185251,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,1.0,20250617_185251
+llama_subject_matter2_01_20250617_185251,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,1.0,20250617_185251
+llama_generalist_02_20250617_185320,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,2.0,20250617_185320
+llama_generalist2_02_20250617_185320,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,2.0,20250617_185320
+llama_normative_02_20250617_185320,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,2.0,20250617_185320
+llama_normative2_02_20250617_185320,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,2.0,20250617_185320
+llama_subject_matter_02_20250617_185320,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,4,Very feasible,2.0,20250617_185320
+llama_subject_matter2_02_20250617_185320,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,2.0,20250617_185320
+llama_generalist_03_20250617_185431,llm,ZEROSHOT,llama,llama_generalist,generalist,4,Very feasible,3.0,20250617_185431
+llama_generalist2_03_20250617_185431,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,3.0,20250617_185431
+llama_normative_03_20250617_185431,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,3.0,20250617_185431
+llama_normative2_03_20250617_185431,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,3.0,20250617_185431
+llama_subject_matter_03_20250617_185431,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,3.0,20250617_185431
+llama_subject_matter2_03_20250617_185431,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,3.0,20250617_185431
+llama_generalist_04_20250617_190229,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,4.0,20250617_190229
+llama_generalist2_04_20250617_190229,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,4.0,20250617_190229
+llama_normative_04_20250617_190229,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,4.0,20250617_190229
+llama_normative2_04_20250617_190229,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,4.0,20250617_190229
+llama_subject_matter_04_20250617_190229,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,4.0,20250617_190229
+llama_subject_matter2_04_20250617_190229,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,4.0,20250617_190229
+llama_generalist_05_20250617_190254,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,5.0,20250617_190254
+llama_generalist2_05_20250617_190254,llm,ZEROSHOT,llama,llama_generalist2,generalist2,4,Very feasible,5.0,20250617_190254
+llama_normative_05_20250617_190254,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,5.0,20250617_190254
+llama_normative2_05_20250617_190254,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,5.0,20250617_190254
+llama_subject_matter_05_20250617_190254,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,5.0,20250617_190254
+llama_subject_matter2_05_20250617_190254,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,4,Very feasible,5.0,20250617_190254
+llama_generalist_06_20250617_190315,llm,ZEROSHOT,llama,llama_generalist,generalist,4,Very feasible,6.0,20250617_190315
+llama_generalist2_06_20250617_190315,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,6.0,20250617_190315
+llama_normative_06_20250617_190315,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,6.0,20250617_190315
+llama_normative2_06_20250617_190315,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,6.0,20250617_190315
+llama_subject_matter_06_20250617_190315,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,4,Very feasible,6.0,20250617_190315
+llama_subject_matter2_06_20250617_190315,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,4,Very feasible,6.0,20250617_190315
+llama_generalist_07_20250617_190335,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,7.0,20250617_190335
+llama_generalist2_07_20250617_190335,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,7.0,20250617_190335
+llama_normative_07_20250617_190335,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,7.0,20250617_190335
+llama_normative2_07_20250617_190335,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,7.0,20250617_190335
+llama_subject_matter_07_20250617_190335,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,7.0,20250617_190335
+llama_subject_matter2_07_20250617_190335,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,4,Very feasible,7.0,20250617_190335
+llama_generalist_08_20250617_190653,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,8.0,20250617_190653
+llama_generalist2_08_20250617_190653,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,8.0,20250617_190653
+llama_normative_08_20250617_190653,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,8.0,20250617_190653
+llama_normative2_08_20250617_190653,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,8.0,20250617_190653
+llama_subject_matter_08_20250617_190653,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,8.0,20250617_190653
+llama_subject_matter2_08_20250617_190653,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,8.0,20250617_190653
+llama_generalist_09_20250617_190735,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,9.0,20250617_190735
+llama_generalist2_09_20250617_190735,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,9.0,20250617_190735
+llama_normative_09_20250617_190735,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,9.0,20250617_190735
+llama_normative2_09_20250617_190735,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,9.0,20250617_190735
+llama_subject_matter_09_20250617_190735,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,9.0,20250617_190735
+llama_subject_matter2_09_20250617_190735,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,2,Somewhat feasible,9.0,20250617_190735
+llama_generalist_10_20250617_190852,llm,ZEROSHOT,llama,llama_generalist,generalist,1,Not feasible,10.0,20250617_190852
+llama_generalist2_10_20250617_190852,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,10.0,20250617_190852
+llama_normative_10_20250617_190852,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,10.0,20250617_190852
+llama_normative2_10_20250617_190852,llm,ZEROSHOT,llama,llama_normative2,normative2,1,Not feasible,10.0,20250617_190852
+llama_subject_matter_10_20250617_190852,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,10.0,20250617_190852
+llama_subject_matter2_10_20250617_190852,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,1,Not feasible,10.0,20250617_190852
+llama_generalist_11_20250617_190911,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,11.0,20250617_190911
+llama_generalist2_11_20250617_190911,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,11.0,20250617_190911
+llama_normative_11_20250617_190911,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,11.0,20250617_190911
+llama_normative2_11_20250617_190911,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,11.0,20250617_190911
+llama_subject_matter_11_20250617_190911,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,11.0,20250617_190911
+llama_subject_matter2_11_20250617_190911,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,11.0,20250617_190911
+llama_generalist_12_20250617_190930,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,12.0,20250617_190930
+llama_generalist2_12_20250617_190930,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,12.0,20250617_190930
+llama_normative_12_20250617_190930,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,12.0,20250617_190930
+llama_normative2_12_20250617_190930,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,12.0,20250617_190930
+llama_subject_matter_12_20250617_190930,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,12.0,20250617_190930
+llama_subject_matter2_12_20250617_190930,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,12.0,20250617_190930
+llama_generalist_13_20250617_190949,llm,ZEROSHOT,llama,llama_generalist,generalist,4,Very feasible,13.0,20250617_190949
+llama_generalist2_13_20250617_190949,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,13.0,20250617_190949
+llama_normative_13_20250617_190949,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,13.0,20250617_190949
+llama_normative2_13_20250617_190949,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,13.0,20250617_190949
+llama_subject_matter_13_20250617_190949,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,13.0,20250617_190949
+llama_subject_matter2_13_20250617_190949,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,13.0,20250617_190949
+llama_generalist_14_20250617_191008,llm,ZEROSHOT,llama,llama_generalist,generalist,1,Not feasible,14.0,20250617_191008
+llama_generalist2_14_20250617_191008,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,14.0,20250617_191008
+llama_normative_14_20250617_191008,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,14.0,20250617_191008
+llama_normative2_14_20250617_191008,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,14.0,20250617_191008
+llama_subject_matter_14_20250617_191008,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,14.0,20250617_191008
+llama_subject_matter2_14_20250617_191008,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,14.0,20250617_191008
+llama_generalist_15_20250617_191027,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,15.0,20250617_191027
+llama_generalist2_15_20250617_191027,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,15.0,20250617_191027
+llama_normative_15_20250617_191027,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,15.0,20250617_191027
+llama_normative2_15_20250617_191027,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,15.0,20250617_191027
+llama_subject_matter_15_20250617_191027,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,15.0,20250617_191027
+llama_subject_matter2_15_20250617_191027,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,15.0,20250617_191027
+llama_generalist_16_20250617_191046,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,16.0,20250617_191046
+llama_generalist2_16_20250617_191046,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,16.0,20250617_191046
+llama_normative_16_20250617_191046,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,16.0,20250617_191046
+llama_normative2_16_20250617_191046,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,16.0,20250617_191046
+llama_subject_matter_16_20250617_191046,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,16.0,20250617_191046
+llama_subject_matter2_16_20250617_191046,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,16.0,20250617_191046
+llama_generalist_17_20250617_191112,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,17.0,20250617_191112
+llama_generalist2_17_20250617_191112,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,17.0,20250617_191112
+llama_normative_17_20250617_191112,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,17.0,20250617_191112
+llama_normative2_17_20250617_191112,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,17.0,20250617_191112
+llama_subject_matter_17_20250617_191112,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,17.0,20250617_191112
+llama_subject_matter2_17_20250617_191112,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,17.0,20250617_191112
+llama_generalist_18_20250617_191130,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,18.0,20250617_191130
+llama_generalist2_18_20250617_191130,llm,ZEROSHOT,llama,llama_generalist2,generalist2,4,Very feasible,18.0,20250617_191130
+llama_normative_18_20250617_191130,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,18.0,20250617_191130
+llama_normative2_18_20250617_191130,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,18.0,20250617_191130
+llama_subject_matter_18_20250617_191130,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,18.0,20250617_191130
+llama_subject_matter2_18_20250617_191130,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,4,Very feasible,18.0,20250617_191130
+llama_generalist_19_20250617_191150,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,19.0,20250617_191150
+llama_generalist2_19_20250617_191150,llm,ZEROSHOT,llama,llama_generalist2,generalist2,1,Not feasible,19.0,20250617_191150
+llama_normative_19_20250617_191150,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,19.0,20250617_191150
+llama_normative2_19_20250617_191150,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,19.0,20250617_191150
+llama_subject_matter_19_20250617_191150,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,19.0,20250617_191150
+llama_subject_matter2_19_20250617_191150,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,2,Somewhat feasible,19.0,20250617_191150
+llama_generalist_20_20250617_191208,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,20.0,20250617_191208
+llama_generalist2_20_20250617_191208,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,20.0,20250617_191208
+llama_normative_20_20250617_191208,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,20.0,20250617_191208
+llama_normative2_20_20250617_191208,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,20.0,20250617_191208
+llama_subject_matter_20_20250617_191208,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,4,Very feasible,20.0,20250617_191208
+llama_subject_matter2_20_20250617_191208,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,20.0,20250617_191208
+llama_generalist_21_20250617_191227,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,21.0,20250617_191227
+llama_generalist2_21_20250617_191227,llm,ZEROSHOT,llama,llama_generalist2,generalist2,1,Not feasible,21.0,20250617_191227
+llama_normative_21_20250617_191227,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,21.0,20250617_191227
+llama_normative2_21_20250617_191227,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,21.0,20250617_191227
+llama_subject_matter_21_20250617_191227,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,21.0,20250617_191227
+llama_subject_matter2_21_20250617_191227,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,2,Somewhat feasible,21.0,20250617_191227
+llama_generalist_22_20250617_191246,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,22.0,20250617_191246
+llama_generalist2_22_20250617_191246,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,22.0,20250617_191246
+llama_normative_22_20250617_191246,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,22.0,20250617_191246
+llama_normative2_22_20250617_191246,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,22.0,20250617_191246
+llama_subject_matter_22_20250617_191246,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,22.0,20250617_191246
+llama_subject_matter2_22_20250617_191246,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,22.0,20250617_191246
+llama_generalist_23_20250617_191304,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,23.0,20250617_191304
+llama_generalist2_23_20250617_191304,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,23.0,20250617_191304
+llama_normative_23_20250617_191304,llm,ZEROSHOT,llama,llama_normative,normative,2,Somewhat feasible,23.0,20250617_191304
+llama_normative2_23_20250617_191304,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,23.0,20250617_191304
+llama_subject_matter_23_20250617_191304,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,23.0,20250617_191304
+llama_subject_matter2_23_20250617_191304,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,23.0,20250617_191304
+llama_generalist_24_20250617_191324,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,24.0,20250617_191324
+llama_generalist2_24_20250617_191324,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,24.0,20250617_191324
+llama_normative_24_20250617_191324,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,24.0,20250617_191324
+llama_normative2_24_20250617_191324,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,24.0,20250617_191324
+llama_subject_matter_24_20250617_191324,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,24.0,20250617_191324
+llama_subject_matter2_24_20250617_191324,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,24.0,20250617_191324
+llama_generalist_25_20250617_191343,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,25.0,20250617_191343
+llama_generalist2_25_20250617_191343,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,25.0,20250617_191343
+llama_normative_25_20250617_191343,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,25.0,20250617_191343
+llama_normative2_25_20250617_191343,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,25.0,20250617_191343
+llama_subject_matter_25_20250617_191343,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,25.0,20250617_191343
+llama_subject_matter2_25_20250617_191343,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,1,Not feasible,25.0,20250617_191343
+llama_generalist_26_20250617_191402,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,26.0,20250617_191402
+llama_generalist2_26_20250617_191402,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,26.0,20250617_191402
+llama_normative_26_20250617_191402,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,26.0,20250617_191402
+llama_normative2_26_20250617_191402,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,26.0,20250617_191402
+llama_subject_matter_26_20250617_191402,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,4,Very feasible,26.0,20250617_191402
+llama_subject_matter2_26_20250617_191402,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,26.0,20250617_191402
+llama_generalist_27_20250617_191422,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,27.0,20250617_191422
+llama_generalist2_27_20250617_191422,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,27.0,20250617_191422
+llama_normative_27_20250617_191422,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,27.0,20250617_191422
+llama_normative2_27_20250617_191422,llm,ZEROSHOT,llama,llama_normative2,normative2,1,Not feasible,27.0,20250617_191422
+llama_subject_matter_27_20250617_191422,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,27.0,20250617_191422
+llama_subject_matter2_27_20250617_191422,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,27.0,20250617_191422
+llama_generalist_28_20250617_191441,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,28.0,20250617_191441
+llama_generalist2_28_20250617_191441,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,28.0,20250617_191441
+llama_normative_28_20250617_191441,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,28.0,20250617_191441
+llama_normative2_28_20250617_191441,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,28.0,20250617_191441
+llama_subject_matter_28_20250617_191441,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,28.0,20250617_191441
+llama_subject_matter2_28_20250617_191441,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,28.0,20250617_191441
+llama_generalist_29_20250617_191500,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,29.0,20250617_191500
+llama_generalist2_29_20250617_191500,llm,ZEROSHOT,llama,llama_generalist2,generalist2,4,Very feasible,29.0,20250617_191500
+llama_normative_29_20250617_191500,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,29.0,20250617_191500
+llama_normative2_29_20250617_191500,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,29.0,20250617_191500
+llama_subject_matter_29_20250617_191500,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,29.0,20250617_191500
+llama_subject_matter2_29_20250617_191500,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,29.0,20250617_191500
+llama_generalist_30_20250617_191519,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,30.0,20250617_191519
+llama_generalist2_30_20250617_191519,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,30.0,20250617_191519
+llama_normative_30_20250617_191519,llm,ZEROSHOT,llama,llama_normative,normative,2,Somewhat feasible,30.0,20250617_191519
+llama_normative2_30_20250617_191519,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,30.0,20250617_191519
+llama_subject_matter_30_20250617_191519,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,30.0,20250617_191519
+llama_subject_matter2_30_20250617_191519,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,4,Very feasible,30.0,20250617_191519
+llama_generalist_31_20250617_191538,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,31.0,20250617_191538
+llama_generalist2_31_20250617_191538,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,31.0,20250617_191538
+llama_normative_31_20250617_191538,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,31.0,20250617_191538
+llama_normative2_31_20250617_191538,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,31.0,20250617_191538
+llama_subject_matter_31_20250617_191538,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,31.0,20250617_191538
+llama_subject_matter2_31_20250617_191538,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,31.0,20250617_191538
+llama_generalist_32_20250617_191557,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,32.0,20250617_191557
+llama_generalist2_32_20250617_191557,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,32.0,20250617_191557
+llama_normative_32_20250617_191557,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,32.0,20250617_191557
+llama_normative2_32_20250617_191557,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,32.0,20250617_191557
+llama_subject_matter_32_20250617_191557,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,32.0,20250617_191557
+llama_subject_matter2_32_20250617_191557,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,32.0,20250617_191557
+llama_generalist_33_20250617_191615,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,33.0,20250617_191615
+llama_generalist2_33_20250617_191615,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,33.0,20250617_191615
+llama_normative_33_20250617_191615,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,33.0,20250617_191615
+llama_normative2_33_20250617_191615,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,33.0,20250617_191615
+llama_subject_matter_33_20250617_191615,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,33.0,20250617_191615
+llama_subject_matter2_33_20250617_191615,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,33.0,20250617_191615
+llama_generalist_34_20250617_191634,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,34.0,20250617_191634
+llama_generalist2_34_20250617_191634,llm,ZEROSHOT,llama,llama_generalist2,generalist2,4,Very feasible,34.0,20250617_191634
+llama_normative_34_20250617_191634,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,34.0,20250617_191634
+llama_normative2_34_20250617_191634,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,34.0,20250617_191634
+llama_subject_matter_34_20250617_191634,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,34.0,20250617_191634
+llama_subject_matter2_34_20250617_191634,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,34.0,20250617_191634
+llama_generalist_35_20250617_191652,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,35.0,20250617_191652
+llama_generalist2_35_20250617_191652,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,35.0,20250617_191652
+llama_normative_35_20250617_191652,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,35.0,20250617_191652
+llama_normative2_35_20250617_191652,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,35.0,20250617_191652
+llama_subject_matter_35_20250617_191652,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,35.0,20250617_191652
+llama_subject_matter2_35_20250617_191652,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,35.0,20250617_191652
+llama_generalist_36_20250617_191713,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,36.0,20250617_191713
+llama_generalist2_36_20250617_191713,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,36.0,20250617_191713
+llama_normative_36_20250617_191713,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,36.0,20250617_191713
+llama_normative2_36_20250617_191713,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,36.0,20250617_191713
+llama_subject_matter_36_20250617_191713,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,36.0,20250617_191713
+llama_subject_matter2_36_20250617_191713,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,2,Somewhat feasible,36.0,20250617_191713
+llama_generalist_37_20250617_191731,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,37.0,20250617_191731
+llama_generalist2_37_20250617_191731,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,37.0,20250617_191731
+llama_normative_37_20250617_191731,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,37.0,20250617_191731
+llama_normative2_37_20250617_191731,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,37.0,20250617_191731
+llama_subject_matter_37_20250617_191731,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,37.0,20250617_191731
+llama_subject_matter2_37_20250617_191731,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,37.0,20250617_191731
+llama_generalist_38_20250617_191754,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,38.0,20250617_191754
+llama_generalist2_38_20250617_191754,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,38.0,20250617_191754
+llama_normative_38_20250617_191754,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,38.0,20250617_191754
+llama_normative2_38_20250617_191754,llm,ZEROSHOT,llama,llama_normative2,normative2,2,Somewhat feasible,38.0,20250617_191754
+llama_subject_matter_38_20250617_191754,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,38.0,20250617_191754
+llama_subject_matter2_38_20250617_191754,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,38.0,20250617_191754
+llama_generalist_39_20250617_191813,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,39.0,20250617_191813
+llama_generalist2_39_20250617_191813,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,39.0,20250617_191813
+llama_normative_39_20250617_191813,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,39.0,20250617_191813
+llama_normative2_39_20250617_191813,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,39.0,20250617_191813
+llama_subject_matter_39_20250617_191813,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,39.0,20250617_191813
+llama_subject_matter2_39_20250617_191813,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,39.0,20250617_191813
+llama_generalist_40_20250617_191834,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,40.0,20250617_191834
+llama_generalist2_40_20250617_191834,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,40.0,20250617_191834
+llama_normative_40_20250617_191834,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,40.0,20250617_191834
+llama_normative2_40_20250617_191834,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,40.0,20250617_191834
+llama_subject_matter_40_20250617_191834,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,40.0,20250617_191834
+llama_subject_matter2_40_20250617_191834,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,4,Very feasible,40.0,20250617_191834
+llama_generalist_41_20250617_191853,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,41.0,20250617_191853
+llama_generalist2_41_20250617_191853,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,41.0,20250617_191853
+llama_normative_41_20250617_191853,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,41.0,20250617_191853
+llama_normative2_41_20250617_191853,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,41.0,20250617_191853
+llama_subject_matter_41_20250617_191853,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,41.0,20250617_191853
+llama_subject_matter2_41_20250617_191853,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,41.0,20250617_191853
+llama_generalist_42_20250617_191912,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,42.0,20250617_191912
+llama_generalist2_42_20250617_191912,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,42.0,20250617_191912
+llama_normative_42_20250617_191912,llm,ZEROSHOT,llama,llama_normative,normative,4,Very feasible,42.0,20250617_191912
+llama_normative2_42_20250617_191912,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,42.0,20250617_191912
+llama_subject_matter_42_20250617_191912,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,42.0,20250617_191912
+llama_subject_matter2_42_20250617_191912,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,42.0,20250617_191912
+llama_generalist_43_20250617_191930,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,43.0,20250617_191930
+llama_generalist2_43_20250617_191930,llm,ZEROSHOT,llama,llama_generalist2,generalist2,4,Very feasible,43.0,20250617_191930
+llama_normative_43_20250617_191930,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,43.0,20250617_191930
+llama_normative2_43_20250617_191930,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,43.0,20250617_191930
+llama_subject_matter_43_20250617_191930,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,43.0,20250617_191930
+llama_subject_matter2_43_20250617_191930,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,43.0,20250617_191930
+llama_generalist_44_20250617_191949,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,44.0,20250617_191949
+llama_generalist2_44_20250617_191949,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,44.0,20250617_191949
+llama_normative_44_20250617_191949,llm,ZEROSHOT,llama,llama_normative,normative,2,Somewhat feasible,44.0,20250617_191949
+llama_normative2_44_20250617_191949,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,44.0,20250617_191949
+llama_subject_matter_44_20250617_191949,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,44.0,20250617_191949
+llama_subject_matter2_44_20250617_191949,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,44.0,20250617_191949
+llama_generalist_45_20250617_192010,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,45.0,20250617_192010
+llama_generalist2_45_20250617_192010,llm,ZEROSHOT,llama,llama_generalist2,generalist2,2,Somewhat feasible,45.0,20250617_192010
+llama_normative_45_20250617_192010,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,45.0,20250617_192010
+llama_normative2_45_20250617_192010,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,45.0,20250617_192010
+llama_subject_matter_45_20250617_192010,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,45.0,20250617_192010
+llama_subject_matter2_45_20250617_192010,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,45.0,20250617_192010
+llama_generalist_46_20250617_192031,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,46.0,20250617_192031
+llama_generalist2_46_20250617_192031,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,46.0,20250617_192031
+llama_normative_46_20250617_192031,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,46.0,20250617_192031
+llama_normative2_46_20250617_192031,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,46.0,20250617_192031
+llama_subject_matter_46_20250617_192031,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,46.0,20250617_192031
+llama_subject_matter2_46_20250617_192031,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,46.0,20250617_192031
+llama_generalist_47_20250617_192051,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,47.0,20250617_192051
+llama_generalist2_47_20250617_192051,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,47.0,20250617_192051
+llama_normative_47_20250617_192051,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,47.0,20250617_192051
+llama_normative2_47_20250617_192051,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,47.0,20250617_192051
+llama_subject_matter_47_20250617_192051,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,2,Somewhat feasible,47.0,20250617_192051
+llama_subject_matter2_47_20250617_192051,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,2,Somewhat feasible,47.0,20250617_192051
+llama_generalist_48_20250617_192111,llm,ZEROSHOT,llama,llama_generalist,generalist,2,Somewhat feasible,48.0,20250617_192111
+llama_generalist2_48_20250617_192111,llm,ZEROSHOT,llama,llama_generalist2,generalist2,3,Feasible,48.0,20250617_192111
+llama_normative_48_20250617_192111,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,48.0,20250617_192111
+llama_normative2_48_20250617_192111,llm,ZEROSHOT,llama,llama_normative2,normative2,4,Very feasible,48.0,20250617_192111
+llama_subject_matter_48_20250617_192111,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,48.0,20250617_192111
+llama_subject_matter2_48_20250617_192111,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,48.0,20250617_192111
+llama_generalist_49_20250617_192135,llm,ZEROSHOT,llama,llama_generalist,generalist,3,Feasible,49.0,20250617_192135
+llama_generalist2_49_20250617_192135,llm,ZEROSHOT,llama,llama_generalist2,generalist2,4,Very feasible,49.0,20250617_192135
+llama_normative_49_20250617_192135,llm,ZEROSHOT,llama,llama_normative,normative,3,Feasible,49.0,20250617_192135
+llama_normative2_49_20250617_192135,llm,ZEROSHOT,llama,llama_normative2,normative2,3,Feasible,49.0,20250617_192135
+llama_subject_matter_49_20250617_192135,llm,ZEROSHOT,llama,llama_subject_matter,subject_matter,3,Feasible,49.0,20250617_192135
+llama_subject_matter2_49_20250617_192135,llm,ZEROSHOT,llama,llama_subject_matter2,subject_matter2,3,Feasible,49.0,20250617_192135
+phi4_generalist_00_20250622_204459,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,0.0,20250622_204459
+phi4_generalist2_00_20250622_204459,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,0.0,20250622_204459
+phi4_normative_00_20250622_204459,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,0.0,20250622_204459
+phi4_normative2_00_20250622_204459,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,0.0,20250622_204459
+phi4_subject_matter_00_20250622_204459,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,0.0,20250622_204459
+phi4_subject_matter2_00_20250622_204459,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,0.0,20250622_204459
+phi4_generalist_01_20250622_204620,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,1.0,20250622_204620
+phi4_generalist2_01_20250622_204620,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,1.0,20250622_204620
+phi4_normative_01_20250622_204620,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,1.0,20250622_204620
+phi4_normative2_01_20250622_204620,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,1.0,20250622_204620
+phi4_subject_matter_01_20250622_204620,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,1.0,20250622_204620
+phi4_subject_matter2_01_20250622_204620,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,1.0,20250622_204620
+phi4_generalist_02_20250622_205116,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,2.0,20250622_205116
+phi4_generalist2_02_20250622_205116,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,2.0,20250622_205116
+phi4_normative_02_20250622_205116,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,2.0,20250622_205116
+phi4_normative2_02_20250622_205116,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,2.0,20250622_205116
+phi4_subject_matter_02_20250622_205116,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,2.0,20250622_205116
+phi4_subject_matter2_02_20250622_205116,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,2.0,20250622_205116
+phi4_generalist_03_20250622_205223,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,3.0,20250622_205223
+phi4_generalist2_03_20250622_205223,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,3.0,20250622_205223
+phi4_normative_03_20250622_205223,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,3.0,20250622_205223
+phi4_normative2_03_20250622_205223,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,3.0,20250622_205223
+phi4_subject_matter_03_20250622_205223,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,3.0,20250622_205223
+phi4_subject_matter2_03_20250622_205223,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,3.0,20250622_205223
+phi4_generalist_04_20250622_205316,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,4.0,20250622_205316
+phi4_generalist2_04_20250622_205316,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,4.0,20250622_205316
+phi4_normative_04_20250622_205316,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,4.0,20250622_205316
+phi4_normative2_04_20250622_205316,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,4.0,20250622_205316
+phi4_subject_matter_04_20250622_205316,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,4.0,20250622_205316
+phi4_subject_matter2_04_20250622_205316,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,4.0,20250622_205316
+phi4_generalist_05_20250622_205407,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,5.0,20250622_205407
+phi4_generalist2_05_20250622_205407,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,5.0,20250622_205407
+phi4_normative_05_20250622_205407,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,5.0,20250622_205407
+phi4_normative2_05_20250622_205407,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,5.0,20250622_205407
+phi4_subject_matter_05_20250622_205407,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,5.0,20250622_205407
+phi4_subject_matter2_05_20250622_205407,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,5.0,20250622_205407
+phi4_generalist_06_20250622_205501,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,6.0,20250622_205501
+phi4_generalist2_06_20250622_205501,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,6.0,20250622_205501
+phi4_normative_06_20250622_205501,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,6.0,20250622_205501
+phi4_normative2_06_20250622_205501,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,6.0,20250622_205501
+phi4_subject_matter_06_20250622_205501,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,6.0,20250622_205501
+phi4_subject_matter2_06_20250622_205501,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,6.0,20250622_205501
+phi4_generalist_07_20250622_205639,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,7.0,20250622_205639
+phi4_generalist2_07_20250622_205639,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,7.0,20250622_205639
+phi4_normative_07_20250622_205639,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,7.0,20250622_205639
+phi4_normative2_07_20250622_205639,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,7.0,20250622_205639
+phi4_subject_matter_07_20250622_205639,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,7.0,20250622_205639
+phi4_subject_matter2_07_20250622_205639,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,7.0,20250622_205639
+phi4_generalist_08_20250622_205732,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,8.0,20250622_205732
+phi4_generalist2_08_20250622_205732,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,8.0,20250622_205732
+phi4_normative_08_20250622_205732,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,8.0,20250622_205732
+phi4_normative2_08_20250622_205732,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,8.0,20250622_205732
+phi4_subject_matter_08_20250622_205732,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,8.0,20250622_205732
+phi4_subject_matter2_08_20250622_205732,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,8.0,20250622_205732
+phi4_generalist_09_20250622_205835,llm,ZEROSHOT,phi4,phi4_generalist,generalist,4,Very feasible,9.0,20250622_205835
+phi4_generalist2_09_20250622_205835,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,9.0,20250622_205835
+phi4_normative_09_20250622_205835,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,9.0,20250622_205835
+phi4_normative2_09_20250622_205835,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,9.0,20250622_205835
+phi4_subject_matter_09_20250622_205835,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,9.0,20250622_205835
+phi4_subject_matter2_09_20250622_205835,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,9.0,20250622_205835
+phi4_generalist_10_20250622_205932,llm,ZEROSHOT,phi4,phi4_generalist,generalist,4,Very feasible,10.0,20250622_205932
+phi4_generalist2_10_20250622_205932,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,10.0,20250622_205932
+phi4_normative_10_20250622_205932,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,10.0,20250622_205932
+phi4_normative2_10_20250622_205932,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,10.0,20250622_205932
+phi4_subject_matter_10_20250622_205932,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,10.0,20250622_205932
+phi4_subject_matter2_10_20250622_205932,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,10.0,20250622_205932
+phi4_generalist_11_20250622_210014,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,11.0,20250622_210014
+phi4_generalist2_11_20250622_210014,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,11.0,20250622_210014
+phi4_normative_11_20250622_210014,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,11.0,20250622_210014
+phi4_normative2_11_20250622_210014,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,11.0,20250622_210014
+phi4_subject_matter_11_20250622_210014,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,11.0,20250622_210014
+phi4_subject_matter2_11_20250622_210014,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,11.0,20250622_210014
+phi4_generalist_12_20250622_210132,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,12.0,20250622_210132
+phi4_generalist2_12_20250622_210132,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,12.0,20250622_210132
+phi4_normative_12_20250622_210132,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,12.0,20250622_210132
+phi4_normative2_12_20250622_210132,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,12.0,20250622_210132
+phi4_subject_matter_12_20250622_210132,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,12.0,20250622_210132
+phi4_subject_matter2_12_20250622_210132,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,12.0,20250622_210132
+phi4_generalist_13_20250622_211725,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,13.0,20250622_211725
+phi4_generalist2_13_20250622_211725,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,13.0,20250622_211725
+phi4_normative_13_20250622_211725,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,13.0,20250622_211725
+phi4_normative2_13_20250622_211725,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,13.0,20250622_211725
+phi4_subject_matter_13_20250622_211725,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,13.0,20250622_211725
+phi4_subject_matter2_13_20250622_211725,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,13.0,20250622_211725
+phi4_generalist_14_20250622_211825,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,14.0,20250622_211825
+phi4_generalist2_14_20250622_211825,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,14.0,20250622_211825
+phi4_normative_14_20250622_211825,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,14.0,20250622_211825
+phi4_normative2_14_20250622_211825,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,14.0,20250622_211825
+phi4_subject_matter_14_20250622_211825,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,14.0,20250622_211825
+phi4_subject_matter2_14_20250622_211825,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,14.0,20250622_211825
+phi4_generalist_15_20250622_211922,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,15.0,20250622_211922
+phi4_generalist2_15_20250622_211922,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,15.0,20250622_211922
+phi4_normative_15_20250622_211922,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,15.0,20250622_211922
+phi4_normative2_15_20250622_211922,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,15.0,20250622_211922
+phi4_subject_matter_15_20250622_211922,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,15.0,20250622_211922
+phi4_subject_matter2_15_20250622_211922,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,15.0,20250622_211922
+phi4_generalist_16_20250622_212017,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,16.0,20250622_212017
+phi4_generalist2_16_20250622_212017,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,16.0,20250622_212017
+phi4_normative_16_20250622_212017,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,16.0,20250622_212017
+phi4_normative2_16_20250622_212017,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,16.0,20250622_212017
+phi4_subject_matter_16_20250622_212017,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,16.0,20250622_212017
+phi4_subject_matter2_16_20250622_212017,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,16.0,20250622_212017
+phi4_generalist_17_20250622_212117,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,17.0,20250622_212117
+phi4_generalist2_17_20250622_212117,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,17.0,20250622_212117
+phi4_normative_17_20250622_212117,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,17.0,20250622_212117
+phi4_normative2_17_20250622_212117,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,17.0,20250622_212117
+phi4_subject_matter_17_20250622_212117,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,17.0,20250622_212117
+phi4_subject_matter2_17_20250622_212117,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,4,Very feasible,17.0,20250622_212117
+phi4_generalist_18_20250622_212158,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,18.0,20250622_212158
+phi4_generalist2_18_20250622_212158,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,18.0,20250622_212158
+phi4_normative_18_20250622_212158,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,18.0,20250622_212158
+phi4_normative2_18_20250622_212158,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,18.0,20250622_212158
+phi4_subject_matter_18_20250622_212158,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,18.0,20250622_212158
+phi4_subject_matter2_18_20250622_212158,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,18.0,20250622_212158
+phi4_generalist_19_20250622_212255,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,19.0,20250622_212255
+phi4_generalist2_19_20250622_212255,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,19.0,20250622_212255
+phi4_normative_19_20250622_212255,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,19.0,20250622_212255
+phi4_normative2_19_20250622_212255,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,19.0,20250622_212255
+phi4_subject_matter_19_20250622_212255,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,19.0,20250622_212255
+phi4_subject_matter2_19_20250622_212255,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,19.0,20250622_212255
+phi4_generalist_20_20250622_212343,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,20.0,20250622_212343
+phi4_generalist2_20_20250622_212343,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,20.0,20250622_212343
+phi4_normative_20_20250622_212343,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,20.0,20250622_212343
+phi4_normative2_20_20250622_212343,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,20.0,20250622_212343
+phi4_subject_matter_20_20250622_212343,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,20.0,20250622_212343
+phi4_subject_matter2_20_20250622_212343,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,4,Very feasible,20.0,20250622_212343
+phi4_generalist_21_20250622_212435,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,21.0,20250622_212435
+phi4_generalist2_21_20250622_212435,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,21.0,20250622_212435
+phi4_normative_21_20250622_212435,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,21.0,20250622_212435
+phi4_normative2_21_20250622_212435,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,21.0,20250622_212435
+phi4_subject_matter_21_20250622_212435,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,21.0,20250622_212435
+phi4_subject_matter2_21_20250622_212435,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,21.0,20250622_212435
+phi4_generalist_22_20250622_212534,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,22.0,20250622_212534
+phi4_generalist2_22_20250622_212534,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,22.0,20250622_212534
+phi4_normative_22_20250622_212534,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,22.0,20250622_212534
+phi4_normative2_22_20250622_212534,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,22.0,20250622_212534
+phi4_subject_matter_22_20250622_212534,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,22.0,20250622_212534
+phi4_subject_matter2_22_20250622_212534,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,22.0,20250622_212534
+phi4_generalist_23_20250622_212906,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,23.0,20250622_212906
+phi4_generalist2_23_20250622_212906,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,23.0,20250622_212906
+phi4_normative_23_20250622_212906,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,23.0,20250622_212906
+phi4_normative2_23_20250622_212906,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,23.0,20250622_212906
+phi4_subject_matter_23_20250622_212906,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,23.0,20250622_212906
+phi4_subject_matter2_23_20250622_212906,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,23.0,20250622_212906
+phi4_generalist_24_20250622_212957,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,24.0,20250622_212957
+phi4_generalist2_24_20250622_212957,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,24.0,20250622_212957
+phi4_normative_24_20250622_212957,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,24.0,20250622_212957
+phi4_normative2_24_20250622_212957,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,24.0,20250622_212957
+phi4_subject_matter_24_20250622_212957,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,24.0,20250622_212957
+phi4_subject_matter2_24_20250622_212957,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,24.0,20250622_212957
+phi4_generalist_25_20250622_213054,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,25.0,20250622_213054
+phi4_generalist2_25_20250622_213054,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,25.0,20250622_213054
+phi4_normative_25_20250622_213054,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,25.0,20250622_213054
+phi4_normative2_25_20250622_213054,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,25.0,20250622_213054
+phi4_subject_matter_25_20250622_213054,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,25.0,20250622_213054
+phi4_subject_matter2_25_20250622_213054,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,25.0,20250622_213054
+phi4_generalist_26_20250622_213145,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,26.0,20250622_213145
+phi4_generalist2_26_20250622_213145,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,26.0,20250622_213145
+phi4_normative_26_20250622_213145,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,26.0,20250622_213145
+phi4_normative2_26_20250622_213145,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,26.0,20250622_213145
+phi4_subject_matter_26_20250622_213145,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,26.0,20250622_213145
+phi4_subject_matter2_26_20250622_213145,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,26.0,20250622_213145
+phi4_generalist_27_20250622_213245,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,27.0,20250622_213245
+phi4_generalist2_27_20250622_213245,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,27.0,20250622_213245
+phi4_normative_27_20250622_213245,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,27.0,20250622_213245
+phi4_normative2_27_20250622_213245,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,27.0,20250622_213245
+phi4_subject_matter_27_20250622_213245,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,27.0,20250622_213245
+phi4_subject_matter2_27_20250622_213245,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,27.0,20250622_213245
+phi4_generalist_28_20250622_213336,llm,ZEROSHOT,phi4,phi4_generalist,generalist,4,Very feasible,28.0,20250622_213336
+phi4_generalist2_28_20250622_213336,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,28.0,20250622_213336
+phi4_normative_28_20250622_213336,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,28.0,20250622_213336
+phi4_normative2_28_20250622_213336,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,28.0,20250622_213336
+phi4_subject_matter_28_20250622_213336,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,28.0,20250622_213336
+phi4_subject_matter2_28_20250622_213336,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,28.0,20250622_213336
+phi4_generalist_29_20250622_213421,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,29.0,20250622_213421
+phi4_generalist2_29_20250622_213421,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,29.0,20250622_213421
+phi4_normative_29_20250622_213421,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,29.0,20250622_213421
+phi4_normative2_29_20250622_213421,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,29.0,20250622_213421
+phi4_subject_matter_29_20250622_213421,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,29.0,20250622_213421
+phi4_subject_matter2_29_20250622_213421,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,29.0,20250622_213421
+phi4_generalist_30_20250622_213521,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,30.0,20250622_213521
+phi4_generalist2_30_20250622_213521,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,30.0,20250622_213521
+phi4_normative_30_20250622_213521,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,30.0,20250622_213521
+phi4_normative2_30_20250622_213521,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,30.0,20250622_213521
+phi4_subject_matter_30_20250622_213521,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,30.0,20250622_213521
+phi4_subject_matter2_30_20250622_213521,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,30.0,20250622_213521
+phi4_generalist_31_20250622_213619,llm,ZEROSHOT,phi4,phi4_generalist,generalist,4,Very feasible,31.0,20250622_213619
+phi4_generalist2_31_20250622_213619,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,31.0,20250622_213619
+phi4_normative_31_20250622_213619,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,31.0,20250622_213619
+phi4_normative2_31_20250622_213619,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,31.0,20250622_213619
+phi4_subject_matter_31_20250622_213619,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,31.0,20250622_213619
+phi4_subject_matter2_31_20250622_213619,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,31.0,20250622_213619
+phi4_generalist_32_20250622_213725,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,32.0,20250622_213725
+phi4_generalist2_32_20250622_213725,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,32.0,20250622_213725
+phi4_normative_32_20250622_213725,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,32.0,20250622_213725
+phi4_normative2_32_20250622_213725,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,32.0,20250622_213725
+phi4_subject_matter_32_20250622_213725,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,32.0,20250622_213725
+phi4_subject_matter2_32_20250622_213725,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,32.0,20250622_213725
+phi4_generalist_33_20250622_213843,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,33.0,20250622_213843
+phi4_generalist2_33_20250622_213843,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,33.0,20250622_213843
+phi4_normative_33_20250622_213843,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,33.0,20250622_213843
+phi4_normative2_33_20250622_213843,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,33.0,20250622_213843
+phi4_subject_matter_33_20250622_213843,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,33.0,20250622_213843
+phi4_subject_matter2_33_20250622_213843,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,33.0,20250622_213843
+phi4_generalist_34_20250622_213935,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,34.0,20250622_213935
+phi4_generalist2_34_20250622_213935,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,34.0,20250622_213935
+phi4_normative_34_20250622_213935,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,34.0,20250622_213935
+phi4_normative2_34_20250622_213935,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,34.0,20250622_213935
+phi4_subject_matter_34_20250622_213935,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,34.0,20250622_213935
+phi4_subject_matter2_34_20250622_213935,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,34.0,20250622_213935
+phi4_generalist_35_20250622_214043,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,35.0,20250622_214043
+phi4_generalist2_35_20250622_214043,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,35.0,20250622_214043
+phi4_normative_35_20250622_214043,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,35.0,20250622_214043
+phi4_normative2_35_20250622_214043,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,35.0,20250622_214043
+phi4_subject_matter_35_20250622_214043,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,35.0,20250622_214043
+phi4_subject_matter2_35_20250622_214043,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,35.0,20250622_214043
+phi4_generalist_36_20250622_214143,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,36.0,20250622_214143
+phi4_generalist2_36_20250622_214143,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,36.0,20250622_214143
+phi4_normative_36_20250622_214143,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,36.0,20250622_214143
+phi4_normative2_36_20250622_214143,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,36.0,20250622_214143
+phi4_subject_matter_36_20250622_214143,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,36.0,20250622_214143
+phi4_subject_matter2_36_20250622_214143,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,36.0,20250622_214143
+phi4_generalist_37_20250622_214243,llm,ZEROSHOT,phi4,phi4_generalist,generalist,4,Very feasible,37.0,20250622_214243
+phi4_generalist2_37_20250622_214243,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,37.0,20250622_214243
+phi4_normative_37_20250622_214243,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,37.0,20250622_214243
+phi4_normative2_37_20250622_214243,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,37.0,20250622_214243
+phi4_subject_matter_37_20250622_214243,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,37.0,20250622_214243
+phi4_subject_matter2_37_20250622_214243,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,4,Very feasible,37.0,20250622_214243
+phi4_generalist_38_20250622_214341,llm,ZEROSHOT,phi4,phi4_generalist,generalist,4,Very feasible,38.0,20250622_214341
+phi4_generalist2_38_20250622_214341,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,38.0,20250622_214341
+phi4_normative_38_20250622_214341,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,38.0,20250622_214341
+phi4_normative2_38_20250622_214341,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,38.0,20250622_214341
+phi4_subject_matter_38_20250622_214341,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,38.0,20250622_214341
+phi4_subject_matter2_38_20250622_214341,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,38.0,20250622_214341
+phi4_generalist_39_20250622_215845,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,39.0,20250622_215845
+phi4_generalist2_39_20250622_215845,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,39.0,20250622_215845
+phi4_normative_39_20250622_215845,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,39.0,20250622_215845
+phi4_normative2_39_20250622_215845,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,39.0,20250622_215845
+phi4_subject_matter_39_20250622_215845,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,39.0,20250622_215845
+phi4_subject_matter2_39_20250622_215845,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,39.0,20250622_215845
+phi4_generalist_40_20250622_215931,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,40.0,20250622_215931
+phi4_generalist2_40_20250622_215931,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,40.0,20250622_215931
+phi4_normative_40_20250622_215931,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,40.0,20250622_215931
+phi4_normative2_40_20250622_215931,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,40.0,20250622_215931
+phi4_subject_matter_40_20250622_215931,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,40.0,20250622_215931
+phi4_subject_matter2_40_20250622_215931,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,40.0,20250622_215931
+phi4_generalist_41_20250623_094641,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,41.0,20250623_094641
+phi4_generalist2_41_20250623_094641,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,41.0,20250623_094641
+phi4_normative_41_20250623_094641,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,41.0,20250623_094641
+phi4_normative2_41_20250623_094641,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,41.0,20250623_094641
+phi4_subject_matter_41_20250623_094641,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,41.0,20250623_094641
+phi4_subject_matter2_41_20250623_094641,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,41.0,20250623_094641
+phi4_generalist_42_20250623_103842,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,42.0,20250623_103842
+phi4_generalist2_42_20250623_103842,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,42.0,20250623_103842
+phi4_normative_42_20250623_103842,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,42.0,20250623_103842
+phi4_normative2_42_20250623_103842,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,42.0,20250623_103842
+phi4_subject_matter_42_20250623_103842,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,42.0,20250623_103842
+phi4_subject_matter2_42_20250623_103842,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,42.0,20250623_103842
+phi4_generalist_43_20250623_104053,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,43.0,20250623_104053
+phi4_generalist2_43_20250623_104053,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,43.0,20250623_104053
+phi4_normative_43_20250623_104053,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,43.0,20250623_104053
+phi4_normative2_43_20250623_104053,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,43.0,20250623_104053
+phi4_subject_matter_43_20250623_104053,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,43.0,20250623_104053
+phi4_subject_matter2_43_20250623_104053,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,43.0,20250623_104053
+phi4_generalist_44_20250623_104153,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,44.0,20250623_104153
+phi4_generalist2_44_20250623_104153,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,44.0,20250623_104153
+phi4_normative_44_20250623_104153,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,44.0,20250623_104153
+phi4_normative2_44_20250623_104153,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,44.0,20250623_104153
+phi4_subject_matter_44_20250623_104153,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,44.0,20250623_104153
+phi4_subject_matter2_44_20250623_104153,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,44.0,20250623_104153
+phi4_generalist_45_20250623_105510,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,45.0,20250623_105510
+phi4_generalist2_45_20250623_105510,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,4,Very feasible,45.0,20250623_105510
+phi4_normative_45_20250623_105510,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,45.0,20250623_105510
+phi4_normative2_45_20250623_105510,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,45.0,20250623_105510
+phi4_subject_matter_45_20250623_105510,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,45.0,20250623_105510
+phi4_subject_matter2_45_20250623_105510,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,45.0,20250623_105510
+phi4_generalist_46_20250623_110117,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,46.0,20250623_110117
+phi4_generalist2_46_20250623_110117,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,46.0,20250623_110117
+phi4_normative_46_20250623_110117,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,46.0,20250623_110117
+phi4_normative2_46_20250623_110117,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,46.0,20250623_110117
+phi4_subject_matter_46_20250623_110117,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,46.0,20250623_110117
+phi4_subject_matter2_46_20250623_110117,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,46.0,20250623_110117
+phi4_generalist_47_20250623_110207,llm,ZEROSHOT,phi4,phi4_generalist,generalist,4,Very feasible,47.0,20250623_110207
+phi4_generalist2_47_20250623_110207,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,47.0,20250623_110207
+phi4_normative_47_20250623_110207,llm,ZEROSHOT,phi4,phi4_normative,normative,4,Very feasible,47.0,20250623_110207
+phi4_normative2_47_20250623_110207,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,47.0,20250623_110207
+phi4_subject_matter_47_20250623_110207,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,47.0,20250623_110207
+phi4_subject_matter2_47_20250623_110207,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,47.0,20250623_110207
+phi4_generalist_48_20250623_110353,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,48.0,20250623_110353
+phi4_generalist2_48_20250623_110353,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,48.0,20250623_110353
+phi4_normative_48_20250623_110353,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,48.0,20250623_110353
+phi4_normative2_48_20250623_110353,llm,ZEROSHOT,phi4,phi4_normative2,normative2,4,Very feasible,48.0,20250623_110353
+phi4_subject_matter_48_20250623_110353,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,48.0,20250623_110353
+phi4_subject_matter2_48_20250623_110353,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,48.0,20250623_110353
+phi4_generalist_49_20250623_110444,llm,ZEROSHOT,phi4,phi4_generalist,generalist,3,Feasible,49.0,20250623_110444
+phi4_generalist2_49_20250623_110444,llm,ZEROSHOT,phi4,phi4_generalist2,generalist2,3,Feasible,49.0,20250623_110444
+phi4_normative_49_20250623_110444,llm,ZEROSHOT,phi4,phi4_normative,normative,3,Feasible,49.0,20250623_110444
+phi4_normative2_49_20250623_110444,llm,ZEROSHOT,phi4,phi4_normative2,normative2,3,Feasible,49.0,20250623_110444
+phi4_subject_matter_49_20250623_110444,llm,ZEROSHOT,phi4,phi4_subject_matter,subject_matter,3,Feasible,49.0,20250623_110444
+phi4_subject_matter2_49_20250623_110444,llm,ZEROSHOT,phi4,phi4_subject_matter2,subject_matter2,3,Feasible,49.0,20250623_110444
+mistral_generalist_00_20250625_173307,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,0.0,20250625_173307
+mistral_generalist2_00_20250625_173307,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,0.0,20250625_173307
+mistral_normative_00_20250625_173307,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,0.0,20250625_173307
+mistral_normative2_00_20250625_173307,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,0.0,20250625_173307
+mistral_subject_matter_00_20250625_173307,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,0.0,20250625_173307
+mistral_subject_matter2_00_20250625_173307,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,0.0,20250625_173307
+mistral_generalist_01_20250625_173404,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,1.0,20250625_173404
+mistral_generalist2_01_20250625_173404,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,1.0,20250625_173404
+mistral_normative_01_20250625_173404,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,1.0,20250625_173404
+mistral_normative2_01_20250625_173404,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,1.0,20250625_173404
+mistral_subject_matter_01_20250625_173404,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,1.0,20250625_173404
+mistral_subject_matter2_01_20250625_173404,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,1.0,20250625_173404
+mistral_generalist_02_20250625_173646,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,2.0,20250625_173646
+mistral_generalist2_02_20250625_173646,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,2.0,20250625_173646
+mistral_normative_02_20250625_173646,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,2.0,20250625_173646
+mistral_normative2_02_20250625_173646,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,2.0,20250625_173646
+mistral_subject_matter_02_20250625_173646,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,2.0,20250625_173646
+mistral_subject_matter2_02_20250625_173646,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,2.0,20250625_173646
+mistral_generalist_03_20250625_173749,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,3.0,20250625_173749
+mistral_generalist2_03_20250625_173749,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,3.0,20250625_173749
+mistral_normative_03_20250625_173749,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,3.0,20250625_173749
+mistral_normative2_03_20250625_173749,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,3.0,20250625_173749
+mistral_subject_matter_03_20250625_173749,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,3.0,20250625_173749
+mistral_subject_matter2_03_20250625_173749,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,3.0,20250625_173749
+mistral_generalist_04_20250625_173821,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,4.0,20250625_173821
+mistral_generalist2_04_20250625_173821,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,4.0,20250625_173821
+mistral_normative_04_20250625_173821,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,4.0,20250625_173821
+mistral_normative2_04_20250625_173821,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,4.0,20250625_173821
+mistral_subject_matter_04_20250625_173821,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,4.0,20250625_173821
+mistral_subject_matter2_04_20250625_173821,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,4.0,20250625_173821
+mistral_generalist_05_20250625_173841,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,5.0,20250625_173841
+mistral_generalist2_05_20250625_173841,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,5.0,20250625_173841
+mistral_normative_05_20250625_173841,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,5.0,20250625_173841
+mistral_normative2_05_20250625_173841,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,5.0,20250625_173841
+mistral_subject_matter_05_20250625_173841,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,5.0,20250625_173841
+mistral_subject_matter2_05_20250625_173841,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,5.0,20250625_173841
+mistral_generalist_06_20250625_173921,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,6.0,20250625_173921
+mistral_generalist2_06_20250625_173921,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,6.0,20250625_173921
+mistral_normative_06_20250625_173921,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,6.0,20250625_173921
+mistral_normative2_06_20250625_173921,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,6.0,20250625_173921
+mistral_subject_matter_06_20250625_173921,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,6.0,20250625_173921
+mistral_subject_matter2_06_20250625_173921,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,6.0,20250625_173921
+mistral_generalist_07_20250625_173939,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,7.0,20250625_173939
+mistral_generalist2_07_20250625_173939,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,7.0,20250625_173939
+mistral_normative_07_20250625_173939,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,7.0,20250625_173939
+mistral_normative2_07_20250625_173939,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,7.0,20250625_173939
+mistral_subject_matter_07_20250625_173939,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,7.0,20250625_173939
+mistral_subject_matter2_07_20250625_173939,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,7.0,20250625_173939
+mistral_generalist_08_20250625_173956,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,8.0,20250625_173956
+mistral_generalist2_08_20250625_173956,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,8.0,20250625_173956
+mistral_normative_08_20250625_173956,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,8.0,20250625_173956
+mistral_normative2_08_20250625_173956,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,8.0,20250625_173956
+mistral_subject_matter_08_20250625_173956,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,8.0,20250625_173956
+mistral_subject_matter2_08_20250625_173956,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,8.0,20250625_173956
+mistral_generalist_09_20250625_174013,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,9.0,20250625_174013
+mistral_generalist2_09_20250625_174013,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,9.0,20250625_174013
+mistral_normative_09_20250625_174013,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,9.0,20250625_174013
+mistral_normative2_09_20250625_174013,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,9.0,20250625_174013
+mistral_subject_matter_09_20250625_174013,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,9.0,20250625_174013
+mistral_subject_matter2_09_20250625_174013,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,9.0,20250625_174013
+mistral_generalist_10_20250625_174030,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,10.0,20250625_174030
+mistral_generalist2_10_20250625_174030,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,10.0,20250625_174030
+mistral_normative_10_20250625_174030,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,10.0,20250625_174030
+mistral_normative2_10_20250625_174030,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,10.0,20250625_174030
+mistral_subject_matter_10_20250625_174030,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,10.0,20250625_174030
+mistral_subject_matter2_10_20250625_174030,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,10.0,20250625_174030
+mistral_generalist_11_20250625_174048,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,11.0,20250625_174048
+mistral_generalist2_11_20250625_174048,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,11.0,20250625_174048
+mistral_normative_11_20250625_174048,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,11.0,20250625_174048
+mistral_normative2_11_20250625_174048,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,11.0,20250625_174048
+mistral_subject_matter_11_20250625_174048,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,11.0,20250625_174048
+mistral_subject_matter2_11_20250625_174048,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,11.0,20250625_174048
+mistral_generalist_12_20250625_174106,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,12.0,20250625_174106
+mistral_generalist2_12_20250625_174106,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,12.0,20250625_174106
+mistral_normative_12_20250625_174106,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,12.0,20250625_174106
+mistral_normative2_12_20250625_174106,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,12.0,20250625_174106
+mistral_subject_matter_12_20250625_174106,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,12.0,20250625_174106
+mistral_subject_matter2_12_20250625_174106,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,12.0,20250625_174106
+mistral_generalist_13_20250625_174132,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,13.0,20250625_174132
+mistral_generalist2_13_20250625_174132,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,13.0,20250625_174132
+mistral_normative_13_20250625_174132,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,13.0,20250625_174132
+mistral_normative2_13_20250625_174132,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,13.0,20250625_174132
+mistral_subject_matter_13_20250625_174132,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,13.0,20250625_174132
+mistral_subject_matter2_13_20250625_174132,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,13.0,20250625_174132
+mistral_generalist_14_20250625_174204,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,14.0,20250625_174204
+mistral_generalist2_14_20250625_174204,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,14.0,20250625_174204
+mistral_normative_14_20250625_174204,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,14.0,20250625_174204
+mistral_normative2_14_20250625_174204,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,14.0,20250625_174204
+mistral_subject_matter_14_20250625_174204,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,14.0,20250625_174204
+mistral_subject_matter2_14_20250625_174204,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,14.0,20250625_174204
+mistral_generalist_15_20250625_174225,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,15.0,20250625_174225
+mistral_generalist2_15_20250625_174225,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,15.0,20250625_174225
+mistral_normative_15_20250625_174225,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,15.0,20250625_174225
+mistral_normative2_15_20250625_174225,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,15.0,20250625_174225
+mistral_subject_matter_15_20250625_174225,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,15.0,20250625_174225
+mistral_subject_matter2_15_20250625_174225,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,15.0,20250625_174225
+mistral_generalist_16_20250625_174254,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,16.0,20250625_174254
+mistral_generalist2_16_20250625_174254,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,16.0,20250625_174254
+mistral_normative_16_20250625_174254,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,16.0,20250625_174254
+mistral_normative2_16_20250625_174254,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,16.0,20250625_174254
+mistral_subject_matter_16_20250625_174254,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,16.0,20250625_174254
+mistral_subject_matter2_16_20250625_174254,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,16.0,20250625_174254
+mistral_generalist_17_20250625_174323,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,17.0,20250625_174323
+mistral_generalist2_17_20250625_174323,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,17.0,20250625_174323
+mistral_normative_17_20250625_174323,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,17.0,20250625_174323
+mistral_normative2_17_20250625_174323,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,17.0,20250625_174323
+mistral_subject_matter_17_20250625_174323,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,17.0,20250625_174323
+mistral_subject_matter2_17_20250625_174323,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,17.0,20250625_174323
+mistral_generalist_18_20250625_174340,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,18.0,20250625_174340
+mistral_generalist2_18_20250625_174340,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,18.0,20250625_174340
+mistral_normative_18_20250625_174340,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,18.0,20250625_174340
+mistral_normative2_18_20250625_174340,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,18.0,20250625_174340
+mistral_subject_matter_18_20250625_174340,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,18.0,20250625_174340
+mistral_subject_matter2_18_20250625_174340,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,18.0,20250625_174340
+mistral_generalist_19_20250625_174400,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,19.0,20250625_174400
+mistral_generalist2_19_20250625_174400,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,19.0,20250625_174400
+mistral_normative_19_20250625_174400,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,19.0,20250625_174400
+mistral_normative2_19_20250625_174400,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,19.0,20250625_174400
+mistral_subject_matter_19_20250625_174400,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,19.0,20250625_174400
+mistral_subject_matter2_19_20250625_174400,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,19.0,20250625_174400
+mistral_generalist_20_20250625_174419,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,20.0,20250625_174419
+mistral_generalist2_20_20250625_174419,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,20.0,20250625_174419
+mistral_normative_20_20250625_174419,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,20.0,20250625_174419
+mistral_normative2_20_20250625_174419,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,20.0,20250625_174419
+mistral_subject_matter_20_20250625_174419,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,20.0,20250625_174419
+mistral_subject_matter2_20_20250625_174419,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,20.0,20250625_174419
+mistral_generalist_21_20250625_174440,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,21.0,20250625_174440
+mistral_generalist2_21_20250625_174440,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,21.0,20250625_174440
+mistral_normative_21_20250625_174440,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,21.0,20250625_174440
+mistral_normative2_21_20250625_174440,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,21.0,20250625_174440
+mistral_subject_matter_21_20250625_174440,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,21.0,20250625_174440
+mistral_subject_matter2_21_20250625_174440,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,21.0,20250625_174440
+mistral_generalist_22_20250625_174459,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,22.0,20250625_174459
+mistral_generalist2_22_20250625_174459,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,22.0,20250625_174459
+mistral_normative_22_20250625_174459,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,22.0,20250625_174459
+mistral_normative2_22_20250625_174459,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,22.0,20250625_174459
+mistral_subject_matter_22_20250625_174459,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,22.0,20250625_174459
+mistral_subject_matter2_22_20250625_174459,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,22.0,20250625_174459
+mistral_generalist_23_20250625_174524,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,23.0,20250625_174524
+mistral_generalist2_23_20250625_174524,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,23.0,20250625_174524
+mistral_normative_23_20250625_174524,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,23.0,20250625_174524
+mistral_normative2_23_20250625_174524,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,23.0,20250625_174524
+mistral_subject_matter_23_20250625_174524,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,23.0,20250625_174524
+mistral_subject_matter2_23_20250625_174524,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,23.0,20250625_174524
+mistral_generalist_24_20250625_174550,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,24.0,20250625_174550
+mistral_generalist2_24_20250625_174550,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,24.0,20250625_174550
+mistral_normative_24_20250625_174550,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,24.0,20250625_174550
+mistral_normative2_24_20250625_174550,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,24.0,20250625_174550
+mistral_subject_matter_24_20250625_174550,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,24.0,20250625_174550
+mistral_subject_matter2_24_20250625_174550,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,24.0,20250625_174550
+mistral_generalist_25_20250625_174633,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,25.0,20250625_174633
+mistral_generalist2_25_20250625_174633,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,25.0,20250625_174633
+mistral_normative_25_20250625_174633,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,25.0,20250625_174633
+mistral_normative2_25_20250625_174633,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,25.0,20250625_174633
+mistral_subject_matter_25_20250625_174633,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,25.0,20250625_174633
+mistral_subject_matter2_25_20250625_174633,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,25.0,20250625_174633
+mistral_generalist_26_20250625_174651,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,26.0,20250625_174651
+mistral_generalist2_26_20250625_174651,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,26.0,20250625_174651
+mistral_normative_26_20250625_174651,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,26.0,20250625_174651
+mistral_normative2_26_20250625_174651,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,26.0,20250625_174651
+mistral_subject_matter_26_20250625_174651,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,26.0,20250625_174651
+mistral_subject_matter2_26_20250625_174651,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,26.0,20250625_174651
+mistral_generalist_27_20250625_174718,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,27.0,20250625_174718
+mistral_generalist2_27_20250625_174718,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,27.0,20250625_174718
+mistral_normative_27_20250625_174718,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,27.0,20250625_174718
+mistral_normative2_27_20250625_174718,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,27.0,20250625_174718
+mistral_subject_matter_27_20250625_174718,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,27.0,20250625_174718
+mistral_subject_matter2_27_20250625_174718,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,27.0,20250625_174718
+mistral_generalist_28_20250625_174753,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,28.0,20250625_174753
+mistral_generalist2_28_20250625_174753,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,28.0,20250625_174753
+mistral_normative_28_20250625_174753,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,28.0,20250625_174753
+mistral_normative2_28_20250625_174753,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,28.0,20250625_174753
+mistral_subject_matter_28_20250625_174753,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,28.0,20250625_174753
+mistral_subject_matter2_28_20250625_174753,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,28.0,20250625_174753
+mistral_generalist_29_20250625_174851,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,29.0,20250625_174851
+mistral_generalist2_29_20250625_174851,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,29.0,20250625_174851
+mistral_normative_29_20250625_174851,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,29.0,20250625_174851
+mistral_normative2_29_20250625_174851,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,29.0,20250625_174851
+mistral_subject_matter_29_20250625_174851,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,29.0,20250625_174851
+mistral_subject_matter2_29_20250625_174851,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,29.0,20250625_174851
+mistral_generalist_30_20250625_174911,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,30.0,20250625_174911
+mistral_generalist2_30_20250625_174911,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,30.0,20250625_174911
+mistral_normative_30_20250625_174911,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,30.0,20250625_174911
+mistral_normative2_30_20250625_174911,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,30.0,20250625_174911
+mistral_subject_matter_30_20250625_174911,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,30.0,20250625_174911
+mistral_subject_matter2_30_20250625_174911,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,30.0,20250625_174911
+mistral_generalist_31_20250625_174938,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,31.0,20250625_174938
+mistral_generalist2_31_20250625_174938,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,31.0,20250625_174938
+mistral_normative_31_20250625_174938,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,31.0,20250625_174938
+mistral_normative2_31_20250625_174938,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,31.0,20250625_174938
+mistral_subject_matter_31_20250625_174938,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,31.0,20250625_174938
+mistral_subject_matter2_31_20250625_174938,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,31.0,20250625_174938
+mistral_generalist_32_20250625_175013,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,32.0,20250625_175013
+mistral_generalist2_32_20250625_175013,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,32.0,20250625_175013
+mistral_normative_32_20250625_175013,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,32.0,20250625_175013
+mistral_normative2_32_20250625_175013,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,32.0,20250625_175013
+mistral_subject_matter_32_20250625_175013,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,32.0,20250625_175013
+mistral_subject_matter2_32_20250625_175013,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,32.0,20250625_175013
+mistral_generalist_33_20250625_175038,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,33.0,20250625_175038
+mistral_generalist2_33_20250625_175038,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,33.0,20250625_175038
+mistral_normative_33_20250625_175038,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,33.0,20250625_175038
+mistral_normative2_33_20250625_175038,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,33.0,20250625_175038
+mistral_subject_matter_33_20250625_175038,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,33.0,20250625_175038
+mistral_subject_matter2_33_20250625_175038,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,33.0,20250625_175038
+mistral_generalist_34_20250625_175059,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,34.0,20250625_175059
+mistral_generalist2_34_20250625_175059,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,34.0,20250625_175059
+mistral_normative_34_20250625_175059,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,34.0,20250625_175059
+mistral_normative2_34_20250625_175059,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,34.0,20250625_175059
+mistral_subject_matter_34_20250625_175059,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,34.0,20250625_175059
+mistral_subject_matter2_34_20250625_175059,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,34.0,20250625_175059
+mistral_generalist_35_20250625_175125,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,35.0,20250625_175125
+mistral_generalist2_35_20250625_175125,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,35.0,20250625_175125
+mistral_normative_35_20250625_175125,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,35.0,20250625_175125
+mistral_normative2_35_20250625_175125,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,35.0,20250625_175125
+mistral_subject_matter_35_20250625_175125,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,35.0,20250625_175125
+mistral_subject_matter2_35_20250625_175125,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,35.0,20250625_175125
+mistral_generalist_36_20250625_175143,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,36.0,20250625_175143
+mistral_generalist2_36_20250625_175143,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,36.0,20250625_175143
+mistral_normative_36_20250625_175143,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,36.0,20250625_175143
+mistral_normative2_36_20250625_175143,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,36.0,20250625_175143
+mistral_subject_matter_36_20250625_175143,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,36.0,20250625_175143
+mistral_subject_matter2_36_20250625_175143,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,36.0,20250625_175143
+mistral_generalist_37_20250625_175218,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,37.0,20250625_175218
+mistral_generalist2_37_20250625_175218,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,37.0,20250625_175218
+mistral_normative_37_20250625_175218,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,37.0,20250625_175218
+mistral_normative2_37_20250625_175218,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,37.0,20250625_175218
+mistral_subject_matter_37_20250625_175218,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,37.0,20250625_175218
+mistral_subject_matter2_37_20250625_175218,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,37.0,20250625_175218
+mistral_generalist_38_20250625_175236,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,38.0,20250625_175236
+mistral_generalist2_38_20250625_175236,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,38.0,20250625_175236
+mistral_normative_38_20250625_175236,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,38.0,20250625_175236
+mistral_normative2_38_20250625_175236,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,38.0,20250625_175236
+mistral_subject_matter_38_20250625_175236,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,38.0,20250625_175236
+mistral_subject_matter2_38_20250625_175236,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,38.0,20250625_175236
+mistral_generalist_39_20250625_175254,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,39.0,20250625_175254
+mistral_generalist2_39_20250625_175254,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,39.0,20250625_175254
+mistral_normative_39_20250625_175254,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,39.0,20250625_175254
+mistral_normative2_39_20250625_175254,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,39.0,20250625_175254
+mistral_subject_matter_39_20250625_175254,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,39.0,20250625_175254
+mistral_subject_matter2_39_20250625_175254,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,39.0,20250625_175254
+mistral_generalist_40_20250625_175311,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,40.0,20250625_175311
+mistral_generalist2_40_20250625_175311,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,40.0,20250625_175311
+mistral_normative_40_20250625_175311,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,40.0,20250625_175311
+mistral_normative2_40_20250625_175311,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,40.0,20250625_175311
+mistral_subject_matter_40_20250625_175311,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,40.0,20250625_175311
+mistral_subject_matter2_40_20250625_175311,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,40.0,20250625_175311
+mistral_generalist_41_20250625_175329,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,41.0,20250625_175329
+mistral_generalist2_41_20250625_175329,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,41.0,20250625_175329
+mistral_normative_41_20250625_175329,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,41.0,20250625_175329
+mistral_normative2_41_20250625_175329,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,41.0,20250625_175329
+mistral_subject_matter_41_20250625_175329,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,41.0,20250625_175329
+mistral_subject_matter2_41_20250625_175329,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,41.0,20250625_175329
+mistral_generalist_42_20250625_175351,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,42.0,20250625_175351
+mistral_generalist2_42_20250625_175351,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,42.0,20250625_175351
+mistral_normative_42_20250625_175351,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,42.0,20250625_175351
+mistral_normative2_42_20250625_175351,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,42.0,20250625_175351
+mistral_subject_matter_42_20250625_175351,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,42.0,20250625_175351
+mistral_subject_matter2_42_20250625_175351,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,42.0,20250625_175351
+mistral_generalist_43_20250625_175426,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,43.0,20250625_175426
+mistral_generalist2_43_20250625_175426,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,43.0,20250625_175426
+mistral_normative_43_20250625_175426,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,43.0,20250625_175426
+mistral_normative2_43_20250625_175426,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,43.0,20250625_175426
+mistral_subject_matter_43_20250625_175426,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,43.0,20250625_175426
+mistral_subject_matter2_43_20250625_175426,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,43.0,20250625_175426
+mistral_generalist_44_20250625_175445,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,44.0,20250625_175445
+mistral_generalist2_44_20250625_175445,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,44.0,20250625_175445
+mistral_normative_44_20250625_175445,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,44.0,20250625_175445
+mistral_normative2_44_20250625_175445,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,44.0,20250625_175445
+mistral_subject_matter_44_20250625_175445,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,44.0,20250625_175445
+mistral_subject_matter2_44_20250625_175445,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,44.0,20250625_175445
+mistral_generalist_45_20250625_175504,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,45.0,20250625_175504
+mistral_generalist2_45_20250625_175504,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,45.0,20250625_175504
+mistral_normative_45_20250625_175504,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,45.0,20250625_175504
+mistral_normative2_45_20250625_175504,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,45.0,20250625_175504
+mistral_subject_matter_45_20250625_175504,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,45.0,20250625_175504
+mistral_subject_matter2_45_20250625_175504,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,45.0,20250625_175504
+mistral_generalist_46_20250625_175522,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,46.0,20250625_175522
+mistral_generalist2_46_20250625_175522,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,46.0,20250625_175522
+mistral_normative_46_20250625_175522,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,46.0,20250625_175522
+mistral_normative2_46_20250625_175522,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,46.0,20250625_175522
+mistral_subject_matter_46_20250625_175522,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,46.0,20250625_175522
+mistral_subject_matter2_46_20250625_175522,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,46.0,20250625_175522
+mistral_generalist_47_20250625_175540,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,47.0,20250625_175540
+mistral_generalist2_47_20250625_175540,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,47.0,20250625_175540
+mistral_normative_47_20250625_175540,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,47.0,20250625_175540
+mistral_normative2_47_20250625_175540,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,47.0,20250625_175540
+mistral_subject_matter_47_20250625_175540,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,47.0,20250625_175540
+mistral_subject_matter2_47_20250625_175540,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,47.0,20250625_175540
+mistral_generalist_48_20250625_175558,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,48.0,20250625_175558
+mistral_generalist2_48_20250625_175558,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,48.0,20250625_175558
+mistral_normative_48_20250625_175558,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,48.0,20250625_175558
+mistral_normative2_48_20250625_175558,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,48.0,20250625_175558
+mistral_subject_matter_48_20250625_175558,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,48.0,20250625_175558
+mistral_subject_matter2_48_20250625_175558,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,48.0,20250625_175558
+mistral_generalist_49_20250625_175615,llm,ZEROSHOT,mistral,mistral_generalist,generalist,3,Feasible,49.0,20250625_175615
+mistral_generalist2_49_20250625_175615,llm,ZEROSHOT,mistral,mistral_generalist2,generalist2,3,Feasible,49.0,20250625_175615
+mistral_normative_49_20250625_175615,llm,ZEROSHOT,mistral,mistral_normative,normative,3,Feasible,49.0,20250625_175615
+mistral_normative2_49_20250625_175615,llm,ZEROSHOT,mistral,mistral_normative2,normative2,3,Feasible,49.0,20250625_175615
+mistral_subject_matter_49_20250625_175615,llm,ZEROSHOT,mistral,mistral_subject_matter,subject_matter,3,Feasible,49.0,20250625_175615
+mistral_subject_matter2_49_20250625_175615,llm,ZEROSHOT,mistral,mistral_subject_matter2,subject_matter2,3,Feasible,49.0,20250625_175615
+gemma3_generalist_00_20250627_145342,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,0.0,20250627_145342
+gemma3_generalist2_00_20250627_145342,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,0.0,20250627_145342
+gemma3_normative_00_20250627_145342,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,0.0,20250627_145342
+gemma3_normative2_00_20250627_145342,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,0.0,20250627_145342
+gemma3_subject_matter_00_20250627_145342,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,0.0,20250627_145342
+gemma3_subject_matter2_00_20250627_145342,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,0.0,20250627_145342
+gemma3_generalist_01_20250627_145617,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,1.0,20250627_145617
+gemma3_generalist2_01_20250627_145617,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,1.0,20250627_145617
+gemma3_normative_01_20250627_145617,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,1.0,20250627_145617
+gemma3_normative2_01_20250627_145617,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,1.0,20250627_145617
+gemma3_subject_matter_01_20250627_145617,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,1.0,20250627_145617
+gemma3_subject_matter2_01_20250627_145617,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,1.0,20250627_145617
+gemma3_generalist_02_20250627_145819,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,2.0,20250627_145819
+gemma3_generalist2_02_20250627_145819,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,2.0,20250627_145819
+gemma3_normative_02_20250627_145819,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,2.0,20250627_145819
+gemma3_normative2_02_20250627_145819,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,2.0,20250627_145819
+gemma3_subject_matter_02_20250627_145819,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,2.0,20250627_145819
+gemma3_subject_matter2_02_20250627_145819,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,2.0,20250627_145819
+gemma3_generalist_03_20250627_145950,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,3.0,20250627_145950
+gemma3_generalist2_03_20250627_145950,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,3.0,20250627_145950
+gemma3_normative_03_20250627_145950,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,3.0,20250627_145950
+gemma3_normative2_03_20250627_145950,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,3.0,20250627_145950
+gemma3_subject_matter_03_20250627_145950,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,3.0,20250627_145950
+gemma3_subject_matter2_03_20250627_145950,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,3.0,20250627_145950
+gemma3_generalist_04_20250627_150434,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,4.0,20250627_150434
+gemma3_generalist2_04_20250627_150434,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,4.0,20250627_150434
+gemma3_normative_04_20250627_150434,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,4.0,20250627_150434
+gemma3_normative2_04_20250627_150434,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,4.0,20250627_150434
+gemma3_subject_matter_04_20250627_150434,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,4.0,20250627_150434
+gemma3_subject_matter2_04_20250627_150434,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,4.0,20250627_150434
+gemma3_generalist_05_20250627_151715,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,5.0,20250627_151715
+gemma3_generalist2_05_20250627_151715,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,5.0,20250627_151715
+gemma3_normative_05_20250627_151715,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,5.0,20250627_151715
+gemma3_normative2_05_20250627_151715,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,5.0,20250627_151715
+gemma3_subject_matter_05_20250627_151715,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,5.0,20250627_151715
+gemma3_subject_matter2_05_20250627_151715,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,5.0,20250627_151715
+gemma3_generalist_06_20250627_223549,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,6.0,20250627_223549
+gemma3_generalist2_06_20250627_223549,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,6.0,20250627_223549
+gemma3_normative_06_20250627_223549,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,6.0,20250627_223549
+gemma3_normative2_06_20250627_223549,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,6.0,20250627_223549
+gemma3_subject_matter_06_20250627_223549,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,6.0,20250627_223549
+gemma3_subject_matter2_06_20250627_223549,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,6.0,20250627_223549
+gemma3_generalist_07_20250627_223709,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,7.0,20250627_223709
+gemma3_generalist2_07_20250627_223709,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,7.0,20250627_223709
+gemma3_normative_07_20250627_223709,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,7.0,20250627_223709
+gemma3_normative2_07_20250627_223709,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,7.0,20250627_223709
+gemma3_subject_matter_07_20250627_223709,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,7.0,20250627_223709
+gemma3_subject_matter2_07_20250627_223709,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,7.0,20250627_223709
+gemma3_generalist_08_20250627_223825,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,8.0,20250627_223825
+gemma3_generalist2_08_20250627_223825,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,8.0,20250627_223825
+gemma3_normative_08_20250627_223825,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,8.0,20250627_223825
+gemma3_normative2_08_20250627_223825,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,8.0,20250627_223825
+gemma3_subject_matter_08_20250627_223825,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,8.0,20250627_223825
+gemma3_subject_matter2_08_20250627_223825,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,8.0,20250627_223825
+gemma3_generalist_09_20250627_223941,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,9.0,20250627_223941
+gemma3_generalist2_09_20250627_223941,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,9.0,20250627_223941
+gemma3_normative_09_20250627_223941,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,9.0,20250627_223941
+gemma3_normative2_09_20250627_223941,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,9.0,20250627_223941
+gemma3_subject_matter_09_20250627_223941,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,9.0,20250627_223941
+gemma3_subject_matter2_09_20250627_223941,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,9.0,20250627_223941
+gemma3_generalist_10_20250627_224054,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,10.0,20250627_224054
+gemma3_generalist2_10_20250627_224054,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,10.0,20250627_224054
+gemma3_normative_10_20250627_224054,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,10.0,20250627_224054
+gemma3_normative2_10_20250627_224054,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,10.0,20250627_224054
+gemma3_subject_matter_10_20250627_224054,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,10.0,20250627_224054
+gemma3_subject_matter2_10_20250627_224054,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,10.0,20250627_224054
+gemma3_generalist_11_20250627_224211,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,11.0,20250627_224211
+gemma3_generalist2_11_20250627_224211,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,11.0,20250627_224211
+gemma3_normative_11_20250627_224211,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,11.0,20250627_224211
+gemma3_normative2_11_20250627_224211,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,11.0,20250627_224211
+gemma3_subject_matter_11_20250627_224211,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,11.0,20250627_224211
+gemma3_subject_matter2_11_20250627_224211,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,11.0,20250627_224211
+gemma3_generalist_12_20250627_224352,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,12.0,20250627_224352
+gemma3_generalist2_12_20250627_224352,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,12.0,20250627_224352
+gemma3_normative_12_20250627_224352,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,12.0,20250627_224352
+gemma3_normative2_12_20250627_224352,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,12.0,20250627_224352
+gemma3_subject_matter_12_20250627_224352,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,12.0,20250627_224352
+gemma3_subject_matter2_12_20250627_224352,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,12.0,20250627_224352
+gemma3_generalist_13_20250627_224509,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,13.0,20250627_224509
+gemma3_generalist2_13_20250627_224509,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,13.0,20250627_224509
+gemma3_normative_13_20250627_224509,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,13.0,20250627_224509
+gemma3_normative2_13_20250627_224509,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,13.0,20250627_224509
+gemma3_subject_matter_13_20250627_224509,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,13.0,20250627_224509
+gemma3_subject_matter2_13_20250627_224509,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,13.0,20250627_224509
+gemma3_generalist_14_20250627_224853,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,14.0,20250627_224853
+gemma3_generalist2_14_20250627_224853,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,14.0,20250627_224853
+gemma3_normative_14_20250627_224853,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,14.0,20250627_224853
+gemma3_normative2_14_20250627_224853,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,14.0,20250627_224853
+gemma3_subject_matter_14_20250627_224853,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,14.0,20250627_224853
+gemma3_subject_matter2_14_20250627_224853,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,14.0,20250627_224853
+gemma3_generalist_15_20250627_225008,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,15.0,20250627_225008
+gemma3_generalist2_15_20250627_225008,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,15.0,20250627_225008
+gemma3_normative_15_20250627_225008,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,15.0,20250627_225008
+gemma3_normative2_15_20250627_225008,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,15.0,20250627_225008
+gemma3_subject_matter_15_20250627_225008,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,15.0,20250627_225008
+gemma3_subject_matter2_15_20250627_225008,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,15.0,20250627_225008
+gemma3_generalist_16_20250627_225123,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,16.0,20250627_225123
+gemma3_generalist2_16_20250627_225123,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,16.0,20250627_225123
+gemma3_normative_16_20250627_225123,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,16.0,20250627_225123
+gemma3_normative2_16_20250627_225123,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,16.0,20250627_225123
+gemma3_subject_matter_16_20250627_225123,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,16.0,20250627_225123
+gemma3_subject_matter2_16_20250627_225123,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,16.0,20250627_225123
+gemma3_generalist_17_20250627_225242,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,17.0,20250627_225242
+gemma3_generalist2_17_20250627_225242,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,17.0,20250627_225242
+gemma3_normative_17_20250627_225242,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,17.0,20250627_225242
+gemma3_normative2_17_20250627_225242,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,17.0,20250627_225242
+gemma3_subject_matter_17_20250627_225242,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,17.0,20250627_225242
+gemma3_subject_matter2_17_20250627_225242,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,17.0,20250627_225242
+gemma3_generalist_18_20250627_225400,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,18.0,20250627_225400
+gemma3_generalist2_18_20250627_225400,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,18.0,20250627_225400
+gemma3_normative_18_20250627_225400,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,18.0,20250627_225400
+gemma3_normative2_18_20250627_225400,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,18.0,20250627_225400
+gemma3_subject_matter_18_20250627_225400,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,18.0,20250627_225400
+gemma3_subject_matter2_18_20250627_225400,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,18.0,20250627_225400
+gemma3_generalist_19_20250627_225540,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,19.0,20250627_225540
+gemma3_generalist2_19_20250627_225540,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,19.0,20250627_225540
+gemma3_normative_19_20250627_225540,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,19.0,20250627_225540
+gemma3_normative2_19_20250627_225540,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,19.0,20250627_225540
+gemma3_subject_matter_19_20250627_225540,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,19.0,20250627_225540
+gemma3_subject_matter2_19_20250627_225540,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,19.0,20250627_225540
+gemma3_generalist_20_20250627_225655,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,20.0,20250627_225655
+gemma3_generalist2_20_20250627_225655,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,20.0,20250627_225655
+gemma3_normative_20_20250627_225655,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,20.0,20250627_225655
+gemma3_normative2_20_20250627_225655,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,20.0,20250627_225655
+gemma3_subject_matter_20_20250627_225655,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,20.0,20250627_225655
+gemma3_subject_matter2_20_20250627_225655,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,20.0,20250627_225655
+gemma3_generalist_21_20250627_225836,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,21.0,20250627_225836
+gemma3_generalist2_21_20250627_225836,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,21.0,20250627_225836
+gemma3_normative_21_20250627_225836,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,21.0,20250627_225836
+gemma3_normative2_21_20250627_225836,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,21.0,20250627_225836
+gemma3_subject_matter_21_20250627_225836,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,21.0,20250627_225836
+gemma3_subject_matter2_21_20250627_225836,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,21.0,20250627_225836
+gemma3_generalist_22_20250627_225958,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,22.0,20250627_225958
+gemma3_generalist2_22_20250627_225958,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,22.0,20250627_225958
+gemma3_normative_22_20250627_225958,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,22.0,20250627_225958
+gemma3_normative2_22_20250627_225958,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,22.0,20250627_225958
+gemma3_subject_matter_22_20250627_225958,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,22.0,20250627_225958
+gemma3_subject_matter2_22_20250627_225958,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,22.0,20250627_225958
+gemma3_generalist_23_20250627_230122,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,23.0,20250627_230122
+gemma3_generalist2_23_20250627_230122,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,23.0,20250627_230122
+gemma3_normative_23_20250627_230122,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,23.0,20250627_230122
+gemma3_normative2_23_20250627_230122,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,23.0,20250627_230122
+gemma3_subject_matter_23_20250627_230122,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,23.0,20250627_230122
+gemma3_subject_matter2_23_20250627_230122,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,23.0,20250627_230122
+gemma3_generalist_24_20250627_230238,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,24.0,20250627_230238
+gemma3_generalist2_24_20250627_230238,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,24.0,20250627_230238
+gemma3_normative_24_20250627_230238,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,24.0,20250627_230238
+gemma3_normative2_24_20250627_230238,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,24.0,20250627_230238
+gemma3_subject_matter_24_20250627_230238,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,24.0,20250627_230238
+gemma3_subject_matter2_24_20250627_230238,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,24.0,20250627_230238
+gemma3_generalist_25_20250627_230352,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,25.0,20250627_230352
+gemma3_generalist2_25_20250627_230352,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,25.0,20250627_230352
+gemma3_normative_25_20250627_230352,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,25.0,20250627_230352
+gemma3_normative2_25_20250627_230352,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,25.0,20250627_230352
+gemma3_subject_matter_25_20250627_230352,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,25.0,20250627_230352
+gemma3_subject_matter2_25_20250627_230352,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,25.0,20250627_230352
+gemma3_generalist_26_20250627_230507,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,26.0,20250627_230507
+gemma3_generalist2_26_20250627_230507,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,26.0,20250627_230507
+gemma3_normative_26_20250627_230507,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,26.0,20250627_230507
+gemma3_normative2_26_20250627_230507,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,26.0,20250627_230507
+gemma3_subject_matter_26_20250627_230507,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,26.0,20250627_230507
+gemma3_subject_matter2_26_20250627_230507,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,26.0,20250627_230507
+gemma3_generalist_27_20250627_231154,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,27.0,20250627_231154
+gemma3_generalist2_27_20250627_231154,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,27.0,20250627_231154
+gemma3_normative_27_20250627_231154,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,27.0,20250627_231154
+gemma3_normative2_27_20250627_231154,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,27.0,20250627_231154
+gemma3_subject_matter_27_20250627_231154,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,27.0,20250627_231154
+gemma3_subject_matter2_27_20250627_231154,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,27.0,20250627_231154
+gemma3_generalist_28_20250627_231320,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,28.0,20250627_231320
+gemma3_generalist2_28_20250627_231320,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,28.0,20250627_231320
+gemma3_normative_28_20250627_231320,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,28.0,20250627_231320
+gemma3_normative2_28_20250627_231320,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,28.0,20250627_231320
+gemma3_subject_matter_28_20250627_231320,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,28.0,20250627_231320
+gemma3_subject_matter2_28_20250627_231320,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,28.0,20250627_231320
+gemma3_generalist_29_20250627_231450,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,29.0,20250627_231450
+gemma3_generalist2_29_20250627_231450,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,29.0,20250627_231450
+gemma3_normative_29_20250627_231450,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,29.0,20250627_231450
+gemma3_normative2_29_20250627_231450,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,29.0,20250627_231450
+gemma3_subject_matter_29_20250627_231450,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,29.0,20250627_231450
+gemma3_subject_matter2_29_20250627_231450,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,29.0,20250627_231450
+gemma3_generalist_30_20250627_231605,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,30.0,20250627_231605
+gemma3_generalist2_30_20250627_231605,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,30.0,20250627_231605
+gemma3_normative_30_20250627_231605,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,30.0,20250627_231605
+gemma3_normative2_30_20250627_231605,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,30.0,20250627_231605
+gemma3_subject_matter_30_20250627_231605,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,30.0,20250627_231605
+gemma3_subject_matter2_30_20250627_231605,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,30.0,20250627_231605
+gemma3_generalist_31_20250627_231719,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,31.0,20250627_231719
+gemma3_generalist2_31_20250627_231719,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,31.0,20250627_231719
+gemma3_normative_31_20250627_231719,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,31.0,20250627_231719
+gemma3_normative2_31_20250627_231719,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,31.0,20250627_231719
+gemma3_subject_matter_31_20250627_231719,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,31.0,20250627_231719
+gemma3_subject_matter2_31_20250627_231719,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,31.0,20250627_231719
+gemma3_generalist_32_20250627_231835,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,32.0,20250627_231835
+gemma3_generalist2_32_20250627_231835,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,32.0,20250627_231835
+gemma3_normative_32_20250627_231835,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,32.0,20250627_231835
+gemma3_normative2_32_20250627_231835,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,32.0,20250627_231835
+gemma3_subject_matter_32_20250627_231835,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,32.0,20250627_231835
+gemma3_subject_matter2_32_20250627_231835,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,32.0,20250627_231835
+gemma3_generalist_33_20250627_231951,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,33.0,20250627_231951
+gemma3_generalist2_33_20250627_231951,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,33.0,20250627_231951
+gemma3_normative_33_20250627_231951,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,33.0,20250627_231951
+gemma3_normative2_33_20250627_231951,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,33.0,20250627_231951
+gemma3_subject_matter_33_20250627_231951,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,33.0,20250627_231951
+gemma3_subject_matter2_33_20250627_231951,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,33.0,20250627_231951
+gemma3_generalist_34_20250627_232106,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,34.0,20250627_232106
+gemma3_generalist2_34_20250627_232106,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,34.0,20250627_232106
+gemma3_normative_34_20250627_232106,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,34.0,20250627_232106
+gemma3_normative2_34_20250627_232106,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,34.0,20250627_232106
+gemma3_subject_matter_34_20250627_232106,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,34.0,20250627_232106
+gemma3_subject_matter2_34_20250627_232106,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,34.0,20250627_232106
+gemma3_generalist_35_20250627_232220,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,35.0,20250627_232220
+gemma3_generalist2_35_20250627_232220,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,35.0,20250627_232220
+gemma3_normative_35_20250627_232220,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,35.0,20250627_232220
+gemma3_normative2_35_20250627_232220,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,35.0,20250627_232220
+gemma3_subject_matter_35_20250627_232220,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,35.0,20250627_232220
+gemma3_subject_matter2_35_20250627_232220,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,35.0,20250627_232220
+gemma3_generalist_36_20250627_232334,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,36.0,20250627_232334
+gemma3_generalist2_36_20250627_232334,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,36.0,20250627_232334
+gemma3_normative_36_20250627_232334,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,36.0,20250627_232334
+gemma3_normative2_36_20250627_232334,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,36.0,20250627_232334
+gemma3_subject_matter_36_20250627_232334,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,36.0,20250627_232334
+gemma3_subject_matter2_36_20250627_232334,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,36.0,20250627_232334
+gemma3_generalist_37_20250627_232450,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,37.0,20250627_232450
+gemma3_generalist2_37_20250627_232450,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,37.0,20250627_232450
+gemma3_normative_37_20250627_232450,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,37.0,20250627_232450
+gemma3_normative2_37_20250627_232450,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,37.0,20250627_232450
+gemma3_subject_matter_37_20250627_232450,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,37.0,20250627_232450
+gemma3_subject_matter2_37_20250627_232450,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,37.0,20250627_232450
+gemma3_generalist_38_20250627_232608,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,38.0,20250627_232608
+gemma3_generalist2_38_20250627_232608,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,38.0,20250627_232608
+gemma3_normative_38_20250627_232608,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,38.0,20250627_232608
+gemma3_normative2_38_20250627_232608,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,38.0,20250627_232608
+gemma3_subject_matter_38_20250627_232608,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,38.0,20250627_232608
+gemma3_subject_matter2_38_20250627_232608,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,38.0,20250627_232608
+gemma3_generalist_39_20250627_232723,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,39.0,20250627_232723
+gemma3_generalist2_39_20250627_232723,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,39.0,20250627_232723
+gemma3_normative_39_20250627_232723,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,39.0,20250627_232723
+gemma3_normative2_39_20250627_232723,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,39.0,20250627_232723
+gemma3_subject_matter_39_20250627_232723,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,39.0,20250627_232723
+gemma3_subject_matter2_39_20250627_232723,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,39.0,20250627_232723
+gemma3_generalist_40_20250627_232838,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,40.0,20250627_232838
+gemma3_generalist2_40_20250627_232838,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,40.0,20250627_232838
+gemma3_normative_40_20250627_232838,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,40.0,20250627_232838
+gemma3_normative2_40_20250627_232838,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,40.0,20250627_232838
+gemma3_subject_matter_40_20250627_232838,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,40.0,20250627_232838
+gemma3_subject_matter2_40_20250627_232838,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,40.0,20250627_232838
+gemma3_generalist_41_20250627_232952,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,41.0,20250627_232952
+gemma3_generalist2_41_20250627_232952,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,41.0,20250627_232952
+gemma3_normative_41_20250627_232952,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,41.0,20250627_232952
+gemma3_normative2_41_20250627_232952,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,41.0,20250627_232952
+gemma3_subject_matter_41_20250627_232952,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,41.0,20250627_232952
+gemma3_subject_matter2_41_20250627_232952,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,41.0,20250627_232952
+gemma3_generalist_42_20250627_233107,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,42.0,20250627_233107
+gemma3_generalist2_42_20250627_233107,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,42.0,20250627_233107
+gemma3_normative_42_20250627_233107,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,42.0,20250627_233107
+gemma3_normative2_42_20250627_233107,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,42.0,20250627_233107
+gemma3_subject_matter_42_20250627_233107,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,42.0,20250627_233107
+gemma3_subject_matter2_42_20250627_233107,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,42.0,20250627_233107
+gemma3_generalist_43_20250627_233227,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,43.0,20250627_233227
+gemma3_generalist2_43_20250627_233227,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,43.0,20250627_233227
+gemma3_normative_43_20250627_233227,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,43.0,20250627_233227
+gemma3_normative2_43_20250627_233227,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,43.0,20250627_233227
+gemma3_subject_matter_43_20250627_233227,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,43.0,20250627_233227
+gemma3_subject_matter2_43_20250627_233227,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,43.0,20250627_233227
+gemma3_generalist_44_20250627_233341,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,44.0,20250627_233341
+gemma3_generalist2_44_20250627_233341,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,44.0,20250627_233341
+gemma3_normative_44_20250627_233341,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,44.0,20250627_233341
+gemma3_normative2_44_20250627_233341,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,44.0,20250627_233341
+gemma3_subject_matter_44_20250627_233341,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,44.0,20250627_233341
+gemma3_subject_matter2_44_20250627_233341,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,44.0,20250627_233341
+gemma3_generalist_45_20250627_233457,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,45.0,20250627_233457
+gemma3_generalist2_45_20250627_233457,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,45.0,20250627_233457
+gemma3_normative_45_20250627_233457,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,45.0,20250627_233457
+gemma3_normative2_45_20250627_233457,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,45.0,20250627_233457
+gemma3_subject_matter_45_20250627_233457,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,45.0,20250627_233457
+gemma3_subject_matter2_45_20250627_233457,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,45.0,20250627_233457
+gemma3_generalist_46_20250627_233611,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,46.0,20250627_233611
+gemma3_generalist2_46_20250627_233611,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,46.0,20250627_233611
+gemma3_normative_46_20250627_233611,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,46.0,20250627_233611
+gemma3_normative2_46_20250627_233611,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,46.0,20250627_233611
+gemma3_subject_matter_46_20250627_233611,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,46.0,20250627_233611
+gemma3_subject_matter2_46_20250627_233611,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,46.0,20250627_233611
+gemma3_generalist_47_20250627_233737,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,47.0,20250627_233737
+gemma3_generalist2_47_20250627_233737,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,47.0,20250627_233737
+gemma3_normative_47_20250627_233737,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,47.0,20250627_233737
+gemma3_normative2_47_20250627_233737,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,47.0,20250627_233737
+gemma3_subject_matter_47_20250627_233737,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,47.0,20250627_233737
+gemma3_subject_matter2_47_20250627_233737,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,47.0,20250627_233737
+gemma3_generalist_48_20250627_233856,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,48.0,20250627_233856
+gemma3_generalist2_48_20250627_233856,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,48.0,20250627_233856
+gemma3_normative_48_20250627_233856,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,48.0,20250627_233856
+gemma3_normative2_48_20250627_233856,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,48.0,20250627_233856
+gemma3_subject_matter_48_20250627_233856,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,48.0,20250627_233856
+gemma3_subject_matter2_48_20250627_233856,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,48.0,20250627_233856
+gemma3_generalist_49_20250627_234101,llm,ZEROSHOT,gemma3,gemma3_generalist,generalist,3,Feasible,49.0,20250627_234101
+gemma3_generalist2_49_20250627_234101,llm,ZEROSHOT,gemma3,gemma3_generalist2,generalist2,3,Feasible,49.0,20250627_234101
+gemma3_normative_49_20250627_234101,llm,ZEROSHOT,gemma3,gemma3_normative,normative,3,Feasible,49.0,20250627_234101
+gemma3_normative2_49_20250627_234101,llm,ZEROSHOT,gemma3,gemma3_normative2,normative2,3,Feasible,49.0,20250627_234101
+gemma3_subject_matter_49_20250627_234101,llm,ZEROSHOT,gemma3,gemma3_subject_matter,subject_matter,3,Feasible,49.0,20250627_234101
+gemma3_subject_matter2_49_20250627_234101,llm,ZEROSHOT,gemma3,gemma3_subject_matter2,subject_matter2,3,Feasible,49.0,20250627_234101

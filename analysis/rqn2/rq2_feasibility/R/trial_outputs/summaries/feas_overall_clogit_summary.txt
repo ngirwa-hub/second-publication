@@ -1,0 +1,38 @@
+=== FEASIBILITY conditional logistic (y_ge3) ===
+Call:
+coxph(formula = Surv(rep(1, 2400L), y_ge3) ~ condition * base_model + 
+    strata(pair_id), data = df_bin, method = "efron")
+
+  n= 2400, number of events= 2307 
+
+                                         coef  exp(coef)   se(coef)     z
+conditionCONTEXT                    2.427e-17  1.000e+00  8.165e-02 0.000
+base_modelllama                            NA         NA  0.000e+00    NA
+base_modelmistral                          NA         NA  0.000e+00    NA
+base_modelphi4                             NA         NA  0.000e+00    NA
+conditionCONTEXT:base_modelllama    9.870e-02  1.104e+00  1.207e-01 0.818
+conditionCONTEXT:base_modelmistral -2.665e-17  1.000e+00  1.155e-01 0.000
+conditionCONTEXT:base_modelphi4    -2.665e-17  1.000e+00  1.155e-01 0.000
+                                   Pr(>|z|)
+conditionCONTEXT                      1.000
+base_modelllama                          NA
+base_modelmistral                        NA
+base_modelphi4                           NA
+conditionCONTEXT:base_modelllama      0.414
+conditionCONTEXT:base_modelmistral    1.000
+conditionCONTEXT:base_modelphi4       1.000
+
+                                   exp(coef) exp(-coef) lower .95 upper .95
+conditionCONTEXT                       1.000      1.000    0.8521     1.174
+base_modelllama                           NA         NA        NA        NA
+base_modelmistral                         NA         NA        NA        NA
+base_modelphi4                            NA         NA        NA        NA
+conditionCONTEXT:base_modelllama       1.104      0.906    0.8712     1.398
+conditionCONTEXT:base_modelmistral     1.000      1.000    0.7975     1.254
+conditionCONTEXT:base_modelphi4        1.000      1.000    0.7975     1.254
+
+Concordance= 0.651  (se = 0.074 )
+Likelihood ratio test= 1.23  on 4 df,   p=0.9
+Wald test            = 1.23  on 4 df,   p=0.9
+Score (logrank) test = 1.23  on 4 df,   p=0.9
+

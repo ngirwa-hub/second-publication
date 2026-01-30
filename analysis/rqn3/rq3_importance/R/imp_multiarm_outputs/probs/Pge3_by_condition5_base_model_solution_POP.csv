@@ -1,0 +1,221 @@
+condition5,base_model,dc_solution,prob_geq,threshold_k
+CONTEXT,gemma3,DC-DC converter,1,3
+ANCHOR_WORD,gemma3,DC-DC converter,1,3
+ANCHOR_EXAMPLE,gemma3,DC-DC converter,1,3
+ANCHOR_LOW_NUM,gemma3,DC-DC converter,1,3
+ANCHOR_HIGH_NUM,gemma3,DC-DC converter,1,3
+CONTEXT,llama,DC-DC converter,1,3
+ANCHOR_WORD,llama,DC-DC converter,1,3
+ANCHOR_EXAMPLE,llama,DC-DC converter,1,3
+ANCHOR_LOW_NUM,llama,DC-DC converter,1,3
+ANCHOR_HIGH_NUM,llama,DC-DC converter,1,3
+CONTEXT,mistral,DC-DC converter,1,3
+ANCHOR_WORD,mistral,DC-DC converter,1,3
+ANCHOR_EXAMPLE,mistral,DC-DC converter,1,3
+ANCHOR_LOW_NUM,mistral,DC-DC converter,1,3
+ANCHOR_HIGH_NUM,mistral,DC-DC converter,1,3
+CONTEXT,phi4,DC-DC converter,1,3
+ANCHOR_WORD,phi4,DC-DC converter,1,3
+ANCHOR_EXAMPLE,phi4,DC-DC converter,1,3
+ANCHOR_LOW_NUM,phi4,DC-DC converter,1,3
+ANCHOR_HIGH_NUM,phi4,DC-DC converter,1,3
+CONTEXT,gemma3,DC connectors,1,3
+ANCHOR_WORD,gemma3,DC connectors,1,3
+ANCHOR_EXAMPLE,gemma3,DC connectors,1,3
+ANCHOR_LOW_NUM,gemma3,DC connectors,1,3
+ANCHOR_HIGH_NUM,gemma3,DC connectors,1,3
+CONTEXT,llama,DC connectors,1,3
+ANCHOR_WORD,llama,DC connectors,1,3
+ANCHOR_EXAMPLE,llama,DC connectors,1,3
+ANCHOR_LOW_NUM,llama,DC connectors,1,3
+ANCHOR_HIGH_NUM,llama,DC connectors,1,3
+CONTEXT,mistral,DC connectors,1,3
+ANCHOR_WORD,mistral,DC connectors,1,3
+ANCHOR_EXAMPLE,mistral,DC connectors,1,3
+ANCHOR_LOW_NUM,mistral,DC connectors,1,3
+ANCHOR_HIGH_NUM,mistral,DC connectors,1,3
+CONTEXT,phi4,DC connectors,1,3
+ANCHOR_WORD,phi4,DC connectors,1,3
+ANCHOR_EXAMPLE,phi4,DC connectors,1,3
+ANCHOR_LOW_NUM,phi4,DC connectors,1,3
+ANCHOR_HIGH_NUM,phi4,DC connectors,1,3
+CONTEXT,gemma3,DC measurement device,1,3
+ANCHOR_WORD,gemma3,DC measurement device,1,3
+ANCHOR_EXAMPLE,gemma3,DC measurement device,1,3
+ANCHOR_LOW_NUM,gemma3,DC measurement device,1,3
+ANCHOR_HIGH_NUM,gemma3,DC measurement device,1,3
+CONTEXT,llama,DC measurement device,1,3
+ANCHOR_WORD,llama,DC measurement device,1,3
+ANCHOR_EXAMPLE,llama,DC measurement device,1,3
+ANCHOR_LOW_NUM,llama,DC measurement device,1,3
+ANCHOR_HIGH_NUM,llama,DC measurement device,1,3
+CONTEXT,mistral,DC measurement device,1,3
+ANCHOR_WORD,mistral,DC measurement device,1,3
+ANCHOR_EXAMPLE,mistral,DC measurement device,1,3
+ANCHOR_LOW_NUM,mistral,DC measurement device,1,3
+ANCHOR_HIGH_NUM,mistral,DC measurement device,1,3
+CONTEXT,phi4,DC measurement device,1,3
+ANCHOR_WORD,phi4,DC measurement device,1,3
+ANCHOR_EXAMPLE,phi4,DC measurement device,1,3
+ANCHOR_LOW_NUM,phi4,DC measurement device,1,3
+ANCHOR_HIGH_NUM,phi4,DC measurement device,1,3
+CONTEXT,gemma3,DC solution design tool,1,3
+ANCHOR_WORD,gemma3,DC solution design tool,1,3
+ANCHOR_EXAMPLE,gemma3,DC solution design tool,1,3
+ANCHOR_LOW_NUM,gemma3,DC solution design tool,1,3
+ANCHOR_HIGH_NUM,gemma3,DC solution design tool,1,3
+CONTEXT,llama,DC solution design tool,1,3
+ANCHOR_WORD,llama,DC solution design tool,1,3
+ANCHOR_EXAMPLE,llama,DC solution design tool,1,3
+ANCHOR_LOW_NUM,llama,DC solution design tool,1,3
+ANCHOR_HIGH_NUM,llama,DC solution design tool,1,3
+CONTEXT,mistral,DC solution design tool,1,3
+ANCHOR_WORD,mistral,DC solution design tool,1,3
+ANCHOR_EXAMPLE,mistral,DC solution design tool,1,3
+ANCHOR_LOW_NUM,mistral,DC solution design tool,1,3
+ANCHOR_HIGH_NUM,mistral,DC solution design tool,1,3
+CONTEXT,phi4,DC solution design tool,1,3
+ANCHOR_WORD,phi4,DC solution design tool,1,3
+ANCHOR_EXAMPLE,phi4,DC solution design tool,1,3
+ANCHOR_LOW_NUM,phi4,DC solution design tool,1,3
+ANCHOR_HIGH_NUM,phi4,DC solution design tool,1,3
+CONTEXT,gemma3,LVAC-LVDC interlink converter,1,3
+ANCHOR_WORD,gemma3,LVAC-LVDC interlink converter,1,3
+ANCHOR_EXAMPLE,gemma3,LVAC-LVDC interlink converter,1,3
+ANCHOR_LOW_NUM,gemma3,LVAC-LVDC interlink converter,1,3
+ANCHOR_HIGH_NUM,gemma3,LVAC-LVDC interlink converter,1,3
+CONTEXT,llama,LVAC-LVDC interlink converter,1,3
+ANCHOR_WORD,llama,LVAC-LVDC interlink converter,1,3
+ANCHOR_EXAMPLE,llama,LVAC-LVDC interlink converter,1,3
+ANCHOR_LOW_NUM,llama,LVAC-LVDC interlink converter,1,3
+ANCHOR_HIGH_NUM,llama,LVAC-LVDC interlink converter,1,3
+CONTEXT,mistral,LVAC-LVDC interlink converter,1,3
+ANCHOR_WORD,mistral,LVAC-LVDC interlink converter,1,3
+ANCHOR_EXAMPLE,mistral,LVAC-LVDC interlink converter,1,3
+ANCHOR_LOW_NUM,mistral,LVAC-LVDC interlink converter,1,3
+ANCHOR_HIGH_NUM,mistral,LVAC-LVDC interlink converter,1,3
+CONTEXT,phi4,LVAC-LVDC interlink converter,1,3
+ANCHOR_WORD,phi4,LVAC-LVDC interlink converter,1,3
+ANCHOR_EXAMPLE,phi4,LVAC-LVDC interlink converter,1,3
+ANCHOR_LOW_NUM,phi4,LVAC-LVDC interlink converter,1,3
+ANCHOR_HIGH_NUM,phi4,LVAC-LVDC interlink converter,1,3
+CONTEXT,gemma3,Network design tool for DC solutions,1,3
+ANCHOR_WORD,gemma3,Network design tool for DC solutions,1,3
+ANCHOR_EXAMPLE,gemma3,Network design tool for DC solutions,1,3
+ANCHOR_LOW_NUM,gemma3,Network design tool for DC solutions,1,3
+ANCHOR_HIGH_NUM,gemma3,Network design tool for DC solutions,1,3
+CONTEXT,llama,Network design tool for DC solutions,1,3
+ANCHOR_WORD,llama,Network design tool for DC solutions,1,3
+ANCHOR_EXAMPLE,llama,Network design tool for DC solutions,1,3
+ANCHOR_LOW_NUM,llama,Network design tool for DC solutions,1,3
+ANCHOR_HIGH_NUM,llama,Network design tool for DC solutions,1,3
+CONTEXT,mistral,Network design tool for DC solutions,1,3
+ANCHOR_WORD,mistral,Network design tool for DC solutions,1,3
+ANCHOR_EXAMPLE,mistral,Network design tool for DC solutions,1,3
+ANCHOR_LOW_NUM,mistral,Network design tool for DC solutions,1,3
+ANCHOR_HIGH_NUM,mistral,Network design tool for DC solutions,1,3
+CONTEXT,phi4,Network design tool for DC solutions,1,3
+ANCHOR_WORD,phi4,Network design tool for DC solutions,1,3
+ANCHOR_EXAMPLE,phi4,Network design tool for DC solutions,1,3
+ANCHOR_LOW_NUM,phi4,Network design tool for DC solutions,1,3
+ANCHOR_HIGH_NUM,phi4,Network design tool for DC solutions,1,3
+CONTEXT,gemma3,Protection DC system design tool,1,3
+ANCHOR_WORD,gemma3,Protection DC system design tool,1,3
+ANCHOR_EXAMPLE,gemma3,Protection DC system design tool,1,3
+ANCHOR_LOW_NUM,gemma3,Protection DC system design tool,1,3
+ANCHOR_HIGH_NUM,gemma3,Protection DC system design tool,1,3
+CONTEXT,llama,Protection DC system design tool,1,3
+ANCHOR_WORD,llama,Protection DC system design tool,1,3
+ANCHOR_EXAMPLE,llama,Protection DC system design tool,1,3
+ANCHOR_LOW_NUM,llama,Protection DC system design tool,1,3
+ANCHOR_HIGH_NUM,llama,Protection DC system design tool,1,3
+CONTEXT,mistral,Protection DC system design tool,1,3
+ANCHOR_WORD,mistral,Protection DC system design tool,1,3
+ANCHOR_EXAMPLE,mistral,Protection DC system design tool,1,3
+ANCHOR_LOW_NUM,mistral,Protection DC system design tool,1,3
+ANCHOR_HIGH_NUM,mistral,Protection DC system design tool,1,3
+CONTEXT,phi4,Protection DC system design tool,1,3
+ANCHOR_WORD,phi4,Protection DC system design tool,1,3
+ANCHOR_EXAMPLE,phi4,Protection DC system design tool,1,3
+ANCHOR_LOW_NUM,phi4,Protection DC system design tool,1,3
+ANCHOR_HIGH_NUM,phi4,Protection DC system design tool,1,3
+CONTEXT,gemma3,Semiconductor-based circuit breaker,1,3
+ANCHOR_WORD,gemma3,Semiconductor-based circuit breaker,1,3
+ANCHOR_EXAMPLE,gemma3,Semiconductor-based circuit breaker,1,3
+ANCHOR_LOW_NUM,gemma3,Semiconductor-based circuit breaker,1,3
+ANCHOR_HIGH_NUM,gemma3,Semiconductor-based circuit breaker,1,3
+CONTEXT,llama,Semiconductor-based circuit breaker,1,3
+ANCHOR_WORD,llama,Semiconductor-based circuit breaker,1,3
+ANCHOR_EXAMPLE,llama,Semiconductor-based circuit breaker,1,3
+ANCHOR_LOW_NUM,llama,Semiconductor-based circuit breaker,1,3
+ANCHOR_HIGH_NUM,llama,Semiconductor-based circuit breaker,1,3
+CONTEXT,mistral,Semiconductor-based circuit breaker,1,3
+ANCHOR_WORD,mistral,Semiconductor-based circuit breaker,1,3
+ANCHOR_EXAMPLE,mistral,Semiconductor-based circuit breaker,1,3
+ANCHOR_LOW_NUM,mistral,Semiconductor-based circuit breaker,1,3
+ANCHOR_HIGH_NUM,mistral,Semiconductor-based circuit breaker,1,3
+CONTEXT,phi4,Semiconductor-based circuit breaker,1,3
+ANCHOR_WORD,phi4,Semiconductor-based circuit breaker,1,3
+ANCHOR_EXAMPLE,phi4,Semiconductor-based circuit breaker,1,3
+ANCHOR_LOW_NUM,phi4,Semiconductor-based circuit breaker,1,3
+ANCHOR_HIGH_NUM,phi4,Semiconductor-based circuit breaker,1,3
+CONTEXT,gemma3,Smart and sustainable DC cables,1,3
+ANCHOR_WORD,gemma3,Smart and sustainable DC cables,1,3
+ANCHOR_EXAMPLE,gemma3,Smart and sustainable DC cables,1,3
+ANCHOR_LOW_NUM,gemma3,Smart and sustainable DC cables,1,3
+ANCHOR_HIGH_NUM,gemma3,Smart and sustainable DC cables,1,3
+CONTEXT,llama,Smart and sustainable DC cables,1,3
+ANCHOR_WORD,llama,Smart and sustainable DC cables,1,3
+ANCHOR_EXAMPLE,llama,Smart and sustainable DC cables,1,3
+ANCHOR_LOW_NUM,llama,Smart and sustainable DC cables,1,3
+ANCHOR_HIGH_NUM,llama,Smart and sustainable DC cables,1,3
+CONTEXT,mistral,Smart and sustainable DC cables,1,3
+ANCHOR_WORD,mistral,Smart and sustainable DC cables,1,3
+ANCHOR_EXAMPLE,mistral,Smart and sustainable DC cables,1,3
+ANCHOR_LOW_NUM,mistral,Smart and sustainable DC cables,1,3
+ANCHOR_HIGH_NUM,mistral,Smart and sustainable DC cables,1,3
+CONTEXT,phi4,Smart and sustainable DC cables,1,3
+ANCHOR_WORD,phi4,Smart and sustainable DC cables,1,3
+ANCHOR_EXAMPLE,phi4,Smart and sustainable DC cables,1,3
+ANCHOR_LOW_NUM,phi4,Smart and sustainable DC cables,1,3
+ANCHOR_HIGH_NUM,phi4,Smart and sustainable DC cables,1,3
+CONTEXT,gemma3,Solid-state circuit breaker,1,3
+ANCHOR_WORD,gemma3,Solid-state circuit breaker,1,3
+ANCHOR_EXAMPLE,gemma3,Solid-state circuit breaker,1,3
+ANCHOR_LOW_NUM,gemma3,Solid-state circuit breaker,1,3
+ANCHOR_HIGH_NUM,gemma3,Solid-state circuit breaker,1,3
+CONTEXT,llama,Solid-state circuit breaker,1,3
+ANCHOR_WORD,llama,Solid-state circuit breaker,1,3
+ANCHOR_EXAMPLE,llama,Solid-state circuit breaker,1,3
+ANCHOR_LOW_NUM,llama,Solid-state circuit breaker,1,3
+ANCHOR_HIGH_NUM,llama,Solid-state circuit breaker,1,3
+CONTEXT,mistral,Solid-state circuit breaker,1,3
+ANCHOR_WORD,mistral,Solid-state circuit breaker,1,3
+ANCHOR_EXAMPLE,mistral,Solid-state circuit breaker,1,3
+ANCHOR_LOW_NUM,mistral,Solid-state circuit breaker,1,3
+ANCHOR_HIGH_NUM,mistral,Solid-state circuit breaker,1,3
+CONTEXT,phi4,Solid-state circuit breaker,1,3
+ANCHOR_WORD,phi4,Solid-state circuit breaker,1,3
+ANCHOR_EXAMPLE,phi4,Solid-state circuit breaker,1,3
+ANCHOR_LOW_NUM,phi4,Solid-state circuit breaker,1,3
+ANCHOR_HIGH_NUM,phi4,Solid-state circuit breaker,1,3
+CONTEXT,gemma3,Static protection system,1,3
+ANCHOR_WORD,gemma3,Static protection system,1,3
+ANCHOR_EXAMPLE,gemma3,Static protection system,1,3
+ANCHOR_LOW_NUM,gemma3,Static protection system,1,3
+ANCHOR_HIGH_NUM,gemma3,Static protection system,1,3
+CONTEXT,llama,Static protection system,1,3
+ANCHOR_WORD,llama,Static protection system,1,3
+ANCHOR_EXAMPLE,llama,Static protection system,1,3
+ANCHOR_LOW_NUM,llama,Static protection system,1,3
+ANCHOR_HIGH_NUM,llama,Static protection system,1,3
+CONTEXT,mistral,Static protection system,1,3
+ANCHOR_WORD,mistral,Static protection system,1,3
+ANCHOR_EXAMPLE,mistral,Static protection system,1,3
+ANCHOR_LOW_NUM,mistral,Static protection system,1,3
+ANCHOR_HIGH_NUM,mistral,Static protection system,1,3
+CONTEXT,phi4,Static protection system,1,3
+ANCHOR_WORD,phi4,Static protection system,1,3
+ANCHOR_EXAMPLE,phi4,Static protection system,1,3
+ANCHOR_LOW_NUM,phi4,Static protection system,1,3
+ANCHOR_HIGH_NUM,phi4,Static protection system,1,3

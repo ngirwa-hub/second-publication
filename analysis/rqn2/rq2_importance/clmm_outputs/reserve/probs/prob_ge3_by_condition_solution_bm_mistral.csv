@@ -1,0 +1,23 @@
+condition,dc_solution,prob_geq,threshold_k
+ZEROSHOT,DC-DC converter,0,3
+CONTEXT,DC-DC converter,0,3
+ZEROSHOT,DC connectors,0,3
+CONTEXT,DC connectors,0,3
+ZEROSHOT,DC measurement device,0,3
+CONTEXT,DC measurement device,0,3
+ZEROSHOT,DC solution design tool,0,3
+CONTEXT,DC solution design tool,0,3
+ZEROSHOT,LVAC-LVDC interlink converter,0,3
+CONTEXT,LVAC-LVDC interlink converter,0,3
+ZEROSHOT,Network design tool for DC solutions,0,3
+CONTEXT,Network design tool for DC solutions,0,3
+ZEROSHOT,Protection DC system design tool,0,3
+CONTEXT,Protection DC system design tool,0,3
+ZEROSHOT,Semiconductor-based circuit breaker,0,3
+CONTEXT,Semiconductor-based circuit breaker,0,3
+ZEROSHOT,Smart and sustainable DC cables,0,3
+CONTEXT,Smart and sustainable DC cables,0,3
+ZEROSHOT,Solid-state circuit breaker,0,3
+CONTEXT,Solid-state circuit breaker,0,3
+ZEROSHOT,Static protection system,0,3
+CONTEXT,Static protection system,0,3

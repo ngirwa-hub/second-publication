@@ -1,0 +1,192 @@
+# 02_fit_clmm_importance_multiarm.R  (fixed to use condition5)
+options(contrasts = c("contr.treatment", "contr.poly"))
+
+suppressPackageStartupMessages({
+  library(ordinal); library(tidyverse); library(broom)
+})
+
+out_dir <- "imp_multiarm_outputs"
+df <- readRDS(file.path(out_dir, "df_prepped_importance_multiarm.rds"))
+
+# sanity
+stopifnot("condition5" %in% names(df))
+df <- droplevels(df)
+
+write_csv_safely <- function(x, path){
+  dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
+  if (file.exists(path)) file.remove(path)
+  readr::write_csv(x, path)
+  message("Wrote: ", normalizePath(path, winslash="\\", mustWork = FALSE),
+          " (rows=", nrow(x), ")")
+}
+
+# ---- CLMM (single overall fit) ----
+m <- clmm(
+  rating ~ condition5 * base_model + (1 | pair_id) + (1 | dc_solution),
+  data = df, link = "logit", Hess = TRUE
+)
+
+dir.create(file.path(out_dir, "summaries_trial"), showWarnings = FALSE)
+sink(file.path(out_dir, "summaries_trial", "importance_multiarm_overall_summary.txt"))
+cat("=== IMPORTANCE CLMM (multi-arm) ===\n")
+print(summary(m))
+sink()
+
+co  <- broom::tidy(m, conf.int = FALSE)
+V   <- stats::vcov(m)
+beta_names <- rownames(V)
+
+# ---- OR contrasts ----
+make_contrast <- function(arm, bm) {
+  t_main <- paste0("condition5", arm)
+  t_int  <- paste0("condition5", arm, ":base_model", bm)
+  cvec <- setNames(rep(0, length(beta_names)), beta_names)
+  if (t_main %in% beta_names) cvec[t_main] <- 1
+  if (t_int  %in% beta_names) cvec[t_int]  <- 1
+  cvec
+}
+
+to_or <- function(est, se){
+  lo <- est - 1.96*se; hi <- est + 1.96*se
+  tibble::tibble(OR = exp(est), OR_l95 = exp(lo), OR_u95 = exp(hi))
+}
+
+make_or_table_for_arm <- function(arm) {
+  purrr::map_dfr(levels(df$base_model), function(bm){
+    cvec <- make_contrast(arm, bm)
+    est  <- sum(cvec * coef(m)[beta_names], na.rm = TRUE)
+    se   <- sqrt(as.numeric(t(cvec) %*% V %*% cvec))
+    tibble::tibble(base_model = bm, arm = arm) %>% dplyr::bind_cols(to_or(est, se))
+  })
+}
+
+arms <- c("ANCHOR_WORD","ANCHOR_EXAMPLE","ANCHOR_LOW_NUM","ANCHOR_HIGH_NUM")
+or_all <- purrr::map_dfr(arms, make_or_table_for_arm)
+
+dir.create(file.path(out_dir, "effects_trial"), showWarnings = FALSE)
+for (arm in arms) {
+  write_csv_safely(
+    dplyr::filter(or_all, arm == !!arm) %>% select(-arm),
+    file.path(out_dir, "effects_trial", paste0("OR_by_base_model_", arm, "_vs_CONTEXT.csv"))
+  )
+}
+write_csv_safely(or_all, file.path(out_dir, "effects_trial", "OR_by_base_model_ALL_arms_vs_CONTEXT.csv"))
+
+# put this right before writing the Pge3 CSVs
+if (min(as.numeric(colnames(P_pop))) >= geq_k) {
+  stop(sprintf(
+    "P(Y>=%d) is trivially 1 because the fitted categories are {%s}. Your data/model has no categories below %d.",
+    geq_k,
+    paste(colnames(P_pop), collapse = ", "),
+    geq_k
+  ))
+}
+
+# ---- Predicted P(Y>=3) by condition5 × base_model × dc_solution ----
+# ---- Predicted probabilities by condition5 × base_model × dc_solution ----
+# Build grid
+grid <- expand.grid(
+  condition5  = levels(df$condition5),
+  base_model  = levels(df$base_model),
+  dc_solution = levels(df$dc_solution),
+  KEEP.OUT.ATTRS = FALSE, stringsAsFactors = FALSE
+)
+grid$condition5  <- factor(grid$condition5,  levels = levels(df$condition5))
+grid$base_model  <- factor(grid$base_model,  levels = levels(df$base_model))
+grid$dc_solution <- factor(grid$dc_solution, levels = levels(df$dc_solution))
+
+dir.create(file.path(out_dir, "probs_trial"), showWarnings = FALSE)
+
+# --- Helper to compute P(category = k) matrix for newdata ---
+.compute_probs_clmm <- function(mod, newdata, add_dc_solution_re = FALSE) {
+  cf_all  <- coef(mod)                                 # thresholds + betas
+  thr_idx <- grep("\\|", names(cf_all))                # threshold coefficients
+  if (!length(thr_idx)) stop("No thresholds found in coef(mod).")
+
+  thr_names <- names(cf_all)[thr_idx]
+  # Order thresholds by the *left* category (e.g., "0|1","1|2",...)
+  thr_ord <- order(as.numeric(sub("\\|.*","", thr_names)))
+  theta   <- as.numeric(cf_all[thr_idx[thr_ord]])
+
+  # Fixed effects (betas)
+  beta    <- cf_all[-thr_idx]
+  names(beta) <- names(cf_all)[-thr_idx]
+
+  # Use model's fixed-effects terms + contrasts to build X identically to the fit
+  TT <- stats::delete.response(stats::terms(mod))
+  X  <- stats::model.matrix(TT, newdata, contrasts.arg = mod$contrasts)
+
+  # Align X to beta
+  miss <- setdiff(names(beta), colnames(X))
+  if (length(miss)) {
+    X <- cbind(X, matrix(0, nrow = nrow(X), ncol = length(miss),
+                         dimnames = list(NULL, miss)))
+  }
+  X <- X[, names(beta), drop = FALSE]
+
+  eta <- as.numeric(X %*% beta)
+
+  if (add_dc_solution_re) {
+    re_list <- suppressWarnings(ranef(mod))
+    if (is.null(re_list$dc_solution))
+      stop("dc_solution random effects not available in ranef(mod).")
+    dc_blup <- re_list$dc_solution[,"(Intercept)"]
+    shift   <- dc_blup[match(as.character(newdata$dc_solution), names(dc_blup))]
+    shift[is.na(shift)] <- 0
+    eta <- eta + as.numeric(shift)
+  }
+
+  # Convert cumulative logits to category probabilities (logit link)
+  K <- length(theta) + 1L
+  Fmat <- plogis(outer(theta, eta, function(th, e) th - e))  # N x (K-1) after t()
+  Fmat <- t(Fmat)
+
+  P <- matrix(NA_real_, nrow = nrow(newdata), ncol = K)
+  P[, 1] <- Fmat[, 1]
+  if (K > 2) P[, 2:(K - 1)] <- Fmat[, 2:(K - 1)] - Fmat[, 1:(K - 2)]
+  P[, K] <- 1 - Fmat[, K - 1]
+  stopifnot(all(abs(rowSums(P) - 1) < 1e-6))
+  P
+}
+
+# --- Derive category labels robustly from threshold names ---
+thr_names_all <- names(coef(m))[grep("\\|", names(coef(m)))]   # e.g., "0|1","1|2",...
+cat_labels <- sort(unique(suppressWarnings(
+  as.numeric(unlist(strsplit(thr_names_all, "\\|")))
+)))
+# Fallback if parsing failed:
+if (anyNA(cat_labels)) {
+  Ktmp <- length(thr_names_all) + 1L
+  cat_labels <- 0:(Ktmp - 1L)
+}
+
+# --- Population-level probs (no RE) ---
+P_pop <- .compute_probs_clmm(m, grid, add_dc_solution_re = FALSE)
+stopifnot(ncol(P_pop) == length(cat_labels))
+colnames(P_pop) <- as.character(cat_labels)
+
+# --- Conditional on dc_solution RE ---
+P_withRE <- .compute_probs_clmm(m, grid, add_dc_solution_re = TRUE)
+stopifnot(ncol(P_withRE) == length(cat_labels))
+colnames(P_withRE) <- as.character(cat_labels)
+
+# ---- Choose thresholds and write outputs ----
+#this is the P>=3 and P=top category outputs
+# ---- Predicted probabilities by condition5 × base_model × dc_solution ----
+# Build grid
+# After you have P_pop / P_withRE with colnames "3","4"
+pr_eq3_pop <- dplyr::bind_cols(dplyr::as_tibble(grid),
+                               tibble::tibble(prob_eq3 = P_pop[, "3"]))
+pr_eq4_pop <- dplyr::bind_cols(dplyr::as_tibble(grid),
+                               tibble::tibble(prob_eq4 = P_pop[, "4"]))
+
+write_csv_safely(pr_eq3_pop, file.path(out_dir, "probs_trial", "Peq3_POP.csv"))
+write_csv_safely(pr_eq4_pop, file.path(out_dir, "probs_trial", "Peq4_POP.csv"))
+
+pr_eq3_re <- dplyr::bind_cols(dplyr::as_tibble(grid),
+                              tibble::tibble(prob_eq3 = P_withRE[, "3"]))
+pr_eq4_re <- dplyr::bind_cols(dplyr::as_tibble(grid),
+                              tibble::tibble(prob_eq4 = P_withRE[, "4"]))
+
+write_csv_safely(pr_eq3_re, file.path(out_dir, "probs_trial", "Peq3_WITH_RE.csv"))
+write_csv_safely(pr_eq4_re, file.path(out_dir, "probs_trial", "Peq4_WITH_RE.csv"))

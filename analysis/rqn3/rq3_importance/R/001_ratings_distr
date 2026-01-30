@@ -1,0 +1,174 @@
+# --- Heatmap: ratings (Y) vs Base×{context,anchor} columns --------------------
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(scales)      # percent_format()
+  library(lubridate)   # ymd_hms()
+})
+
+# --- Inputs & outputs ---
+context_csv <- "../importance_neutral_1256hrs.csv"      # neutral
+anchor_csv  <- "../importance_biased_llm1254hrs.csv"    # biased w/ bias_type
+out_dir     <- "imp_multiarm_outputs"
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+
+# --- Read & normalize: CONTEXT (neutral) ---
+ctx <- readr::read_csv(context_csv, show_col_types = FALSE) %>%
+  mutate(
+    condition_raw = toupper(trimws(condition)),
+    condition5    = "CONTEXT",
+    rating        = suppressWarnings(as.integer(rating)),
+    iteration     = suppressWarnings(as.integer(iteration)),
+    timestamp     = suppressWarnings(lubridate::ymd_hms(timestamp, quiet = TRUE))
+  ) %>%
+  select(
+    row_id, base_model, variant_id, model, dc_solution, rating, label,
+    iteration, timestamp, source, condition_raw, condition5
+  ) %>%
+  filter(!is.na(rating), rating >= 0, rating <= 4)
+
+# --- Read & normalize: ANCHOR (biased) ---
+anc <- readr::read_csv(anchor_csv, show_col_types = FALSE) %>%
+  mutate(
+    condition_raw = toupper(trimws(condition)),
+    bias_type     = toupper(trimws(bias_type)),
+    condition5    = dplyr::case_when(
+      bias_type == "BIAS_WORD"     ~ "ANCHOR_WORD",
+      bias_type == "BIAS_EXAMPLE"  ~ "ANCHOR_EXAMPLE",
+      bias_type == "BIAS_NUM_LOW"  ~ "ANCHOR_LOW_NUM",
+      bias_type == "BIAS_NUM_HIGH" ~ "ANCHOR_HIGH_NUM",
+      TRUE ~ NA_character_
+    ),
+    rating        = suppressWarnings(as.integer(rating)),
+    iteration     = suppressWarnings(as.integer(iteration)),
+    timestamp     = suppressWarnings(lubridate::ymd_hms(timestamp, quiet = TRUE))
+  ) %>%
+  select(
+    row_id, base_model, variant_id, model, dc_solution, rating, label,
+    iteration, timestamp, source, condition_raw,
+    dplyr::any_of(c("bias_type", "anchor_level")), condition5
+  ) %>%
+  filter(!is.na(rating), rating >= 0, rating <= 4)
+
+# --- Combine & canonicalize base_model ----------------------------------------
+# Map both pretty & raw labels to a canonical base_id
+canon_map <- c(
+  # Gemma
+  "gemma3-12b" = "gemma3-12b", "gemma3" = "gemma3-12b",
+  # LLaMA-Pro
+  "llama-pro"  = "llama-pro",  "llama" = "llama-pro",
+  # Mistral
+  "mistral"    = "mistral",    "Mistral"    = "mistral",
+  # Phi4
+  "phi4"       = "phi4",       "Phi4"       = "phi4"
+)
+
+df <- bind_rows(ctx, anc) %>%
+  mutate(
+    base_id     = dplyr::recode(base_model, !!!canon_map, .default = base_model),
+    rating      = factor(rating, levels = 0:4, ordered = TRUE),
+    # collapse to two-condition view
+    condition2  = dplyr::case_when(
+      condition5 == "CONTEXT" ~ "CONTEXT",
+      TRUE                    ~ "ANCHOR"
+    )
+  )
+
+# keep only the 4 LLM base models
+base_keep <- c("gemma3-12b", "llama-pro", "mistral", "phi4")
+df <- df %>% filter(base_id %in% base_keep)
+
+# derive short base key without fct_recode confusion
+df <- df %>%
+  mutate(
+    base_key = dplyr::recode(base_id,
+      "gemma3-12b" = "gemma3",
+      "llama-pro"  = "llama",
+      "mistral"    = "mistral",
+      "phi4"       = "phi4",
+      .default = NA_character_
+    )
+  )
+
+# --- De-dupe if needed (latest per base × variant × solution × condition × iteration)
+df <- df %>%
+  arrange(timestamp) %>%
+  group_by(base_id, variant_id, dc_solution, condition2, iteration) %>%
+  slice_tail(n = 1) %>%
+  ungroup()
+
+stopifnot(is.ordered(df$rating))
+
+# --- Build X columns: "{base}-{context|anchor}" paired per base ----------------
+base_order <- c("phi4", "llama", "mistral", "gemma3")
+col_levels <- as.vector(rbind(paste0(base_order, "-context"),
+                              paste0(base_order, "-anchor")))
+
+# <<< PRETTY DISPLAY NAMES (edit here) >>>
+pretty_col_labels <- c(
+    #flip this as well
+  "phi4-context"    = "Context-Phi4",
+  "phi4-anchor"     = "Anchor-Phi4",
+   "llama-context"   = "Context-LLaMA-Pro",
+   "llama-anchor"    = "Anchor-LLaMA-Pro",
+   "mistral-context" = "Context-Mistral",
+   "mistral-anchor"  = "Anchor-Mistral",
+   "gemma3-context"  = "Context-Gemma3-12B",
+   "gemma3-anchor"   = "Anchor-Gemma3-12B"
+)
+
+df <- df %>%
+  mutate(
+    col_label = paste0(tolower(base_key), "-", tolower(condition2)),
+    col_label = factor(col_label, levels = col_levels)
+  )
+
+# --- Aggregate to percentages incl. 0% tiles ----------------------------------
+df_heat <- df %>%
+  count(col_label, rating, name = "n") %>%
+  tidyr::complete(
+    col_label = factor(col_levels, levels = col_levels),  # all 8 columns
+    rating    = levels(df$rating),                        # 0–4
+    fill = list(n = 0)
+  ) %>%
+  group_by(col_label) %>%
+  mutate(pct = if (sum(n) > 0) n / sum(n) else 0) %>%
+  ungroup()
+
+df_heat <- df_heat %>%
+  mutate(
+    label = scales::percent(pct, accuracy = 1),
+    txt_col = ifelse(pct >= 0.4, "white", "black")  # contrast on darker tiles
+  )
+
+p_heat <- ggplot(df_heat, aes(x = col_label, y = rating, fill = pct)) +
+  geom_tile(color = "grey85", linewidth = 0.3) +
+  # --- annotations ---
+  geom_text(aes(label = label, color = txt_col), size = 3.3, fontface = "plain") +  #if you want bold, change to "bold"
+  scale_color_identity() +  # use the colors already in txt_col
+  # --- axes & scales ---
+  scale_x_discrete(limits = col_levels, labels = pretty_col_labels, drop = FALSE) +
+  scale_y_discrete(drop = FALSE) +
+  scale_fill_gradient(
+    low = "white", high = "steelblue",
+    limits = c(0, 1),
+    labels = scales::percent_format(accuracy = 1),
+    na.value = "grey90"
+  ) +
+  labs(
+    title = "Distribution of ratings by base model and condition",
+    x = NULL, y = "Rating", fill = "Share"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid = element_blank(),
+    axis.text.x = element_text(angle = 30, hjust = 1, vjust = 1),
+    plot.title  = element_text(face = "plain", hjust = 0)
+  )
+
+# --- Save high-res export ------------------------------------------------------
+plots_dir <- file.path(out_dir, "plots_trial")
+dir.create(plots_dir, showWarnings = FALSE, recursive = TRUE)
+ggsave(
+  filename = file.path(plots_dir, "rq3_imp_heatmap.png"),
+  plot = p_heat, width = 7, height = 4.5, dpi = 300, bg = "white"
+)

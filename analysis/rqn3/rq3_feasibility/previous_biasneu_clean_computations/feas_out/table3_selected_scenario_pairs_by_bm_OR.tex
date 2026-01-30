@@ -1,0 +1,19 @@
+\begin{table}[!h]
+\centering
+\caption{Selected scenario contrasts within each base\_model (odds ratios, 95\% CI, z, p; Holm-adjusted)}
+\centering
+\begin{tabular}[t]{llrlrll}
+\toprule
+base\_model & contrast & OR & 95\% CI & z & p & p\_holm\\
+\midrule
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_WORD - NEU} & \cellcolor{gray!10}{3.33} & \cellcolor{gray!10}{(1.55, 7.18)} & \cellcolor{gray!10}{3.92} & \cellcolor{gray!10}{< 1e-04} & \cellcolor{gray!10}{0.000263}\\
+llama-pro & BIAS\_EXAMPLE - NEU & 2.56 & (1.15, 5.74) & 2.92 & 0.00351 & 0.007026\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_NUM\_LOW - NEU} & \cellcolor{gray!10}{2.13} & \cellcolor{gray!10}{(0.94, 4.83)} & \cellcolor{gray!10}{2.31} & \cellcolor{gray!10}{0.02067} & \cellcolor{gray!10}{0.020671}\\
+llama-pro & BIAS\_NUM\_HIGH - NEU & 3.67 & (1.71, 7.91) & 4.24 & < 1e-04 & < 1e-04\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_WORD - NEU} & \cellcolor{gray!10}{1.14} & \cellcolor{gray!10}{(0.41, 3.13)} & \cellcolor{gray!10}{0.32} & \cellcolor{gray!10}{0.75145} & \cellcolor{gray!10}{1.000000}\\
+mistral & BIAS\_EXAMPLE - NEU & 1.00 & (0.36, 2.75) & 0.00 & 0.99995 & 1.000000\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_NUM\_LOW - NEU} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.36, 2.75)} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{0.99993} & \cellcolor{gray!10}{1.000000}\\
+mistral & BIAS\_NUM\_HIGH - NEU & 1.00 & (0.36, 2.75) & 0.00 & 0.99999 & 1.000000\\
+\bottomrule
+\end{tabular}
+\end{table}

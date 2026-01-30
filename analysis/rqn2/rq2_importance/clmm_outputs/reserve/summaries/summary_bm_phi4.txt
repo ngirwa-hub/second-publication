@@ -1,0 +1,125 @@
+=== CLMM SUMMARY — base_model: phi4 ===
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: rating ~ condition + condition:dc_solution + (1 | pair_id) +  
+    (1 | dc_solution)
+data:    d_bm
+
+ link  threshold nobs logLik   AIC     niter      max.grad cond.H
+ logit flexible  6600 -1719.71 3487.42 2816(8451) 2.29e-03 NaN   
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ pair_id     (Intercept) 2.045    1.43    
+ dc_solution (Intercept) 0.000    0.00    
+Number of groups:  pair_id 3300,  dc_solution 11 
+
+Coefficients:
+                                                                    Estimate
+conditionCONTEXT                                                    0.191517
+conditionZEROSHOT:dc_solutionDC connectors                        -25.101848
+conditionCONTEXT:dc_solutionDC connectors                         -25.293369
+conditionZEROSHOT:dc_solutionDC measurement device                -28.119739
+conditionCONTEXT:dc_solutionDC measurement device                 -25.559054
+conditionZEROSHOT:dc_solutionDC solution design tool              -24.004678
+conditionCONTEXT:dc_solutionDC solution design tool                 0.001075
+conditionZEROSHOT:dc_solutionLVAC-LVDC interlink converter        -28.449112
+conditionCONTEXT:dc_solutionLVAC-LVDC interlink converter         -26.605763
+conditionZEROSHOT:dc_solutionNetwork design tool for DC solutions -24.546093
+conditionCONTEXT:dc_solutionNetwork design tool for DC solutions  -23.535611
+conditionZEROSHOT:dc_solutionProtection DC system design tool     -25.457449
+conditionCONTEXT:dc_solutionProtection DC system design tool      -23.071672
+conditionZEROSHOT:dc_solutionSemiconductor-based circuit breaker  -24.948357
+conditionCONTEXT:dc_solutionSemiconductor-based circuit breaker     0.001075
+conditionZEROSHOT:dc_solutionSmart and sustainable DC cables      -24.355984
+conditionCONTEXT:dc_solutionSmart and sustainable DC cables         0.001075
+conditionZEROSHOT:dc_solutionSolid-state circuit breaker          -23.150710
+conditionCONTEXT:dc_solutionSolid-state circuit breaker             0.001075
+conditionZEROSHOT:dc_solutionStatic protection system             -27.196717
+conditionCONTEXT:dc_solutionStatic protection system                0.001075
+                                                                  Std. Error
+conditionCONTEXT                                                         NaN
+conditionZEROSHOT:dc_solutionDC connectors                               NaN
+conditionCONTEXT:dc_solutionDC connectors                                NaN
+conditionZEROSHOT:dc_solutionDC measurement device                       NaN
+conditionCONTEXT:dc_solutionDC measurement device                        NaN
+conditionZEROSHOT:dc_solutionDC solution design tool                     NaN
+conditionCONTEXT:dc_solutionDC solution design tool                      NaN
+conditionZEROSHOT:dc_solutionLVAC-LVDC interlink converter               NaN
+conditionCONTEXT:dc_solutionLVAC-LVDC interlink converter                NaN
+conditionZEROSHOT:dc_solutionNetwork design tool for DC solutions        NaN
+conditionCONTEXT:dc_solutionNetwork design tool for DC solutions         NaN
+conditionZEROSHOT:dc_solutionProtection DC system design tool            NaN
+conditionCONTEXT:dc_solutionProtection DC system design tool             NaN
+conditionZEROSHOT:dc_solutionSemiconductor-based circuit breaker         NaN
+conditionCONTEXT:dc_solutionSemiconductor-based circuit breaker          NaN
+conditionZEROSHOT:dc_solutionSmart and sustainable DC cables             NaN
+conditionCONTEXT:dc_solutionSmart and sustainable DC cables              NaN
+conditionZEROSHOT:dc_solutionSolid-state circuit breaker                 NaN
+conditionCONTEXT:dc_solutionSolid-state circuit breaker                  NaN
+conditionZEROSHOT:dc_solutionStatic protection system                    NaN
+conditionCONTEXT:dc_solutionStatic protection system                     NaN
+                                                                  z value
+conditionCONTEXT                                                      NaN
+conditionZEROSHOT:dc_solutionDC connectors                            NaN
+conditionCONTEXT:dc_solutionDC connectors                             NaN
+conditionZEROSHOT:dc_solutionDC measurement device                    NaN
+conditionCONTEXT:dc_solutionDC measurement device                     NaN
+conditionZEROSHOT:dc_solutionDC solution design tool                  NaN
+conditionCONTEXT:dc_solutionDC solution design tool                   NaN
+conditionZEROSHOT:dc_solutionLVAC-LVDC interlink converter            NaN
+conditionCONTEXT:dc_solutionLVAC-LVDC interlink converter             NaN
+conditionZEROSHOT:dc_solutionNetwork design tool for DC solutions     NaN
+conditionCONTEXT:dc_solutionNetwork design tool for DC solutions      NaN
+conditionZEROSHOT:dc_solutionProtection DC system design tool         NaN
+conditionCONTEXT:dc_solutionProtection DC system design tool          NaN
+conditionZEROSHOT:dc_solutionSemiconductor-based circuit breaker      NaN
+conditionCONTEXT:dc_solutionSemiconductor-based circuit breaker       NaN
+conditionZEROSHOT:dc_solutionSmart and sustainable DC cables          NaN
+conditionCONTEXT:dc_solutionSmart and sustainable DC cables           NaN
+conditionZEROSHOT:dc_solutionSolid-state circuit breaker              NaN
+conditionCONTEXT:dc_solutionSolid-state circuit breaker               NaN
+conditionZEROSHOT:dc_solutionStatic protection system                 NaN
+conditionCONTEXT:dc_solutionStatic protection system                  NaN
+                                                                  Pr(>|z|)
+conditionCONTEXT                                                       NaN
+conditionZEROSHOT:dc_solutionDC connectors                             NaN
+conditionCONTEXT:dc_solutionDC connectors                              NaN
+conditionZEROSHOT:dc_solutionDC measurement device                     NaN
+conditionCONTEXT:dc_solutionDC measurement device                      NaN
+conditionZEROSHOT:dc_solutionDC solution design tool                   NaN
+conditionCONTEXT:dc_solutionDC solution design tool                    NaN
+conditionZEROSHOT:dc_solutionLVAC-LVDC interlink converter             NaN
+conditionCONTEXT:dc_solutionLVAC-LVDC interlink converter              NaN
+conditionZEROSHOT:dc_solutionNetwork design tool for DC solutions      NaN
+conditionCONTEXT:dc_solutionNetwork design tool for DC solutions       NaN
+conditionZEROSHOT:dc_solutionProtection DC system design tool          NaN
+conditionCONTEXT:dc_solutionProtection DC system design tool           NaN
+conditionZEROSHOT:dc_solutionSemiconductor-based circuit breaker       NaN
+conditionCONTEXT:dc_solutionSemiconductor-based circuit breaker        NaN
+conditionZEROSHOT:dc_solutionSmart and sustainable DC cables           NaN
+conditionCONTEXT:dc_solutionSmart and sustainable DC cables            NaN
+conditionZEROSHOT:dc_solutionSolid-state circuit breaker               NaN
+conditionCONTEXT:dc_solutionSolid-state circuit breaker                NaN
+conditionZEROSHOT:dc_solutionStatic protection system                  NaN
+conditionCONTEXT:dc_solutionStatic protection system                   NaN
+
+Threshold coefficients:
+    Estimate Std. Error z value
+3|4   -27.64        NaN     NaN
+
+=== VarCorr ===
+$pair_id
+            (Intercept)
+(Intercept)    2.045214
+attr(,"stddev")
+(Intercept) 
+    1.43011 
+
+$dc_solution
+            (Intercept)
+(Intercept)           0
+attr(,"stddev")
+(Intercept) 
+          0 
+

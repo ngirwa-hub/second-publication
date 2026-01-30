@@ -1,0 +1,62 @@
+=== IMPORTANCE CLMM (multi-arm) ===
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: rating ~ condition5 * base_model + (1 | pair_id) + (1 | dc_solution)
+data:    df
+
+ link  threshold nobs  logLik   AIC      niter       max.grad cond.H 
+ logit flexible  23760 -8797.32 17638.65 4168(37073) 3.03e-03 2.5e+02
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ pair_id     (Intercept) 2.268    1.506   
+ dc_solution (Intercept) 3.821    1.955   
+Number of groups:  pair_id 13200,  dc_solution 11 
+
+Coefficients:
+                                            Estimate Std. Error z value
+condition5ANCHOR_WORD                        0.54277    0.18834   2.882
+condition5ANCHOR_EXAMPLE                     0.03560    0.17913   0.199
+condition5ANCHOR_LOW_NUM                    -0.50770    0.17101  -2.969
+condition5ANCHOR_HIGH_NUM                   -0.65400    0.16894  -3.871
+base_modelllama                             -3.10210    0.11039 -28.101
+base_modelmistral                           -1.51933    0.09836 -15.447
+base_modelphi4                               1.99494    0.12397  16.092
+condition5ANCHOR_WORD:base_modelllama       -0.21138    0.22277  -0.949
+condition5ANCHOR_EXAMPLE:base_modelllama    -0.34645    0.21555  -1.607
+condition5ANCHOR_LOW_NUM:base_modelllama     0.69149    0.20849   3.317
+condition5ANCHOR_HIGH_NUM:base_modelllama    1.27291    0.20757   6.132
+condition5ANCHOR_WORD:base_modelmistral     -1.54683    0.23475  -6.589
+condition5ANCHOR_EXAMPLE:base_modelmistral  -0.33186    0.22609  -1.468
+condition5ANCHOR_LOW_NUM:base_modelmistral  -1.62887    0.22164  -7.349
+condition5ANCHOR_HIGH_NUM:base_modelmistral  0.11534    0.21677   0.532
+condition5ANCHOR_WORD:base_modelphi4         1.82566    0.51970   3.513
+condition5ANCHOR_EXAMPLE:base_modelphi4      0.02375    0.29488   0.081
+condition5ANCHOR_LOW_NUM:base_modelphi4     -0.48817    0.25709  -1.899
+condition5ANCHOR_HIGH_NUM:base_modelphi4     0.93304    0.29849   3.126
+                                            Pr(>|z|)    
+condition5ANCHOR_WORD                       0.003953 ** 
+condition5ANCHOR_EXAMPLE                    0.842466    
+condition5ANCHOR_LOW_NUM                    0.002989 ** 
+condition5ANCHOR_HIGH_NUM                   0.000108 ***
+base_modelllama                              < 2e-16 ***
+base_modelmistral                            < 2e-16 ***
+base_modelphi4                               < 2e-16 ***
+condition5ANCHOR_WORD:base_modelllama       0.342702    
+condition5ANCHOR_EXAMPLE:base_modelllama    0.107997    
+condition5ANCHOR_LOW_NUM:base_modelllama    0.000911 ***
+condition5ANCHOR_HIGH_NUM:base_modelllama   8.66e-10 ***
+condition5ANCHOR_WORD:base_modelmistral     4.42e-11 ***
+condition5ANCHOR_EXAMPLE:base_modelmistral  0.142149    
+condition5ANCHOR_LOW_NUM:base_modelmistral  2.00e-13 ***
+condition5ANCHOR_HIGH_NUM:base_modelmistral 0.594656    
+condition5ANCHOR_WORD:base_modelphi4        0.000443 ***
+condition5ANCHOR_EXAMPLE:base_modelphi4     0.935796    
+condition5ANCHOR_LOW_NUM:base_modelphi4     0.057588 .  
+condition5ANCHOR_HIGH_NUM:base_modelphi4    0.001773 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+3|4  -2.8886     0.5971  -4.837

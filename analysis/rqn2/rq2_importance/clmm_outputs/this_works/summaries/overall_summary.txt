@@ -1,0 +1,49 @@
+=== OVERALL CLMM SUMMARY ===
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: rating ~ condition + base_model + condition:base_model + (1 |  
+    pair_id) + (1 | dc_solution)
+data:    df
+
+ link  threshold nobs  logLik    AIC      niter      max.grad cond.H 
+ logit flexible  26400 -14420.72 28865.44 2178(6550) 2.87e-03 2.9e+02
+
+Random effects:
+ Groups      Name        Variance  Std.Dev. 
+ pair_id     (Intercept) 2.682e-11 5.179e-06
+ dc_solution (Intercept) 3.839e-01 6.196e-01
+Number of groups:  pair_id 13200,  dc_solution 11 
+
+Coefficients:
+                                   Estimate Std. Error z value Pr(>|z|)    
+conditionCONTEXT                    0.94528    0.06012  15.723  < 2e-16 ***
+base_modelllama                    -2.06886    0.05781 -35.788  < 2e-16 ***
+base_modelmistral                  -0.99223    0.05292 -18.751  < 2e-16 ***
+base_modelphi4                      0.82019    0.05895  13.914  < 2e-16 ***
+conditionCONTEXT:base_modelllama    0.41510    0.08192   5.067 4.04e-07 ***
+conditionCONTEXT:base_modelmistral  0.15651    0.07990   1.959   0.0501 .  
+conditionCONTEXT:base_modelphi4     0.59703    0.10633   5.615 1.97e-08 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -8.4594     0.3374 -25.076
+2|3  -5.9885     0.2085 -28.721
+3|4  -0.6133     0.1907  -3.215
+
+=== VarCorr ===
+$pair_id
+             (Intercept)
+(Intercept) 2.681932e-11
+attr(,"stddev")
+ (Intercept) 
+5.178738e-06 
+
+$dc_solution
+            (Intercept)
+(Intercept)    0.383906
+attr(,"stddev")
+(Intercept) 
+  0.6196015 
+

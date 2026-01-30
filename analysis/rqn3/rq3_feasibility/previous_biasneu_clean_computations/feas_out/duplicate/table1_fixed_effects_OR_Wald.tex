@@ -1,0 +1,33 @@
+\begin{table}[!h]
+\centering
+\caption{Fixed effects as odds ratios (Wald 95\% CI)}
+\centering
+\begin{tabular}[t]{lrrrlrl}
+\toprule
+term & Estimate (log-odds) & SE & OR & 95\% CI & z & p\\
+\midrule
+\cellcolor{gray!10}{1|2} & \cellcolor{gray!10}{-5.811} & \cellcolor{gray!10}{0.504} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{(0, 0.01)} & \cellcolor{gray!10}{-11.54} & \cellcolor{gray!10}{<1e-04}\\
+2|3 & -3.589 & 0.274 & 0.03 & (0.02, 0.05) & -13.07 & <1e-04\\
+\cellcolor{gray!10}{3|4} & \cellcolor{gray!10}{3.589} & \cellcolor{gray!10}{0.274} & \cellcolor{gray!10}{36.18} & \cellcolor{gray!10}{(21.13, 61.96)} & \cellcolor{gray!10}{13.07} & \cellcolor{gray!10}{<1e-04}\\
+scenarioBIAS\_WORD & 0.000 & 0.617 & 1.00 & (0.3, 3.35) & 0.00 & 0.9999\\
+\cellcolor{gray!10}{scenarioBIAS\_EXAMPLE} & \cellcolor{gray!10}{0.000} & \cellcolor{gray!10}{0.617} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.3, 3.35)} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{0.9999}\\
+scenarioBIAS\_NUM\_LOW & 0.000 & 0.617 & 1.00 & (0.3, 3.35) & 0.00 & 0.9999\\
+\cellcolor{gray!10}{scenarioBIAS\_NUM\_HIGH} & \cellcolor{gray!10}{0.000} & \cellcolor{gray!10}{0.617} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.3, 3.35)} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{0.9999}\\
+base\_modelllama-pro & 1.824 & 0.323 & 6.19 & (3.29, 11.67) & 5.64 & <1e-04\\
+\cellcolor{gray!10}{base\_modelmistral} & \cellcolor{gray!10}{0.000} & \cellcolor{gray!10}{0.360} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.49, 2.02)} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{1.0000}\\
+base\_modelgemma3-12b & 0.000 & 0.360 & 1.00 & (0.49, 2.02) & 0.00 & 1.0000\\
+\cellcolor{gray!10}{scenarioBIAS\_WORD:base\_modelllama-pro} & \cellcolor{gray!10}{1.319} & \cellcolor{gray!10}{0.694} & \cellcolor{gray!10}{3.74} & \cellcolor{gray!10}{(0.96, 14.56)} & \cellcolor{gray!10}{1.90} & \cellcolor{gray!10}{0.0573}\\
+scenarioBIAS\_EXAMPLE:base\_modelllama-pro & 1.048 & 0.702 & 2.85 & (0.72, 11.28) & 1.49 & 0.1354\\
+\cellcolor{gray!10}{scenarioBIAS\_NUM\_LOW:base\_modelllama-pro} & \cellcolor{gray!10}{0.854} & \cellcolor{gray!10}{0.705} & \cellcolor{gray!10}{2.35} & \cellcolor{gray!10}{(0.59, 9.35)} & \cellcolor{gray!10}{1.21} & \cellcolor{gray!10}{0.2258}\\
+scenarioBIAS\_NUM\_HIGH:base\_modelllama-pro & 1.418 & 0.694 & 4.13 & (1.06, 16.08) & 2.04 & 0.0410\\
+\cellcolor{gray!10}{scenarioBIAS\_WORD:base\_modelmistral} & \cellcolor{gray!10}{0.307} & \cellcolor{gray!10}{0.867} & \cellcolor{gray!10}{1.36} & \cellcolor{gray!10}{(0.25, 7.44)} & \cellcolor{gray!10}{0.35} & \cellcolor{gray!10}{0.7233}\\
+scenarioBIAS\_EXAMPLE:base\_modelmistral & 0.000 & 0.873 & 1.00 & (0.18, 5.53) & 0.00 & 1.0000\\
+\cellcolor{gray!10}{scenarioBIAS\_NUM\_LOW:base\_modelmistral} & \cellcolor{gray!10}{0.000} & \cellcolor{gray!10}{0.873} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.18, 5.53)} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{1.0000}\\
+scenarioBIAS\_NUM\_HIGH:base\_modelmistral & 0.000 & 0.873 & 1.00 & (0.18, 5.53) & 0.00 & 1.0000\\
+\cellcolor{gray!10}{scenarioBIAS\_WORD:base\_modelgemma3-12b} & \cellcolor{gray!10}{0.000} & \cellcolor{gray!10}{0.873} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.18, 5.53)} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{1.0000}\\
+scenarioBIAS\_EXAMPLE:base\_modelgemma3-12b & 0.000 & 0.873 & 1.00 & (0.18, 5.53) & 0.00 & 1.0000\\
+\cellcolor{gray!10}{scenarioBIAS\_NUM\_LOW:base\_modelgemma3-12b} & \cellcolor{gray!10}{0.000} & \cellcolor{gray!10}{0.873} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.18, 5.53)} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{1.0000}\\
+scenarioBIAS\_NUM\_HIGH:base\_modelgemma3-12b & 0.000 & 0.873 & 1.00 & (0.18, 5.53) & 0.00 & 1.0000\\
+\bottomrule
+\end{tabular}
+\end{table}

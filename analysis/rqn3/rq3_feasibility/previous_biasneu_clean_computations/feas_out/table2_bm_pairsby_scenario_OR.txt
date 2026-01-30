@@ -1,0 +1,8 @@
+Base model pairwise comparisons within each scenario (OR, 95% CI)
+
+      scenario              contrast    OR        95% CI    p
+           NEU (llama-pro) - mistral  2.80  (1.73, 4.51) <NA>
+     BIAS_WORD (llama-pro) - mistral  8.20 (3.29, 20.41) <NA>
+  BIAS_EXAMPLE (llama-pro) - mistral  7.17 (2.81, 18.26) <NA>
+  BIAS_NUM_LOW (llama-pro) - mistral  5.96 (2.33, 15.28) <NA>
+ BIAS_NUM_HIGH (llama-pro) - mistral 10.27 (4.11, 25.67) <NA>

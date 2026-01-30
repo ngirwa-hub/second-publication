@@ -1,0 +1,32 @@
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: rating_ord ~ scenario + base_model + (1 | id_key)
+data:    feas_llm
+
+ link  threshold nobs logLik  AIC     niter      max.grad cond.H 
+ logit flexible  2160 -697.10 1420.19 1142(2349) 2.07e-04 4.9e+02
+
+Random effects:
+ Groups Name        Variance Std.Dev.
+ id_key (Intercept) 0.007639 0.0874  
+Number of groups:  id_key 24 
+
+Coefficients:
+                      Estimate Std. Error z value Pr(>|z|)    
+scenarioBIAS_WORD      0.16121    0.32215   0.500    0.617    
+scenarioBIAS_EXAMPLE  -0.03921    0.32482  -0.121    0.904    
+scenarioBIAS_NUM_LOW  -0.14587    0.32478  -0.449    0.653    
+scenarioBIAS_NUM_HIGH  0.17836    0.32216   0.554    0.580    
+base_modelgemma3-12b   0.03855    0.46239   0.083    0.934    
+base_modelllama        2.99140    0.33308   8.981  < 2e-16 ***
+base_modelllama-pro    1.86430    0.43810   4.255 2.09e-05 ***
+base_modelmistral      0.05576    0.37225   0.150    0.881    
+base_modelphi4         0.02134    0.37220   0.057    0.954    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -5.7747     0.5827  -9.910
+2|3  -3.5522     0.4016  -8.845
+3|4   3.6293     0.4035   8.994

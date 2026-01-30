@@ -1,0 +1,74 @@
+library(tidyverse)
+library(scales)
+
+# --- data
+df <- tribble(
+  ~condition, ~base_model, ~prob_geq,
+  "ZEROSHOT", "gemma3",   0.040972961,
+  "CONTEXT",  "gemma3",   0.040972919,
+  "ZEROSHOT", "llama",    0.019478279,
+  "CONTEXT",  "llama",    0.151536103,
+  "ZEROSHOT", "mistral",  0.04097288,
+  "CONTEXT",  "mistral",  0.04097292,
+  "ZEROSHOT", "phi4",     0.118620282,
+  "CONTEXT",  "phi4",     0.04097292
+)
+
+label_map <- c("phi4"="Phi4","gemma3"="Gemma3:12B","llama"="LLaMa-Pro","mistral"="Mistral")
+
+# --- prep
+wide <- df %>%
+  mutate(
+    condition  = str_to_lower(condition),
+    base_model = recode(base_model, !!!label_map)
+  ) %>%
+  group_by(base_model, condition) %>%
+  summarise(prob = mean(prob_geq), .groups = "drop") %>%
+  pivot_wider(names_from = condition, values_from = prob) %>%
+  drop_na(zeroshot, context) %>%
+  mutate(
+    delta = context - zeroshot,
+    mid   = (context + zeroshot) / 2,
+    base_model = fct_reorder(base_model, delta)
+  )
+
+long <- wide %>%
+  pivot_longer(c(zeroshot, context), names_to = "condition", values_to = "prob") %>%
+  # IMPORTANT: match lowercase levels from pivot_longer
+  mutate(condition = factor(condition,
+                            levels = c("zeroshot","context"),
+                            labels = c("Zero-shot","Context")))
+
+pal <- c("Zero-shot" = "#d95f02", "Context" = "#1b9e77")
+
+# --- plot
+p <- ggplot() +
+  geom_segment(
+    data = wide,
+    aes(y = base_model, yend = base_model, x = zeroshot, xend = context),
+    linewidth = 2, color = "grey75"
+  ) +
+  geom_point(
+    data = long,
+    aes(x = prob, y = base_model, shape = condition, color = condition),
+    size = 3
+  ) +
+  scale_shape_manual(values = c("Zero-shot"=16, "Context"=17), name = NULL) +
+  scale_color_manual(values = pal, name = NULL) +
+  geom_text(
+    data = wide,
+    aes(x = mid, y = base_model, label = sprintf("%.3f", delta)),
+    vjust = -0.6, size = 3.5
+  ) +
+  scale_x_continuous(labels = function(x) sprintf("%.3f", x)) +
+  labs(
+    title = "Feasibility Question: Context vs Zero-shot (Probability ≥ 3)",
+    x = "Probability",
+    y = "Model"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank(),
+        plot.title = element_text(hjust = 0.5))
+
+p
+ggsave("rq2_feas_dumbbell.png", p, width = 8, height = 5, dpi = 300)

@@ -1,0 +1,74 @@
+# R/02_load_clean.R — read + coerce types + save RDS
+
+suppressPackageStartupMessages({
+  library(readr); library(dplyr); library(forcats); library(stringr)
+})
+
+in_csv <- "../feasibility_biasneu_0314hrs.csv"
+outdir <- "feas_out"
+dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
+
+message("Reading: ", normalizePath(in_csv, mustWork = TRUE))
+feas <- read_csv(in_csv, show_col_types = FALSE)
+
+# ensure columns exist
+need_cols <- c("base_model","model","variant_id","iteration",
+               "condition","bias_type","anchor_level","rating","label",
+               "scenario","id_key")
+for (nm in need_cols) if (!nm %in% names(feas)) feas[[nm]] <- NA
+
+# helper: map old labels to new
+to_anchor <- function(x) {
+  x <- toupper(as.character(x))
+  dplyr::recode(x,
+    "NEU"           = "CONTEXT",
+    "BIAS_WORD"     = "ANCHOR_WORD",
+    "BIAS_EXAMPLE"  = "ANCHOR_EXAMPLE",
+    "BIAS_NUM_LOW"  = "ANCHOR_NUM_LOW",
+    "BIAS_NUM_HIGH" = "ANCHOR_NUM_HIGH",
+    .default = x
+  )
+}
+
+allowed_new <- c("CONTEXT","ANCHOR_WORD","ANCHOR_EXAMPLE","ANCHOR_NUM_LOW","ANCHOR_NUM_HIGH")
+
+feas <- feas %>%
+  mutate(
+    # base types
+    rating     = as.integer(rating),
+    base_model = as.character(base_model),
+    condition  = to_anchor(condition),
+    bias_type  = to_anchor(bias_type),
+    scenario   = to_anchor(scenario),
+
+    # rebuild scenario with new naming
+    scenario = case_when(
+      !is.na(condition) & condition == "CONTEXT" ~ "CONTEXT",
+      !is.na(bias_type) & bias_type %in% allowed_new ~ bias_type,
+      !is.na(scenario)  & scenario  %in% allowed_new ~ scenario,
+      TRUE ~ NA_character_
+    ),
+    scenario = factor(scenario, levels = allowed_new),
+
+    # id for random effects (LLM-only now)
+    id_key = ifelse(is.na(id_key) | id_key=="", paste0("L_", variant_id), id_key),
+
+    # ordered response
+    rating_ord = factor(rating, ordered = TRUE, levels = 0:4),
+
+    # (optional) normalize source if present
+    if ("source" %in% names(feas)) feas$source <- NULL
+
+  )
+
+# Echo checks
+message("Unique base_model (as seen IN DATA):")
+print(sort(unique(feas$base_model)))
+message("Counts by scenario:")
+print(table(feas$scenario, useNA = "ifany"))
+
+# Save cleaned objects
+saveRDS(feas, file = file.path(outdir, "feas_clean.rds"))
+write_csv(feas, file.path(outdir, "feas_clean_echo.csv"))
+message("✅ Wrote: ", file.path(outdir, "feas_clean.rds"))
+message("✅ Wrote: ", file.path(outdir, "feas_clean_echo.csv"))

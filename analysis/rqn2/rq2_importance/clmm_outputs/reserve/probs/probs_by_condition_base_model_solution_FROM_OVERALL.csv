@@ -1,0 +1,353 @@
+category,prob,condition,base_model,dc_solution
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,DC-DC converter
+1,0.002289236631372398,ZEROSHOT,gemma3,DC-DC converter
+2,0.34880663663891054,ZEROSHOT,gemma3,DC-DC converter
+3,0.6486922798884104,ZEROSHOT,gemma3,DC-DC converter
+0,8.232804166790916e-5,CONTEXT,gemma3,DC-DC converter
+1,8.910070209687238e-4,CONTEXT,gemma3,DC-DC converter
+2,0.17287756147461325,CONTEXT,gemma3,DC-DC converter
+3,0.8261491034627502,CONTEXT,gemma3,DC-DC converter
+0,0.001674478151049092,ZEROSHOT,llama,DC-DC converter
+1,0.017786907536226967,ZEROSHOT,llama,DC-DC converter
+2,0.7913914725559267,ZEROSHOT,llama,DC-DC converter
+3,0.18914714175679725,ZEROSHOT,llama,DC-DC converter
+0,4.301457099212289e-4,CONTEXT,llama,DC-DC converter
+1,0.0046362405447646915,CONTEXT,llama,DC-DC converter
+2,0.5187113869765403,CONTEXT,llama,DC-DC converter
+3,0.4762222267687738,CONTEXT,llama,DC-DC converter
+0,5.711975786151467e-4,ZEROSHOT,mistral,DC-DC converter
+1,0.0061463232023591784,ZEROSHOT,mistral,DC-DC converter
+2,0.5868987329584763,ZEROSHOT,mistral,DC-DC converter
+3,0.4063837462605494,ZEROSHOT,mistral,DC-DC converter
+0,1.898682077120253e-4,CONTEXT,mistral,DC-DC converter
+1,0.00205226610343809,CONTEXT,mistral,DC-DC converter
+2,0.3245232851785054,CONTEXT,mistral,DC-DC converter
+3,0.6732345805103445,CONTEXT,mistral,DC-DC converter
+0,9.329711549125677e-5,ZEROSHOT,phi4,DC-DC converter
+1,0.0010095904538933304,ZEROSHOT,phi4,DC-DC converter
+2,0.19145277257129686,ZEROSHOT,phi4,DC-DC converter
+3,0.8074443398593185,ZEROSHOT,phi4,DC-DC converter
+0,1.9956341894700705e-5,CONTEXT,phi4,DC-DC converter
+1,2.1613975233728016e-4,CONTEXT,phi4,DC-DC converter
+2,0.04829489999418609,CONTEXT,phi4,DC-DC converter
+3,0.951469003911582,CONTEXT,phi4,DC-DC converter
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,DC connectors
+1,0.002289236631372398,ZEROSHOT,gemma3,DC connectors
+2,0.34880663663891054,ZEROSHOT,gemma3,DC connectors
+3,0.6486922798884104,ZEROSHOT,gemma3,DC connectors
+0,8.232804166790916e-5,CONTEXT,gemma3,DC connectors
+1,8.910070209687238e-4,CONTEXT,gemma3,DC connectors
+2,0.17287756147461325,CONTEXT,gemma3,DC connectors
+3,0.8261491034627502,CONTEXT,gemma3,DC connectors
+0,0.001674478151049092,ZEROSHOT,llama,DC connectors
+1,0.017786907536226967,ZEROSHOT,llama,DC connectors
+2,0.7913914725559267,ZEROSHOT,llama,DC connectors
+3,0.18914714175679725,ZEROSHOT,llama,DC connectors
+0,4.301457099212289e-4,CONTEXT,llama,DC connectors
+1,0.0046362405447646915,CONTEXT,llama,DC connectors
+2,0.5187113869765403,CONTEXT,llama,DC connectors
+3,0.4762222267687738,CONTEXT,llama,DC connectors
+0,5.711975786151467e-4,ZEROSHOT,mistral,DC connectors
+1,0.0061463232023591784,ZEROSHOT,mistral,DC connectors
+2,0.5868987329584763,ZEROSHOT,mistral,DC connectors
+3,0.4063837462605494,ZEROSHOT,mistral,DC connectors
+0,1.898682077120253e-4,CONTEXT,mistral,DC connectors
+1,0.00205226610343809,CONTEXT,mistral,DC connectors
+2,0.3245232851785054,CONTEXT,mistral,DC connectors
+3,0.6732345805103445,CONTEXT,mistral,DC connectors
+0,9.329711549125677e-5,ZEROSHOT,phi4,DC connectors
+1,0.0010095904538933304,ZEROSHOT,phi4,DC connectors
+2,0.19145277257129686,ZEROSHOT,phi4,DC connectors
+3,0.8074443398593185,ZEROSHOT,phi4,DC connectors
+0,1.9956341894700705e-5,CONTEXT,phi4,DC connectors
+1,2.1613975233728016e-4,CONTEXT,phi4,DC connectors
+2,0.04829489999418609,CONTEXT,phi4,DC connectors
+3,0.951469003911582,CONTEXT,phi4,DC connectors
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,DC measurement device
+1,0.002289236631372398,ZEROSHOT,gemma3,DC measurement device
+2,0.34880663663891054,ZEROSHOT,gemma3,DC measurement device
+3,0.6486922798884104,ZEROSHOT,gemma3,DC measurement device
+0,8.232804166790916e-5,CONTEXT,gemma3,DC measurement device
+1,8.910070209687238e-4,CONTEXT,gemma3,DC measurement device
+2,0.17287756147461325,CONTEXT,gemma3,DC measurement device
+3,0.8261491034627502,CONTEXT,gemma3,DC measurement device
+0,0.001674478151049092,ZEROSHOT,llama,DC measurement device
+1,0.017786907536226967,ZEROSHOT,llama,DC measurement device
+2,0.7913914725559267,ZEROSHOT,llama,DC measurement device
+3,0.18914714175679725,ZEROSHOT,llama,DC measurement device
+0,4.301457099212289e-4,CONTEXT,llama,DC measurement device
+1,0.0046362405447646915,CONTEXT,llama,DC measurement device
+2,0.5187113869765403,CONTEXT,llama,DC measurement device
+3,0.4762222267687738,CONTEXT,llama,DC measurement device
+0,5.711975786151467e-4,ZEROSHOT,mistral,DC measurement device
+1,0.0061463232023591784,ZEROSHOT,mistral,DC measurement device
+2,0.5868987329584763,ZEROSHOT,mistral,DC measurement device
+3,0.4063837462605494,ZEROSHOT,mistral,DC measurement device
+0,1.898682077120253e-4,CONTEXT,mistral,DC measurement device
+1,0.00205226610343809,CONTEXT,mistral,DC measurement device
+2,0.3245232851785054,CONTEXT,mistral,DC measurement device
+3,0.6732345805103445,CONTEXT,mistral,DC measurement device
+0,9.329711549125677e-5,ZEROSHOT,phi4,DC measurement device
+1,0.0010095904538933304,ZEROSHOT,phi4,DC measurement device
+2,0.19145277257129686,ZEROSHOT,phi4,DC measurement device
+3,0.8074443398593185,ZEROSHOT,phi4,DC measurement device
+0,1.9956341894700705e-5,CONTEXT,phi4,DC measurement device
+1,2.1613975233728016e-4,CONTEXT,phi4,DC measurement device
+2,0.04829489999418609,CONTEXT,phi4,DC measurement device
+3,0.951469003911582,CONTEXT,phi4,DC measurement device
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,DC solution design tool
+1,0.002289236631372398,ZEROSHOT,gemma3,DC solution design tool
+2,0.34880663663891054,ZEROSHOT,gemma3,DC solution design tool
+3,0.6486922798884104,ZEROSHOT,gemma3,DC solution design tool
+0,8.232804166790916e-5,CONTEXT,gemma3,DC solution design tool
+1,8.910070209687238e-4,CONTEXT,gemma3,DC solution design tool
+2,0.17287756147461325,CONTEXT,gemma3,DC solution design tool
+3,0.8261491034627502,CONTEXT,gemma3,DC solution design tool
+0,0.001674478151049092,ZEROSHOT,llama,DC solution design tool
+1,0.017786907536226967,ZEROSHOT,llama,DC solution design tool
+2,0.7913914725559267,ZEROSHOT,llama,DC solution design tool
+3,0.18914714175679725,ZEROSHOT,llama,DC solution design tool
+0,4.301457099212289e-4,CONTEXT,llama,DC solution design tool
+1,0.0046362405447646915,CONTEXT,llama,DC solution design tool
+2,0.5187113869765403,CONTEXT,llama,DC solution design tool
+3,0.4762222267687738,CONTEXT,llama,DC solution design tool
+0,5.711975786151467e-4,ZEROSHOT,mistral,DC solution design tool
+1,0.0061463232023591784,ZEROSHOT,mistral,DC solution design tool
+2,0.5868987329584763,ZEROSHOT,mistral,DC solution design tool
+3,0.4063837462605494,ZEROSHOT,mistral,DC solution design tool
+0,1.898682077120253e-4,CONTEXT,mistral,DC solution design tool
+1,0.00205226610343809,CONTEXT,mistral,DC solution design tool
+2,0.3245232851785054,CONTEXT,mistral,DC solution design tool
+3,0.6732345805103445,CONTEXT,mistral,DC solution design tool
+0,9.329711549125677e-5,ZEROSHOT,phi4,DC solution design tool
+1,0.0010095904538933304,ZEROSHOT,phi4,DC solution design tool
+2,0.19145277257129686,ZEROSHOT,phi4,DC solution design tool
+3,0.8074443398593185,ZEROSHOT,phi4,DC solution design tool
+0,1.9956341894700705e-5,CONTEXT,phi4,DC solution design tool
+1,2.1613975233728016e-4,CONTEXT,phi4,DC solution design tool
+2,0.04829489999418609,CONTEXT,phi4,DC solution design tool
+3,0.951469003911582,CONTEXT,phi4,DC solution design tool
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,LVAC-LVDC interlink converter
+1,0.002289236631372398,ZEROSHOT,gemma3,LVAC-LVDC interlink converter
+2,0.34880663663891054,ZEROSHOT,gemma3,LVAC-LVDC interlink converter
+3,0.6486922798884104,ZEROSHOT,gemma3,LVAC-LVDC interlink converter
+0,8.232804166790916e-5,CONTEXT,gemma3,LVAC-LVDC interlink converter
+1,8.910070209687238e-4,CONTEXT,gemma3,LVAC-LVDC interlink converter
+2,0.17287756147461325,CONTEXT,gemma3,LVAC-LVDC interlink converter
+3,0.8261491034627502,CONTEXT,gemma3,LVAC-LVDC interlink converter
+0,0.001674478151049092,ZEROSHOT,llama,LVAC-LVDC interlink converter
+1,0.017786907536226967,ZEROSHOT,llama,LVAC-LVDC interlink converter
+2,0.7913914725559267,ZEROSHOT,llama,LVAC-LVDC interlink converter
+3,0.18914714175679725,ZEROSHOT,llama,LVAC-LVDC interlink converter
+0,4.301457099212289e-4,CONTEXT,llama,LVAC-LVDC interlink converter
+1,0.0046362405447646915,CONTEXT,llama,LVAC-LVDC interlink converter
+2,0.5187113869765403,CONTEXT,llama,LVAC-LVDC interlink converter
+3,0.4762222267687738,CONTEXT,llama,LVAC-LVDC interlink converter
+0,5.711975786151467e-4,ZEROSHOT,mistral,LVAC-LVDC interlink converter
+1,0.0061463232023591784,ZEROSHOT,mistral,LVAC-LVDC interlink converter
+2,0.5868987329584763,ZEROSHOT,mistral,LVAC-LVDC interlink converter
+3,0.4063837462605494,ZEROSHOT,mistral,LVAC-LVDC interlink converter
+0,1.898682077120253e-4,CONTEXT,mistral,LVAC-LVDC interlink converter
+1,0.00205226610343809,CONTEXT,mistral,LVAC-LVDC interlink converter
+2,0.3245232851785054,CONTEXT,mistral,LVAC-LVDC interlink converter
+3,0.6732345805103445,CONTEXT,mistral,LVAC-LVDC interlink converter
+0,9.329711549125677e-5,ZEROSHOT,phi4,LVAC-LVDC interlink converter
+1,0.0010095904538933304,ZEROSHOT,phi4,LVAC-LVDC interlink converter
+2,0.19145277257129686,ZEROSHOT,phi4,LVAC-LVDC interlink converter
+3,0.8074443398593185,ZEROSHOT,phi4,LVAC-LVDC interlink converter
+0,1.9956341894700705e-5,CONTEXT,phi4,LVAC-LVDC interlink converter
+1,2.1613975233728016e-4,CONTEXT,phi4,LVAC-LVDC interlink converter
+2,0.04829489999418609,CONTEXT,phi4,LVAC-LVDC interlink converter
+3,0.951469003911582,CONTEXT,phi4,LVAC-LVDC interlink converter
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,Network design tool for DC solutions
+1,0.002289236631372398,ZEROSHOT,gemma3,Network design tool for DC solutions
+2,0.34880663663891054,ZEROSHOT,gemma3,Network design tool for DC solutions
+3,0.6486922798884104,ZEROSHOT,gemma3,Network design tool for DC solutions
+0,8.232804166790916e-5,CONTEXT,gemma3,Network design tool for DC solutions
+1,8.910070209687238e-4,CONTEXT,gemma3,Network design tool for DC solutions
+2,0.17287756147461325,CONTEXT,gemma3,Network design tool for DC solutions
+3,0.8261491034627502,CONTEXT,gemma3,Network design tool for DC solutions
+0,0.001674478151049092,ZEROSHOT,llama,Network design tool for DC solutions
+1,0.017786907536226967,ZEROSHOT,llama,Network design tool for DC solutions
+2,0.7913914725559267,ZEROSHOT,llama,Network design tool for DC solutions
+3,0.18914714175679725,ZEROSHOT,llama,Network design tool for DC solutions
+0,4.301457099212289e-4,CONTEXT,llama,Network design tool for DC solutions
+1,0.0046362405447646915,CONTEXT,llama,Network design tool for DC solutions
+2,0.5187113869765403,CONTEXT,llama,Network design tool for DC solutions
+3,0.4762222267687738,CONTEXT,llama,Network design tool for DC solutions
+0,5.711975786151467e-4,ZEROSHOT,mistral,Network design tool for DC solutions
+1,0.0061463232023591784,ZEROSHOT,mistral,Network design tool for DC solutions
+2,0.5868987329584763,ZEROSHOT,mistral,Network design tool for DC solutions
+3,0.4063837462605494,ZEROSHOT,mistral,Network design tool for DC solutions
+0,1.898682077120253e-4,CONTEXT,mistral,Network design tool for DC solutions
+1,0.00205226610343809,CONTEXT,mistral,Network design tool for DC solutions
+2,0.3245232851785054,CONTEXT,mistral,Network design tool for DC solutions
+3,0.6732345805103445,CONTEXT,mistral,Network design tool for DC solutions
+0,9.329711549125677e-5,ZEROSHOT,phi4,Network design tool for DC solutions
+1,0.0010095904538933304,ZEROSHOT,phi4,Network design tool for DC solutions
+2,0.19145277257129686,ZEROSHOT,phi4,Network design tool for DC solutions
+3,0.8074443398593185,ZEROSHOT,phi4,Network design tool for DC solutions
+0,1.9956341894700705e-5,CONTEXT,phi4,Network design tool for DC solutions
+1,2.1613975233728016e-4,CONTEXT,phi4,Network design tool for DC solutions
+2,0.04829489999418609,CONTEXT,phi4,Network design tool for DC solutions
+3,0.951469003911582,CONTEXT,phi4,Network design tool for DC solutions
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,Protection DC system design tool
+1,0.002289236631372398,ZEROSHOT,gemma3,Protection DC system design tool
+2,0.34880663663891054,ZEROSHOT,gemma3,Protection DC system design tool
+3,0.6486922798884104,ZEROSHOT,gemma3,Protection DC system design tool
+0,8.232804166790916e-5,CONTEXT,gemma3,Protection DC system design tool
+1,8.910070209687238e-4,CONTEXT,gemma3,Protection DC system design tool
+2,0.17287756147461325,CONTEXT,gemma3,Protection DC system design tool
+3,0.8261491034627502,CONTEXT,gemma3,Protection DC system design tool
+0,0.001674478151049092,ZEROSHOT,llama,Protection DC system design tool
+1,0.017786907536226967,ZEROSHOT,llama,Protection DC system design tool
+2,0.7913914725559267,ZEROSHOT,llama,Protection DC system design tool
+3,0.18914714175679725,ZEROSHOT,llama,Protection DC system design tool
+0,4.301457099212289e-4,CONTEXT,llama,Protection DC system design tool
+1,0.0046362405447646915,CONTEXT,llama,Protection DC system design tool
+2,0.5187113869765403,CONTEXT,llama,Protection DC system design tool
+3,0.4762222267687738,CONTEXT,llama,Protection DC system design tool
+0,5.711975786151467e-4,ZEROSHOT,mistral,Protection DC system design tool
+1,0.0061463232023591784,ZEROSHOT,mistral,Protection DC system design tool
+2,0.5868987329584763,ZEROSHOT,mistral,Protection DC system design tool
+3,0.4063837462605494,ZEROSHOT,mistral,Protection DC system design tool
+0,1.898682077120253e-4,CONTEXT,mistral,Protection DC system design tool
+1,0.00205226610343809,CONTEXT,mistral,Protection DC system design tool
+2,0.3245232851785054,CONTEXT,mistral,Protection DC system design tool
+3,0.6732345805103445,CONTEXT,mistral,Protection DC system design tool
+0,9.329711549125677e-5,ZEROSHOT,phi4,Protection DC system design tool
+1,0.0010095904538933304,ZEROSHOT,phi4,Protection DC system design tool
+2,0.19145277257129686,ZEROSHOT,phi4,Protection DC system design tool
+3,0.8074443398593185,ZEROSHOT,phi4,Protection DC system design tool
+0,1.9956341894700705e-5,CONTEXT,phi4,Protection DC system design tool
+1,2.1613975233728016e-4,CONTEXT,phi4,Protection DC system design tool
+2,0.04829489999418609,CONTEXT,phi4,Protection DC system design tool
+3,0.951469003911582,CONTEXT,phi4,Protection DC system design tool
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,Semiconductor-based circuit breaker
+1,0.002289236631372398,ZEROSHOT,gemma3,Semiconductor-based circuit breaker
+2,0.34880663663891054,ZEROSHOT,gemma3,Semiconductor-based circuit breaker
+3,0.6486922798884104,ZEROSHOT,gemma3,Semiconductor-based circuit breaker
+0,8.232804166790916e-5,CONTEXT,gemma3,Semiconductor-based circuit breaker
+1,8.910070209687238e-4,CONTEXT,gemma3,Semiconductor-based circuit breaker
+2,0.17287756147461325,CONTEXT,gemma3,Semiconductor-based circuit breaker
+3,0.8261491034627502,CONTEXT,gemma3,Semiconductor-based circuit breaker
+0,0.001674478151049092,ZEROSHOT,llama,Semiconductor-based circuit breaker
+1,0.017786907536226967,ZEROSHOT,llama,Semiconductor-based circuit breaker
+2,0.7913914725559267,ZEROSHOT,llama,Semiconductor-based circuit breaker
+3,0.18914714175679725,ZEROSHOT,llama,Semiconductor-based circuit breaker
+0,4.301457099212289e-4,CONTEXT,llama,Semiconductor-based circuit breaker
+1,0.0046362405447646915,CONTEXT,llama,Semiconductor-based circuit breaker
+2,0.5187113869765403,CONTEXT,llama,Semiconductor-based circuit breaker
+3,0.4762222267687738,CONTEXT,llama,Semiconductor-based circuit breaker
+0,5.711975786151467e-4,ZEROSHOT,mistral,Semiconductor-based circuit breaker
+1,0.0061463232023591784,ZEROSHOT,mistral,Semiconductor-based circuit breaker
+2,0.5868987329584763,ZEROSHOT,mistral,Semiconductor-based circuit breaker
+3,0.4063837462605494,ZEROSHOT,mistral,Semiconductor-based circuit breaker
+0,1.898682077120253e-4,CONTEXT,mistral,Semiconductor-based circuit breaker
+1,0.00205226610343809,CONTEXT,mistral,Semiconductor-based circuit breaker
+2,0.3245232851785054,CONTEXT,mistral,Semiconductor-based circuit breaker
+3,0.6732345805103445,CONTEXT,mistral,Semiconductor-based circuit breaker
+0,9.329711549125677e-5,ZEROSHOT,phi4,Semiconductor-based circuit breaker
+1,0.0010095904538933304,ZEROSHOT,phi4,Semiconductor-based circuit breaker
+2,0.19145277257129686,ZEROSHOT,phi4,Semiconductor-based circuit breaker
+3,0.8074443398593185,ZEROSHOT,phi4,Semiconductor-based circuit breaker
+0,1.9956341894700705e-5,CONTEXT,phi4,Semiconductor-based circuit breaker
+1,2.1613975233728016e-4,CONTEXT,phi4,Semiconductor-based circuit breaker
+2,0.04829489999418609,CONTEXT,phi4,Semiconductor-based circuit breaker
+3,0.951469003911582,CONTEXT,phi4,Semiconductor-based circuit breaker
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,Smart and sustainable DC cables
+1,0.002289236631372398,ZEROSHOT,gemma3,Smart and sustainable DC cables
+2,0.34880663663891054,ZEROSHOT,gemma3,Smart and sustainable DC cables
+3,0.6486922798884104,ZEROSHOT,gemma3,Smart and sustainable DC cables
+0,8.232804166790916e-5,CONTEXT,gemma3,Smart and sustainable DC cables
+1,8.910070209687238e-4,CONTEXT,gemma3,Smart and sustainable DC cables
+2,0.17287756147461325,CONTEXT,gemma3,Smart and sustainable DC cables
+3,0.8261491034627502,CONTEXT,gemma3,Smart and sustainable DC cables
+0,0.001674478151049092,ZEROSHOT,llama,Smart and sustainable DC cables
+1,0.017786907536226967,ZEROSHOT,llama,Smart and sustainable DC cables
+2,0.7913914725559267,ZEROSHOT,llama,Smart and sustainable DC cables
+3,0.18914714175679725,ZEROSHOT,llama,Smart and sustainable DC cables
+0,4.301457099212289e-4,CONTEXT,llama,Smart and sustainable DC cables
+1,0.0046362405447646915,CONTEXT,llama,Smart and sustainable DC cables
+2,0.5187113869765403,CONTEXT,llama,Smart and sustainable DC cables
+3,0.4762222267687738,CONTEXT,llama,Smart and sustainable DC cables
+0,5.711975786151467e-4,ZEROSHOT,mistral,Smart and sustainable DC cables
+1,0.0061463232023591784,ZEROSHOT,mistral,Smart and sustainable DC cables
+2,0.5868987329584763,ZEROSHOT,mistral,Smart and sustainable DC cables
+3,0.4063837462605494,ZEROSHOT,mistral,Smart and sustainable DC cables
+0,1.898682077120253e-4,CONTEXT,mistral,Smart and sustainable DC cables
+1,0.00205226610343809,CONTEXT,mistral,Smart and sustainable DC cables
+2,0.3245232851785054,CONTEXT,mistral,Smart and sustainable DC cables
+3,0.6732345805103445,CONTEXT,mistral,Smart and sustainable DC cables
+0,9.329711549125677e-5,ZEROSHOT,phi4,Smart and sustainable DC cables
+1,0.0010095904538933304,ZEROSHOT,phi4,Smart and sustainable DC cables
+2,0.19145277257129686,ZEROSHOT,phi4,Smart and sustainable DC cables
+3,0.8074443398593185,ZEROSHOT,phi4,Smart and sustainable DC cables
+0,1.9956341894700705e-5,CONTEXT,phi4,Smart and sustainable DC cables
+1,2.1613975233728016e-4,CONTEXT,phi4,Smart and sustainable DC cables
+2,0.04829489999418609,CONTEXT,phi4,Smart and sustainable DC cables
+3,0.951469003911582,CONTEXT,phi4,Smart and sustainable DC cables
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,Solid-state circuit breaker
+1,0.002289236631372398,ZEROSHOT,gemma3,Solid-state circuit breaker
+2,0.34880663663891054,ZEROSHOT,gemma3,Solid-state circuit breaker
+3,0.6486922798884104,ZEROSHOT,gemma3,Solid-state circuit breaker
+0,8.232804166790916e-5,CONTEXT,gemma3,Solid-state circuit breaker
+1,8.910070209687238e-4,CONTEXT,gemma3,Solid-state circuit breaker
+2,0.17287756147461325,CONTEXT,gemma3,Solid-state circuit breaker
+3,0.8261491034627502,CONTEXT,gemma3,Solid-state circuit breaker
+0,0.001674478151049092,ZEROSHOT,llama,Solid-state circuit breaker
+1,0.017786907536226967,ZEROSHOT,llama,Solid-state circuit breaker
+2,0.7913914725559267,ZEROSHOT,llama,Solid-state circuit breaker
+3,0.18914714175679725,ZEROSHOT,llama,Solid-state circuit breaker
+0,4.301457099212289e-4,CONTEXT,llama,Solid-state circuit breaker
+1,0.0046362405447646915,CONTEXT,llama,Solid-state circuit breaker
+2,0.5187113869765403,CONTEXT,llama,Solid-state circuit breaker
+3,0.4762222267687738,CONTEXT,llama,Solid-state circuit breaker
+0,5.711975786151467e-4,ZEROSHOT,mistral,Solid-state circuit breaker
+1,0.0061463232023591784,ZEROSHOT,mistral,Solid-state circuit breaker
+2,0.5868987329584763,ZEROSHOT,mistral,Solid-state circuit breaker
+3,0.4063837462605494,ZEROSHOT,mistral,Solid-state circuit breaker
+0,1.898682077120253e-4,CONTEXT,mistral,Solid-state circuit breaker
+1,0.00205226610343809,CONTEXT,mistral,Solid-state circuit breaker
+2,0.3245232851785054,CONTEXT,mistral,Solid-state circuit breaker
+3,0.6732345805103445,CONTEXT,mistral,Solid-state circuit breaker
+0,9.329711549125677e-5,ZEROSHOT,phi4,Solid-state circuit breaker
+1,0.0010095904538933304,ZEROSHOT,phi4,Solid-state circuit breaker
+2,0.19145277257129686,ZEROSHOT,phi4,Solid-state circuit breaker
+3,0.8074443398593185,ZEROSHOT,phi4,Solid-state circuit breaker
+0,1.9956341894700705e-5,CONTEXT,phi4,Solid-state circuit breaker
+1,2.1613975233728016e-4,CONTEXT,phi4,Solid-state circuit breaker
+2,0.04829489999418609,CONTEXT,phi4,Solid-state circuit breaker
+3,0.951469003911582,CONTEXT,phi4,Solid-state circuit breaker
+0,2.1184684130670008e-4,ZEROSHOT,gemma3,Static protection system
+1,0.002289236631372398,ZEROSHOT,gemma3,Static protection system
+2,0.34880663663891054,ZEROSHOT,gemma3,Static protection system
+3,0.6486922798884104,ZEROSHOT,gemma3,Static protection system
+0,8.232804166790916e-5,CONTEXT,gemma3,Static protection system
+1,8.910070209687238e-4,CONTEXT,gemma3,Static protection system
+2,0.17287756147461325,CONTEXT,gemma3,Static protection system
+3,0.8261491034627502,CONTEXT,gemma3,Static protection system
+0,0.001674478151049092,ZEROSHOT,llama,Static protection system
+1,0.017786907536226967,ZEROSHOT,llama,Static protection system
+2,0.7913914725559267,ZEROSHOT,llama,Static protection system
+3,0.18914714175679725,ZEROSHOT,llama,Static protection system
+0,4.301457099212289e-4,CONTEXT,llama,Static protection system
+1,0.0046362405447646915,CONTEXT,llama,Static protection system
+2,0.5187113869765403,CONTEXT,llama,Static protection system
+3,0.4762222267687738,CONTEXT,llama,Static protection system
+0,5.711975786151467e-4,ZEROSHOT,mistral,Static protection system
+1,0.0061463232023591784,ZEROSHOT,mistral,Static protection system
+2,0.5868987329584763,ZEROSHOT,mistral,Static protection system
+3,0.4063837462605494,ZEROSHOT,mistral,Static protection system
+0,1.898682077120253e-4,CONTEXT,mistral,Static protection system
+1,0.00205226610343809,CONTEXT,mistral,Static protection system
+2,0.3245232851785054,CONTEXT,mistral,Static protection system
+3,0.6732345805103445,CONTEXT,mistral,Static protection system
+0,9.329711549125677e-5,ZEROSHOT,phi4,Static protection system
+1,0.0010095904538933304,ZEROSHOT,phi4,Static protection system
+2,0.19145277257129686,ZEROSHOT,phi4,Static protection system
+3,0.8074443398593185,ZEROSHOT,phi4,Static protection system
+0,1.9956341894700705e-5,CONTEXT,phi4,Static protection system
+1,2.1613975233728016e-4,CONTEXT,phi4,Static protection system
+2,0.04829489999418609,CONTEXT,phi4,Static protection system
+3,0.951469003911582,CONTEXT,phi4,Static protection system

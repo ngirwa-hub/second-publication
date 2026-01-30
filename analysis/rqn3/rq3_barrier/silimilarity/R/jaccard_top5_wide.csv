@@ -1,0 +1,5 @@
+base_family,context_top5,pooled_anchors_top5,jaccard_pooled,word_top5,jaccard_word,example_top5,jaccard_example,low-numeric_top5,jaccard_low-numeric,high-numeric_top5,jaccard_high-numeric
+phi4,"B1,B4,B10,B6,B8","B1,B4,B10,B8,B6",1,"B1,B4,B10,B8,B6",1,"B1,B4,B10,B2,B6",0.6666666666666666,"B1,B4,B10,B6,B2",0.6666666666666666,"B1,B4,B10,B6,B8",1
+llama,"B4,B1,B3,B5,B2","B3,B1,B4,B2,B10",0.6666666666666666,"B3,B1,B2,B4,B5",1,"B4,B3,B1,B7,B2",0.6666666666666666,"B1,B3,B4,B2,B5",1,"B1,B3,B4,B2,B10",0.6666666666666666
+mistral,"B1,B4,B5,B2,B3","B1,B4,B5,B2,B3",1,"B1,B4,B5,B2,B6",0.6666666666666666,"B1,B4,B5,B2,B6",0.6666666666666666,"B1,B2,B4,B5,B3",1,"B1,B4,B2,B5,B3",1
+gemma3,"B1,B4,B11,B7,B8","B1,B4,B8,B11,B7",1,"B1,B8,B4,B11,B10",0.6666666666666666,"B1,B4,B11,B8,B7",1,"B1,B4,B11,B8,B7",1,"B1,B4,B8,B11,B7",1

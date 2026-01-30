@@ -1,0 +1,51 @@
+\begin{table}[!h]
+\centering
+\caption{All-Pairs Scenario Comparisons within each Base\_Model (odds ratios, 95\% CI)}
+\centering
+\begin{tabular}[t]{llrll}
+\toprule
+base\_model & contrast & OR & 95\% CI & p\\
+\midrule
+\cellcolor{gray!10}{phi4} & \cellcolor{gray!10}{NEU - BIAS\_WORD} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-1.68, 1.68)} & \cellcolor{gray!10}{NA}\\
+phi4 & NEU - BIAS\_EXAMPLE & 1.00 & (-1.68, 1.68) & NA\\
+\cellcolor{gray!10}{phi4} & \cellcolor{gray!10}{NEU - BIAS\_NUM\_LOW} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-1.68, 1.68)} & \cellcolor{gray!10}{NA}\\
+phi4 & NEU - BIAS\_NUM\_HIGH & 1.00 & (-1.68, 1.68) & NA\\
+\cellcolor{gray!10}{phi4} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_EXAMPLE} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.17, 2.17)} & \cellcolor{gray!10}{NA}\\
+phi4 & BIAS\_WORD - BIAS\_NUM\_LOW & 1.00 & (-2.17, 2.17) & NA\\
+\cellcolor{gray!10}{phi4} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.17, 2.17)} & \cellcolor{gray!10}{NA}\\
+phi4 & BIAS\_EXAMPLE - BIAS\_NUM\_LOW & 1.00 & (-2.17, 2.17) & NA\\
+\cellcolor{gray!10}{phi4} & \cellcolor{gray!10}{BIAS\_EXAMPLE - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.17, 2.17)} & \cellcolor{gray!10}{NA}\\
+phi4 & BIAS\_NUM\_LOW - BIAS\_NUM\_HIGH & 1.00 & (-2.17, 2.17) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{NEU - BIAS\_WORD} & \cellcolor{gray!10}{0.27} & \cellcolor{gray!10}{(-2.18, -0.45)} & \cellcolor{gray!10}{NA}\\
+llama-pro & NEU - BIAS\_EXAMPLE & 0.35 & (-1.96, -0.14) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{NEU - BIAS\_NUM\_LOW} & \cellcolor{gray!10}{0.43} & \cellcolor{gray!10}{(-1.78, 0.08)} & \cellcolor{gray!10}{NA}\\
+llama-pro & NEU - BIAS\_NUM\_HIGH & 0.24 & (-2.28, -0.55) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_EXAMPLE} & \cellcolor{gray!10}{1.31} & \cellcolor{gray!10}{(-0.8, 1.34)} & \cellcolor{gray!10}{NA}\\
+llama-pro & BIAS\_WORD - BIAS\_NUM\_LOW & 1.59 & (-0.62, 1.55) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{0.91} & \cellcolor{gray!10}{(-1.13, 0.93)} & \cellcolor{gray!10}{NA}\\
+llama-pro & BIAS\_EXAMPLE - BIAS\_NUM\_LOW & 1.21 & (-0.93, 1.32) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_EXAMPLE - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{0.69} & \cellcolor{gray!10}{(-1.44, 0.7)} & \cellcolor{gray!10}{NA}\\
+llama-pro & BIAS\_NUM\_LOW - BIAS\_NUM\_HIGH & 0.57 & (-1.65, 0.52) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{NEU - BIAS\_WORD} & \cellcolor{gray!10}{0.74} & \cellcolor{gray!10}{(-1.97, 1.36)} & \cellcolor{gray!10}{NA}\\
+mistral & NEU - BIAS\_EXAMPLE & 1.00 & (-1.68, 1.68) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{NEU - BIAS\_NUM\_LOW} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-1.68, 1.68)} & \cellcolor{gray!10}{NA}\\
+mistral & NEU - BIAS\_NUM\_HIGH & 1.00 & (-1.68, 1.68) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_EXAMPLE} & \cellcolor{gray!10}{1.36} & \cellcolor{gray!10}{(-1.85, 2.46)} & \cellcolor{gray!10}{NA}\\
+mistral & BIAS\_WORD - BIAS\_NUM\_LOW & 1.36 & (-1.85, 2.46) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.36} & \cellcolor{gray!10}{(-1.85, 2.46)} & \cellcolor{gray!10}{NA}\\
+mistral & BIAS\_EXAMPLE - BIAS\_NUM\_LOW & 1.00 & (-2.17, 2.17) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_EXAMPLE - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.17, 2.17)} & \cellcolor{gray!10}{NA}\\
+mistral & BIAS\_NUM\_LOW - BIAS\_NUM\_HIGH & 1.00 & (-2.17, 2.17) & NA\\
+\cellcolor{gray!10}{gemma3-12b} & \cellcolor{gray!10}{NEU - BIAS\_WORD} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-1.68, 1.68)} & \cellcolor{gray!10}{NA}\\
+gemma3-12b & NEU - BIAS\_EXAMPLE & 1.00 & (-1.68, 1.68) & NA\\
+\cellcolor{gray!10}{gemma3-12b} & \cellcolor{gray!10}{NEU - BIAS\_NUM\_LOW} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-1.68, 1.68)} & \cellcolor{gray!10}{NA}\\
+gemma3-12b & NEU - BIAS\_NUM\_HIGH & 1.00 & (-1.68, 1.68) & NA\\
+\cellcolor{gray!10}{gemma3-12b} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_EXAMPLE} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.17, 2.17)} & \cellcolor{gray!10}{NA}\\
+gemma3-12b & BIAS\_WORD - BIAS\_NUM\_LOW & 1.00 & (-2.17, 2.17) & NA\\
+\cellcolor{gray!10}{gemma3-12b} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.17, 2.17)} & \cellcolor{gray!10}{NA}\\
+gemma3-12b & BIAS\_EXAMPLE - BIAS\_NUM\_LOW & 1.00 & (-2.17, 2.17) & NA\\
+\cellcolor{gray!10}{gemma3-12b} & \cellcolor{gray!10}{BIAS\_EXAMPLE - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.17, 2.17)} & \cellcolor{gray!10}{NA}\\
+gemma3-12b & BIAS\_NUM\_LOW - BIAS\_NUM\_HIGH & 1.00 & (-2.17, 2.17) & NA\\
+\bottomrule
+\end{tabular}
+\end{table}
