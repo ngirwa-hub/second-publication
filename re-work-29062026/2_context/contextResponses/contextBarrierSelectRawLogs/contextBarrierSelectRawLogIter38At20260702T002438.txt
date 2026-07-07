@@ -1,0 +1,106 @@
+
+--- generalist_llama ---
+1. Lack of standardization and interoperability of components
+2. High initial investment costs for implementing DC systems
+3. Insufficient awareness and understanding of the benefits of DC technology among end users
+4. Limited availability of skilled professionals with expertise in DC systems
+5. Need for further research and development to enhance the efficiency and reliability of DC solutions
+
+--- normative_llama ---
+1. High costs of DC solutions
+2. Incompatibility of DC systems components
+3. Uncertain utility interaction (net metering, utility ownership, and agreed standards)
+4. Lack of pilot projects
+5. Public perception of DC and readiness to 'champion' installations from DC projects
+
+--- subject-matter_llama ---
+1. Power losses, quality, and safety issues
+2. Reduced reliability in DC devices
+3. Lack of use-cases where DC is advantageous
+4. Uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. Lack of pilot projects
+
+--- generalist_mistral ---
+Based on my expertise, I would select the following five barriers for consideration:
+
+1. Power losses, quality, and safety issues: The concern about power loss, quality, and safety is a significant barrier to widespread adoption of DC technologies due to potential risks associated with malfunctions or failures in the systems.
+
+2. Reduced reliability in DC devices: DC devices may have lower reliability compared to AC devices, which can lead to system downtime and increased maintenance costs, potentially deterring users from adopting DC solutions.
+
+3. Lack of use-cases in which DC is advantageous: There are limited well-established use-cases demonstrating the advantages of DC technologies over traditional AC systems, making it challenging for potential adopters to justify the investment in DC infrastructure.
+
+4. Uncertain utility interaction (net metering, utility ownership, and agreed standards): Unclear regulations regarding net metering, utility ownership, and standardization can create uncertainty for stakeholders, potentially delaying the adoption of DC solutions until these issues are addressed.
+
+5. Lack of pilot projects: The absence of successful pilot projects using medium- and low-voltage DC technologies can make it difficult for potential adopters to assess the viability and benefits of such systems, making them hesitant to invest in DC infrastructure.
+
+--- normative_mistral ---
+1. power losses, quality and safety issues
+2. reduced reliability in DC devices
+3. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+4. lack of pilot projects
+5. public perception of DC and readiness to 'champion' installations from DC projects
+
+These barriers were selected due to their potential significant impact on the widespread adoption of medium- and low-voltage DC technologies. Power losses, quality, and safety issues can lead to inefficiencies and potential hazards. Reduced reliability in DC devices may deter users due to concerns about system stability and longevity. Uncertain utility interaction can create difficulties for grid integration and may hinder the adoption of DC systems. Lack of pilot projects limits the availability of real-world examples demonstrating the benefits and feasibility of DC technologies. Lastly, public perception plays a crucial role in driving acceptance and championing installations from DC projects, which is essential for widespread adoption.
+
+--- subject-matter_mistral ---
+1. Power losses, quality, and safety issues
+2. Reduced reliability in DC devices
+3. Lack of use-cases in which DC is advantageous
+4. Uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. Lack of pilot projects
+6. Incompatibility of DC systems components
+7. Misconception and lack of knowledge leads to lengthy/expensive design and permit process
+8. Lack of enough trained personnel in DC systems (If I had to choose only one from this pair, I would select this)
+9. Uncertain regulatory roadmap (If I had to choose only one from this pair, I would select this instead)
+
+--- generalist_gemma3 ---
+Here are the five barriers I'm selecting from the list:
+
+1. power losses, quality and safety issues
+3. lack of use-cases in which DC is advantageous
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+8. misconception and lack of knowledge leads to lengthy/expensive design and permit process
+11. high costs of DC solutions
+
+--- normative_gemma3 ---
+Here are the five barriers I select from the provided list:
+
+1. power losses, quality and safety issues
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+7. incompatibility of DC systems components
+8. misconception and lack of knowledge leads to lengthy/expensive design and permit process
+11. high costs of DC solutions
+
+--- subject-matter_gemma3 ---
+Here are the five barriers I select from the provided list:
+
+1. power losses, quality and safety issues
+2. lack of pilot projects
+3. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+4. misconception and lack of knowledge leads to lengthy/expensive design and permit process
+5. uncertain regulatory roadmap
+
+--- generalist_phi4 ---
+Based on the context provided, here are five selected barriers related to medium- and low-voltage DC technologies:
+
+1. power losses, quality and safety issues
+2. reduced reliability in DC devices
+3. lack of use-cases in which DC is advantageous
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. high costs of DC solutions
+
+--- normative_phi4 ---
+1. power losses, quality and safety issues  
+2. reduced reliability in DC devices  
+3. lack of use-cases in which DC is advantageous  
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)  
+5. lack of pilot projects
+
+--- subject-matter_phi4 ---
+Based on the provided context and considering the barriers for the adoption of medium- and low-voltage DC technologies, here are five selected barriers:
+
+1. power losses, quality and safety issues
+2. lack of use-cases in which DC is advantageous
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. lack of pilot projects
+10. uncertain regulatory roadmap

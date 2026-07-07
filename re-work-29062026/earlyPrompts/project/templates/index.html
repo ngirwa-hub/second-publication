@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phi 4 Model Interface</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Phi 4 Model Interface</h1>
+    <form id="promptForm">
+        <label for="prompt">Enter Prompt:</label>
+        <textarea id="prompt" name="prompt" rows="4" cols="50"></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Model Replies:</h2>
+    <div id="replies"></div>
+
+    <script>
+        document.getElementById('promptForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const prompt = document.getElementById('prompt').value;
+
+            const response = await fetch('/prompt', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ prompt })
+            });
+
+            const data = await response.json();
+            const repliesDiv = document.getElementById('replies');
+            repliesDiv.innerHTML = ''; // Clear previous replies
+
+            if (data.responses) {
+                for (const [role, responses] of Object.entries(data.responses)) {
+                    const roleDiv = document.createElement('div');
+                    roleDiv.innerHTML = `<h3>${role}:</h3>`;
+                    responses.forEach(reply => {
+                        roleDiv.innerHTML += `
+                            <strong>Solution:</strong> ${reply.solution}<br>
+                            <strong>Rating:</strong> ${reply.rating}<br>
+                            <strong>Justification:</strong> ${reply.justification}<br><br>
+                        `;
+                    });
+                    repliesDiv.appendChild(roleDiv);
+                }
+            } else {
+                repliesDiv.innerHTML = `<strong>Error:</strong> ${data.error}`;
+            }
+        });
+    </script>
+</body>
+</html>

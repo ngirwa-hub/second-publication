@@ -1,0 +1,13 @@
+cleaned_file,section,precision,recall,f1,candidate_chars,reference_chars,length_ratio,model_type,rescale_with_baseline
+cleaned_contexts_run01_20260629_104226.json,elicitation_process,0.820285,0.822825,0.821553,1613,3319,0.48599,roberta-large,False
+cleaned_contexts_run01_20260629_104226.json,project_description,0.861584,0.841826,0.851591,1338,2914,0.459163,roberta-large,False
+cleaned_contexts_run01_20260629_104226.json,demonstrator_description,0.868897,0.855714,0.862255,1668,3070,0.543322,roberta-large,False
+cleaned_contexts_run01_20260629_104226.json,__overall__,0.850255,0.840122,0.845133,4619,9303,0.496507,roberta-large,False
+cleaned_contexts_run02_20260629_104239.json,elicitation_process,0.83869,0.819226,0.828844,1222,3319,0.368183,roberta-large,False
+cleaned_contexts_run02_20260629_104239.json,project_description,0.859877,0.846115,0.85294,1538,2914,0.527797,roberta-large,False
+cleaned_contexts_run02_20260629_104239.json,demonstrator_description,0.808832,0.841524,0.824854,1813,3070,0.590554,roberta-large,False
+cleaned_contexts_run02_20260629_104239.json,__overall__,0.8358,0.835622,0.835546,4573,9303,0.491562,roberta-large,False
+cleaned_contexts_run03_20260629_104252.json,elicitation_process,0.827005,0.820399,0.823689,1189,3319,0.35824,roberta-large,False
+cleaned_contexts_run03_20260629_104252.json,project_description,0.870072,0.844978,0.857342,1167,2914,0.40048,roberta-large,False
+cleaned_contexts_run03_20260629_104252.json,demonstrator_description,0.833625,0.858173,0.845721,1860,3070,0.605863,roberta-large,False
+cleaned_contexts_run03_20260629_104252.json,__overall__,0.843567,0.841183,0.842251,4216,9303,0.453187,roberta-large,False

@@ -1,0 +1,12 @@
+to start an app :   set FLASK_ENV=development
+
+                    python app.py
+
+url: http://127.0.0.1:5000/
+
+
+to stop an app : ctrl + C
+
+
+
+

@@ -1,0 +1,683 @@
+SHIFT2DC Expert Elicitation - Session 1
+Fri, Oct 25, 2024
+
+0:02 - Unidentified Speaker
+Hello, Hartwig Stamberger joining. Hello. Just wondering if you can hear me okay.
+
+0:12 - Stammberger, Hartwig
+I'm on the train. Yes, we can hear you. Okay, great. And I'll turn my video off when the meeting starts to just from bandwidth here.
+
+0:30 - Lucas Pereira
+Not very abundant. Yes, thank you for joining us.
+
+0:34 - Stammberger, Hartwig
+Yeah, you're very welcome. I'm curious what this expert elicitation is about, but I think I will learn.
+
+0:43 - Lucas Pereira
+Yeah, this is with the follow-up of what we did last time and camera is off.
+
+0:51 - Stammberger, Hartwig
+I don't recall a last time, but I wasn't there. Yes, yes. Yeah. And I'm more curious about the elicitation word. That's the first time I've ever went across that one.
+
+1:11 - Lucas Pereira
+Exactly. It's very interesting. So yeah, it's more like we have all these experts trying to reach necessarily consensus, but there are these topics, these questions that nobody has a very well-defined vision and we will try to have some converge. So we're expecting to have 10 people today. Oh yeah, okay.
+
+1:41 - Unidentified Speaker
+Good.
+
+1:41 - Lucas Pereira
+For example, people who work in ports, in data centers, DC, and the idea is that we put them all together, discussing a few technologies we selected. We have very general questions about DC, then we have specific technologies that we are developing in the project, that we want to hear something about them, yeah.
+
+2:07 - Stammberger, Hartwig
+Yeah, well I've been around DC for quite some time and with DC industry projects that I think you are a little bit familiar with, so trial to help where I can.
+
+2:22 - Lucas Pereira
+Yes, yes, I think we are. There are a lot of, because this is more on the low voltage and medium voltage. I think in high voltage is more of a well-established technology, I would say. Yeah, we are focusing a lot on low voltage and medium voltage, especially in this project. I think we should have someone also from current OS.
+
+2:55 - Stammberger, Hartwig
+Yes, I saw Jan-Nik in the invitation list.
+
+3:02 - Lucas Pereira
+Did he accept?
+
+3:04 - Unidentified Speaker
+Yes. Yes. All right. Good. Yeah. Hello. Hello.
+
+3:11 - Stammberger, Hartwig
+Yeah.
+
+3:12 - Unidentified Speaker
+Hello.
+
+3:13 - Lucas Pereira
+We will have a very quick introduction. Very quick. And we start. Yeah. And Lucas, just a heads up.
+
+3:24 - Stammberger, Hartwig
+I'll have to leave a few minutes early because my train will, if it's on schedule, arrive just a few minutes before the end of this meeting. So I will disconnect soon.
+
+3:42 - Lucas Pereira
+And we will try to, also there's a colleague that he has to leave earlier. So we will try to be very, I don't know, I don't want to say fast, but focused. Concise or focused? Yeah, it's concise.
+
+4:02 - Unidentified Speaker
+Hello, Marco.
+
+4:03 - Lucas Pereira
+Hello, everyone. Hello, everyone. The best start of the year. Okay. Thank you very much. One, two, one, two, three. Looks like the room is filling up.
+
+4:22 - Marco CARMINATI
+Hi, Dominic.
+
+4:23 - Unidentified Speaker
+Hi, Marco. Hi.
+
+4:25 - Lucas Pereira
+Hello. Hello, everyone. Okay. Hello, everyone. Seven out 10, 11.
+
+4:32 - Unidentified Speaker
+Okay.
+
+4:33 - Stammberger, Hartwig
+Room is filling up.
+
+4:37 - Lucas Pereira
+Yes.
+
+4:37 - Unidentified Speaker
+Good afternoon, everyone. Hello.
+
+4:40 - Lucas Pereira
+A lot of you know each other. This means that you are in the same circle, so you should be experts. Is a small world.
+
+4:55 - Yannick NEYRET
+Electrical distribution is a small world and DC is an even smaller Hi everyone, this is Camille from DTU.
+
+5:08 - Lucas Pereira
+Hi Stefan.
+
+5:10 - Stammberger, Hartwig
+Well Jannik, we're working on making it bigger, right?
+
+5:15 - Unidentified Speaker
+Yes, sure, sure.
+
+5:17 - Lucas Pereira
+I think we are only missing, can you check, so we invited 11 people, oh we're missing Russell from Nexans, he works on the That's the only person missing. Okay, Boris, hi. David. Hi, nice to see you. Good afternoon to everyone. Good afternoon. Hello. Okay, I have something on the chats. I think we're only missing Ross. It's 14, that's 11. So that's 14, meaning that there's already 11. Now we are all here. Great. It worked like a charm. I'm surprised. It's very good. Normally it's very challenging. Good afternoon. I will start by, first I need to share my screen. Okay guys, thank you very much everyone for being here. I will start on this expert elicitation protocol. So this is in the scope of the DC, shift to DC project, this EU funded project. That you might have heard about, because we've talked with some of you. We just see a background, so I'm not sure what you're sharing. No, I'm sharing the PowerPoint, but I would like to see your faces.
+
+7:12 - Stammberger, Hartwig
+I will put your faces here.
+
+7:15 - Unidentified Speaker
+Great.
+
+7:16 - Lucas Pereira
+No, it's up. Yes. Now we can see. Great. Okay. So just very briefly, we have this project and we have a very specific task on users and the perception of users on VC technologies. But we are still in the first year of the project, so we don't have a lot of users yet. So instead, we think, what if we get experts and we actually discuss the challenges experts perspective and when we have the users we already have something to work with which is okay this is what our experts think what do you think okay so we prepared this is a very quick agenda I will just ask for brief introductions like very short because I know we all more or less know each other and just with more just the name but around your role and we'll go quickly through the shift to the C project quickly because we don't want to make this only about the shift to the C project we want this to make more general. Then now we will explain what expert elicitation protocol and then we have the process of the protocol and then some concluding remarks okay. So I will call names from left to right So on my, from my screen, but here I have Diogo. Hi everyone. I'm master students. I'm working right now on this task, helping Lucas and Catherine to make this happen. Thank you everyone for being here. She's a PhD student. She is the brain behind the export elicitation protocol. She's doing a PhD. From the human-computer interaction perspectives on the DC. And we are using only one microphone to avoid. Okay, next I have Hartwig. Yes, Hartwig Stamberger.
+
+9:40 - Stammberger, Hartwig
+I work for ETAN. That's my logo up there in the background. My DC connection is participation in the DC industry projects. I coordinated the second phase of the project with 40 companies, 10 model applications, and now my role is also that I'm the chair of the board of the Open DC Alliance, which Dominic represents in the main office.
+
+10:10 - Unidentified Speaker
+Thank you very much.
+
+10:11 - Lucas Pereira
+I have here Professor Gen Li from DTU. Thank you very much for accepting our invitation.
+
+10:19 - Gen Li
+Hi everyone, this is Gen Li from Technical University of Denmark. Previously, I was at Cardiff University. As a Marie Curie Researcher, I did my PhD there, working on this HVDC operation control and protection. Since 2022, I went to DCU, and now I'm working here as a social professor and working on the same topic, but I extend my research to this offshore wind energy element in Denmark. Yeah, nice to see you, everyone here.
+
+10:48 - Lucas Pereira
+Thank you. Thank you very much. We have a camera.
+
+10:53 - RAMA P
+My name is Rama. Actually, I'm from Schneider Eritrea, working on the DC projects. My role in this organization is a principal technical expert, leading to the new energy landscape and supporting Marco and Annika on the transformation towards DC.
+
+11:12 - Lucas Pereira
+Thank you very much. We have Dominic. Hi, my name is Dominic Meierhoffner.
+
+11:18 - Maihöfner, Dominik
+I'm the head of the Open Alliance. You can see the logo in the background. Karthik mentioned it. He is the chair of it. So we are an alliance of 72 companies right now trying to promote DC and the applications in the low voltage area.
+
+11:39 - Lucas Pereira
+Okay, thank you.
+
+11:40 - Yannick NEYRET
+We have Yannick also from CurrentOS. Hello, everyone. I'm Yannick. I'm Schneider Electric employee for 35 years now. And I am also the president of the which is a Some of 65 company over 22 countries, making DC standard with specific focus on the commercial buildings.
+
+12:03 - Lucas Pereira
+Okay, thank you. Have Google from Portugal. Hi there.
+
+12:08 - Hugo Santos Marques
+I'm an assistant professor at school. Supernotic in front of Rick. My expertise areas are electrical energy systems, and parallel electronics.
+
+12:21 - Unidentified Speaker
+Thank you.
+
+12:22 - Lucas Pereira
+Thank you very much. I see Marco. Look, I'm Carmina.
+
+12:26 - Unidentified Speaker
+Yes.
+
+12:27 - Marco CARMINATI
+Everyone I'm not going to be naughty. I work in another electric as a senior principal architect taking care about new energy landscape application for both a C and D C application. I'm a member of I see system committee. The water DC working groups related to the DC distribution, and as a background, I got a PhD on fault analysis and protection in low-volt DC microgrids with front-end converters. Thank you. Thank you.
+
+13:00 - Lucas Pereira
+Thank you very much. Now we have Dr. Stefan Rupp. Yeah, hi.
+
+13:05 - PT Dr Stephan Rupp
+Stefan, I have no idea how I ended up in DC, to be honest, but there are a lot of things to do in getting products compatible with each other. So I'm working on interoperability, certification of products, and this is why I'm a member of CurrentAS. We are setting up a test and training center at FEN in Germany, in Aachen, and I'm working for a small company in the south of Germany.
+
+13:36 - Lucas Pereira
+Thank you very much. Good interoperability. I think it was something we will be hearing a lot. We have Nicolas. Also here from next time.
+
+13:46 - Nicolas ROUSSELET
+I know, uh, Nicolas was late next chance. Uh, um, I'm in charge of the coordination inside next answer of the project shift to D. C.
+
+13:59 - Unidentified Speaker
+That's one point.
+
+14:01 - Nicolas ROUSSELET
+Um, also in charge to think about the specification of the cable in the DC world. For low voltage.
+
+14:11 - Lucas Pereira
+So I'm in charge of that in Kiruna. Thank you. Thank you very much.
+
+14:18 - Unidentified Speaker
+I have David from Slovenia.
+
+14:20 - Krmac David
+Hello everyone. My name is David Kormac. I come from Port of Copper, where I work as an energy manager in our Department of Health Protection and Ecology, Department of our Port of Copper. I'm our department is in charge of this green transformation and about the installation and the usage of the cold ironing in our part. So I'm happy to work with you guys and hope we will do and we will learn from everyone new things.
+
+14:58 - Lucas Pereira
+Thank you so much. Not least, not last, we have Boris, also from Slovenia.
+
+15:05 - Boris Sučić
+Hello. Good afternoon to everyone. My name is Boris. I'm coming from the Josef Stefan Institute, the main research institute in Slovenia. We are supporting Port of Copper for many, many years regarding the energy efficiency, cold ironing, and also we have been participating in a similar DC power project, which is your sister project in this kind of approach of developing DC installations. Thank you.
+
+15:34 - Lucas Pereira
+It's great. Thank you very much. I'm Lucas. I'm from University of Lisbon. We are in the project. We are leading WP for the demo, not the WP, but the demo in Portugal. And we are leading this task on end users. Okay. Actions are done. So now I will, so I'm going to just go briefly about the project, the CFTC project. ...
+
+16:01 - Nicolas ROUSSELET
+Is it you that has opened a registration with the EI process? Because there is a member as a really high, high meeting.
+
+16:15 - Lucas Pereira
+Oh yeah, so sorry. This is the tool we are using to help summarize the meeting. Because we are all and we are using this tool to help us in the end with the summaries of the transcriptions because we will look at the answers and we are using this tool. Okay. And it will help us in the end to get all the information that we will have because most of, I think the most important things that will happen here will be actually our opinions and not so much the the pools that we have. So the project very briefly is is one of the two projects that was accepted in a recent call for DC. So we are our objective is actually of this call was to establishing guidelines and to for the widespread of the application of DC especially low voltage and medium voltage. We have a few demonstrators like the other project has. This is just a very general overview of the project. We are looking at a whole spectrum of the ecosystem from right now we are looking at barriers, opportunities, regulation, users. What we are here is actually in this part, the overview. Then we are developing a series of tools that we will see today It's five of them. We're developing a lot of tools, so we selected five very specific ones that are more like enablers than an actual product. We have four demos. We call them application areas that were requested by the commission in the proposal. And then, of course, we will do this DC roadmap once we have all the results, one step closer to the end of the project, the DC roadmaps. And we've been doing a lot dissemination. We were just this week in elite Europe, so a lot of dissemination. Also in bridge is also one of the focus that we have. So I'm just going to explain now very briefly five solutions. We're not putting the technical details. So the projects we propose to develop 24 solutions. They're very broad. They go from cables to V2G, charging stations, to microcontrollers and micro DC-DC converters. So we have a deliverable that will be released soon and will be public and explains very well these actual solutions that we want to design in the project. It's a public deliverable that will be available soon. Here we will look at five. I call it generic because we look at this as something that we can put in a bigger project. By itself, it's not a solution, but inside of a project, it is a very important component. And we will ask a few questions about these very specific tools. OK. So one of the tools is, and already we have Nicolas already mentioned, we are developing what we call the smart and sustainable DC cables. So we have the DC cables are out there. What we want to do is add this sustainable components and smartness. By sustainable we mean the right materials that they last long or at least the same as an NAC cable. We also want it to be like if you're using this cable you don't have to learn how to use a new cable. It should be using this should be not very different from using any in AC cable. So this is one of the few that we are developing and it will probably be demonstrated in all the demos. Okay. We're also looking at the DC connectors. One of our partners is developing this. And this is a challenge because, and you'll see there's a lot of, about the questions about the security and the safety of these systems. These connectors we are developing in the project, there are two types of connectors. The passive connectors where it's more about let's make the cable or the actual connector more resilient like we make it with higher capacity than the load that it will handle or then using micro electronic micro electronic technology actually embedded in the connectors that we have we can withstand high higher currencies and voltages. This is one of the solutions also to be tested in the different demonstrators. Okay. We also have – yes.
+
+21:16 - Stammberger, Hartwig
+Yes. Yes. Lucas, can I just make a comment on the connectors? Of course.
+
+21:22 - Unidentified Speaker
+Of course.
+
+21:23 - Stammberger, Hartwig
+Of course. The previous slide, like you mentioned, to be developed an 800-volt up to 20-amp active DC connector. I don't know guys are aware, but Phoenix Contact is a company that has already such a product commercially available.
+
+21:41 - Lucas Pereira
+It's Phoenix Contact that is doing it in the project. I see. Okay. Okay. Yes, exactly. It's actually them that are developing.
+
+21:51 - Unidentified Speaker
+Yes.
+
+21:52 - Lucas Pereira
+They are improving and we will demonstrate in the buildings and in maybe ports. Thank you again. Phoenix is also developing this solid-state circuit breaker. Here, the idea is we already have some breakers, but here the idea is to make them really fast. At least this is the most important points, the fault detection and the isolation in the level of microseconds, and do it to a level of currents and thermal performance that it's realistic. So we are not looking at more heavy power scenarios that might be a bit unrealistic. One of the things that is interesting is that they want to add this real-time monitoring and communications. It will be more like also an IoT-enabled device, not simply a solid state break, but also with monitoring and communication capabilities. Another one that we are developing is for low voltage, a low voltage AC-DC interlink converter. So this is pretty much just to make the bridge between the LV – the AC and the DC worlds in low voltage. This is being developed by one of our partners, so it's not a very big device. It's not a lot of uh power looking at the 700 dc volts and one of the things that we find important is the built-in droop control on the dc side that we'd like to so this will help actually all the distribution that we need to do if you have something already at the source this could help us actually minimize the number of devices devices that we need to install in the DC side. Finally, we have a more software-based tool, which is a design tool for these solutions. We are aware that there are already a few tools for designing the DC systems, mostly not open source. The idea here is we want to build something that is open source or at least has a community version, maybe not with all the features, but that can be used by the community. And our objective is all these tools that we are developing in the project, if we can actually have models, software models to have in this tool, and support the different rules of these two ecosystems, CoreLint OS and ODCA, because we are both partners in the project, like we are both Collaborating with us. It's very easy to to engage in these two entities One important thing is it's about being user friendly. We don't There's a big effort on developing a user interface that we can actually use it without being programmers and even without knowing a lot about this technologies more like a MATLAB or LabVIEW that we can drag and drop make life easier. And of course, the idea is to create the outputs of electrical sizing, techno-economic analysis. We have a few objectives. This is all detailed in the actual deliverable that will soon be available. So, these are the five technologies that we will be looking at today. So, the application area that we are looking at in this project. This was asked by the commission. This was not our choice. The commission asked that we should tackle at least two of these four, that we were very ambitious and we are tackling the four. Two of them we are actually tackling in a very physical demonstrator. For example, the data centers, we actually have center in Germany where we'll test this micro data center in Germany. In industry we also have a factory in industry where we will test the technologies. Then we have the buildings and the ports where we are looking more on this. Even buildings we will have a live demonstrator also. The ports is just a small demonstrator with a few technologies and then a digital twin on top of it that we want to scale the see how it would scale the DC in the ports and the key objective is to test some of the technologies and a lot and also we are here the users so once we have this we're going to talk about the end users what are their perspectives and not just the users of DC but people that actually will be passing by and not knowing it's DC for example tourists in the port They don't know it's a diseasism and we will intrigue them knowing what are their opinions about it. Okay, so this is just a framework of the project and the questions will be a little bit around this but also in general. One question please.
+
+27:21 - PT Dr Stephan Rupp
+Are you going to set up trial installations or is it just a simulator? You're going to set up the Yes, exactly.
+
+27:31 - Lucas Pereira
+The data center, we have the data center in Germany that we will test the things in the industry also. The ports, we have a very small installation of 10 kilowatts of PV, 11 kilowatts V2G charger, so we have a few technologies that we actually demonstrate.
+
+27:53 - PT Dr Stephan Rupp
+How can you do 10 kilowatts on a port?
+
+27:58 - Lucas Pereira
+It's just to, yeah, so we were using it more or less as a sensor to get the actual values and then we want to scale up with the digital twin, so the hardware would be going to give us… So,
+
+28:13 - PT Dr Stephan Rupp
+just to get a better view, the data center is going to be what exactly? A real data center or a small installation with a digital twin?
+
+28:22 - Lucas Pereira
+A small installation in a data center. Like they will assemble with all the data center components and we will have on the sides V2G solar panels and we will test this. But it will have a real data center working, but a micro data center, not this.
+
+28:42 - PT Dr Stephan Rupp
+And the industrial trial will include what then? Also PV, batteries, what else?
+
+28:48 - Lucas Pereira
+Yeah, so in the industry we have one, it's actually in Phoenix contacts. We also have the renewables and There's a specific manufacturing and we will see how we can accommodate renewables and chargers So this bill in in the area of 100 kilowatts just to get an idea. Yes in the industry Maybe a bit more. Yeah, but the idea is that we have an idea Industry also have one which is in Aachen. We are connecting two buildings with DC technology.
+
+29:22 - PT Dr Stephan Rupp
+Where is that, if I may ask? Is that at the university?
+
+29:27 - Lucas Pereira
+It's in the E.ON, in the University of Aachen.
+
+29:31 - PT Dr Stephan Rupp
+The E.ON Research Centre at Matthieu Strasse.
+
+29:34 - Lucas Pereira
+Yes, exactly. And we are connecting two buildings and creating a living lab there also.
+
+29:40 - PT Dr Stephan Rupp
+I think I know that one.
+
+29:42 - Lucas Pereira
+Yes, I know that one. And the buildings is in France, a residential building. Also more on the DPVs and all these technologies. It's interesting to know how this will happen. Okay so these are all the demos have practical parts and more simulated. Okay so about expert elicitation so the first question why you and I already give explanation in the beginning. So there's this technology that's been there for ages that now we want to bring to the medium and low and low voltage and nobody quite knows how it will happen and we still have a lot of questions there are if you search literature there are a few papers on the perceptions but not in Europe we can find a lot of papers in the US that in Europe is not something that we can find. So our objective here is to gather your insights on the challenges and opportunities for this and the expert solicitation is actually this technique where we rely on experts. We gathered a few topics of interest and we will make questions and you have to provide us some answers and in the end we will write down and try to converge and find some areas of convergency, areas of disagreements and this is the idea of having you all here. We will try to host another session with other experts also in the next week that we have even more than 11 people. Okay. We have a few notes. So We will be asking more or less four types of questions. One will be on the feasibility of the solutions and the project objectives, how feasible you think this is, the barriers to adopt the DC solutions, and a few questions about costs, because we have identified costs as one of the aspects that have been mentioned a lot, and then we have a general discussion like for open open discussion for questions. Okay, so this is the part that we need, and I think you know that we need to have a cell phone or a second screen to use Slido. And if you can put here, you will see the screen. This is because we have two types of questions, quantitative through Slido where we make the questions and we want to see how many of you answered each of the polls. This is more or less like single-choice questions. We will be able to see how many of you are in the actual protocol. Then we also have question by hand raising or you can be free. Since we are not like a lot you can intervene whenever you think it's necessary okay so I don't know if everyone was able to join the slider yes I'm in yeah okay great I will move to the next Where is this assumption coming from
+
+33:29 - PT Dr Stephan Rupp
+I hear that so many times in questionnaires that there is something new and there are just some blocking points or some difficulties in acceptance of something. To me it's an unproven assumption, but I hear it every time. Everybody thinks that things are ready and they're just not accepted. You can never get the assumption that things are not ready and may need to be worked on and that acceptance is not the issue. But for some reason I'm always ending up on the same end.
+
+34:12 - Lucas Pereira
+Sorry. Yeah, it's a good point. It's something we'd like to discuss because we see a lot about the new technology, difficulty And sometimes we see it being accepted very easily.
+
+34:25 - PT Dr Stephan Rupp
+No, but you know, the sound assumption was that DC is like AC.
+
+34:31 - Lucas Pereira
+We just need the right connector and the right voltage level and social acceptance. Yeah. So, but regulation and maybe some regulation.
+
+34:41 - Unidentified Speaker
+Yeah. Okay.
+
+34:42 - Lucas Pereira
+Yeah. So one thing I would like to ask. So right now we have nine participants. Participants we should have 10 11 answers here because we are 11 and if you can leave this open during so we will make the question because if you if you leave and you come out it will create a new session it's a bit and then we cannot track the answers this is anonymous we just have a code and we know we don't know We are just missing one answer so far. Then we can move. This is just to see if you want to see how slide works. I don't know if someone, some of you is having trouble using the tool.
+
+35:33 - Nicolas ROUSSELET
+Yes it's me but I think I am in the wrong zone in the building.
+
+35:41 - Lucas Pereira
+Oh, it's the Wi-Fi. Yes, this will update automatically. You can also try to enter on the browser if you don't have internet, but now we have 11. So the questions will be made. At some point, it will show no pools active, but then they will be popping up here You don't have to do anything, okay? Okay, so we are all ready to go. And now this is the part of that we have the questions. And whenever we have this S is a Slido question and raise hand is a raised hand question. So the first question that you will see is about how feasible you think it is to use those solutions in described application areas. So each of the five solutions you will be have to answer if they are not feasible, somewhat feasible, very feasible and not able to respond and how important. I think more or less like feasible if it can be do it and more important is should be even doing it and spending our time and effort in doing this. This is what we want to find the balance between these two topics. Okay, I think now everyone should see the question. There are two questions. Wait for. Wait for. I'm missing two. I think we're missing one from Nicolas. I don't know. Plus. Let me see. No, OK, one participant is responding. Sorry. And I think we are only missing Nicolas. I think he was having any problems with his internet. I think we can move forward. And when Nicolas arrives, he will still be able to provide answers. To this question. Okay, I think we have to go. This is the The answers for the feasibility is. Agreement is feasible. Very feasible tree. I understand that. What's the difference between feasible and very feasible? And here very feasible is something that we don't really have to. To make an effort will be in itself. I think it's more or less balanced, the answers. And the importance is also interesting, it's 6-4, it's almost, so the two answers are actually very interestingly balanced. I don't know if anyone wants to say something about this, but somebody that answered very important and somebody that answered important, what would be the reason why? Understanding is hard because we are talking about this vision of ports, industry, buildings. But if anyone wants to add something to the discussion, you're welcome. Okay. Our understanding someone like Nicolas is here. You can still provide your answer to the question in real time. This is about importance and feasibility of the DC technology.
+
+41:00 - Unidentified Speaker
+I think that the overall picture is important.
+
+41:08 - Lucas Pereira
+We don't have not important because it would be interesting if we had Not interesting, but at least intriguing if we had not important. I think we can go to the second question. And this is about. Each of the solutions and Here you will see for each of the solutions. How important it is and we mean in the not for the demos. How important do you think to have this solution in the DC road map? Have it. The question is, if we don't have this solution, will it be harder? Will it make it impossible to answer? This is more or less what the question aims to capture. And you will see the question and you will see that you have the five solutions and you can answer each of the Patrick here, just a question.
+
+42:48 - Stammberger, Hartwig
+Why are only the cables smart and sustainable and not the rest of the devices that we're being asked upon?
+
+42:59 - Lucas Pereira
+Yeah, this is more the design. What is a smart cable?
+
+43:05 - Stammberger, Hartwig
+I would rather say like maybe a breaker can be smart or an interlink converter.
+
+43:14 - Lucas Pereira
+Yes. I would say that they're all smart. Maybe we should frame it more like the sustainable part because they're all, in the end, they're all smart.
+
+43:27 - Stammberger, Hartwig
+The cables are the only ones that have an adjective.
+
+43:33 - Lucas Pereira
+The others are just technology. Very good question. Yes. We have eight so far. I think smart has become an overused word. Smart city, smart grid, and I think the smart we already are achieving it. It's a very interesting point. Exactly, it was in line with that, yes. Okay, we have the 11. Okay, important, very important, not important. So I'm going to ask about the not important. Why would it not be important to have, I would say, because even if you don't have it, you can still have the solution, would be this the answer.
+
+44:39 - Maihöfner, Dominik
+For me, it was me saying it's not important. For me, it's not like we don't need the DC cables to be smart. That's what my intention was, was to not important.
+
+44:52 - Lucas Pereira
+Yeah, because we still have the cables, right? And making it work?
+
+44:57 - Maihöfner, Dominik
+We have to have cables, but there are already cables and we figured out that usually you don't need more isolation with the cables, so you kind of could already use the AC cables if you wanted to.
+
+45:12 - Lucas Pereira
+I don't know if Nicolas, because Nicolas is working on cables, if you would like to add something?
+
+45:20 - Stammberger, Hartwig
+Well, what Dominik mentioned is the outcome and the result of DC industry DC industry, two projects that made significant investigations on DC cabling and their insulation materials.
+
+45:34 - Lucas Pereira
+Okay. I don't know if Nicolas will be able. I don't think so. Okay. We already did the session and it's in line with what we found in the previous session. Which is interesting also, this answer. The one is the connectors. And of course, very important, somewhat important, not important. I don't know if it's Dominic. No, not again this time. Although this is anonymous, of course, like here we need to know. I don't know if someone wants to come up and say, why are we important? You want to say something about this? My intuition would be that we also have the connectors here, and maybe that's, if we have the right ensemblement, and if we make the right calculations, we may not need to have this special type of connector. We can just go with state of the art. Or if there's something else that you think makes this...
+
+46:58 - PT Dr Stephan Rupp
+To give it a try.
+
+47:01 - Lucas Pereira
+Not everything is pluggable. So true. Some things just don't connect directly in degrees.
+
+47:08 - PT Dr Stephan Rupp
+If you're doing an AC installation from the distribution cabinet, nothing is plugged. Depends on where you are.
+
+47:19 - Lucas Pereira
+Yeah, it depends on where you are in the grid. That's a very good point. It's important, probably closer to the user, but not so much at the point where you actually start the grid. The other one is here. I think we have more. Interesting but I really like this not important and relate to ask. This is more or less aligned with the previous one. It's the same way of thought. This having a solid state circuit breaker that can detect the problems and actuate right away if there's any reason. For not considering it important. I don't know who answered that, if you could say something about it. I would probably say that it's also because the reasons just mentioned previously. And then if we can probably do the right dimensioning, and if we have control elsewhere, we might not have this issue going on, or because we already have technologies doing this, it probably could be a challenge.
+
+48:55 - Hugo Santos Marques
+Actually, if we are thinking about interrupting currents in DC, it's a big deal. So, these devices must be important. We have to put some thinking when building them because they will be much harder to build than the other ones in AC.
+
+49:18 - Lucas Pereira
+Yes. Yeah, that's actually the motivation to build this. We need something very specific for the DC and the varying levels of the power. Actually, this one, the idea behind the development is that it can adapt to the conditions that is not triggering, let's call it false positives, because if you make it hard-coded, then you might be triggering the breaker, even if it's not a problem. It's one of the things that we also want to include in the breaker. I don't know if anyone wants to add before we move to the next question. Okay. So here is the LV interlink converter. So we have 9.2. Of course, I don't know if anyone wants to add about who says it's important and somewhat important. What would it make it somewhat importance? I would again say because there's already solutions for this. Not this smart, but we can we can still solve the problems with the good technology that we have. What is another reason for you not thinking that developing such a tool specifically for the low voltage?
+
+50:49 - Nicolas ROUSSELET
+That would not the point is that we we we think as a European guy. So we think to add something to an existing AC network. If we are in the middle of Africa, the question is not relevant. They don't care if there is an interlink or not, they have no. So it's really linked with our existing network, electrical network.
+
+51:19 - Lucas Pereira
+It's a very good point of the solution. It's really the importance of the solutions is also very aligned with where you are in your context. It will vary. This will be more important in a place like where you have all these micro-breeds and you don't have redundancy in the breeds. Very good point. Thank you. I don't know if there's something else that we want to add about this technology.
+
+51:54 - Hugo Santos Marques
+Sorry, Lucas. Yes. I was wondering, maybe we should think about high voltage DC, high voltage DC interlinks, because if we are thinking about maritime technologies, it's easy to have 10 megawatt. If you are talking about 400 volts, the currents will exponentially grow up. So high voltage will also be something to consider. Consider here, yes.
+
+52:25 - Unidentified Speaker
+Thank you.
+
+52:26 - Lucas Pereira
+Yeah, for sure.
+
+52:27 - Unidentified Speaker
+I agree with you.
+
+52:29 - Nicolas ROUSSELET
+But the proposal is really a medium on low voltage. If I have understood, we do not focus on high voltage. Gen, but your point is relevant.
+
+52:43 - Unidentified Speaker
+Exactly.
+
+52:43 - Lucas Pereira
+I see that the ports is like that. We are now looking at the data in the ports and it's when we have boats, when we have the electric ships, cruise ships, it's going to be a whole different problem because the loads in the ports these days are very low compared to what they will become. So Even so, the ports here in this project are kind of an outlier. So, because, yeah, it's very intriguing and I think we will have, I think there will be projects probably just in the ports in the coming years because of this. I don't know, maybe David or Boris would agree.
+
+53:31 - Unidentified Speaker
+Okay, so the next one is the software tool, very important, important, yes.
+
+53:38 - Lucas Pereira
+So this is intriguing because here we have more or less of an agreement on the importance. I'm going to throw together, so the last time we did this we had a lot of people saying yeah it's not that important because although We can do it even without designing the design tools. We can still do it with our expertise. I don't know if you guys would like to comment on this?
+
+54:13 - Nicolas ROUSSELET
+It seems no. It's much too complicated as there is a possibility to get different sources in the same network and so on. It seems that very very very complicated to organize and to define a network without a software tool.
+
+54:34 - Unidentified Speaker
+Exactly, thank you.
+
+54:36 - Nicolas ROUSSELET
+That's the point where we are.
+
+54:39 - RAMA P
+The more the complicated microgrid, the more the simulation tools are required and second thing the robustness of the system also defines the optimization options that opens up for And second thing, it's a cost sensitive matter where your solutions are going to be targeted in the countries where it is getting developed. And Europe is a country where it can be accepted for the cost, but for developing countries like Africa and Asia, we have to think about. Optimization in the first, so the net this tool is very much important for us.
+
+55:22 - Unidentified Speaker
+Yes.
+
+55:23 - Lucas Pereira
+Yeah it's also our impression in the in the project of these tools. Okay thank you. So now we move to this is another question on so here is a bit different. We want you to select the top five things that you think are the barriers for the widespread adoption of this technology. We listed this based on literature. If you can select the top five can select less but if you can actually select five would be very good for us. Okay thank you but you should be seeing the question. I think you're all seeing the in your phones that you have list where you can select from So I see. If you're having problems.
+
+56:51 - Unidentified Speaker
+Okay, three and I'll have answers.
+
+57:03 - Lucas Pereira
+This is the most challenging question I think we have.
+
+57:20 - Unidentified Speaker
+We are missing three answers.
+
+57:47 - Lucas Pereira
+Okay, we're just missing two. So there's only another... Four questions on votes. Okay, we have 10. 11, okay, thank you. Okay, let me check. What was the top? Okay, interesting. Lack of enough trained personnel, uncertainty, lack of use cases, misconception. These are the top five. I think this is, we saw this in the previous experiment. It's interesting that the lack of trained personnel raised as one of the top issues. I remember we talked with Nicolas in one of the first meetings about this. I don't know if you want to add something around this.
+
+58:53 - Nicolas ROUSSELET
+Why is this a big issue? Because it's a breakthrough. Everything is new at every stage for every skill and that's very complicated.
+
+59:04 - Lucas Pereira
+We need more programs. One thing that is interesting here is that we were expecting that incompatibility of TC components would show up very high, and it's not actually showing, like interoperability. I don't know if You want to add something about this? I understand the regulatory roadmap can have something to do with it, but about the incompatibility, do we think it's something that soon will be solved because we have current OS or ECA working on this? Do you think it's something that will solve itself with time? I'm asking because in the last time we did this, it was actually one of the also on the top, uh, areas.
+
+1:00:02 - Yannick NEYRET
+Well, if I can add something, probably, uh, current OS on Open DC Alliance can certainly help, but, uh, we will need much more to have enough trained personnel in DC systems. And, uh, here, the universities and, uh, different bodies that, uh, um, that can deliver training services will need to contribute. So probably ODCA and CurrentOS can deliver, I would say, a frame of courses or a book or a backbone or, let's say, assets and content, but probably not be capable to make and deliver those training services. So universities in general and all the training companies and services companies will be needed.
+
+1:00:59 - Unidentified Speaker
+Yes. Thank you, Yannick.
+
+1:01:02 - Stammberger, Hartwig
+I can only agree to that. We have the expertise, but we are not training or certification bodies to provide that kind of training to um skilled people or universities.
+
+1:01:21 - Lucas Pereira
+Maybe we should write an doctoral network on this topic. Maybe it would be interesting. Yeah okay I know if someone else has something to add you can move so the next question is related to this is we listed a lot of barriers if there's something not listed and this is here you just have to write down words that you think barriers And, if there's some barrier already listed and you want to highlight that barrier, you can actually rewrite that word. Show it on a heat map.
+
+1:02:24 - Lucas Pereira
+Availability of components is very interesting. I'm going to start with this one. In the previous iteration of this, we had a question on to what extent the availability or lag of the components would be a problem. And back then, the answer that we had was that the markets fluctuate a lot and that we are ready for the markets and we already know how to deal with this type of shortages of materials. I don't know if you agree with this. That in the DC this will be happening also. So lack of standards is also something that's been added. We see grid code. This is something very interesting because we all have our own, for example, the grid codes. I think. Who added this? If we could have. If we would be able to have grid codes. That are standards. For example, that you don't have to adapt. For example, I'm here in an island and we have our own grid codes. That had to be designed by a specific entity. If we see systems would make this. Less of the problem. Common grid codes. If you want to comment on this also. Or the high capex is also something that popped up last time.
+
+1:04:21 - Yannick NEYRET
+If I can add, this is in relation to what I put as a public authority's understanding. I think if the public do not support and they cannot support if they don't understand why, then the grid code has little chance to change. I'm not sure that the utilities have really a will to move forward. These are AC companies by history. So, we need the support of the public authorities. We are working already at the European Commission at the set plan for DC technology. But everything that can be done to convince the energy transition ministry of each country will be very, very useful.
+
+1:05:11 - Unidentified Speaker
+Yes. Good.
+
+1:05:12 - Lucas Pereira
+I don't know if anyone else to add on this. So like I said, the most important part is the answers are nice. They make nice reports, but your opinions is are really important for us, if you guys want to add something.
+
+1:05:33 - Stammberger, Hartwig
+Yeah, Hartwig Stamberger here. I didn't write it in, but maybe our general unwillingness to change in our societies. We are used to doing things the way we have always done, and we are more and more or less and less inclined to try out new things.
+
+1:05:58 - Unidentified Speaker
+And D.C.
+
+1:05:59 - Stammberger, Hartwig
+is a different way than it has been done before. And I don't know if only, like I wrote down regulation as one of the hurdles, but who, if he or she is not willing to change, will even read a regulation that allows that change.
+
+1:06:23 - Lucas Pereira
+Yeah, so one thing is normally if you have something that work, why change it? I think maybe we have all this mindset. If it already works, we already have something that is actually doing the job and there's not a real pressure. For example, EVs, we have cars, but there's the pressure for sustainable, maybe for DC technology, We are not being able to show why.
+
+1:06:55 - Stammberger, Hartwig
+Yeah, well, like within the, let's say, the EU Fit for 55 or Green Deal initiatives, that puts a lot more emphasis on efficiency. And that basically is the driver. And then it was just the two different conferences were also DC was a highlight. There is a big awareness. And sometimes I think these third industry players are the head of regulatory or general public about the need to decarbonize and energy efficiency is left, right and center. And that is where DC plays an important role.
+
+1:07:42 - Unidentified Speaker
+Thank you.
+
+1:07:44 - Lucas Pereira
+So now we have about cost. So these are, we have here cost because cost has been also highlighted in the literature as one of the main challenges. So the question is, you have this DC project that you're planning to, and if you can say for each of those solutions that we have shown, what's the impact on the budget of those solutions, like the cost of those solutions, how they can impact the budget if they are too expensive, for example. Okay, so you will see the five solutions.
+
+1:08:24 - Unidentified Speaker
+Yes?
+
+1:08:25 - Stammberger, Hartwig
+Yeah, look, Lucas, before we answer that question, are we looking at mature market potential prices or initial first small series products? Exactly.
+
+1:08:37 - Lucas Pereira
+We are talking at the initial market prices when what they can do in the short term, the next, let's say, three to four years, not when they are having a mass adoption, more looking of how this can trigger new projects and actually be a challenge to start.
+
+1:08:59 - Stammberger, Hartwig
+But Lucas, if we look at that, I guess everyone knows a small series product is going to be much more expensive than a established mass productive product. If we answer that on that base, it's very prohibitive.
+
+1:09:20 - Unidentified Speaker
+Exactly.
+
+1:09:20 - Lucas Pereira
+Until we have a mass market, it's prohibitive.
+
+1:09:26 - Stammberger, Hartwig
+That is maybe as an action item for national or EU bodies to help with that extra cost cost of small series new products to counterbalance that small series price effect.
+
+1:09:53 - Lucas Pereira
+I understand these questions are a bit harder to answer because they are very general. And there's a lot of variables to account.
+
+1:10:39 - Lucas Pereira
+We have nine. Okay, so after this, we have only two more questions on pools, and then it's open to discussion. We have 10. I will try to make this a bit faster, because I think we are, see, because I already got, excited talking about this and time is flying. We have 10 answers now. I don't know if 11. It's great because we are having minimal for cables. I would assume because we need the cables and this is one of those technologies that will grow in scale. You see connectors, it's actually I have a few things. I don't know if anybody wants to comment really quickly on this. Because we have here a bit of a difference between. It's being significant.
+
+1:11:51 - Stammberger, Hartwig
+With connectors, we have to distinguish between those that are intended to be hot-plugged and those that are not. I answered assuming at least there's a chance to hot plug or unplug them. So then it means to suppress the current. Okay.
+
+1:12:13 - Unidentified Speaker
+Thank you.
+
+1:12:14 - Lucas Pereira
+I don't know if anyone else wants to add something. We can move to the next, which is the solid state. And here we have more of an agreement. Then we have no impact. I don't know if it's the same reason, I don't know.
+
+1:12:38 - Unidentified Speaker
+Yes?
+
+1:12:38 - Stammberger, Hartwig
+And maybe just for the record, a semiconductor circuit breaker on DC is not a one-to-one exchange to an AC breaker because it offers way more functions that are also needed and are also useful in AC. So, for instance, energy and power measurement and communication that is included in that device, whereas in AC typically you have extra components that need to cover those functions. Just to consider like a semiconductor device is not going to be as cheap as of metal and plastic.
+
+1:13:26 - Lucas Pereira
+Exactly, because they have all the intelligence. I don't know if anyone wants to add on this. Move to the next, which is the interlink converter again. I don't know if anyone wants to comment on these results. They have minimal, no impact on the price. Last time we did this is because we have this technology and we will still have to put them there. So no matter what it costs, it will still have to be installed. And maybe it also depends on the size of the installation. Okay. It's interesting that we It's a little bit different than last time that we have this no impact on minimum. Okay, I don't know if there's, you're a little bit mute yourself, Rama. Do you want to say something? Yes.
+
+1:14:33 - RAMA P
+If manufacturing of the particular converters at scale will also impact, give a major cost difference in the projects. And second thing, this is the major cost component any of the DC projects. And also the scale, I'm saying about the megawatt or kilowatt of the unit, 100 kilowatt, 150, 200, and also going towards a modularity type of 40 kilowatt, 30 kilowatt, also gives an edge for the projects and adaptability towards the smaller projects also will be a better option when we have a modularity in the picture. So, it has a major impact on the project's decision.
+
+1:15:22 - PT Dr Stephan Rupp
+To be honest, there are so many projects where this is a minor component. Think of anything with a battery system. What are the costs of a battery system? What are the costs of a PV installation? So, the interlink converter is not the biggest fish in the pond in most installations that and I am aware of And converter costs in terms of renewables are just one-tenth. It's one-tenth, one-twentieth of a battery system, one-tenth of a PV system. So how can it, my point is, it's pointless to ask such a question without a specific configuration in mind. But in all configurations I know, the power electronics is not the biggest fish.
+
+1:16:08 - Stammberger, Hartwig
+Okay, interesting. Yeah, good point, Stefan. Thank you for that. Put it in perspective. Yeah, put it in perspective.
+
+1:16:17 - Unidentified Speaker
+That's the point.
+
+1:16:18 - PT Dr Stephan Rupp
+Exactly, yeah.
+
+1:16:19 - Lucas Pereira
+This is something, yes, that we need to do also. But it's a very important thing, like the perspective. It's very important to actually answer the question.
+
+1:16:31 - PT Dr Stephan Rupp
+And if you look at costs for power electronics, to get a solar converter for €12, per kilowatt if it's mass manufactured. You cannot get a transformer, a poor AC-AC transformer on that price level.
+
+1:16:53 - Lucas Pereira
+Not anymore. The material costs of power electronics are zero. Silicon is not gas. Then this here is the series, yeah. The high density, it's a significant cost because it's a very expensive technology, I would say. We have been developing these days. Okay, then now it's, question here is is it one of a personal right now how do you see the costs how they are and how they can evolve uh these costs if you think that they will evolve like positively like you were talking about the this microelectronic costs that are low this is the last slide of question.
+
+1:18:06 - Unidentified Speaker
+Um, yeah, heartache here.
+
+1:18:11 - Stammberger, Hartwig
+I think this is even harder to answer, like with respect to what Stefan mentioned and put things in perspective. Yeah, like I feel inclined to just say not able to respond. Yeah, if you're not able, please.
+
+1:18:42 - Unidentified Speaker
+Yeah, yeah.
+
+1:18:43 - Lucas Pereira
+Because when we're thinking about this question is you are aware of the prices and how they will evolve. And if you think that's how they will evolve, evolve is actually something that will actually make it happen or you think that how to put the perspectives, the medium, long-term perspectives are not very pleasant. This is more or less where we wanted equation to be framed. This, all this is very important because when we report we have to mention that the cost is also something to do with the actual in relation to watts. It's a very important output also from this discussion. Okay. Then only one missing.
+
+1:20:08 - Stammberger, Hartwig
+Okay, just missing one. I'm just going to drop out for a minute or two and we'll be back.
+
+1:20:19 - Lucas Pereira
+Yes, okay. Thank you. I think we have this satisfied, not able to respond. I think this is interesting because I think it's very important that when you're talking about the cost We also have the perspective, let's see, from the cables. Not able to respond. From dissatisfied and satisfied. Not able to respond. Not able to respond is also mostly the key answer. This is interesting because especially for the design tool which should be open source and free. Okay so now it's more of this is open-ended now just a few and if you think of what can bring costs down of the DC solutions if there's something that you think Besides massive production and having new installations. I've already heard about policy that we can have. Politically having a policy to make it. Bring the cost lower for some components. I don't know if we want to add so.
+
+1:21:51 - Yannick NEYRET
+If I can give my opinion here. Well, I think. Mass production is the only thing, because today we already have efficient architectures of converters and semiconductors and so on. Maybe we can improve in the future with selection carbide and other things, but definitely the power electronic market today is already effective enough to make a cost-effective product, provided that we have sufficient volumes. We don't have today. So that's one thing, but that's just one thing. The other thing is the lack of education of all the design institute installers and all the actors like electrical inspectors makes them take, I would say, safety margins in their quotation for projects. And then the value added of the projects include this kind of margin that totally irrelevant and uncompetitive with AC. So, I've witnessed this on a couple of real cases so far. So, we could even be competitive in DC with the cost of the product we have today with low volumes, but we fail because of the lack of confidence of the people who have to integrate all these products and then they charge additional cost in case of issues during the project. That can be totally understandable.
+
+1:23:30 - Unidentified Speaker
+I like your answer.
+
+1:23:31 - Lucas Pereira
+Stefan, I don't know if you want to add? No, no, it's exactly the point.
+
+1:23:38 - PT Dr Stephan Rupp
+I see the same in projects. People are falling back to AC for two reasons. For the one that Janik just mentioned a second lack of interoperability. Battery doesn't work with the PV installation, so you connect them over AC. Makes it much more expensive.
+
+1:23:59 - Yannick NEYRET
+Or you try to connect them and you lose time to make it working in DC, so in the end, it's extra cost for the DC project.
+
+1:24:12 - PT Dr Stephan Rupp
+To be honest, it's not a research topic. The converter costs are question of mass production and they are not a blocking point today and the lack of expertise is the blocking point if you think of it.
+
+1:24:28 - Lucas Pereira
+So I will just, Hartwig needs to leave, so I will just bring here the last question of inputs and then we can come back to the discussion. So this is actually about your expertise, if you can rate your expertise. We are all experts, but we could just put very high high. But if you can provide us an answer and then we can go back. To the discussion because I really it's interesting that it's aligned with that part that the lack of trained personnel. It's actually impacting the costs a lot, so I think.
+
+1:25:07 - Yannick NEYRET
+Yeah, but no one of us are electrical installers or electrical design So, it's not these things we were speaking about just before.
+
+1:25:16 - Lucas Pereira
+So, I think that this is also helping us in the future of the project, which is when we are actually talking with the users in the end, we really think that when we're talking with installers and electricians, this is something that we will bring. So, we talk with experts on the technology and it's very good. I really like that this is something that Because without making an effort, the things got built together. It's also a lot about education, resilience. So once we have this, then we have another open question, which is already more or less answered because we have been talking about it. So this is more of a calibration question. Because then, since this is all about answers, then we need to try to calibrate the answers in the end. I'm missing just one. I don't know if it's Hartwig that was not able to answer. Because he said that he had to.
+
+1:26:34 - Stammberger, Hartwig
+Oh, no. I'm still in. The call, I'm back, but in a minute or two I'll have to drop off. Okay, thank you, thank you, thank you very much.
+
+1:26:48 - Lucas Pereira
+But yeah, we have all the answers. I hope no one has to answer low. We have something here, it's very interesting. You're too modest. Yeah, I think nobody has low here. I think everybody knows the topic.
+
+1:27:06 - Stammberger, Hartwig
+Yeah, all right. Thanks. Thanks. Thanks, Lucas. I'll drop off now. Thank you very much. Get a summary.
+
+1:27:13 - Lucas Pereira
+Yes, we will write the deliverable on this and hopefully we can write the paper also on this and we will be happy to share. Everything is anonymous from here on. We know each other, but we don't put names. We don't put companies in the reports. It's very important. All right. Okay, thank you very much. Thank you, have a nice rest of the day and a nice weekend. Bye-bye. Thank you.
+
+1:27:43 - Unidentified Speaker
+Bye-bye.
+
+1:27:44 - Lucas Pereira
+So, just following up would be, if we have identified issues, what you guys think would actually be, how can we support positively? I think education, not just higher education, but also professional education programs will support this. Awareness. Awareness, yes, we should be. And also regulatory hurdles. Regulating what, sorry?
+
+1:28:12 - RAMA P
+Regulatory hurdles, regulatory approvals on products and economies of scale.
+
+1:28:19 - Lucas Pereira
+Yes. OK. I think Hartwig raised a question. Do we need government support to those technologies that they cannot build be built right now in large scale if we should have some type of support from the government entities to try to push it like we had with EVs in the beginning a lot of investment like giving money to people to change for EVs and for installing panels like 15-20 years ago do you think for DC this is something not of course here we're not talking about the consumers we're talking about bigger players if you think this is something that would make sense to have government incentives like putting some money or covering some costs or it's not something that's really relevant.
+
+1:29:15 - Boris Sučić
+I think it can be relevant for the specific installations for instance in maritime ports or large data centers, it can be, if the large data center has the PV installation nearby, then it should be somehow connected in a way that some sort of the state support should support the direct installation of the DC solutions. The same applies to the maritime ports. If the maritime ports already has the maritime already has the DC PV installation and thinking about electrification of the of the equipment. Then new electric trucks and all all those things and the installation should be somehow support in the in case that it will not be supported. People will definitely look for the standard AC solutions. Less problems, less less.
+
+1:30:17 - Lucas Pereira
+Yes, we have a few open I don't know if Stefan wants to add.
+
+1:30:22 - PT Dr Stephan Rupp
+For me, I don't need government subsidies. I don't think there's no point in it at all.
+
+1:30:29 - Lucas Pereira
+It should be by itself. The industry should, the technology should be sustainable. I don't know, Yannick, if you want to add, because you have the open mic, but I don't know if it's because you want to add something.
+
+1:30:43 - Yannick NEYRET
+No, no, maybe because I left it open.
+
+1:30:46 - Unidentified Speaker
+Sorry.
+
+1:30:46 - Lucas Pereira
+No comment on this topic. Okay thank you okay cost implications this is already answered the level okay now this is just open this is like the three last questions is I think we have already answered this like I think Yannick you said the technology is more or less ready and as of today it can even be competitive The question is do we still need something and any breakthroughs on the hardware side or is in the communication side or on the control side on the artificial intelligence side if you think there's something that we still need to actually invest.
+
+1:31:37 - PT Dr Stephan Rupp
+Nothing new but we need education and don't think of engineers we need technicians to train practical people.
+
+1:31:46 - Lucas Pereira
+Exactly. Very good point. Dominique agrees. I would think this is one of the most interesting results we have from the session of the actual stuff, the education, because the technology is being developed.
+
+1:32:05 - Hugo Santos Marques
+It's not the barrier. Sorry. Another point that I for C is that in the present, all the loads are AC mostly. So if we are thinking in a change from AC to DC, we should consider a point where they both coexist. Because if you want to change it directly, we have to always install something in the middle of what we have already and something that we should an extra exactly to put the things we already have working and that will be always an extra price. So if they coexist at some point, maybe in the near future, the change will be most simple.
+
+1:32:58 - PT Dr Stephan Rupp
+I think you might be mistaken. We are not shifting AC to DC. It's about installing lots of renewables including storage systems, electrolyzers, and things like that, which are all DC systems. It's about connecting lots of DC to AC grids. It's not about changing the AC grids. The other thing, I'm doing training for specialists in AC protection, and you will never educate one of them for DC.
+
+1:33:36 - Hugo Santos Marques
+Nevertheless, there are lots of AC loads there, so you cannot do that.
+
+1:33:41 - PT Dr Stephan Rupp
+It's tragic. They know all the tricky and difficult stuff. But doing DC you need to start from scratch because it's completely different. There's no way in shifting from AC to DC and there's nothing you can translate from an AC grid to a DC grid. It just doesn't work because the physical principles are different. Yes, that's my point. It must co-exist somehow at some point. I didn't want to open a discussion. Sorry. I think it's not that simple. It's not just taking knowledge from IC and label it DC.
+
+1:34:19 - Lucas Pereira
+That's too easy. Interesting. The two worlds. The physics is different and we need to start from it probably. We need to start from the ground.
+
+1:34:30 - Boris Sučić
+Completely agree on that. Guys, that is the biggest truth we heard today.
+
+1:34:36 - Lucas Pereira
+Okay, yes. So they will coexist, but they are two different worlds and we need to be aware of that. They are two different worlds and we need to train from the ground. This idea that we can get people that work on AC and just give them one course a crash course of two weeks you're making this experts it's not going to happen this is very important message okay this is very good thank you okay the other one is we saw solutions and I don't know if you think is there any other relevant solution that you think could really be important and you think it will really make really make it I can control is just one in the last. Meeting was about the control. The agreement was you have all this technologies. We need control. We need energy management systems that can cope with the hybrid. Thank you very much, Marco. But yes, it's this was what we discussed last time and it came up was not about the technology. The hardware actually bought. The use cases and the finding the intelligence and the control algorithms. I don't know if you agree with this statement that our colleagues made in the previous sessions. Anyone wants to go over this? Or if you think there's something that we really need to develop new that you think like electrolyzers and more advanced technologies? How are you when you introduce yourself?
+
+1:36:37 - RAMA P
+Nothing. All the technologies are already in place with us. We have to only the awareness on the system is needed.
+
+1:36:49 - Unidentified Speaker
+Awareness and the will to change.
+
+1:36:53 - Lucas Pereira
+Good. This is very, very interesting. Even on the software level, we should already have technologies ready to go, under control, I would say. Okay. I don't know if anyone wants to add, because then we can go to the last question is open question. So, you just have to say, thank you very much. So this last question is open mic whatever you want to say about this technology and what you think how this technology will evolve about the project itself so you are free to share whatever you want this is an open space I know we are over time but if Nobody wants to add. I think we can go. I don't know if anyone here wants to add something about this part. Okay. Maybe I can break the ice.
+
+1:38:05 - Boris Sučić
+I think that we should be aware that we are at the beginning of this story. Many things are missing. It's for instance I can speak from from Slovenian point of view any kind of of interaction with the existing utility and trying to comply with the grid codes and everything it is it is very hard and if you want to exchange the energy between the two systems and and it it is it is it is really really hard and to get the clearance from the from the you need the certificates and to get the connect to include the new equipment into the system. It is it is a nightmare of bureaucracy. And with that in mind, we definitely have to be aware that more pilot projects that will be implemented across Europe, more exchange of data will help us all, especially when we come when we come to the installation with the
+
+1:39:15 - Lucas Pereira
+move from low low dc voltage to to high dc voltage higher high voltage brings even more problems into the system yes the my question follow on this is that these demonstrators that they tend to be expensive because you have to install you think the european commission is within shape the next program framework program that starts now 2025 if they will be willing to invest have a few more calls on preparing demos on this area because right now there's two projects I think they had a lot of traction that they actually received quite a few proposals for example now in slovenia we are also working on it on hydrogen and data centers and I can tell you we have
+
+1:40:08 - Boris Sučić
+tons of problems. You can't even imagine. If you think that you have a lot of problems, just come to us and we will tell you in private. Yes, we are aware that, yes.
+
+1:40:26 - Lucas Pereira
+I think that the key, I think this all boils down to, it's starting, we need And it's starting, so we need to treat it like kids. We need to go to the basics. It's not the technology there. What is actually starting is adoption and trying to put it out there and making it work. There's still a lot of work to be done. Thank you very much. And I think that this question here answers by itself to all the discussions that we had. I think we had a very good discussion. I don't know if anyone wants to add something. If not, we can conclude. And we will work on these results and be happy to share with you. And I will thank you again for your time. It was very good to have you all here. Thank you. Have a nice week. Thank you very much.
+
+1:41:28 - Unidentified Speaker
+Bye.
+
+1:41:28 - Gen Li
+Have a good week.
+
+1:41:30 - Unidentified Speaker
+Bye.
+
+1:41:30 - Nicolas ROUSSELET
+you you Are you tired?
+
+1:46:05 - Unidentified Speaker
+Bye!
