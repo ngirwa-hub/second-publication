@@ -1,14 +1,14 @@
 This repository is organized into two main folders: `previous-analysis` and `current-analysis`.
 
-## 1. Repository Structure
-### `previous-analysis`
+## Repository Structure
+### 1. Previous analysis: `previous-analysis`
 Contains prompt scripts, files, and analysis scripts from the first submission to the TiiS journal. These files support reproducibility for the experiments reported in the second manuscript.
 
 - `analysis/`: analysis scripts and generated outputs reported in the second manuscript.
 - `modelfiles/`: model-definition files used to generate the LLM expert personas.
 - `pythonscripts/`: Python scripts used to prompt the model variants.
 
-### `current-analysis`
+### 2. Current analysis: `current-analysis`
 Contains the revised prompt scripts, files, and analysis scripts used after incorporating reviewer comments.
 
 - `meetingTranscript/`: data-preparation files for the content used in the `context` and `anchor` experiments.
@@ -25,11 +25,11 @@ Contains the revised prompt scripts, files, and analysis scripts used after inco
   - `zeroshotBarrierSelectRaw/`: raw barrier-selection responses for the zero-shot condition.
   - `zero-shot-raw/`: example CSV access path for zero-shot outputs.
 
-## 2.3. Guide to the analyses:
-### RQ1: 
+#### Guide to the analyses:
+##### RQ1: 
 Run dependencies: `pandas`; `tidyverse` (for R scripts); `scales`.
 
-#### RQ1-barrier:
+###### RQ1-barrier:
 Overall path: `current-analysis/re-run/rq1-rerun/`
 - Data-preparation notebook: `rq1-barrier-analysis.ipynb`
 - Input CSV: `barriers-zeroshot-working/barriers-humanllm-responses.csv`
@@ -40,7 +40,7 @@ Overall path: `current-analysis/re-run/rq1-rerun/`
 Rscript `barrier-select-rq1.R`
 - Outputs: full selection rate and slopegraph in: `barriers-zeroshot-working/ `
 
-#### RQ1-feasibility:
+###### RQ1-feasibility:
 Overall path: `current-analysis/re-run/rq1-rerun/`
 
 - Optional data-preparation notebook: `rq1-feasibility-analysis.ipynb`
@@ -51,7 +51,7 @@ Overall path: `current-analysis/re-run/rq1-rerun/`
 Rscript `feasibility-rq1.R`
 - Outputs: `feas-zeroshot-working/`
 
-#### RQ1-importance:
+###### RQ1-importance:
 Overall path: `current-analysis/re-run/rq1-rerun/`
 
 - Optional data-preparation notebook: `rq1-importance-analysis.ipynb`
@@ -64,8 +64,8 @@ Run from `current-analysis/re-run/rq1-rerun/`
 Rscript `importance-rq1.R`
 - Outputs: `imp-zeroshot-working/`
 
-### RQ2:
-#### RQ2-barrier:
+##### RQ2:
+###### RQ2-barrier:
 Overall path: `current-analysis/re-run/rq2-rerun/`
 
 - Optional data-preparation notebook: `rq2-barrier-analysis.ipynb`
@@ -77,7 +77,7 @@ Overall path: `current-analysis/re-run/rq2-rerun/`
 Rscript `barrier-select-rq2.R`
 - Outputs: `barriers-ctx-zeroshot-working/`
 
-#### RQ2-feasibility:
+###### RQ2-feasibility:
 Overall path: `current-analysis/re-run/rq2-rerun/`
 
 - Combined input: `feas-ctx-zeroshot-working/feas-ctx-zeroshot-responses.csv`
@@ -94,7 +94,7 @@ Rscript "feasibility-analysis/feas-rq2-sensitivity.R"
 - PPCs: `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/posterior-predictive-checks/`, and 
 - Prior-sensitivity: `feas-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
 
-#### RQ2-importance:
+###### RQ2-importance:
 Overall path: `current-analysis/re-run/rq2-rerun/`
 
 - Combined input: `imp-ctx-zeroshot-working/imp-ctx-zeroshot-responses.csv`
@@ -112,9 +112,9 @@ Rscript "imp-rq2-analysis/imp-rq2-sensitivity.R"
 - Prior-sensitivity: `imp-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
 
 
-### RQ3:
+##### RQ3:
 
-#### RQ3-barrier:
+###### RQ3-barrier:
 Overall path: `current-analysis/re-run/rq3-rerun/`
 
 - Combined input: `barriers-ctx-anchor-working/barriers-ctx-anchor-responses.csv`
@@ -127,7 +127,7 @@ Rscript "barrier-select-rq3.R"
 
 - Outputs: `barriers-ctx-anchor-working/`
 
-#### RQ2-feasibility:
+###### RQ3-feasibility:
 Overall path: `current-analysis/re-run/rq2-rerun/`
 
 - Combined input: `feas-ctx-zeroshot-working/feas-ctx-zeroshot-responses.csv`
@@ -145,7 +145,7 @@ Rscript "feasibility-analysis/feas-rq2-sensitivity.R"
 - Prior-sensitivity: `feas-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
 
 
-#### RQ3-importance:
+###### RQ3-importance:
 Overall path: `current-analysis/re-run/rq3-rerun/`
 
 - Combined input: `imp-ctx-anchor-working/imp-ctx-anchor-responses.csv`
