@@ -1,0 +1,36 @@
+\begin{table}[tbp]
+\caption{Posterior predictive checks for the RQ3 importance primary model.}
+\label{tab:rq3_importance_primary_ppc}
+\begin{tabular}{p{2.1cm}p{2.8cm}cccc}
+\toprule
+Model & Comparison group & Within 95\% PPI & Coverage & Median absolute difference & Maximum absolute difference \\
+\midrule
+Phi-4 & Context & 22/22 & 100.0\% & 0.007 & 0.013 \\
+Phi-4 & Example anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+Phi-4 & Word anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+Phi-4 & High-numeric anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+Phi-4 & Low-numeric anchor & 22/22 & 100.0\% & 0.000 & 0.067 \\
+Gemma3:12B & Context & 22/22 & 100.0\% & 0.007 & 0.027 \\
+Gemma3:12B & Example anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+Gemma3:12B & Word anchor & 22/22 & 100.0\% & 0.000 & 0.067 \\
+Gemma3:12B & High-numeric anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+Gemma3:12B & Low-numeric anchor & 22/22 & 100.0\% & 0.000 & 0.067 \\
+Mistral & Context & 22/22 & 100.0\% & 0.013 & 0.027 \\
+Mistral & Example anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+Mistral & Word anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+Mistral & High-numeric anchor & 22/22 & 100.0\% & 0.033 & 0.033 \\
+Mistral & Low-numeric anchor & 22/22 & 100.0\% & 0.033 & 0.033 \\
+LLaMa-Pro & Context & 22/22 & 100.0\% & 0.003 & 0.013 \\
+LLaMa-Pro & Example anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+LLaMa-Pro & Word anchor & 22/22 & 100.0\% & 0.000 & 0.017 \\
+LLaMa-Pro & High-numeric anchor & 22/22 & 100.0\% & 0.000 & 0.033 \\
+LLaMa-Pro & Low-numeric anchor & 22/22 & 100.0\% & 0.000 & 0.000 \\
+Overall & Overall & 440/440 & 100.0\% & 0.000 & 0.067 \\
+\bottomrule
+\end{tabular}
+
+\noindent\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} PPI denotes the 95\% posterior predictive interval. Coverage is the proportion of observed rating-category proportions within their corresponding PPIs. Absolute differences compare observed proportions with posterior-predicted median proportions.
+\end{minipage}
+
+\end{table}

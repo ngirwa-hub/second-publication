@@ -1,0 +1,5 @@
+base_model,n,observed_ratings,estimate_log_odds,std_error,OR,OR_l95,OR_u95,z,p_value,random_intercept_variance,valid_inference,status
+gemma3,300,3,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,not estimable: outcome has no variation
+llama,300,"1,2,3,4",1.2297357623606338,0.2621395244347527,3.4203256381004956,2.0461138158829506,5.717486182751424,4.691149741773178,2.716740409373452e-6,0.14053467049090226,TRUE,estimable CLMM
+mistral,300,3,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,not estimable: outcome has no variation
+phi4,300,"3,4",NA,NA,NA,NA,NA,NA,NA,0.651637273771964,FALSE,not estimable: Hessian/covariance matrix failure

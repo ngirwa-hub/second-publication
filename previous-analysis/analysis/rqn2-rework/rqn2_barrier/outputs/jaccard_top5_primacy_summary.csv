@@ -1,0 +1,5 @@
+family_label,family,j_ctx_zero,j_zero_list,j_ctx_list,kept_ctx_zero,added_ctx,dropped_zero
+Gemma3:12B,gemma3,0.667,0.25,0.25,"1, 4, 8, 11",7,9
+LLaMa-Pro,llama,1,1,1,"1, 2, 3, 4, 5",,
+Mistral,mistral,1,1,1,"1, 2, 3, 4, 5",,
+Phi4,phi4,0.429,0.667,0.25,"1, 4, 10","6, 8","3, 5"

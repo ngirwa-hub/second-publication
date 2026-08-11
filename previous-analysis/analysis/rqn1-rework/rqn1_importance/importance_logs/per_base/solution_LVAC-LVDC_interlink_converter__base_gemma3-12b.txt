@@ -1,0 +1,39 @@
+Solution: LVAC-LVDC interlink converter | Base model: gemma3-12b
+N_human = 23, N_gemma3-12b = 300
+TOST margin (log-odds) = +/- 0.223 (OR bounds [0.800, 1.250])
+W1 SESOI (delta_W1) = 0.200
+
+-- Rating counts by group (rows=rating 0..4) --
+      source
+rating human llm
+     2     2   0
+     3     3 100
+     4    18 200
+
+-- CLM summary --
+formula: rating ~ group
+data:    dat
+
+ link  threshold nobs logLik  AIC    niter max.grad cond.H 
+ logit flexible  323  -213.18 432.36 7(0)  5.06e-07 1.4e+02
+
+Coefficients:
+      Estimate Std. Error z value Pr(>|z|)
+group  -0.4657     0.5261  -0.885    0.376
+
+Threshold coefficients:
+    Estimate Std. Error z value
+2|3  -5.5194     0.8688  -6.353
+3|4  -1.1684     0.5117  -2.283
+
+-- TOST on group (beta) --
+# A tibble: 1 × 4
+    beta    se p_tost note 
+   <dbl> <dbl>  <dbl> <chr>
+1 -0.466 0.526  0.678 ok   
+
+-- Wasserstein-1 (normalized, 0..1) --
+# A tibble: 1 × 3
+      w1  w1_lo w1_hi
+   <dbl>  <dbl> <dbl>
+1 0.0507 0.0109 0.109

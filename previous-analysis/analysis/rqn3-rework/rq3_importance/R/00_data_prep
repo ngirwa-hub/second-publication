@@ -1,0 +1,76 @@
+# 01_prep_importance_multiarm_from_two_files.R
+suppressPackageStartupMessages({
+  library(tidyverse); library(lubridate)
+})
+
+context_csv <- "../importance_neutral_1256hrs.csv"   # 'NEU' file
+anchor_csv  <- "../importance_biased_llm1254hrs.csv"    # 'BIASED' file with bias_type
+
+out_dir <- "imp_multiarm_outputs"
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+
+# --- read & normalize common fields ---
+ctx <- readr::read_csv(context_csv, show_col_types = FALSE) %>%
+  mutate(
+    condition_raw = toupper(trimws(condition)),
+    condition5    = "CONTEXT",
+    rating        = suppressWarnings(as.integer(rating)),
+    iteration     = suppressWarnings(as.integer(iteration)),
+    timestamp     = suppressWarnings(ymd_hms(timestamp, quiet = TRUE))
+  ) %>%
+  select(row_id, base_model, variant_id, model, dc_solution, rating, label,
+         iteration, timestamp, source, condition_raw, condition5) %>%
+  filter(!is.na(rating), rating >= 0, rating <= 4)
+
+anc <- readr::read_csv(anchor_csv, show_col_types = FALSE) %>%
+  mutate(
+    condition_raw = toupper(trimws(condition)),   # "BIASED"
+    bias_type     = toupper(trimws(bias_type)),   # BIAS_NUM_HIGH
+    condition5    = dplyr::case_when(
+      bias_type == "BIAS_WORD"       ~ "ANCHOR_WORD",
+      bias_type == "BIAS_EXAMPLE"    ~ "ANCHOR_EXAMPLE",
+      bias_type == "BIAS_NUM_LOW"    ~ "ANCHOR_LOW_NUM",
+      bias_type == "BIAS_NUM_HIGH"   ~ "ANCHOR_HIGH_NUM",
+      TRUE ~ NA_character_
+    ),
+    rating        = suppressWarnings(as.integer(rating)),
+    iteration     = suppressWarnings(as.integer(iteration)),
+    timestamp     = suppressWarnings(ymd_hms(timestamp, quiet = TRUE))
+  ) %>%
+  select(row_id, base_model, variant_id, model, dc_solution, rating, label,
+         iteration, timestamp, source, condition_raw, bias_type, anchor_level, condition5) %>%
+  filter(!is.na(rating), rating >= 0, rating <= 4)
+
+# --- combine & tidy ---
+df <- bind_rows(ctx, anc) %>%
+  mutate(
+    base_model  = factor(base_model),
+    variant_id  = factor(variant_id),
+    dc_solution = factor(dc_solution),
+    rating      = ordered(rating, levels = 0:4),
+    condition5  = factor(condition5,
+                         levels = c("CONTEXT","ANCHOR_WORD","ANCHOR_EXAMPLE","ANCHOR_LOW_NUM","ANCHOR_HIGH_NUM")),
+    # pair: BM × variant × solution × iteration (same as earlier)
+    pair_id = interaction(base_model, variant_id, dc_solution, iteration, drop = TRUE)
+  ) %>%
+  arrange(timestamp) %>%
+  # keep the last record per key if duplicates exist
+  group_by(base_model, variant_id, dc_solution, condition5, iteration) %>%
+  slice_tail(n = 1) %>%
+  ungroup() %>%
+  droplevels()
+
+# --- quick QC ---
+# Any rows with unmapped bias_type?
+bad <- df %>% filter(is.na(condition5))
+if (nrow(bad) > 0) {
+  warning("Found rows with unmapped bias_type. Check 'bad_rows_unmapped_condition5.csv'.")
+  readr::write_csv(bad, file.path(out_dir, "bad_rows_unmapped_condition5.csv"))
+}
+
+# Save combined dataset
+saveRDS(df, file.path(out_dir, "df_prepped_importance_multiarm.rds"))
+readr::write_csv(df, file.path(out_dir, "df_prepped_importance_multiarm.csv"))
+
+message("Saved combined file: ", normalizePath(file.path(out_dir, "df_prepped_importance_multiarm.rds"),
+                                              winslash="\\", mustWork = FALSE))

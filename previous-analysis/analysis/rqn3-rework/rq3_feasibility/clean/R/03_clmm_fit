@@ -1,0 +1,59 @@
+suppressPackageStartupMessages({
+  library(dplyr); library(readr); library(forcats); library(ordinal)
+  library(ggplot2); library(emmeans)
+})
+
+indir  <- "feas_out"
+in_rds <- file.path(indir, "feas_clean.rds")
+
+# All outputs go here (single dir)
+outdir <- file.path(indir, "clmm_outputs")
+dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
+
+# --- Load cleaned data ---
+feas <- readRDS(in_rds)
+
+suppressPackageStartupMessages({
+  library(dplyr); library(readr); library(forcats); library(ordinal)
+  library(ggplot2); library(emmeans)
+})
+
+# ensure factors
+feas$scenario   <- fct_relevel(feas$scenario, "CONTEXT")
+feas$base_model <- factor(feas$base_model)
+feas$id_key     <- factor(feas$id_key)
+feas$label      <- factor(feas$label)
+feas$rating_ord <- factor(feas$rating_ord, ordered = TRUE, levels = 0:4)
+
+# try full interaction, then simplify if needed; finally fall back to clm
+.try_fit <- function(form) try(clmm(form, data=feas, link="logit", Hess=TRUE), silent=TRUE)
+fit <- .try_fit(rating_ord ~ base_model * scenario + (1|id_key) + (1|label))
+if (inherits(fit, "try-error")) fit <- .try_fit(rating_ord ~ base_model + scenario + (1|id_key) + (1|label))
+if (inherits(fit, "try-error")) fit <- clm(rating_ord ~ base_model * scenario, data=feas, link="logit", Hess=TRUE)
+
+# ---- Per-base_model contrasts: ANCHOR_* vs CONTEXT ----
+emm_lat <- emmeans(fit, ~ scenario | base_model, mode = "latent")
+anch_vs_context <- contrast(emm_lat, "trt.vs.ctrl1", ref = 1)  # CONTEXT must be first level
+or_tbl <- as.data.frame(anch_vs_context) %>%
+  transmute(
+    base_model,
+    scenario = as.character(contrast),           # e.g., "ANCHOR_WORD - CONTEXT"
+    estimate, SE,
+    OR = exp(estimate),
+    CI_low = exp(estimate - 1.96*SE),
+    CI_high = exp(estimate + 1.96*SE),
+    z = estimate/SE,
+    p = 2*pnorm(-abs(z))
+  )
+readr::write_csv(or_tbl, file.path(outdir, "or_by_scenario_by_base_model.csv"))
+
+# ---- p_ge3 per base_model × scenario ----
+emm_prob <- as.data.frame(emmeans(fit, ~ rating_ord | base_model * scenario, mode = "prob"))
+pge3_df <- emm_prob %>%
+  mutate(r = suppressWarnings(as.integer(as.character(rating_ord)))) %>%
+  group_by(base_model, scenario) %>%
+  summarise(p_ge3 = sum(prob[r >= 3], na.rm = TRUE), .groups = "drop")
+readr::write_csv(pge3_df, file.path(outdir, "p_ge3_by_base_model_scenario.csv"))
+
+
+

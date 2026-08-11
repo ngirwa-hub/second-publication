@@ -1,0 +1,74 @@
+ Family: cumulative 
+  Links: mu = logit 
+Formula: rating | thres(3, gr = base_model) ~ base_model:anchor_example + base_model:anchor_word + base_model:anchor_num_high + base_model:anchor_num_low 
+   Data: df (Number of observations: 1080) 
+  Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
+         total post-warmup draws = 8000
+
+Regression Coefficients:
+                                  Estimate Est.Error l-95% CI u-95% CI Rhat
+Intercept[gemma3,1]                  -5.52      0.83    -7.34    -4.16 1.00
+Intercept[gemma3,2]                  -4.85      0.62    -6.14    -3.77 1.00
+Intercept[gemma3,3]                   5.68      0.86     4.23     7.57 1.00
+Intercept[llama,1]                   -4.09      0.46    -5.04    -3.26 1.00
+Intercept[llama,2]                   -2.29      0.23    -2.77    -1.85 1.00
+Intercept[llama,3]                    1.08      0.17     0.76     1.42 1.00
+Intercept[mistral,1]                 -5.51      0.84    -7.38    -4.10 1.00
+Intercept[mistral,2]                 -4.84      0.63    -6.19    -3.76 1.00
+Intercept[mistral,3]                  5.14      0.70     3.94     6.67 1.00
+Intercept[phi4,1]                    -5.51      0.83    -7.36    -4.12 1.00
+Intercept[phi4,2]                    -4.85      0.62    -6.20    -3.76 1.00
+Intercept[phi4,3]                     5.67      0.85     4.24     7.51 1.00
+base_modelgemma3:anchor_example       0.07      0.68    -1.26     1.42 1.00
+base_modelllama:anchor_example       -0.56      0.37    -1.29     0.15 1.00
+base_modelmistral:anchor_example      0.03      0.67    -1.27     1.33 1.00
+base_modelphi4:anchor_example         0.08      0.67    -1.26     1.37 1.00
+base_modelgemma3:anchor_word          0.07      0.68    -1.25     1.40 1.00
+base_modelllama:anchor_word           0.44      0.35    -0.24     1.12 1.00
+base_modelmistral:anchor_word         0.46      0.66    -0.82     1.74 1.00
+base_modelphi4:anchor_word            0.07      0.68    -1.23     1.42 1.00
+base_modelgemma3:anchor_num_high      0.07      0.68    -1.25     1.39 1.00
+base_modelllama:anchor_num_high       0.34      0.36    -0.35     1.04 1.00
+base_modelmistral:anchor_num_high     0.04      0.66    -1.23     1.33 1.00
+base_modelphi4:anchor_num_high        0.07      0.67    -1.23     1.40 1.00
+base_modelgemma3:anchor_num_low       0.07      0.66    -1.21     1.36 1.00
+base_modelllama:anchor_num_low        0.13      0.35    -0.57     0.80 1.00
+base_modelmistral:anchor_num_low      0.02      0.68    -1.32     1.34 1.00
+base_modelphi4:anchor_num_low         0.06      0.67    -1.27     1.40 1.00
+                                  Bulk_ESS Tail_ESS
+Intercept[gemma3,1]                   7626     5610
+Intercept[gemma3,2]                   9164     6698
+Intercept[gemma3,3]                   9941     6843
+Intercept[llama,1]                    5872     5823
+Intercept[llama,2]                    9258     6362
+Intercept[llama,3]                    8462     5509
+Intercept[mistral,1]                  7029     5248
+Intercept[mistral,2]                  9294     7052
+Intercept[mistral,3]                 10528     6714
+Intercept[phi4,1]                     7563     4931
+Intercept[phi4,2]                     9227     6901
+Intercept[phi4,3]                    10628     7209
+base_modelgemma3:anchor_example      13345     6000
+base_modelllama:anchor_example       12394     6325
+base_modelmistral:anchor_example     13607     6255
+base_modelphi4:anchor_example        12263     5626
+base_modelgemma3:anchor_word         13279     6552
+base_modelllama:anchor_word          10087     5495
+base_modelmistral:anchor_word        11706     6123
+base_modelphi4:anchor_word           12844     5856
+base_modelgemma3:anchor_num_high     12509     5858
+base_modelllama:anchor_num_high      11013     6378
+base_modelmistral:anchor_num_high    12474     6409
+base_modelphi4:anchor_num_high       12280     5997
+base_modelgemma3:anchor_num_low      12675     5556
+base_modelllama:anchor_num_low       12181     6047
+base_modelmistral:anchor_num_low     13381     5752
+base_modelphi4:anchor_num_low        12632     5859
+
+Further Distributional Parameters:
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00   NA       NA       NA
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

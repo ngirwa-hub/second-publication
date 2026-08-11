@@ -1,0 +1,107 @@
+
+--- generalist_llama ---
+5. Lack of pilot projects
+6. Public perception of DC and readiness to 'champion' installations from DC projects
+7. Incompatibility of DC systems components
+8. Misconception and lack of knowledge leads to lengthy/expensive design and permit process
+9. Lack of enough trained personnel in DC systems
+10. Uncertain regulatory roadmap
+
+--- normative_llama ---
+5. Lack of pilot projects
+7. Incompatibility of DC systems components
+8. Misconception and lack of knowledge leads to lengthy/expensive design and permit process
+9. Lack of enough trained personnel in DC systems
+10. Uncertain regulatory roadmap
+11. High costs of DC solutions
+
+--- subject-matter_llama ---
+1. Power losses, quality, and safety issues
+2. Lack of use-cases in which DC is advantageous
+3. Uncertain utility interaction (net metering, utility ownership, and agreed standards)
+4. Incompatibility of DC systems components
+5. Misconception and lack of knowledge leads to lengthy/expensive design and permit process
+
+--- generalist_mistral ---
+1. power losses, quality and safety issues
+2. reduced reliability in DC devices
+3. lack of use-cases in which DC is advantageous
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. lack of pilot projects
+6. public perception of DC and readiness to 'champion' installations from DC projects (although this is not a technical barrier, it is important to consider the social aspect for widespread adoption)
+7. incompatibility of DC systems components (while not one of the five selected barriers, it is worth noting that this issue could potentially arise as the technology matures and more solutions become available)
+
+--- normative_mistral ---
+1. power losses, quality and safety issues
+2. reduced reliability in DC devices
+3. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+4. lack of pilot projects
+5. public perception of DC and readiness to 'champion' installations from DC projects
+
+--- subject-matter_mistral ---
+1. power losses, quality and safety issues
+2. reduced reliability in DC devices
+3. lack of use-cases in which DC is advantageous
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. lack of pilot projects
+6. public perception of DC and readiness to 'champion' installations from DC projects
+7. incompatibility of DC systems components (not selected due to the focus on medium- and low-voltage DC)
+8. misconception and lack of knowledge leads to lengthy/expensive design and permit process (not selected due to the focus on expert elicitation and not user data)
+9. lack of enough trained personnel in DC systems (not selected as it might not be a significant barrier in the context of the Shift2DC project, given that experts are being consulted)
+10. uncertain regulatory roadmap (not selected due to the focus on barriers rather than opportunities or areas of agreement)
+
+--- generalist_gemma3 ---
+Here are five barriers selected from the list:
+
+1. power losses, quality and safety issues
+2. lack of pilot projects
+3. public perception of DC and readiness to 'champion' installations from DC projects
+4. misconception and lack of knowledge leads to lengthy/expensive design and permit process
+5. uncertain regulatory roadmap
+
+--- normative_gemma3 ---
+Here are the five barriers I select from the provided list:
+
+1. power losses, quality and safety issues
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+7. incompatibility of DC systems components
+8. misconception and lack of knowledge leads to lengthy/expensive design and permit process
+11. high costs of DC solutions
+
+--- subject-matter_gemma3 ---
+Here are the five barriers I select from the list:
+
+1. power losses, quality and safety issues
+2. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+3. lack of pilot projects
+4. misconception and lack of knowledge leads to lengthy/expensive design and permit process
+5. uncertain regulatory roadmap
+
+--- generalist_phi4 ---
+Based on the context provided, here are five selected barriers:
+
+1. power losses, quality and safety issues
+2. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+3. lack of pilot projects
+4. misconception and lack of knowledge leads to lengthy/expensive design and permit process
+5. uncertain regulatory roadmap
+
+--- normative_phi4 ---
+Based on the provided list, here are five barriers selected for consideration:
+
+1. power losses, quality and safety issues
+2. lack of use-cases in which DC is advantageous
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. lack of pilot projects
+10. uncertain regulatory roadmap
+
+These selections reflect key challenges that can impact the adoption and integration of medium- and low-voltage DC technologies, as highlighted within the context of the Shift2DC project.
+
+--- subject-matter_phi4 ---
+Based on the provided list, here are the five selected barriers:
+
+1. power losses, quality and safety issues
+2. reduced reliability in DC devices
+3. lack of use-cases in which DC is advantageous
+4. uncertain utility interaction (net metering, utility ownership, and agreed standards)
+5. high costs of DC solutions

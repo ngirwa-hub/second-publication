@@ -1,0 +1,23 @@
+Cumulative Link Mixed Model fitted with the adaptive Gauss-Hermite 
+quadrature approximation with 7 quadrature points 
+
+formula: rating ~ condition + model + (1 | pair_id)
+data:    data
+
+ link  threshold nobs logLik AIC    niter    max.grad cond.H
+ logit flexible  300  -63.92 137.84 115(239) 3.30e-05 NaN   
+
+Random effects:
+ Groups  Name        Variance Std.Dev.
+ pair_id (Intercept) 0.6516   0.8072  
+Number of groups:  pair_id 150 
+
+Coefficients:
+                    Estimate Std. Error z value Pr(>|z|)
+conditionCONTEXT     -22.598        NaN     NaN      NaN
+modelnormative         1.462        NaN     NaN      NaN
+modelsubject-matter    1.721        NaN     NaN      NaN
+
+Threshold coefficients:
+    Estimate Std. Error z value
+3|4    3.027        NaN     NaN

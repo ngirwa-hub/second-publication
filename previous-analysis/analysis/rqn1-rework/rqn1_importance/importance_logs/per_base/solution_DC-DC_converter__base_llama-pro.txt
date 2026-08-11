@@ -1,0 +1,39 @@
+Solution: DC-DC converter | Base model: llama-pro
+N_human = 12, N_llama-pro = 300
+TOST margin (log-odds) = +/- 0.223 (OR bounds [0.800, 1.250])
+W1 SESOI (delta_W1) = 0.200
+
+-- Rating counts by group (rows=rating 0..4) --
+      source
+rating human llm
+     3     2 186
+     4    10 114
+
+-- CLM summary --
+formula: rating ~ group
+data:    dat
+
+ link  threshold nobs logLik  AIC    niter max.grad cond.H 
+ logit flexible  312  -204.63 413.25 4(0)  1.43e-08 1.7e+02
+
+Coefficients:
+      Estimate Std. Error z value Pr(>|z|)   
+group  -2.0990     0.7837  -2.678   0.0074 **
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+3|4  -1.6094     0.7746  -2.078
+
+-- TOST on group (beta) --
+# A tibble: 1 × 4
+   beta    se p_tost note 
+  <dbl> <dbl>  <dbl> <chr>
+1 -2.10 0.784  0.992 ok   
+
+-- Wasserstein-1 (normalized, 0..1) --
+# A tibble: 1 × 3
+     w1  w1_lo w1_hi
+  <dbl>  <dbl> <dbl>
+1 0.113 0.0208 0.188

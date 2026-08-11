@@ -1,0 +1,22 @@
+\begin{table*}[tbp]
+\caption{RQ3 feasibility: primary-prior endpoint-probability contrasts for the word and example anchors.}
+\label{tab:rq3_feasibility_extremity_appendix}
+\begin{tabular}{llcccccc}
+\toprule
+Model & Anchor & Context endpoint probability & Anchor endpoint probability & $\Delta$ & 95\% CrI & $P(\Delta>0)$ & Interpretation \\
+\midrule
+Gemma3:12B & Example & 0.008 & 0.010 & +0.001 & [-0.005, 0.030] & 0.688 & Uncertain \\
+Gemma3:12B & Word & 0.008 & 0.010 & +0.001 & [-0.005, 0.031] & 0.683 & Uncertain \\
+LLaMa-Pro & Example & 0.269 & 0.185 & -0.083 & [-0.161, 0.018] & 0.047 & Uncertain \\
+LLaMa-Pro & Word & 0.269 & 0.373 & +0.104 & [-0.038, 0.275] & 0.921 & Uncertain \\
+Mistral & Example & 0.010 & 0.013 & +0.001 & [-0.005, 0.035] & 0.701 & Uncertain \\
+Mistral & Word & 0.010 & 0.017 & +0.006 & [-0.004, 0.066] & 0.823 & Uncertain \\
+Phi-4 & Example & 0.008 & 0.010 & +0.001 & [-0.005, 0.030] & 0.679 & Uncertain \\
+Phi-4 & Word & 0.008 & 0.010 & +0.001 & [-0.005, 0.031] & 0.688 & Uncertain \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Endpoint probability is $P(Y=1)+P(Y=4)$. $\Delta$ is Anchor minus Context. Positive values indicate greater endpoint concentration under the anchor.
+\end{minipage}
+\end{table*}

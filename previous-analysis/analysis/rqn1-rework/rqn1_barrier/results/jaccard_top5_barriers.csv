@@ -1,0 +1,6 @@
+pair,jaccard_top5,intersection_size,setA_top5,setB_top5
+human vs LLM_overall,0.0,0,"['B10', 'B11', 'B6', 'B8', 'B9']","['B1', 'B2', 'B3', 'B4', 'B5']"
+human vs gemma3-12b,0.429,3,"['B10', 'B11', 'B6', 'B8', 'B9']","['B1', 'B11', 'B4', 'B8', 'B9']"
+human vs llama-pro,0.0,0,"['B10', 'B11', 'B6', 'B8', 'B9']","['B1', 'B2', 'B3', 'B4', 'B5']"
+human vs mistral,0.0,0,"['B10', 'B11', 'B6', 'B8', 'B9']","['B1', 'B2', 'B3', 'B4', 'B5']"
+human vs phi4,0.111,1,"['B10', 'B11', 'B6', 'B8', 'B9']","['B1', 'B10', 'B3', 'B4', 'B5']"

@@ -1,0 +1,89 @@
+base_model,dc_solution,condition,n,n_ge3,pct_ge3
+gemma3,DC-DC converter,ZEROSHOT,300,300,100
+gemma3,DC-DC converter,CONTEXT,300,300,100
+gemma3,DC connectors,ZEROSHOT,300,300,100
+gemma3,DC connectors,CONTEXT,300,300,100
+gemma3,DC measurement device,ZEROSHOT,300,300,100
+gemma3,DC measurement device,CONTEXT,300,300,100
+gemma3,DC solution design tool,ZEROSHOT,300,300,100
+gemma3,DC solution design tool,CONTEXT,300,300,100
+gemma3,LVAC-LVDC interlink converter,ZEROSHOT,300,300,100
+gemma3,LVAC-LVDC interlink converter,CONTEXT,300,300,100
+gemma3,Network design tool for DC solutions,ZEROSHOT,300,300,100
+gemma3,Network design tool for DC solutions,CONTEXT,300,300,100
+gemma3,Protection DC system design tool,ZEROSHOT,300,300,100
+gemma3,Protection DC system design tool,CONTEXT,300,300,100
+gemma3,Semiconductor-based circuit breaker,ZEROSHOT,300,300,100
+gemma3,Semiconductor-based circuit breaker,CONTEXT,300,300,100
+gemma3,Smart and sustainable DC cables,ZEROSHOT,300,300,100
+gemma3,Smart and sustainable DC cables,CONTEXT,300,300,100
+gemma3,Solid-state circuit breaker,ZEROSHOT,300,300,100
+gemma3,Solid-state circuit breaker,CONTEXT,300,300,100
+gemma3,Static protection system,ZEROSHOT,300,214,71.33
+gemma3,Static protection system,CONTEXT,300,300,100
+llama,DC-DC converter,ZEROSHOT,300,300,100
+llama,DC-DC converter,CONTEXT,300,300,100
+llama,DC connectors,ZEROSHOT,300,300,100
+llama,DC connectors,CONTEXT,300,300,100
+llama,DC measurement device,ZEROSHOT,300,300,100
+llama,DC measurement device,CONTEXT,300,300,100
+llama,DC solution design tool,ZEROSHOT,300,299,99.67
+llama,DC solution design tool,CONTEXT,300,300,100
+llama,LVAC-LVDC interlink converter,ZEROSHOT,300,300,100
+llama,LVAC-LVDC interlink converter,CONTEXT,300,300,100
+llama,Network design tool for DC solutions,ZEROSHOT,300,300,100
+llama,Network design tool for DC solutions,CONTEXT,300,300,100
+llama,Protection DC system design tool,ZEROSHOT,300,300,100
+llama,Protection DC system design tool,CONTEXT,300,300,100
+llama,Semiconductor-based circuit breaker,ZEROSHOT,300,271,90.33
+llama,Semiconductor-based circuit breaker,CONTEXT,300,300,100
+llama,Smart and sustainable DC cables,ZEROSHOT,300,300,100
+llama,Smart and sustainable DC cables,CONTEXT,300,300,100
+llama,Solid-state circuit breaker,ZEROSHOT,300,297,99
+llama,Solid-state circuit breaker,CONTEXT,300,300,100
+llama,Static protection system,ZEROSHOT,300,267,89
+llama,Static protection system,CONTEXT,300,300,100
+mistral,DC-DC converter,ZEROSHOT,300,300,100
+mistral,DC-DC converter,CONTEXT,300,300,100
+mistral,DC connectors,ZEROSHOT,300,300,100
+mistral,DC connectors,CONTEXT,300,300,100
+mistral,DC measurement device,ZEROSHOT,300,300,100
+mistral,DC measurement device,CONTEXT,300,300,100
+mistral,DC solution design tool,ZEROSHOT,300,300,100
+mistral,DC solution design tool,CONTEXT,300,300,100
+mistral,LVAC-LVDC interlink converter,ZEROSHOT,300,300,100
+mistral,LVAC-LVDC interlink converter,CONTEXT,300,300,100
+mistral,Network design tool for DC solutions,ZEROSHOT,300,300,100
+mistral,Network design tool for DC solutions,CONTEXT,300,300,100
+mistral,Protection DC system design tool,ZEROSHOT,300,300,100
+mistral,Protection DC system design tool,CONTEXT,300,300,100
+mistral,Semiconductor-based circuit breaker,ZEROSHOT,300,300,100
+mistral,Semiconductor-based circuit breaker,CONTEXT,300,300,100
+mistral,Smart and sustainable DC cables,ZEROSHOT,300,300,100
+mistral,Smart and sustainable DC cables,CONTEXT,300,300,100
+mistral,Solid-state circuit breaker,ZEROSHOT,300,300,100
+mistral,Solid-state circuit breaker,CONTEXT,300,300,100
+mistral,Static protection system,ZEROSHOT,300,300,100
+mistral,Static protection system,CONTEXT,300,300,100
+phi4,DC-DC converter,ZEROSHOT,300,300,100
+phi4,DC-DC converter,CONTEXT,300,300,100
+phi4,DC connectors,ZEROSHOT,300,300,100
+phi4,DC connectors,CONTEXT,300,300,100
+phi4,DC measurement device,ZEROSHOT,300,300,100
+phi4,DC measurement device,CONTEXT,300,300,100
+phi4,DC solution design tool,ZEROSHOT,300,300,100
+phi4,DC solution design tool,CONTEXT,300,300,100
+phi4,LVAC-LVDC interlink converter,ZEROSHOT,300,300,100
+phi4,LVAC-LVDC interlink converter,CONTEXT,300,300,100
+phi4,Network design tool for DC solutions,ZEROSHOT,300,300,100
+phi4,Network design tool for DC solutions,CONTEXT,300,300,100
+phi4,Protection DC system design tool,ZEROSHOT,300,300,100
+phi4,Protection DC system design tool,CONTEXT,300,300,100
+phi4,Semiconductor-based circuit breaker,ZEROSHOT,300,300,100
+phi4,Semiconductor-based circuit breaker,CONTEXT,300,300,100
+phi4,Smart and sustainable DC cables,ZEROSHOT,300,300,100
+phi4,Smart and sustainable DC cables,CONTEXT,300,300,100
+phi4,Solid-state circuit breaker,ZEROSHOT,300,300,100
+phi4,Solid-state circuit breaker,CONTEXT,300,300,100
+phi4,Static protection system,ZEROSHOT,300,300,100
+phi4,Static protection system,CONTEXT,300,300,100

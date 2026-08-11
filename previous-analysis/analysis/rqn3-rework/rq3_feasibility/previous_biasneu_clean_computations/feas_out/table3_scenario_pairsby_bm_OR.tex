@@ -1,0 +1,31 @@
+\begin{table}[!h]
+\centering
+\caption{All-pairs scenario comparisons within each base\_model (odds ratios, 95\% CI)}
+\centering
+\begin{tabular}[t]{llrll}
+\toprule
+base\_model & contrast & OR & 95\% CI & p\\
+\midrule
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{NEU - BIAS\_WORD} & \cellcolor{gray!10}{0.30} & \cellcolor{gray!10}{(0.16, 0.55)} & \cellcolor{gray!10}{NA}\\
+llama-pro & NEU - BIAS\_EXAMPLE & 0.39 & (0.21, 0.73) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{NEU - BIAS\_NUM\_LOW} & \cellcolor{gray!10}{0.47} & \cellcolor{gray!10}{(0.25, 0.89)} & \cellcolor{gray!10}{NA}\\
+llama-pro & NEU - BIAS\_NUM\_HIGH & 0.27 & (0.15, 0.5) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_EXAMPLE} & \cellcolor{gray!10}{1.30} & \cellcolor{gray!10}{(0.61, 2.77)} & \cellcolor{gray!10}{NA}\\
+llama-pro & BIAS\_WORD - BIAS\_NUM\_LOW & 1.56 & (0.73, 3.36) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{0.91} & \cellcolor{gray!10}{(0.44, 1.89)} & \cellcolor{gray!10}{NA}\\
+llama-pro & BIAS\_EXAMPLE - BIAS\_NUM\_LOW & 1.20 & (0.55, 2.65) & NA\\
+\cellcolor{gray!10}{llama-pro} & \cellcolor{gray!10}{BIAS\_EXAMPLE - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{0.70} & \cellcolor{gray!10}{(0.33, 1.49)} & \cellcolor{gray!10}{NA}\\
+llama-pro & BIAS\_NUM\_LOW - BIAS\_NUM\_HIGH & 0.58 & (0.27, 1.25) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{NEU - BIAS\_WORD} & \cellcolor{gray!10}{0.88} & \cellcolor{gray!10}{(0.4, 1.95)} & \cellcolor{gray!10}{NA}\\
+mistral & NEU - BIAS\_EXAMPLE & 1.00 & (0.45, 2.21) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{NEU - BIAS\_NUM\_LOW} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.45, 2.21)} & \cellcolor{gray!10}{NA}\\
+mistral & NEU - BIAS\_NUM\_HIGH & 1.00 & (0.45, 2.21) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_EXAMPLE} & \cellcolor{gray!10}{1.14} & \cellcolor{gray!10}{(0.41, 3.17)} & \cellcolor{gray!10}{NA}\\
+mistral & BIAS\_WORD - BIAS\_NUM\_LOW & 1.14 & (0.41, 3.17) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_WORD - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.14} & \cellcolor{gray!10}{(0.41, 3.17)} & \cellcolor{gray!10}{NA}\\
+mistral & BIAS\_EXAMPLE - BIAS\_NUM\_LOW & 1.00 & (0.36, 2.78) & NA\\
+\cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{BIAS\_EXAMPLE - BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.36, 2.78)} & \cellcolor{gray!10}{NA}\\
+mistral & BIAS\_NUM\_LOW - BIAS\_NUM\_HIGH & 1.00 & (0.36, 2.78) & NA\\
+\bottomrule
+\end{tabular}
+\end{table}

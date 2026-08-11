@@ -1,0 +1,28 @@
+=== FEASIBILITY CLMM (overall) ===
+Reference base_model:  gemma3 
+
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: rating ~ condition + base_model + (1 | pair_id)
+data:    df
+
+ link  threshold nobs logLik  AIC     niter    max.grad cond.H
+ logit flexible  2400 -965.69 1947.38 708(823) 9.64e-07 NaN   
+
+Random effects:
+ Groups  Name        Variance  Std.Dev. 
+ pair_id (Intercept) 4.892e-09 6.994e-05
+Number of groups:  pair_id 1200 
+
+Coefficients:
+                    Estimate Std. Error z value Pr(>|z|)
+conditionCONTEXT   1.972e-01        NaN     NaN      NaN
+base_modelllama    4.338e-01        NaN     NaN      NaN
+base_modelmistral -4.526e-08        NaN     NaN      NaN
+base_modelphi4     5.534e-01        NaN     NaN      NaN
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2   -4.984        NaN     NaN
+2|3   -2.908        NaN     NaN
+3|4    3.106        NaN     NaN

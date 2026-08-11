@@ -1,0 +1,31 @@
+\begin{landscape}
+\begin{longtable}{lllcccccc}
+\caption{RQ3 importance: primary-prior upper-end probability contrasts classified as greater under the word and example anchors.} \label{tab:rq3_importance_upper_end_greater} \\
+\toprule
+Model & DC solution & Anchor & Context $P(Y=4)$ & Anchor $P(Y=4)$ & $\Delta$ & 95\% CrI & $P(\Delta>0)$ & Interpretation \\ 
+\midrule
+\endfirsthead
+\caption[]{RQ3 importance: primary-prior upper-end probability contrasts classified as greater under the word and example anchors.} \\ 
+\toprule
+Model & DC solution & Anchor & Context $P(Y=4)$ & Anchor $P(Y=4)$ & $\Delta$ & 95\% CrI & $P(\Delta>0)$ & Interpretation \\ 
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{Continued on next page} \\ 
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Gemma3:12B & DC connectors & Word & 0.029 & 0.919 & +0.888 & [0.767, 0.949] & $>0.999$ & Greater \\
+Gemma3:12B & DC measurement device & Word & 0.376 & 0.954 & +0.574 & [0.456, 0.659] & $>0.999$ & Greater \\
+Gemma3:12B & DC-DC converter & Word & 0.023 & 0.916 & +0.891 & [0.770, 0.955] & $>0.999$ & Greater \\
+Gemma3:12B & DC-DC converter & Example & 0.023 & 0.131 & +0.107 & [0.021, 0.256] & 0.997 & Greater \\
+Gemma3:12B & Network design tool for DC solutions & Word & 0.738 & 0.971 & +0.227 & [0.133, 0.305] & $>0.999$ & Greater \\
+LLaMa-Pro & LVAC-LVDC interlink converter & Word & 0.157 & 0.378 & +0.221 & [0.056, 0.406] & 0.997 & Greater \\
+Phi-4 & DC connectors & Word & 0.855 & 0.977 & +0.118 & [0.038, 0.184] & 0.995 & Greater \\
+Phi-4 & DC measurement device & Word & 0.556 & 0.910 & +0.350 & [0.213, 0.456] & $>0.999$ & Greater \\
+Phi-4 & LVAC-LVDC interlink converter & Word & 0.843 & 0.976 & +0.129 & [0.047, 0.196] & 0.995 & Greater \\
+\midrule
+\multicolumn{9}{p{0.96\linewidth}}{\footnotesize\textit{Note.} $\Delta$ is the posterior anchor-minus-Context difference in $P(Y=4)$. Only contrasts classified as greater upper-end concentration under the anchor are included. Only ratings 3 and 4 were observed in the importance data; consequently, $P(Y=1)$ was not estimated by the fitted importance model.}\\
+\end{longtable}
+\end{landscape}

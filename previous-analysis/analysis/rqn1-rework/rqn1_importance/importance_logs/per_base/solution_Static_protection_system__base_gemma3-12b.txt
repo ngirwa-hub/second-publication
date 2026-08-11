@@ -1,0 +1,41 @@
+Solution: Static protection system | Base model: gemma3-12b
+N_human = 12, N_gemma3-12b = 300
+TOST margin (log-odds) = +/- 0.223 (OR bounds [0.800, 1.250])
+W1 SESOI (delta_W1) = 0.200
+
+-- Rating counts by group (rows=rating 0..4) --
+      source
+rating human llm
+     1     0  13
+     2     0  73
+     3     1 214
+     4    11   0
+
+-- CLM summary --
+formula: rating ~ group
+data:    dat
+
+ link  threshold nobs logLik  AIC    niter max.grad cond.H 
+ logit flexible  312  -219.71 447.42 24(0) 2.80e-09 1.3e+11
+
+Coefficients:
+      Estimate Std. Error z value Pr(>|z|)
+group    -27.8         NA      NA       NA
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -30.892         NA      NA
+2|3  -28.709         NA      NA
+3|4   -2.398         NA      NA
+
+-- TOST on group (beta) --
+# A tibble: 1 × 4
+   beta    se p_tost note 
+  <dbl> <dbl>  <dbl> <chr>
+1 -27.8    NA     NA ok   
+
+-- Wasserstein-1 (normalized, 0..1) --
+# A tibble: 1 × 3
+     w1 w1_lo w1_hi
+  <dbl> <dbl> <dbl>
+1 0.312 0.229 0.396

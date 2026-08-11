@@ -1,0 +1,18 @@
+\begin{table}[tbp]
+\caption{RQ3 importance effects by base model and anchor type under the primary prior.}
+\label{tab:rq3_importance_primary_compact}
+\begin{tabular}{lcccc}
+\toprule
+Model & Example & Word & High numeric & Low numeric \\
+\midrule
+Phi-4 & 0/0/11 & 3/0/8 & 0/1/10 & 0/3/8 \\
+Gemma3:12B & 1/3/7 & 4/0/7 & 1/2/8 & 2/2/7 \\
+Mistral & 0/2/9 & 0/3/8 & 0/7/4 & 0/8/3 \\
+LLaMa-Pro & 0/2/9 & 1/1/9 & 1/0/10 & 0/2/9 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Each cell reports H/L/U: the numbers of DC-solution contrasts classified as higher under Anchor, lower under Anchor, and uncertain, respectively. Each cell summarizes 11 separately estimated DC-solution effects and therefore sums to 11. The effects were not pooled across DC solutions. Classifications were obtained from the primary-prior posterior estimates.
+\end{minipage}
+\end{table}

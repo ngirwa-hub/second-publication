@@ -1,0 +1,32 @@
+\begin{table}[tbp]
+\caption{Prior-sensitivity summary for the RQ3 importance anchor effects.}
+\label{tab:rq3_importance_prior_sensitivity}
+\begin{tabular}{llccc}
+\toprule
+Model & Anchor type & Contrasts & Direction stable & Conclusion stable \\
+\midrule
+Phi-4 & Example & 11 & 11/11 (100.0\%) & 11/11 (100.0\%) \\
+Phi-4 & Word & 11 & 11/11 (100.0\%) & 10/11 (90.9\%) \\
+Phi-4 & High numeric & 11 & 11/11 (100.0\%) & 10/11 (90.9\%) \\
+Phi-4 & Low numeric & 11 & 11/11 (100.0\%) & 10/11 (90.9\%) \\
+Gemma3:12B & Example & 11 & 11/11 (100.0\%) & 9/11 (81.8\%) \\
+Gemma3:12B & Word & 11 & 11/11 (100.0\%) & 11/11 (100.0\%) \\
+Gemma3:12B & High numeric & 11 & 11/11 (100.0\%) & 10/11 (90.9\%) \\
+Gemma3:12B & Low numeric & 11 & 11/11 (100.0\%) & 11/11 (100.0\%) \\
+Mistral & Example & 11 & 10/11 (90.9\%) & 10/11 (90.9\%) \\
+Mistral & Word & 11 & 10/11 (90.9\%) & 10/11 (90.9\%) \\
+Mistral & High numeric & 11 & 11/11 (100.0\%) & 9/11 (81.8\%) \\
+Mistral & Low numeric & 11 & 11/11 (100.0\%) & 10/11 (90.9\%) \\
+LLaMa-Pro & Example & 11 & 10/11 (90.9\%) & 11/11 (100.0\%) \\
+LLaMa-Pro & Word & 11 & 11/11 (100.0\%) & 9/11 (81.8\%) \\
+LLaMa-Pro & High numeric & 11 & 11/11 (100.0\%) & 11/11 (100.0\%) \\
+LLaMa-Pro & Low numeric & 11 & 11/11 (100.0\%) & 10/11 (90.9\%) \\
+Overall & All & 176 & 173/176 (98.3\%) & 162/176 (92.0\%) \\
+\bottomrule
+\end{tabular}
+
+\noindent\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Direction stability indicates that the posterior median OR remained on the same side of one under the regularizing, primary, and weak priors. Conclusion stability indicates that the inferential classification was identical under all three priors. Rates were calculated directly from the 176 contrast-level records.
+\end{minipage}
+
+\end{table}

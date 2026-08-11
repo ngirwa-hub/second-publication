@@ -1,0 +1,15 @@
+\begin{table}[!h]
+\centering
+\caption{BIASED vs NEU within each base_model (Cumulative OR, Wald 95% CI)}
+\centering
+\begin{tabular}[t]{lrrrrrl}
+\toprule
+base\_model & OR & 95\% CI & p (raw) & p (Holm) & \%Δ odds & Direction\\
+\midrule
+\cellcolor{gray!10}{LlaMa-Pro} & \cellcolor{gray!10}{3.23} & \cellcolor{gray!10}{(2.1–4.97)} & \cellcolor{gray!10}{<1e-04} & \cellcolor{gray!10}{<1e-04} & \cellcolor{gray!10}{+223\%} & \cellcolor{gray!10}{significant increase}\\
+Mistral7B & 1.08 & (0.52–2.26) & 0.838 & 1 & +8\% & no clear change\\
+\cellcolor{gray!10}{Gemma3:12B} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(0.48–2.1)} & \cellcolor{gray!10}{1.000} & \cellcolor{gray!10}{1} & \cellcolor{gray!10}{+0\%} & \cellcolor{gray!10}{no clear change}\\
+Phi4 & 1.00 & (0.48–2.1) & 1.000 & 1 & +0\% & no clear change\\
+\bottomrule
+\end{tabular}
+\end{table}

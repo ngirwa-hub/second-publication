@@ -1,0 +1,32 @@
+\begin{table*}[tbp]
+\caption{Selected RQ3 importance numeric-anchor effects under the primary prior.}
+\label{tab:rq3-importance-selected-numeric}
+\begin{tabular}{p{1.8cm}p{4.0cm}p{3.7cm}p{3.7cm}p{1.8cm}}
+\toprule
+Model & DC solution & High numeric vs. Context & Low numeric vs. Context & Median ordering \\
+\midrule
+Phi-4 & DC measurement device & 1.586 [0.732, 3.586]; Uncertain & 0.417 [0.184, 0.900]; Lower & High $>$ Low \\
+Phi-4 & Protection DC system design tool & 1.858 [0.211, 22.999]; Uncertain & 0.080 [0.019, 0.321]; Lower & High $>$ Low \\
+Phi-4 & Smart and sustainable DC cables & 0.180 [0.041, 0.957]; Lower & 0.122 [0.029, 0.572]; Lower & High $>$ Low \\
+Gemma3:12B & DC connectors & 3.920 [0.959, 13.521]; Uncertain & 9.773 [3.162, 29.903]; Higher & Low $>$ High \\
+Gemma3:12B & DC measurement device & 4.947 [2.210, 12.035]; Higher & 3.609 [1.654, 8.280]; Higher & High $>$ Low \\
+Gemma3:12B & Network design tool for DC solutions & 0.290 [0.131, 0.635]; Lower & 0.042 [0.012, 0.117]; Lower & High $>$ Low \\
+Gemma3:12B & Smart and sustainable DC cables & 0.102 [0.032, 0.302]; Lower & 0.007 [0.002, 0.021]; Lower & High $>$ Low \\
+Mistral & DC connectors & 0.034 [0.013, 0.083]; Lower & 0.030 [0.011, 0.075]; Lower & High $>$ Low \\
+Mistral & DC measurement device & 0.098 [0.020, 0.325]; Lower & 0.202 [0.059, 0.538]; Lower & Low $>$ High \\
+Mistral & DC-DC converter & 0.078 [0.025, 0.204]; Lower & 0.213 [0.090, 0.477]; Lower & Low $>$ High \\
+Mistral & LVAC-LVDC interlink converter & 0.091 [0.028, 0.234]; Lower & 0.029 [0.005, 0.104]; Lower & High $>$ Low \\
+Mistral & Protection DC system design tool & 0.192 [0.084, 0.444]; Lower & 0.190 [0.084, 0.432]; Lower & High $>$ Low \\
+Mistral & Semiconductor-based circuit breaker & 0.242 [0.066, 0.974]; Lower & 0.183 [0.052, 0.662]; Lower & High $>$ Low \\
+Mistral & Smart and sustainable DC cables & 0.169 [0.021, 0.836]; Lower & 0.169 [0.020, 0.884]; Lower & High $>$ Low \\
+Mistral & Static protection system & 1.924 [0.215, 26.683]; Uncertain & 0.104 [0.022, 0.495]; Lower & High $>$ Low \\
+LLaMa-Pro & DC connectors & 0.751 [0.308, 1.722]; Uncertain & 0.262 [0.075, 0.712]; Lower & High $>$ Low \\
+LLaMa-Pro & DC solution design tool & 1.512 [0.665, 3.417]; Uncertain & 0.332 [0.103, 0.907]; Lower & High $>$ Low \\
+LLaMa-Pro & LVAC-LVDC interlink converter & 3.786 [1.674, 8.475]; Higher & 1.522 [0.577, 3.707]; Uncertain & High $>$ Low \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Each high- and low-numeric odds ratio compares the named anchor arm with Context, for which the reference value is $OR=1$. Rows are included when at least one numeric-anchor effect was classified as higher or lower relative to Context; combinations for which both effects were uncertain are omitted. The final column compares the posterior median odds ratios descriptively and does not represent a direct posterior high-versus-low contrast. Each effect is reported as the posterior median OR, 95\% credible interval, and interpretation.
+\end{minipage}
+\end{table*}

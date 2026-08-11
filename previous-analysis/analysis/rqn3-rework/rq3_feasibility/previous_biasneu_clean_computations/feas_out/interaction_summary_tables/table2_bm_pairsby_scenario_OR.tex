@@ -1,0 +1,41 @@
+\begin{table}[!h]
+\centering
+\caption{All-pairs base\_model comparisons within each scenario (odds ratios, 95\% CI)}
+\centering
+\begin{tabular}[t]{llrll}
+\toprule
+scenario & contrast & OR & 95\% CI & p\\
+\midrule
+\cellcolor{gray!10}{NEU} & \cellcolor{gray!10}{phi4 - (llama-pro)} & \cellcolor{gray!10}{0.16} & \cellcolor{gray!10}{(-2.65, -0.99)} & \cellcolor{gray!10}{NA}\\
+NEU & phi4 - mistral & 1.00 & (-0.92, 0.92) & NA\\
+\cellcolor{gray!10}{NEU} & \cellcolor{gray!10}{phi4 - (gemma3-12b)} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-0.92, 0.92)} & \cellcolor{gray!10}{NA}\\
+NEU & (llama-pro) - mistral & 6.20 & (0.99, 2.65) & NA\\
+\cellcolor{gray!10}{NEU} & \cellcolor{gray!10}{(llama-pro) - (gemma3-12b)} & \cellcolor{gray!10}{6.20} & \cellcolor{gray!10}{(0.99, 2.65)} & \cellcolor{gray!10}{NA}\\
+NEU & mistral - (gemma3-12b) & 1.00 & (-0.92, 0.92) & NA\\
+\cellcolor{gray!10}{BIAS\_WORD} & \cellcolor{gray!10}{phi4 - (llama-pro)} & \cellcolor{gray!10}{0.04} & \cellcolor{gray!10}{(-4.77, -1.51)} & \cellcolor{gray!10}{NA}\\
+BIAS\_WORD & phi4 - mistral & 0.74 & (-2.34, 1.73) & NA\\
+\cellcolor{gray!10}{BIAS\_WORD} & \cellcolor{gray!10}{phi4 - (gemma3-12b)} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.05, 2.05)} & \cellcolor{gray!10}{NA}\\
+BIAS\_WORD & (llama-pro) - mistral & 17.04 & (1.24, 4.43) & NA\\
+\cellcolor{gray!10}{BIAS\_WORD} & \cellcolor{gray!10}{(llama-pro) - (gemma3-12b)} & \cellcolor{gray!10}{23.16} & \cellcolor{gray!10}{(1.51, 4.77)} & \cellcolor{gray!10}{NA}\\
+BIAS\_WORD & mistral - (gemma3-12b) & 1.36 & (-1.73, 2.34) & NA\\
+\cellcolor{gray!10}{BIAS\_EXAMPLE} & \cellcolor{gray!10}{phi4 - (llama-pro)} & \cellcolor{gray!10}{0.06} & \cellcolor{gray!10}{(-4.52, -1.22)} & \cellcolor{gray!10}{NA}\\
+BIAS\_EXAMPLE & phi4 - mistral & 1.00 & (-2.05, 2.05) & NA\\
+\cellcolor{gray!10}{BIAS\_EXAMPLE} & \cellcolor{gray!10}{phi4 - (gemma3-12b)} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.05, 2.05)} & \cellcolor{gray!10}{NA}\\
+BIAS\_EXAMPLE & (llama-pro) - mistral & 17.66 & (1.22, 4.52) & NA\\
+\cellcolor{gray!10}{BIAS\_EXAMPLE} & \cellcolor{gray!10}{(llama-pro) - (gemma3-12b)} & \cellcolor{gray!10}{17.66} & \cellcolor{gray!10}{(1.22, 4.52)} & \cellcolor{gray!10}{NA}\\
+BIAS\_EXAMPLE & mistral - (gemma3-12b) & 1.00 & (-2.05, 2.05) & NA\\
+\cellcolor{gray!10}{BIAS\_NUM\_LOW} & \cellcolor{gray!10}{phi4 - (llama-pro)} & \cellcolor{gray!10}{0.07} & \cellcolor{gray!10}{(-4.34, -1.02)} & \cellcolor{gray!10}{NA}\\
+BIAS\_NUM\_LOW & phi4 - mistral & 1.00 & (-2.05, 2.05) & NA\\
+\cellcolor{gray!10}{BIAS\_NUM\_LOW} & \cellcolor{gray!10}{phi4 - (gemma3-12b)} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.05, 2.05)} & \cellcolor{gray!10}{NA}\\
+BIAS\_NUM\_LOW & (llama-pro) - mistral & 14.55 & (1.02, 4.34) & NA\\
+\cellcolor{gray!10}{BIAS\_NUM\_LOW} & \cellcolor{gray!10}{(llama-pro) - (gemma3-12b)} & \cellcolor{gray!10}{14.55} & \cellcolor{gray!10}{(1.02, 4.34)} & \cellcolor{gray!10}{NA}\\
+BIAS\_NUM\_LOW & mistral - (gemma3-12b) & 1.00 & (-2.05, 2.05) & NA\\
+\cellcolor{gray!10}{BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{phi4 - (llama-pro)} & \cellcolor{gray!10}{0.04} & \cellcolor{gray!10}{(-4.87, -1.61)} & \cellcolor{gray!10}{NA}\\
+BIAS\_NUM\_HIGH & phi4 - mistral & 1.00 & (-2.05, 2.05) & NA\\
+\cellcolor{gray!10}{BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{phi4 - (gemma3-12b)} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{(-2.05, 2.05)} & \cellcolor{gray!10}{NA}\\
+BIAS\_NUM\_HIGH & (llama-pro) - mistral & 25.57 & (1.61, 4.87) & NA\\
+\cellcolor{gray!10}{BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{(llama-pro) - (gemma3-12b)} & \cellcolor{gray!10}{25.57} & \cellcolor{gray!10}{(1.61, 4.87)} & \cellcolor{gray!10}{NA}\\
+BIAS\_NUM\_HIGH & mistral - (gemma3-12b) & 1.00 & (-2.05, 2.05) & NA\\
+\bottomrule
+\end{tabular}
+\end{table}

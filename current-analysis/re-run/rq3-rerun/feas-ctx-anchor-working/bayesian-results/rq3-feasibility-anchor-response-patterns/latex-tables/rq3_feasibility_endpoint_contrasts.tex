@@ -1,0 +1,18 @@
+\begin{table*}[tbp]
+\caption{RQ3 feasibility: anchor-associated endpoint changes under the example and word anchors.}
+\label{tab:rq3-feasibility-anchor-patterns}
+\begin{tabular}{lcc}
+\toprule
+Model & Example $\Delta_{\mathrm{endpoint}}$ [95\% CrI] & Word $\Delta_{\mathrm{endpoint}}$ [95\% CrI] \\
+\midrule
+Gemma3:12B & +0.001 [-0.005, 0.030]; Uncertain & +0.001 [-0.005, 0.031]; Uncertain \\
+LLaMa-Pro & -0.083 [-0.161, 0.018]; Uncertain & +0.104 [-0.038, 0.275]; Uncertain \\
+Mistral & +0.001 [-0.005, 0.035]; Uncertain & +0.006 [-0.004, 0.066]; Uncertain \\
+Phi-4 & +0.001 [-0.005, 0.030]; Uncertain & +0.001 [-0.005, 0.031]; Uncertain \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} $\Delta_{\mathrm{endpoint}}$ is the posterior anchor-minus-Context difference in $P(Y=1)+P(Y=4)$. Positive values indicate greater endpoint concentration under the anchor, whereas negative values indicate reduced endpoint concentration. A 95\% credible interval containing zero was classified as uncertain.
+\end{minipage}
+\end{table*}

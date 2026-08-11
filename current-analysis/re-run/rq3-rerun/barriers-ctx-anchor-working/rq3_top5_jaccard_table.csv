@@ -1,0 +1,5 @@
+family,model_label,jaccard_pooled,jaccard_word,jaccard_example,jaccard_low_numeric,jaccard_high_numeric
+gemma3,Gemma3:12B,0.667,0.667,0.667,0.667,0.667
+llama,LLaMa-Pro,1,1,1,1,1
+mistral,Mistral,1,1,1,1,1
+phi4,Phi4,1,0.667,0.667,1,0.667

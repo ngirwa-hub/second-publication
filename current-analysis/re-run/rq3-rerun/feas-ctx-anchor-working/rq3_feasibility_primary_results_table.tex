@@ -1,0 +1,30 @@
+\begin{table*}[tbp]
+\caption{RQ3 feasibility: posterior effects of each anchor type relative to Context under the primary prior.}
+\label{tab:rq3_feasibility_bayesian}
+\begin{tabular}{llcccc}
+\toprule
+Model & Anchor type & OR & 95\% CrI & $P(OR>1)$ & Interpretation \\
+\midrule
+Phi-4 & Example & 1.210 & [0.156, 10.258] & 0.571 & Uncertain \\
+Phi-4 & Number (high) & 1.208 & [0.166, 10.510] & 0.570 & Uncertain \\
+Phi-4 & Number (low) & 1.228 & [0.151, 10.851] & 0.573 & Uncertain \\
+Phi-4 & Word & 1.218 & [0.160, 10.844] & 0.574 & Uncertain \\
+Gemma3:12B & Example & 1.227 & [0.162, 10.743] & 0.577 & Uncertain \\
+Gemma3:12B & Number (high) & 1.257 & [0.163, 10.513] & 0.579 & Uncertain \\
+Gemma3:12B & Number (low) & 1.260 & [0.168, 11.360] & 0.581 & Uncertain \\
+Gemma3:12B & Word & 1.226 & [0.155, 10.752] & 0.574 & Uncertain \\
+Mistral & Example & 1.145 & [0.151, 9.070] & 0.555 & Uncertain \\
+Mistral & Number (high) & 1.168 & [0.160, 9.160] & 0.560 & Uncertain \\
+Mistral & Number (low) & 1.164 & [0.156, 8.832] & 0.558 & Uncertain \\
+Mistral & Word & 3.084 & [0.404, 21.888] & 0.861 & Uncertain \\
+LLaMa-Pro & Example & 0.525 & [0.242, 1.118] & 0.047 & Uncertain \\
+LLaMa-Pro & Number (high) & 1.509 & [0.685, 3.266] & 0.849 & Uncertain \\
+LLaMa-Pro & Number (low) & 1.189 & [0.549, 2.523] & 0.669 & Uncertain \\
+LLaMa-Pro & Word & 1.696 & [0.795, 3.658] & 0.921 & Uncertain \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} OR $>1$ indicates higher odds of receiving a higher feasibility rating under the named anchor type relative to Context. CrI denotes the 95\% Bayesian credible interval. The primary effect prior was Normal$(0,1.5)$.
+\end{minipage}
+\end{table*}

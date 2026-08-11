@@ -1,0 +1,184 @@
+
+needed <- c("survival", "dplyr", "readr")
+to_install <- needed[!vapply(needed, requireNamespace, logical(1), quietly = TRUE)]
+if (length(to_install)) install.packages(to_install)
+
+library(survival)
+library(dplyr)
+library(readr)
+
+
+out_dir <- "trial_outputs"
+df <- readRDS(file.path(out_dir, "df_prepped_feas.rds"))
+
+# ==== Conditional logistic (feasibility) — ORs with CIs per base_model ====
+suppressPackageStartupMessages({
+  if (!requireNamespace("survival", quietly = TRUE)) install.packages("survival")
+  library(survival)
+  library(dplyr); library(readr); library(tidyr); library(purrr)
+})
+
+# Helper writer (overwrite + path echo)
+write_csv_safely <- function(x, path){
+  dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
+  if (file.exists(path)) file.remove(path)
+  readr::write_csv(x, path)
+  message("Wrote: ", normalizePath(path, winslash="\\", mustWork = FALSE),
+          " (rows=", nrow(x), ")")
+}
+
+# 1) Binary outcome for "high feasibility": Y>=3
+df_bin <- df %>%
+  mutate(y_ge3 = as.integer(as.integer(as.character(rating)) >= 3)) %>%
+  droplevels()
+df_bin$condition  <- stats::relevel(df_bin$condition, ref = "ZEROSHOT")
+df_bin$base_model <- droplevels(df_bin$base_model)
+
+# Coverage note (optional): each base model should have both conditions
+# print(df_bin %>% count(base_model, condition) %>% tidyr::pivot_wider(names_from=condition, values_from=n, values_fill=0))
+
+# 2) Fit conditional logistic regression, matched by pair_id
+fit_clogit <- clogit(y_ge3 ~ condition * base_model + strata(pair_id),
+                     data = df_bin, method = "efron")
+
+# Save a short summary
+dir.create(file.path(out_dir, "summaries"), showWarnings = FALSE, recursive = TRUE)
+sink(file.path(out_dir, "summaries", "feas_overall_clogit_summary.txt"))
+cat("=== FEASIBILITY conditional logistic (y_ge3) ===\n")
+print(summary(fit_clogit))
+sink()
+
+# 3) Build ORs (CONTEXT vs ZEROSHOT) per base_model using delta method on coef+vcov
+coefs <- coef(fit_clogit)
+V     <- vcov(fit_clogit)
+
+bm_lv     <- levels(df_bin$base_model)
+term_cond <- "conditionCONTEXT"
+
+one_or <- function(bm){
+  term_int <- paste0("conditionCONTEXT:base_model", bm)
+  est <- unname(coefs[term_cond] + ifelse(term_int %in% names(coefs), coefs[term_int], 0))
+  # variance of sum
+  v11 <- V[term_cond, term_cond]
+  if (term_int %in% rownames(V)) {
+    v22 <- V[term_int, term_int]
+    v12 <- V[term_cond, term_int]
+    se  <- sqrt(v11 + v22 + 2*v12)
+  } else {
+    se  <- sqrt(v11)  # reference base_model: no interaction column
+  }
+  lo <- est - 1.96*se; hi <- est + 1.96*se
+  tibble(base_model = bm,
+         OR = exp(est),
+         OR_l95 = exp(lo),
+         OR_u95 = exp(hi))
+}
+
+or_by_bm <- map_dfr(bm_lv, one_or)
+
+# 4) Write effects table (one row per base_model)
+dir.create(file.path(out_dir), showWarnings = FALSE, recursive = TRUE)
+write_csv_safely(or_by_bm, file.path(out_dir, "feas_overall_OR_by_base_model_clogit.csv"))
+
+#=============================================================================#
+# ====== FEASIBILITY (overall) — conditional logistic ORs per base_model ======
+suppressPackageStartupMessages({
+  if (!requireNamespace("survival", quietly = TRUE)) install.packages("survival")
+  library(survival)
+  library(dplyr); library(tidyr); library(readr); library(lubridate); library(purrr)
+})
+
+# ---------- INPUT ----------
+# If you already have df in memory, comment the next two lines and keep going.
+in_csv  <- "feasibility_ratings.csv"   # <-- set to your feasibility file
+out_dir <- "feas_clogit_outputs"
+
+# ---------- PREP (uses your exact columns) ----------
+if (!exists("df")) {
+  df <- readr::read_csv(in_csv, show_col_types = FALSE)
+}
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+
+df <- df %>%
+  mutate(
+    condition  = toupper(trimws(condition)),
+    rating     = suppressWarnings(as.integer(rating)),
+    iteration  = suppressWarnings(as.integer(iteration)),
+    timestamp  = suppressWarnings(ymd_hms(timestamp, quiet = TRUE))
+  ) %>%
+  filter(condition %in% c("ZEROSHOT","CONTEXT"),
+         !is.na(rating), rating >= 0, rating <= 4) %>%
+  arrange(timestamp) %>%
+  # keep last record per (BM, variant, condition, iteration)
+  group_by(base_model, variant_id, condition, iteration) %>%
+  slice_tail(n = 1) %>% ungroup() %>%
+  mutate(
+    # pair across conditions: SAME base_model × variant_id × iteration
+    pair_id   = interaction(base_model, variant_id, iteration, drop = TRUE),
+    condition = factor(condition, levels = c("ZEROSHOT","CONTEXT")),
+    base_model = factor(base_model),
+    # binary outcome at the threshold used throughout your reporting:
+    y_ge3 = as.integer(rating >= 3)
+  ) %>%
+  droplevels()
+
+# ---------- FIT: conditional logistic (paired by pair_id) ----------
+fit_clogit <- clogit(y_ge3 ~ condition * base_model + strata(pair_id),
+                     data = df, method = "efron")
+
+# Save a short summary
+dir.create(file.path(out_dir, "summaries"), showWarnings = FALSE, recursive = TRUE)
+sink(file.path(out_dir, "summaries", "feas_overall_clogit_summary.txt"))
+cat("=== FEASIBILITY conditional logistic (y_ge3) ===\n")
+print(summary(fit_clogit))
+sink()
+
+# ---------- ORs (CONTEXT vs ZEROSHOT) per base_model with CIs ----------
+coefs <- coef(fit_clogit)
+V     <- vcov(fit_clogit)
+bm_lv <- levels(df$base_model)
+term_cond <- "conditionCONTEXT"
+
+one_or <- function(bm){
+  term_int <- paste0("conditionCONTEXT:base_model", bm)
+  est <- unname(coefs[term_cond] + ifelse(term_int %in% names(coefs), coefs[term_int], 0))
+  v11 <- V[term_cond, term_cond]
+  if (term_int %in% rownames(V)) {
+    v22 <- V[term_int, term_int]; v12 <- V[term_cond, term_int]
+    se <- sqrt(v11 + v22 + 2*v12)
+  } else {
+    se <- sqrt(v11)  # reference base_model has no interaction column
+  }
+  lo <- est - 1.96*se; hi <- est + 1.96*se
+  tibble(base_model = bm, OR = exp(est), OR_l95 = exp(lo), OR_u95 = exp(hi))
+}
+
+or_by_bm <- map_dfr(bm_lv, one_or)
+
+dir.create(file.path(out_dir), showWarnings = FALSE, recursive = TRUE)
+readr::write_csv(or_by_bm, file.path(out_dir, "feas_overall_OR_by_base_model_clogit.csv"))
+message("Wrote ORs: ", normalizePath(file.path(out_dir, "feas_overall_OR_by_base_model_clogit.csv"),
+                                     winslash="\\", mustWork = FALSE))
+
+# ---------- OPTIONAL: diagnose discordant pairs (why OR≈1 sometimes) ----------
+disc <- df %>%
+  select(base_model, pair_id, condition, y_ge3) %>%
+  tidyr::pivot_wider(names_from = condition, values_from = y_ge3) %>%
+  filter(!is.na(ZEROSHOT), !is.na(CONTEXT)) %>%
+  mutate(
+    disc_up   = as.integer(ZEROSHOT == 0 & CONTEXT == 1),  # improvement
+    disc_down = as.integer(ZEROSHOT == 1 & CONTEXT == 0)   # worsening
+  ) %>%
+  group_by(base_model) %>%
+  summarise(n_pairs = n(),
+            n_disc_up = sum(disc_up), n_disc_down = sum(disc_down),
+            n_concord_11 = sum(ZEROSHOT==1 & CONTEXT==1),
+            n_concord_00 = sum(ZEROSHOT==0 & CONTEXT==0),
+            .groups="drop") %>%
+  mutate(cond_OR_MLE = ifelse(n_disc_up==0 & n_disc_down==0, NA_real_,
+                              exp(log(pmax(n_disc_up,1e-9)) - log(pmax(n_disc_down,1e-9)))))
+readr::write_csv(disc, file.path(out_dir, "feas_discordant_pairs_by_base_model.csv"))
+message("Wrote discordance table: ",
+        normalizePath(file.path(out_dir, "feas_discordant_pairs_by_base_model.csv"),
+                      winslash="\\", mustWork = FALSE))
+

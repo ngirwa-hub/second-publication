@@ -1,0 +1,9 @@
+base_model,condition,n_observed,observed_median,predicted_median,predicted_l95,predicted_u95,observed_within_predictive_95
+gemma3,CONTEXT,150,3,3,3,3,TRUE
+gemma3,ZEROSHOT,150,3,3,3,3,TRUE
+llama,CONTEXT,150,3,3,3,3,TRUE
+llama,ZEROSHOT,150,3,3,3,3,TRUE
+mistral,CONTEXT,150,3,3,3,3,TRUE
+mistral,ZEROSHOT,150,3,3,3,3,TRUE
+phi4,CONTEXT,150,3,3,3,3,TRUE
+phi4,ZEROSHOT,150,3,3,3,3,TRUE

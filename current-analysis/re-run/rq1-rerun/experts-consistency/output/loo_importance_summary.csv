@@ -1,0 +1,12 @@
+technology,n_experts,full_median,minimum_loo_median,maximum_loo_median,n_removals_changing_median,total_leave_one_out_runs,median_stable_under_all_removals
+DC connectors,23,4.0,4.0,4.0,0,23,True
+DC measurement device,11,3.0,3.0,3.0,0,11,True
+DC solution design tool,12,4.0,4.0,4.0,0,12,True
+DC-DC converter,12,4.0,4.0,4.0,0,12,True
+LVAC-LVDC interlink converter,23,4.0,4.0,4.0,0,23,True
+Network design tool for DC solutions,11,4.0,4.0,4.0,0,11,True
+Protection DC system design tool,12,4.0,4.0,4.0,0,12,True
+Semiconductor-based circuit breaker,12,4.0,4.0,4.0,0,12,True
+Smart and sustainable DC cables,23,4.0,3.5,4.0,12,23,False
+Solid-state circuit breaker,11,4.0,4.0,4.0,0,11,True
+Static protection system,12,4.0,4.0,4.0,0,12,True

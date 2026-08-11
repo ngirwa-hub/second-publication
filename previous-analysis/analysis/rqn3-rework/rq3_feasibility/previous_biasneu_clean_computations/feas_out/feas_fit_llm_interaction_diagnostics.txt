@@ -1,0 +1,16 @@
+Cell counts (base_model x scenario):
+            scenario
+base_model   NEU BIAS_WORD BIAS_EXAMPLE BIAS_NUM_LOW BIAS_NUM_HIGH
+  phi4       300        60           60           60            60
+  llama-pro  300        60           60           60            60
+  mistral    300        60           60           60            60
+  gemma3-12b 300        60           60           60            60
+
+Per-base_model rating variation:
+# A tibble: 4 × 5
+  base_model     n n_unique min_rating max_rating
+  <fct>      <int>    <int>      <dbl>      <dbl>
+1 phi4         540        1          3          3
+2 llama-pro    540        4          1          4
+3 mistral      540        2          3          4
+4 gemma3-12b   540        1          3          3

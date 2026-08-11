@@ -1,0 +1,4 @@
+prior_name,effect_prior_sd,adapt_delta
+regularizing,0.75,0.99
+primary,1.5,0.995
+weak,2.5,0.99

@@ -1,0 +1,45 @@
+base_model,dc_solution,base_solution,patterns,pattern_stable
+gemma3,DC connectors,gemma3__DC connectors,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+gemma3,DC measurement device,gemma3__DC measurement device,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+gemma3,DC solution design tool,gemma3__DC solution design tool,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+gemma3,DC-DC converter,gemma3__DC-DC converter,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+gemma3,LVAC-LVDC interlink converter,gemma3__LVAC-LVDC interlink converter,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+gemma3,Network design tool for DC solutions,gemma3__Network design tool for DC solutions,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+gemma3,Protection DC system design tool,gemma3__Protection DC system design tool,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+gemma3,Semiconductor-based circuit breaker,gemma3__Semiconductor-based circuit breaker,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+gemma3,Smart and sustainable DC cables,gemma3__Smart and sustainable DC cables,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+gemma3,Solid-state circuit breaker,gemma3__Solid-state circuit breaker,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+gemma3,Static protection system,gemma3__Static protection system,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,DC connectors,llama__DC connectors,regularizing: low-arm-only adjustment; primary: low-arm-only adjustment; weak: low-arm-only adjustment,TRUE
+llama,DC measurement device,llama__DC measurement device,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,DC solution design tool,llama__DC solution design tool,regularizing: no supported adjustment; primary: low-arm-only adjustment; weak: low-arm-only adjustment,FALSE
+llama,DC-DC converter,llama__DC-DC converter,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,LVAC-LVDC interlink converter,llama__LVAC-LVDC interlink converter,regularizing: high-arm-only adjustment; primary: high-arm-only adjustment; weak: high-arm-only adjustment,TRUE
+llama,Network design tool for DC solutions,llama__Network design tool for DC solutions,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,Protection DC system design tool,llama__Protection DC system design tool,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,Semiconductor-based circuit breaker,llama__Semiconductor-based circuit breaker,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,Smart and sustainable DC cables,llama__Smart and sustainable DC cables,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,Solid-state circuit breaker,llama__Solid-state circuit breaker,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+llama,Static protection system,llama__Static protection system,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+mistral,DC connectors,mistral__DC connectors,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+mistral,DC measurement device,mistral__DC measurement device,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+mistral,DC solution design tool,mistral__DC solution design tool,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+mistral,DC-DC converter,mistral__DC-DC converter,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+mistral,LVAC-LVDC interlink converter,mistral__LVAC-LVDC interlink converter,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+mistral,Network design tool for DC solutions,mistral__Network design tool for DC solutions,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+mistral,Protection DC system design tool,mistral__Protection DC system design tool,regularizing: directionally inconsistent; primary: directionally inconsistent; weak: directionally inconsistent,TRUE
+mistral,Semiconductor-based circuit breaker,mistral__Semiconductor-based circuit breaker,regularizing: low-arm-only adjustment; primary: directionally inconsistent; weak: directionally inconsistent,FALSE
+mistral,Smart and sustainable DC cables,mistral__Smart and sustainable DC cables,regularizing: no supported adjustment; primary: directionally inconsistent; weak: directionally inconsistent,FALSE
+mistral,Solid-state circuit breaker,mistral__Solid-state circuit breaker,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+mistral,Static protection system,mistral__Static protection system,regularizing: low-arm-only adjustment; primary: low-arm-only adjustment; weak: low-arm-only adjustment,TRUE
+phi4,DC connectors,phi4__DC connectors,regularizing: no supported adjustment; primary: no supported adjustment; weak: directionally inconsistent,FALSE
+phi4,DC measurement device,phi4__DC measurement device,regularizing: low-arm-only adjustment; primary: low-arm-only adjustment; weak: low-arm-only adjustment,TRUE
+phi4,DC solution design tool,phi4__DC solution design tool,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+phi4,DC-DC converter,phi4__DC-DC converter,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+phi4,LVAC-LVDC interlink converter,phi4__LVAC-LVDC interlink converter,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+phi4,Network design tool for DC solutions,phi4__Network design tool for DC solutions,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+phi4,Protection DC system design tool,phi4__Protection DC system design tool,regularizing: low-arm-only adjustment; primary: low-arm-only adjustment; weak: low-arm-only adjustment,TRUE
+phi4,Semiconductor-based circuit breaker,phi4__Semiconductor-based circuit breaker,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+phi4,Smart and sustainable DC cables,phi4__Smart and sustainable DC cables,regularizing: low-arm-only adjustment; primary: directionally inconsistent; weak: directionally inconsistent,FALSE
+phi4,Solid-state circuit breaker,phi4__Solid-state circuit breaker,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE
+phi4,Static protection system,phi4__Static protection system,regularizing: no supported adjustment; primary: no supported adjustment; weak: no supported adjustment,TRUE

@@ -1,0 +1,54 @@
+==== CLMM (logit) with Effect Coding (Sum-to-Zero) ====
+Formula: rating_ord ~ scenario * base_model + (1 | id_key)
+
+Rows:  1080 
+Base models:  llama-pro, mistral 
+Scenarios:  NEU, BIAS_WORD, BIAS_EXAMPLE, BIAS_NUM_LOW, BIAS_NUM_HIGH 
+
+Cumulative Link Mixed Model fitted with the adaptive Gauss-Hermite 
+quadrature approximation with 5 quadrature points 
+
+formula: rating_ord ~ scenario * base_model + (1 | id_key)
+data:    feas_llm_i
+
+ link  threshold nobs logLik  AIC     niter     max.grad cond.H 
+ logit flexible  1080 -603.84 1233.68 963(1990) 4.55e-04 3.2e+02
+
+Random effects:
+ Groups Name        Variance Std.Dev.
+ id_key (Intercept) 0.009833 0.09916 
+Number of groups:  id_key 12 
+
+Coefficients:
+                                        Estimate Std. Error z value Pr(>|z|)
+scenarioBIAS_WORD                         1.2040     0.3070   3.922 8.78e-05
+scenarioBIAS_EXAMPLE                      0.9414     0.3225   2.919  0.00351
+scenarioBIAS_NUM_LOW                      0.7574     0.3273   2.314  0.02067
+scenarioBIAS_NUM_HIGH                     1.3011     0.3072   4.235 2.28e-05
+base_modelmistral                        -1.0283     0.2440  -4.214 2.51e-05
+scenarioBIAS_WORD:base_modelmistral      -1.0758     0.5077  -2.119  0.03411
+scenarioBIAS_EXAMPLE:base_modelmistral   -0.9414     0.5173  -1.820  0.06879
+scenarioBIAS_NUM_LOW:base_modelmistral   -0.7575     0.5203  -1.456  0.14547
+scenarioBIAS_NUM_HIGH:base_modelmistral  -1.3011     0.5079  -2.562  0.01042
+                                           
+scenarioBIAS_WORD                       ***
+scenarioBIAS_EXAMPLE                    ** 
+scenarioBIAS_NUM_LOW                    *  
+scenarioBIAS_NUM_HIGH                   ***
+base_modelmistral                       ***
+scenarioBIAS_WORD:base_modelmistral     *  
+scenarioBIAS_EXAMPLE:base_modelmistral  .  
+scenarioBIAS_NUM_LOW:base_modelmistral     
+scenarioBIAS_NUM_HIGH:base_modelmistral *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -5.9291     0.4808  -12.33
+2|3  -3.6911     0.2322  -15.90
+3|4   1.6345     0.1622   10.07
+
+NOTES:
+- Effect coding: coefficients are deviations around grand means (no single reference).
+- For direct comparisons, see Tables 2 & 3 (emmeans pairwise, OR scale).

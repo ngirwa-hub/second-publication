@@ -1,0 +1,18 @@
+\begin{table*}[tbp]
+\caption{RQ3 feasibility: anchor-associated endpoint changes and numeric anchoring patterns.}
+\label{tab:rq3_feasibility_anchor_patterns}
+\begin{tabular}{lccc}
+\toprule
+Model & Example $\Delta_{\mathrm{endpoint}}$ [95\% CrI] & Word $\Delta_{\mathrm{endpoint}}$ [95\% CrI] & Numeric anchoring pattern \\
+\midrule
+Gemma3:12B & +0.001 [-0.005, 0.030]; Uncertain & +0.001 [-0.005, 0.031]; Uncertain & No supported adjustment \\
+LLaMa-Pro & -0.083 [-0.161, 0.018]; Uncertain & +0.104 [-0.038, 0.275]; Uncertain & No supported adjustment \\
+Mistral & +0.001 [-0.005, 0.035]; Uncertain & +0.006 [-0.004, 0.066]; Uncertain & No supported adjustment \\
+Phi-4 & +0.001 [-0.005, 0.030]; Uncertain & +0.001 [-0.005, 0.031]; Uncertain & No supported adjustment \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} $\Delta_{\mathrm{endpoint}}$ is the posterior anchor-minus-Context difference in $P(Y=1)+P(Y=4)$. A 95\% credible interval containing zero was classified as uncertain. Complete directional anchoring required higher ratings under the high-numeric anchor and lower ratings under the low-numeric anchor.
+\end{minipage}
+\end{table*}

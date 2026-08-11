@@ -1,0 +1,66 @@
+\begin{longtable}[tbp]{p{2.3cm}p{5.0cm}cccp{3.2cm}}
+\caption{RQ2 importance: posterior effects of Context relative to Zero-shot for each base model and DC solution under the primary prior.} \label{tab:rq2_importance_bayesian_appendix} \\
+\toprule
+Model & DC solution & OR & 95\% CrI & $P(\mathrm{OR}>1)$ & Interpretation \\
+\midrule
+\endfirsthead
+\caption[]{RQ2 importance: posterior effects of Context relative to Zero-shot for each base model and DC solution under the primary prior.} \\
+\toprule
+Model & DC solution & OR & 95\% CrI & $P(\mathrm{OR}>1)$ & Interpretation \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Gemma3:12B & DC connectors & 0.003 & [0.001, 0.007] & $<0.001$ & Lower in Context \\
+Gemma3:12B & DC measurement device & 0.019 & [0.007, 0.043] & $<0.001$ & Lower in Context \\
+Gemma3:12B & DC solution design tool & 3.916 & [0.552, 36.900] & 0.903 & Uncertain \\
+Gemma3:12B & DC-DC converter & 0.001 & [$4.71\times 10^{-4}$, 0.004] & $<0.001$ & Lower in Context \\
+Gemma3:12B & LVAC-LVDC interlink converter & 0.014 & [0.005, 0.034] & $<0.001$ & Lower in Context \\
+Gemma3:12B & Network design tool for DC solutions & 1.129 & [0.688, 1.874] & 0.675 & Uncertain \\
+Gemma3:12B & Protection DC system design tool & 106.152 & [33.825, 490.424] & $>0.999$ & Higher in Context \\
+Gemma3:12B & Semiconductor-based circuit breaker & 3.967 & [0.539, 37.652] & 0.912 & Uncertain \\
+Gemma3:12B & Smart and sustainable DC cables & 23.185 & [5.659, 147.700] & $>0.999$ & Higher in Context \\
+Gemma3:12B & Solid-state circuit breaker & 3.862 & [0.530, 41.682] & 0.910 & Uncertain \\
+Gemma3:12B & Static protection system & $1.85\times 10^{3}$ & [537.585, $8.12\times 10^{3}$] & $>0.999$ & Higher in Context \\
+LLaMa-Pro & DC connectors & 9.912 & [4.860, 22.219] & $>0.999$ & Higher in Context \\
+LLaMa-Pro & DC measurement device & 0.863 & [0.408, 1.747] & 0.342 & Uncertain \\
+LLaMa-Pro & DC solution design tool & 2.544 & [1.470, 4.562] & $>0.999$ & Higher in Context \\
+LLaMa-Pro & DC-DC converter & 1.714 & [1.110, 2.693] & 0.990 & Higher in Context \\
+LLaMa-Pro & LVAC-LVDC interlink converter & 0.638 & [0.360, 1.117] & 0.059 & Uncertain \\
+LLaMa-Pro & Network design tool for DC solutions & 1.709 & [1.048, 2.775] & 0.987 & Higher in Context \\
+LLaMa-Pro & Protection DC system design tool & 1.670 & [1.048, 2.692] & 0.984 & Higher in Context \\
+LLaMa-Pro & Semiconductor-based circuit breaker & 113.719 & [42.297, 398.501] & $>0.999$ & Higher in Context \\
+LLaMa-Pro & Smart and sustainable DC cables & 1.409 & [0.893, 2.228] & 0.932 & Uncertain \\
+LLaMa-Pro & Solid-state circuit breaker & 47.547 & [22.057, 117.553] & $>0.999$ & Higher in Context \\
+LLaMa-Pro & Static protection system & 41.511 & [18.664, 109.765] & $>0.999$ & Higher in Context \\
+Mistral & DC connectors & 0.558 & [0.142, 2.152] & 0.197 & Uncertain \\
+Mistral & DC measurement device & 0.126 & [0.072, 0.211] & $<0.001$ & Lower in Context \\
+Mistral & DC solution design tool & 5.515 & [1.429, 30.078] & 0.995 & Higher in Context \\
+Mistral & DC-DC converter & 0.106 & [0.047, 0.218] & $<0.001$ & Lower in Context \\
+Mistral & LVAC-LVDC interlink converter & 1.229 & [0.773, 1.971] & 0.808 & Uncertain \\
+Mistral & Network design tool for DC solutions & 3.893 & [0.533, 40.869] & 0.904 & Uncertain \\
+Mistral & Protection DC system design tool & 9.777 & [5.689, 17.474] & $>0.999$ & Higher in Context \\
+Mistral & Semiconductor-based circuit breaker & 205.628 & [83.133, 600.933] & $>0.999$ & Higher in Context \\
+Mistral & Smart and sustainable DC cables & 0.126 & [0.070, 0.214] & $<0.001$ & Lower in Context \\
+Mistral & Solid-state circuit breaker & 137.006 & [44.153, 614.028] & $>0.999$ & Higher in Context \\
+Mistral & Static protection system & 917.910 & [297.154, $3.47\times 10^{3}$] & $>0.999$ & Higher in Context \\
+Phi-4 & DC connectors & 0.310 & [0.133, 0.662] & 0.002 & Lower in Context \\
+Phi-4 & DC measurement device & 0.586 & [0.368, 0.924] & 0.013 & Lower in Context \\
+Phi-4 & DC solution design tool & 7.443 & [1.440, 61.240] & 0.993 & Higher in Context \\
+Phi-4 & DC-DC converter & 3.890 & [0.544, 38.904] & 0.909 & Uncertain \\
+Phi-4 & LVAC-LVDC interlink converter & 7.033 & [4.210, 12.203] & $>0.999$ & Higher in Context \\
+Phi-4 & Network design tool for DC solutions & 10.745 & [2.250, 81.151] & $>0.999$ & Higher in Context \\
+Phi-4 & Protection DC system design tool & 10.763 & [2.381, 73.933] & $>0.999$ & Higher in Context \\
+Phi-4 & Semiconductor-based circuit breaker & 11.671 & [2.697, 78.429] & $>0.999$ & Higher in Context \\
+Phi-4 & Smart and sustainable DC cables & 3.854 & [0.540, 40.953] & 0.909 & Uncertain \\
+Phi-4 & Solid-state circuit breaker & 4.701 & [0.751, 43.782] & 0.948 & Uncertain \\
+Phi-4 & Static protection system & 39.857 & [11.877, 219.852] & $>0.999$ & Higher in Context \\
+\end{longtable}
+
+\noindent\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Each row represents a separately estimated base-model/DC-solution contrast; the odds ratios were not pooled across DC solutions. OR $>1$ indicates higher odds of receiving a higher importance rating in Context relative to Zero-shot, whereas OR $<1$ indicates lower odds in Context. CrI denotes the 95\% Bayesian credible interval. $P(\mathrm{OR}>1)$ denotes the posterior probability that the odds ratio exceeds one. The primary effect prior was Normal$(0,1.5)$.
+\end{minipage}

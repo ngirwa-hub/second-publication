@@ -1,0 +1,39 @@
+\begin{longtable}[tbp]{p{1.8cm}p{2.0cm}p{3.7cm}p{3.7cm}p{3.7cm}p{3.7cm}}
+\caption{RQ3 importance contrasts with prior-dependent inferential conclusions.} \label{tab:rq3_importance_prior_sensitive_contrasts} \\
+\toprule
+Model & Anchor type & DC solution & Regularizing & Primary & Weak \\
+\midrule
+\endfirsthead
+\caption[]{RQ3 importance contrasts with prior-dependent inferential conclusions.} \\
+\toprule
+Model & Anchor type & DC solution & Regularizing & Primary & Weak \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Phi-4 & Word & DC connectors & 2.764 [0.982, 8.945]; Uncertain & 7.135 [1.515, 55.912]; Higher under Anchor & 18.259 [2.161, 612.043]; Higher under Anchor \\
+Phi-4 & High numeric & Smart and sustainable DC cables & 0.437 [0.140, 1.417]; Uncertain & 0.180 [0.041, 0.957]; Lower under Anchor & 0.104 [0.017, 0.657]; Lower under Anchor \\
+Phi-4 & Low numeric & DC connectors & 2.092 [0.805, 6.264]; Uncertain & 3.611 [0.956, 20.708]; Uncertain & 5.046 [1.110, 51.317]; Higher under Anchor \\
+Gemma3:12B & Example & DC-DC converter & 2.366 [0.892, 6.010]; Uncertain & 6.462 [1.759, 23.601]; Higher under Anchor & 12.988 [2.815, 62.114]; Higher under Anchor \\
+Gemma3:12B & Example & Protection DC system design tool & 0.343 [0.102, 1.237]; Uncertain & 0.124 [0.023, 0.700]; Lower under Anchor & 0.073 [0.009, 0.496]; Lower under Anchor \\
+Gemma3:12B & High numeric & DC connectors & 1.636 [0.595, 4.111]; Uncertain & 3.920 [0.959, 13.521]; Uncertain & 7.591 [1.633, 35.109]; Higher under Anchor \\
+Mistral & Example & DC connectors & 0.426 [0.191, 1.019]; Uncertain & 0.207 [0.079, 0.594]; Lower under Anchor & 0.146 [0.050, 0.445]; Lower under Anchor \\
+Mistral & Example & Protection DC system design tool & 1.045 [0.466, 2.527]; Uncertain & 0.913 [0.352, 2.654]; Uncertain & 0.852 [0.325, 2.733]; Uncertain \\
+Mistral & Word & DC connectors & 1.325 [0.497, 4.001]; Uncertain & 1.030 [0.290, 4.940]; Uncertain & 0.815 [0.195, 5.322]; Uncertain \\
+Mistral & Word & Protection DC system design tool & 0.579 [0.272, 1.311]; Uncertain & 0.440 [0.184, 1.097]; Uncertain & 0.392 [0.164, 0.995]; Lower under Anchor \\
+Mistral & High numeric & Semiconductor-based circuit breaker & 0.436 [0.154, 1.342]; Uncertain & 0.242 [0.066, 0.974]; Lower under Anchor & 0.189 [0.045, 0.861]; Lower under Anchor \\
+Mistral & High numeric & Smart and sustainable DC cables & 0.437 [0.136, 1.281]; Uncertain & 0.169 [0.021, 0.836]; Lower under Anchor & 0.067 [0.002, 0.632]; Lower under Anchor \\
+Mistral & Low numeric & Smart and sustainable DC cables & 0.437 [0.131, 1.254]; Uncertain & 0.169 [0.020, 0.884]; Lower under Anchor & 0.067 [0.002, 0.601]; Lower under Anchor \\
+LLaMa-Pro & Example & LVAC-LVDC interlink converter & 0.932 [0.375, 2.159]; Uncertain & 1.028 [0.340, 2.686]; Uncertain & 1.070 [0.337, 2.860]; Uncertain \\
+LLaMa-Pro & Word & DC connectors & 0.560 [0.241, 1.223]; Uncertain & 0.431 [0.143, 1.063]; Uncertain & 0.391 [0.131, 0.974]; Lower under Anchor \\
+LLaMa-Pro & Word & DC solution design tool & 0.458 [0.179, 1.058]; Uncertain & 0.329 [0.096, 0.911]; Lower under Anchor & 0.289 [0.073, 0.849]; Lower under Anchor \\
+LLaMa-Pro & Low numeric & DC solution design tool & 0.461 [0.184, 1.033]; Uncertain & 0.332 [0.103, 0.907]; Lower under Anchor & 0.286 [0.071, 0.850]; Lower under Anchor \\
+\end{longtable}
+
+\noindent\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Cells report posterior median ORs, 95\% credible intervals, and inferential conclusions. Only contrasts whose direction or conclusion differed across the regularizing, primary, and weak priors are listed.
+\end{minipage}

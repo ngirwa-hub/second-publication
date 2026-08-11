@@ -1,0 +1,28 @@
+Fixed effects (effect coding): OR (Wald 95% CI). Coefficients are deviations from grand mean.
+
+                                    term Estimate (log-odds)    SE   OR
+                                     1|2              -5.929 0.481 0.00
+                                     2|3              -3.691 0.232 0.02
+                                     3|4               1.634 0.162 5.13
+                       scenarioBIAS_WORD               1.204 0.307 3.33
+                    scenarioBIAS_EXAMPLE               0.941 0.323 2.56
+                    scenarioBIAS_NUM_LOW               0.757 0.327 2.13
+                   scenarioBIAS_NUM_HIGH               1.301 0.307 3.67
+                       base_modelmistral              -1.028 0.244 0.36
+     scenarioBIAS_WORD:base_modelmistral              -1.076 0.508 0.34
+  scenarioBIAS_EXAMPLE:base_modelmistral              -0.941 0.517 0.39
+  scenarioBIAS_NUM_LOW:base_modelmistral              -0.757 0.520 0.47
+ scenarioBIAS_NUM_HIGH:base_modelmistral              -1.301 0.508 0.27
+       95% CI      z       p
+    (0, 0.01) -12.33 < 1e-04
+ (0.02, 0.04) -15.90 < 1e-04
+ (3.73, 7.05)  10.07 < 1e-04
+ (1.83, 6.08)   3.92 < 1e-04
+ (1.36, 4.82)   2.92 0.00351
+ (1.12, 4.05)   2.31 0.02067
+ (2.01, 6.71)   4.24 < 1e-04
+ (0.22, 0.58)  -4.21 < 1e-04
+ (0.13, 0.92)  -2.12 0.03411
+ (0.14, 1.08)  -1.82 0.06879
+  (0.17, 1.3)  -1.46 0.14547
+  (0.1, 0.74)  -2.56 0.01042

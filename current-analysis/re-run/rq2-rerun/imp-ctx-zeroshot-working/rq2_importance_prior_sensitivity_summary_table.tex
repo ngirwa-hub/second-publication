@@ -1,0 +1,19 @@
+\begin{table}[tbp]
+\caption{Prior-sensitivity summary for the RQ2 importance condition effects.}
+\label{tab:rq2_importance_prior_sensitivity_summary}
+\begin{tabular}{lccc}
+\toprule
+Model & Contrasts & Direction stable & Conclusion stable \\
+\midrule
+Phi-4 & 11 & 11/11 (100.0\%) & 9/11 (81.8\%) \\
+Gemma3:12B & 11 & 11/11 (100.0\%) & 11/11 (100.0\%) \\
+Mistral & 11 & 11/11 (100.0\%) & 11/11 (100.0\%) \\
+LLaMa-Pro & 11 & 11/11 (100.0\%) & 11/11 (100.0\%) \\
+Overall & 44 & 44/44 (100.0\%) & 42/44 (95.5\%) \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Direction stability indicates that the posterior median OR remained on the same side of one under the regularizing, primary, and weak priors. Conclusion stability indicates that the inferential classification was identical under all three priors. Rates were recalculated directly from the 44 contrast-level robustness records.
+\end{minipage}
+\end{table}

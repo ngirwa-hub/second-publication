@@ -1,0 +1,150 @@
+base_model,dc_solution,base_solution,condition,rating_value,n,proportion
+gemma3,DC connectors,gemma3__DC connectors,ZEROSHOT,3,7,0.04666666666666667
+gemma3,DC connectors,gemma3__DC connectors,ZEROSHOT,4,143,0.9533333333333334
+gemma3,DC connectors,gemma3__DC connectors,CONTEXT,3,150,1
+gemma3,DC measurement device,gemma3__DC measurement device,ZEROSHOT,4,150,1
+gemma3,DC measurement device,gemma3__DC measurement device,CONTEXT,3,96,0.64
+gemma3,DC measurement device,gemma3__DC measurement device,CONTEXT,4,54,0.36
+gemma3,DC solution design tool,gemma3__DC solution design tool,ZEROSHOT,4,150,1
+gemma3,DC solution design tool,gemma3__DC solution design tool,CONTEXT,4,150,1
+gemma3,DC-DC converter,gemma3__DC-DC converter,ZEROSHOT,4,150,1
+gemma3,DC-DC converter,gemma3__DC-DC converter,CONTEXT,3,150,1
+gemma3,LVAC-LVDC interlink converter,gemma3__LVAC-LVDC interlink converter,ZEROSHOT,3,50,0.3333333333333333
+gemma3,LVAC-LVDC interlink converter,gemma3__LVAC-LVDC interlink converter,ZEROSHOT,4,100,0.6666666666666666
+gemma3,LVAC-LVDC interlink converter,gemma3__LVAC-LVDC interlink converter,CONTEXT,3,150,1
+gemma3,Network design tool for DC solutions,gemma3__Network design tool for DC solutions,ZEROSHOT,3,39,0.26
+gemma3,Network design tool for DC solutions,gemma3__Network design tool for DC solutions,ZEROSHOT,4,111,0.74
+gemma3,Network design tool for DC solutions,gemma3__Network design tool for DC solutions,CONTEXT,3,37,0.24666666666666667
+gemma3,Network design tool for DC solutions,gemma3__Network design tool for DC solutions,CONTEXT,4,113,0.7533333333333333
+gemma3,Protection DC system design tool,gemma3__Protection DC system design tool,ZEROSHOT,3,86,0.5733333333333334
+gemma3,Protection DC system design tool,gemma3__Protection DC system design tool,ZEROSHOT,4,64,0.4266666666666667
+gemma3,Protection DC system design tool,gemma3__Protection DC system design tool,CONTEXT,4,150,1
+gemma3,Semiconductor-based circuit breaker,gemma3__Semiconductor-based circuit breaker,ZEROSHOT,4,150,1
+gemma3,Semiconductor-based circuit breaker,gemma3__Semiconductor-based circuit breaker,CONTEXT,4,150,1
+gemma3,Smart and sustainable DC cables,gemma3__Smart and sustainable DC cables,ZEROSHOT,3,23,0.15333333333333332
+gemma3,Smart and sustainable DC cables,gemma3__Smart and sustainable DC cables,ZEROSHOT,4,127,0.8466666666666667
+gemma3,Smart and sustainable DC cables,gemma3__Smart and sustainable DC cables,CONTEXT,4,150,1
+gemma3,Solid-state circuit breaker,gemma3__Solid-state circuit breaker,ZEROSHOT,4,150,1
+gemma3,Solid-state circuit breaker,gemma3__Solid-state circuit breaker,CONTEXT,4,150,1
+gemma3,Static protection system,gemma3__Static protection system,ZEROSHOT,2,50,0.3333333333333333
+gemma3,Static protection system,gemma3__Static protection system,ZEROSHOT,3,100,0.6666666666666666
+gemma3,Static protection system,gemma3__Static protection system,CONTEXT,4,150,1
+llama,DC connectors,llama__DC connectors,ZEROSHOT,2,1,0.006666666666666667
+llama,DC connectors,llama__DC connectors,ZEROSHOT,3,143,0.9533333333333334
+llama,DC connectors,llama__DC connectors,ZEROSHOT,4,6,0.04
+llama,DC connectors,llama__DC connectors,CONTEXT,3,99,0.66
+llama,DC connectors,llama__DC connectors,CONTEXT,4,51,0.34
+llama,DC measurement device,llama__DC measurement device,ZEROSHOT,3,135,0.9
+llama,DC measurement device,llama__DC measurement device,ZEROSHOT,4,15,0.1
+llama,DC measurement device,llama__DC measurement device,CONTEXT,3,138,0.92
+llama,DC measurement device,llama__DC measurement device,CONTEXT,4,12,0.08
+llama,DC solution design tool,llama__DC solution design tool,ZEROSHOT,3,131,0.8733333333333333
+llama,DC solution design tool,llama__DC solution design tool,ZEROSHOT,4,19,0.12666666666666668
+llama,DC solution design tool,llama__DC solution design tool,CONTEXT,3,109,0.7266666666666667
+llama,DC solution design tool,llama__DC solution design tool,CONTEXT,4,41,0.2733333333333333
+llama,DC-DC converter,llama__DC-DC converter,ZEROSHOT,3,105,0.7
+llama,DC-DC converter,llama__DC-DC converter,ZEROSHOT,4,45,0.3
+llama,DC-DC converter,llama__DC-DC converter,CONTEXT,3,87,0.58
+llama,DC-DC converter,llama__DC-DC converter,CONTEXT,4,63,0.42
+llama,LVAC-LVDC interlink converter,llama__LVAC-LVDC interlink converter,ZEROSHOT,3,116,0.7733333333333333
+llama,LVAC-LVDC interlink converter,llama__LVAC-LVDC interlink converter,ZEROSHOT,4,34,0.22666666666666666
+llama,LVAC-LVDC interlink converter,llama__LVAC-LVDC interlink converter,CONTEXT,3,128,0.8533333333333334
+llama,LVAC-LVDC interlink converter,llama__LVAC-LVDC interlink converter,CONTEXT,4,22,0.14666666666666667
+llama,Network design tool for DC solutions,llama__Network design tool for DC solutions,ZEROSHOT,3,110,0.7333333333333333
+llama,Network design tool for DC solutions,llama__Network design tool for DC solutions,ZEROSHOT,4,40,0.26666666666666666
+llama,Network design tool for DC solutions,llama__Network design tool for DC solutions,CONTEXT,3,93,0.62
+llama,Network design tool for DC solutions,llama__Network design tool for DC solutions,CONTEXT,4,57,0.38
+llama,Protection DC system design tool,llama__Protection DC system design tool,ZEROSHOT,3,105,0.7
+llama,Protection DC system design tool,llama__Protection DC system design tool,ZEROSHOT,4,45,0.3
+llama,Protection DC system design tool,llama__Protection DC system design tool,CONTEXT,3,88,0.5866666666666667
+llama,Protection DC system design tool,llama__Protection DC system design tool,CONTEXT,4,62,0.41333333333333333
+llama,Semiconductor-based circuit breaker,llama__Semiconductor-based circuit breaker,ZEROSHOT,2,4,0.02666666666666667
+llama,Semiconductor-based circuit breaker,llama__Semiconductor-based circuit breaker,ZEROSHOT,3,146,0.9733333333333334
+llama,Semiconductor-based circuit breaker,llama__Semiconductor-based circuit breaker,CONTEXT,3,46,0.30666666666666664
+llama,Semiconductor-based circuit breaker,llama__Semiconductor-based circuit breaker,CONTEXT,4,104,0.6933333333333334
+llama,Smart and sustainable DC cables,llama__Smart and sustainable DC cables,ZEROSHOT,3,81,0.54
+llama,Smart and sustainable DC cables,llama__Smart and sustainable DC cables,ZEROSHOT,4,69,0.46
+llama,Smart and sustainable DC cables,llama__Smart and sustainable DC cables,CONTEXT,3,69,0.46
+llama,Smart and sustainable DC cables,llama__Smart and sustainable DC cables,CONTEXT,4,81,0.54
+llama,Solid-state circuit breaker,llama__Solid-state circuit breaker,ZEROSHOT,3,146,0.9733333333333334
+llama,Solid-state circuit breaker,llama__Solid-state circuit breaker,ZEROSHOT,4,4,0.02666666666666667
+llama,Solid-state circuit breaker,llama__Solid-state circuit breaker,CONTEXT,3,48,0.32
+llama,Solid-state circuit breaker,llama__Solid-state circuit breaker,CONTEXT,4,102,0.68
+llama,Static protection system,llama__Static protection system,ZEROSHOT,2,22,0.14666666666666667
+llama,Static protection system,llama__Static protection system,ZEROSHOT,3,125,0.8333333333333334
+llama,Static protection system,llama__Static protection system,ZEROSHOT,4,3,0.02
+llama,Static protection system,llama__Static protection system,CONTEXT,3,63,0.42
+llama,Static protection system,llama__Static protection system,CONTEXT,4,87,0.58
+mistral,DC connectors,mistral__DC connectors,ZEROSHOT,4,150,1
+mistral,DC connectors,mistral__DC connectors,CONTEXT,3,5,0.03333333333333333
+mistral,DC connectors,mistral__DC connectors,CONTEXT,4,145,0.9666666666666667
+mistral,DC measurement device,mistral__DC measurement device,ZEROSHOT,3,19,0.12666666666666668
+mistral,DC measurement device,mistral__DC measurement device,ZEROSHOT,4,131,0.8733333333333333
+mistral,DC measurement device,mistral__DC measurement device,CONTEXT,3,88,0.5866666666666667
+mistral,DC measurement device,mistral__DC measurement device,CONTEXT,4,62,0.41333333333333333
+mistral,DC solution design tool,mistral__DC solution design tool,ZEROSHOT,3,7,0.04666666666666667
+mistral,DC solution design tool,mistral__DC solution design tool,ZEROSHOT,4,143,0.9533333333333334
+mistral,DC solution design tool,mistral__DC solution design tool,CONTEXT,3,1,0.006666666666666667
+mistral,DC solution design tool,mistral__DC solution design tool,CONTEXT,4,149,0.9933333333333333
+mistral,DC-DC converter,mistral__DC-DC converter,ZEROSHOT,3,4,0.02666666666666667
+mistral,DC-DC converter,mistral__DC-DC converter,ZEROSHOT,4,146,0.9733333333333334
+mistral,DC-DC converter,mistral__DC-DC converter,CONTEXT,3,50,0.3333333333333333
+mistral,DC-DC converter,mistral__DC-DC converter,CONTEXT,4,100,0.6666666666666666
+mistral,LVAC-LVDC interlink converter,mistral__LVAC-LVDC interlink converter,ZEROSHOT,3,59,0.3933333333333333
+mistral,LVAC-LVDC interlink converter,mistral__LVAC-LVDC interlink converter,ZEROSHOT,4,91,0.6066666666666667
+mistral,LVAC-LVDC interlink converter,mistral__LVAC-LVDC interlink converter,CONTEXT,3,53,0.35333333333333333
+mistral,LVAC-LVDC interlink converter,mistral__LVAC-LVDC interlink converter,CONTEXT,4,97,0.6466666666666666
+mistral,Network design tool for DC solutions,mistral__Network design tool for DC solutions,ZEROSHOT,4,150,1
+mistral,Network design tool for DC solutions,mistral__Network design tool for DC solutions,CONTEXT,4,150,1
+mistral,Protection DC system design tool,mistral__Protection DC system design tool,ZEROSHOT,3,92,0.6133333333333333
+mistral,Protection DC system design tool,mistral__Protection DC system design tool,ZEROSHOT,4,58,0.38666666666666666
+mistral,Protection DC system design tool,mistral__Protection DC system design tool,CONTEXT,3,20,0.13333333333333333
+mistral,Protection DC system design tool,mistral__Protection DC system design tool,CONTEXT,4,130,0.8666666666666667
+mistral,Semiconductor-based circuit breaker,mistral__Semiconductor-based circuit breaker,ZEROSHOT,3,134,0.8933333333333333
+mistral,Semiconductor-based circuit breaker,mistral__Semiconductor-based circuit breaker,ZEROSHOT,4,16,0.10666666666666667
+mistral,Semiconductor-based circuit breaker,mistral__Semiconductor-based circuit breaker,CONTEXT,3,3,0.02
+mistral,Semiconductor-based circuit breaker,mistral__Semiconductor-based circuit breaker,CONTEXT,4,147,0.98
+mistral,Smart and sustainable DC cables,mistral__Smart and sustainable DC cables,ZEROSHOT,3,65,0.43333333333333335
+mistral,Smart and sustainable DC cables,mistral__Smart and sustainable DC cables,ZEROSHOT,4,85,0.5666666666666667
+mistral,Smart and sustainable DC cables,mistral__Smart and sustainable DC cables,CONTEXT,3,132,0.88
+mistral,Smart and sustainable DC cables,mistral__Smart and sustainable DC cables,CONTEXT,4,18,0.12
+mistral,Solid-state circuit breaker,mistral__Solid-state circuit breaker,ZEROSHOT,3,98,0.6533333333333333
+mistral,Solid-state circuit breaker,mistral__Solid-state circuit breaker,ZEROSHOT,4,52,0.3466666666666667
+mistral,Solid-state circuit breaker,mistral__Solid-state circuit breaker,CONTEXT,4,150,1
+mistral,Static protection system,mistral__Static protection system,ZEROSHOT,3,145,0.9666666666666667
+mistral,Static protection system,mistral__Static protection system,ZEROSHOT,4,5,0.03333333333333333
+mistral,Static protection system,mistral__Static protection system,CONTEXT,4,150,1
+phi4,DC connectors,phi4__DC connectors,ZEROSHOT,3,5,0.03333333333333333
+phi4,DC connectors,phi4__DC connectors,ZEROSHOT,4,145,0.9666666666666667
+phi4,DC connectors,phi4__DC connectors,CONTEXT,3,23,0.15333333333333332
+phi4,DC connectors,phi4__DC connectors,CONTEXT,4,127,0.8466666666666667
+phi4,DC measurement device,phi4__DC measurement device,ZEROSHOT,3,46,0.30666666666666664
+phi4,DC measurement device,phi4__DC measurement device,ZEROSHOT,4,104,0.6933333333333334
+phi4,DC measurement device,phi4__DC measurement device,CONTEXT,3,67,0.44666666666666666
+phi4,DC measurement device,phi4__DC measurement device,CONTEXT,4,83,0.5533333333333333
+phi4,DC solution design tool,phi4__DC solution design tool,ZEROSHOT,3,4,0.02666666666666667
+phi4,DC solution design tool,phi4__DC solution design tool,ZEROSHOT,4,146,0.9733333333333334
+phi4,DC solution design tool,phi4__DC solution design tool,CONTEXT,4,150,1
+phi4,DC-DC converter,phi4__DC-DC converter,ZEROSHOT,4,150,1
+phi4,DC-DC converter,phi4__DC-DC converter,CONTEXT,4,150,1
+phi4,LVAC-LVDC interlink converter,phi4__LVAC-LVDC interlink converter,ZEROSHOT,3,87,0.58
+phi4,LVAC-LVDC interlink converter,phi4__LVAC-LVDC interlink converter,ZEROSHOT,4,63,0.42
+phi4,LVAC-LVDC interlink converter,phi4__LVAC-LVDC interlink converter,CONTEXT,3,24,0.16
+phi4,LVAC-LVDC interlink converter,phi4__LVAC-LVDC interlink converter,CONTEXT,4,126,0.84
+phi4,Network design tool for DC solutions,phi4__Network design tool for DC solutions,ZEROSHOT,3,8,0.05333333333333334
+phi4,Network design tool for DC solutions,phi4__Network design tool for DC solutions,ZEROSHOT,4,142,0.9466666666666667
+phi4,Network design tool for DC solutions,phi4__Network design tool for DC solutions,CONTEXT,4,150,1
+phi4,Protection DC system design tool,phi4__Protection DC system design tool,ZEROSHOT,3,8,0.05333333333333334
+phi4,Protection DC system design tool,phi4__Protection DC system design tool,ZEROSHOT,4,142,0.9466666666666667
+phi4,Protection DC system design tool,phi4__Protection DC system design tool,CONTEXT,4,150,1
+phi4,Semiconductor-based circuit breaker,phi4__Semiconductor-based circuit breaker,ZEROSHOT,3,9,0.06
+phi4,Semiconductor-based circuit breaker,phi4__Semiconductor-based circuit breaker,ZEROSHOT,4,141,0.94
+phi4,Semiconductor-based circuit breaker,phi4__Semiconductor-based circuit breaker,CONTEXT,4,150,1
+phi4,Smart and sustainable DC cables,phi4__Smart and sustainable DC cables,ZEROSHOT,4,150,1
+phi4,Smart and sustainable DC cables,phi4__Smart and sustainable DC cables,CONTEXT,4,150,1
+phi4,Solid-state circuit breaker,phi4__Solid-state circuit breaker,ZEROSHOT,3,1,0.006666666666666667
+phi4,Solid-state circuit breaker,phi4__Solid-state circuit breaker,ZEROSHOT,4,149,0.9933333333333333
+phi4,Solid-state circuit breaker,phi4__Solid-state circuit breaker,CONTEXT,4,150,1
+phi4,Static protection system,phi4__Static protection system,ZEROSHOT,3,42,0.28
+phi4,Static protection system,phi4__Static protection system,ZEROSHOT,4,108,0.72
+phi4,Static protection system,phi4__Static protection system,CONTEXT,4,150,1

@@ -1,0 +1,72 @@
+# ---- Packages ----
+library(tidyverse)
+
+# ---- Paths ----
+in_path  <- "merged_feasibility_zeroshot.csv"   # change if needed
+out_path <- "feasibility_boxplots.png"
+
+# ---- Read ----
+df <- readr::read_csv(in_path, show_col_types = FALSE) %>%
+  mutate(rating = as.numeric(rating))
+
+# ---- Pretty labels for base_model (optional) ----
+label_map <- c(
+  "phi4"        = "Phi4",
+  "gemma3-12b"  = "Gemma3:12B",
+  "llama-pro"   = "LlaMa-Pro",
+  "mistral"     = "Mistral",
+  "human"       = "DC experts"
+)
+df <- df %>% mutate(base_model_label = recode(base_model, !!!label_map, .default = base_model))
+
+# ---- Choose X variable: "base_model_label" or "model" ----
+group_var <- "base_model_label"  # set to "model" for generalist/normative variants
+
+# ---- Palette: auto-build distinct colors for whatever groups are present ----
+groups <- sort(unique(df[[group_var]]))
+pal <- setNames(RColorBrewer::brewer.pal(max(3, min(8, length(groups))), "Set2")[seq_along(groups)], groups)
+
+# ---- Medians for annotation ----
+med_df <- df %>%
+  group_by(.data[[group_var]]) %>%
+  summarize(med = median(rating, na.rm = TRUE), .groups = "drop") %>%
+  rename(group = 1)
+
+eps <- 0.05  # tiny padding
+p <- ggplot(df, aes(x = .data[[group_var]], y = rating, fill = .data[[group_var]])) +
+  # 1) Draw just the box (no whiskers)
+  geom_boxplot(
+    width = 0.65,
+    coef = 0,                      # remove whiskers from this layer
+    outlier.shape = 21, outlier.size = 1.8, outlier.stroke = 0.3
+  ) +
+  # 2) Draw whisker end-caps (and stems) using a normal coef
+  stat_boxplot(
+    geom = "errorbar",
+    coef = 1.5,                    # <- key change: give errorbars real whiskers
+    width = 0.35,                  # cap length
+    linewidth = 0.5,
+    color = "black",
+    show.legend = FALSE
+  ) +
+  # your median labels
+  geom_text(
+    data = med_df,
+    aes(x = group, y = pmin(4, med + eps), label = sprintf("%.2f", med)),
+    inherit.aes = FALSE, vjust = 0, size = 3.2, fontface = "bold", color = "black"
+  ) +
+  scale_fill_manual(values = pal, guide = "none") +
+  coord_cartesian(ylim = c(0 - eps, 4 + eps), clip = "off") +
+  scale_y_continuous(breaks = 0:4) +
+  labs(
+    title = if (group_var == "base_model_label") "Feasibility boxplots by base model" else "Feasibility boxplots by Variant",
+    x = if (group_var == "base_model_label") "Base model" else "Variant",
+    y = "Rating (0–4)"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.minor = element_blank(),
+    axis.text.x = element_text(angle = 25, hjust = 1),
+    plot.title = element_text(hjust = 0.5)
+  )
+print(p)

@@ -1,0 +1,5 @@
+raw_file,edited_file,section,precision,recall,f1,candidate_chars,reference_chars,length_ratio,model_type,rescale_with_baseline
+author-review-raw.json,author-review-edited.jsonl,elicitation_process,0.975751,0.936078,0.955503,1134,1222,0.927987,roberta-large,False
+author-review-raw.json,author-review-edited.jsonl,project_description,0.983087,0.967569,0.975266,1138,1167,0.97515,roberta-large,False
+author-review-raw.json,author-review-edited.jsonl,demonstrator_description,0.952241,0.94804,0.950136,1790,1668,1.073141,roberta-large,False
+author-review-raw.json,author-review-edited.jsonl,__overall__,0.97036,0.950562,0.960302,4062,4057,1.001232,roberta-large,False

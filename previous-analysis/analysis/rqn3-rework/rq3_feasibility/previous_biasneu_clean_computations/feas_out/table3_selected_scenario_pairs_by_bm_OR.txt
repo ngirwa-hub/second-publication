@@ -1,0 +1,13 @@
+Selected scenario contrasts within each base model (OR, 95% CI, z, p; Holm-adjusted)
+
+# A tibble: 8 × 7
+  base_model contrast               OR `95% CI`         z p       p_holm  
+  <fct>      <fct>               <dbl> <chr>        <dbl> <chr>   <chr>   
+1 llama-pro  BIAS_WORD - NEU      3.33 (1.55, 7.18)  3.92 < 1e-04 0.000263
+2 llama-pro  BIAS_EXAMPLE - NEU   2.56 (1.15, 5.74)  2.92 0.00351 0.007026
+3 llama-pro  BIAS_NUM_LOW - NEU   2.13 (0.94, 4.83)  2.31 0.02067 0.020671
+4 llama-pro  BIAS_NUM_HIGH - NEU  3.67 (1.71, 7.91)  4.24 < 1e-04 < 1e-04 
+5 mistral    BIAS_WORD - NEU      1.14 (0.41, 3.13)  0.32 0.75145 1.000000
+6 mistral    BIAS_EXAMPLE - NEU   1    (0.36, 2.75)  0    0.99995 1.000000
+7 mistral    BIAS_NUM_LOW - NEU   1    (0.36, 2.75)  0    0.99993 1.000000
+8 mistral    BIAS_NUM_HIGH - NEU  1    (0.36, 2.75)  0    0.99999 1.000000

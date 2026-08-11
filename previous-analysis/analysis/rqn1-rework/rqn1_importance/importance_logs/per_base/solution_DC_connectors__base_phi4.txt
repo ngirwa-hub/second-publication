@@ -1,0 +1,43 @@
+Solution: DC connectors | Base model: phi4
+N_human = 23, N_phi4 = 300
+TOST margin (log-odds) = +/- 0.223 (OR bounds [0.800, 1.250])
+W1 SESOI (delta_W1) = 0.200
+
+-- Rating counts by group (rows=rating 0..4) --
+      source
+rating human llm
+     1     1   0
+     2     2   0
+     3     5  40
+     4    15 260
+
+-- CLM summary --
+formula: rating ~ group
+data:    dat
+
+ link  threshold nobs logLik  AIC    niter max.grad cond.H 
+ logit flexible  323  -145.03 298.05 7(0)  1.49e-10 1.1e+02
+
+Coefficients:
+      Estimate Std. Error z value Pr(>|z|)   
+group   1.4226     0.4793   2.968  0.00299 **
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -4.5468     1.0732  -4.237
+2|3  -3.4267     0.7011  -4.888
+3|4  -0.4582     0.4485  -1.022
+
+-- TOST on group (beta) --
+# A tibble: 1 × 4
+   beta    se p_tost note 
+  <dbl> <dbl>  <dbl> <chr>
+1  1.42 0.479  0.994 ok   
+
+-- Wasserstein-1 (normalized, 0..1) --
+# A tibble: 1 × 3
+      w1  w1_lo w1_hi
+   <dbl>  <dbl> <dbl>
+1 0.0971 0.0217 0.196

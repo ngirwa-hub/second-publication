@@ -1,0 +1,25 @@
+formula: rating ~ condition * base_model + model
+data:    pooled_data
+
+ link  threshold nobs logLik  AIC    niter max.grad cond.H 
+ logit flexible  1200 -472.29 968.58 8(0)  6.27e-10 2.2e+02
+
+Coefficients:
+                                     Estimate Std. Error z value Pr(>|z|)    
+conditionCONTEXT                    7.371e-16  4.487e-01   0.000  1.00000    
+base_modelllama                    -1.914e+00  4.011e-01  -4.771 1.83e-06 ***
+base_modelmistral                   4.847e-16  4.487e-01   0.000  1.00000    
+base_modelphi4                      1.770e+00  4.001e-01   4.424 9.70e-06 ***
+modelnormative                      5.176e-01  2.321e-01   2.230  0.02578 *  
+modelsubject-matter                 5.236e-01  2.329e-01   2.249  0.02454 *  
+conditionCONTEXT:base_modelllama    3.791e+00  5.930e-01   6.393 1.63e-10 ***
+conditionCONTEXT:base_modelmistral -6.388e-16  6.345e-01   0.000  1.00000    
+conditionCONTEXT:base_modelphi4    -1.770e+00  6.012e-01  -2.944  0.00324 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+1|2  -4.7670     0.4551 -10.474
+2|3  -3.0180     0.3600  -8.383
+3|4   3.7094     0.3745   9.904

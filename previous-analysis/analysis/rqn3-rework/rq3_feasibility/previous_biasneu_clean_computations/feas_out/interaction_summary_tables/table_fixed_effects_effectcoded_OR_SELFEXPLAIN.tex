@@ -1,0 +1,35 @@
+\begin{table}[!h]
+\centering
+\caption{Fixed effects (effect coding), labeled with real factor levels}
+\centering
+\begin{tabular}[t]{llrrrlrl}
+\toprule
+section & term\_pretty & Estimate (log-odds) & SE & OR & 95\% CI & z & p\\
+\midrule
+\cellcolor{gray!10}{Thresholds} & \cellcolor{gray!10}{1|2} & \cellcolor{gray!10}{-6.514} & \cellcolor{gray!10}{0.454} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{(0, 0)} & \cellcolor{gray!10}{-14.35} & \cellcolor{gray!10}{< 1e-04}\\
+Thresholds & 2|3 & -4.292 & 0.167 & 0.01 & (0.01, 0.02) & -25.70 & < 1e-04\\
+\cellcolor{gray!10}{Thresholds} & \cellcolor{gray!10}{3|4} & \cellcolor{gray!10}{2.885} & \cellcolor{gray!10}{0.130} & \cellcolor{gray!10}{17.91} & \cellcolor{gray!10}{(13.87, 23.12)} & \cellcolor{gray!10}{22.15} & \cellcolor{gray!10}{< 1e-04}\\
+Scenario (vs grand mean) & BIAS\_EXAMPLE & 0.015 & 0.223 & 1.01 & (0.66, 1.57) & 0.07 & 0.947546\\
+\cellcolor{gray!10}{Scenario (vs grand mean)} & \cellcolor{gray!10}{BIAS\_NUM\_HIGH} & \cellcolor{gray!10}{0.107} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{1.11} & \cellcolor{gray!10}{(NA, NA)} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{NA}\\
+Scenario (vs grand mean) & BIAS\_NUM\_LOW & -0.034 & 0.223 & 0.97 & (0.62, 1.5) & -0.15 & 0.879748\\
+\cellcolor{gray!10}{Scenario (vs grand mean)} & \cellcolor{gray!10}{BIAS\_WORD} & \cellcolor{gray!10}{0.159} & \cellcolor{gray!10}{0.221} & \cellcolor{gray!10}{1.17} & \cellcolor{gray!10}{(0.76, 1.81)} & \cellcolor{gray!10}{0.72} & \cellcolor{gray!10}{0.471482}\\
+Scenario (vs grand mean) & NEU & -0.247 & 0.138 & 0.78 & (0.6, 1.02) & -1.79 & 0.073387\\
+\cellcolor{gray!10}{Base model (vs grand mean)} & \cellcolor{gray!10}{gemma3-12b} & \cellcolor{gray!10}{-0.703} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{0.50} & \cellcolor{gray!10}{(NA, NA)} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{NA}\\
+Base model (vs grand mean) & llama-pro & 2.048 & 0.155 & 7.75 & (5.72, 10.51) & 13.21 & < 1e-04\\
+\cellcolor{gray!10}{Base model (vs grand mean)} & \cellcolor{gray!10}{mistral} & \cellcolor{gray!10}{-0.642} & \cellcolor{gray!10}{0.197} & \cellcolor{gray!10}{0.53} & \cellcolor{gray!10}{(0.36, 0.77)} & \cellcolor{gray!10}{-3.26} & \cellcolor{gray!10}{0.001098}\\
+Base model (vs grand mean) & phi4 & -0.703 & 0.198 & 0.50 & (0.34, 0.73) & -3.55 & 0.000379\\
+\cellcolor{gray!10}{Interaction (deviation from average scenario effect)} & \cellcolor{gray!10}{BIAS\_EXAMPLE : llama-pro} & \cellcolor{gray!10}{0.105} & \cellcolor{gray!10}{0.285} & \cellcolor{gray!10}{1.11} & \cellcolor{gray!10}{(0.64, 1.94)} & \cellcolor{gray!10}{0.37} & \cellcolor{gray!10}{0.711340}\\
+Interaction (deviation from average scenario effect) & BIAS\_EXAMPLE : mistral & -0.076 & 0.414 & 0.93 & (0.41, 2.09) & -0.18 & 0.854187\\
+\cellcolor{gray!10}{Interaction (deviation from average scenario effect)} & \cellcolor{gray!10}{BIAS\_EXAMPLE : phi4} & \cellcolor{gray!10}{-0.015} & \cellcolor{gray!10}{0.414} & \cellcolor{gray!10}{0.99} & \cellcolor{gray!10}{(0.44, 2.22)} & \cellcolor{gray!10}{-0.04} & \cellcolor{gray!10}{0.971756}\\
+Interaction (deviation from average scenario effect) & BIAS\_NUM\_LOW : llama-pro & -0.040 & 0.287 & 0.96 & (0.55, 1.69) & -0.14 & 0.889617\\
+\cellcolor{gray!10}{Interaction (deviation from average scenario effect)} & \cellcolor{gray!10}{BIAS\_NUM\_LOW : mistral} & \cellcolor{gray!10}{-0.028} & \cellcolor{gray!10}{0.414} & \cellcolor{gray!10}{0.97} & \cellcolor{gray!10}{(0.43, 2.19)} & \cellcolor{gray!10}{-0.07} & \cellcolor{gray!10}{0.946767}\\
+Interaction (deviation from average scenario effect) & BIAS\_NUM\_LOW : phi4 & 0.034 & 0.414 & 1.03 & (0.46, 2.33) & 0.08 & 0.935070\\
+\cellcolor{gray!10}{Interaction (deviation from average scenario effect)} & \cellcolor{gray!10}{BIAS\_WORD : llama-pro} & \cellcolor{gray!10}{0.232} & \cellcolor{gray!10}{0.277} & \cellcolor{gray!10}{1.26} & \cellcolor{gray!10}{(0.73, 2.17)} & \cellcolor{gray!10}{0.84} & \cellcolor{gray!10}{0.403354}\\
+Interaction (deviation from average scenario effect) & BIAS\_WORD : mistral & 0.086 & 0.410 & 1.09 & (0.49, 2.43) & 0.21 & 0.832746\\
+\cellcolor{gray!10}{Interaction (deviation from average scenario effect)} & \cellcolor{gray!10}{BIAS\_WORD : phi4} & \cellcolor{gray!10}{-0.159} & \cellcolor{gray!10}{0.413} & \cellcolor{gray!10}{0.85} & \cellcolor{gray!10}{(0.38, 1.92)} & \cellcolor{gray!10}{-0.39} & \cellcolor{gray!10}{0.700102}\\
+Interaction (deviation from average scenario effect) & NEU : llama-pro & -0.680 & 0.186 & 0.51 & (0.35, 0.73) & -3.65 & 0.000257\\
+\cellcolor{gray!10}{Interaction (deviation from average scenario effect)} & \cellcolor{gray!10}{NEU : mistral} & \cellcolor{gray!10}{0.186} & \cellcolor{gray!10}{0.254} & \cellcolor{gray!10}{1.20} & \cellcolor{gray!10}{(0.73, 1.98)} & \cellcolor{gray!10}{0.73} & \cellcolor{gray!10}{0.464583}\\
+Interaction (deviation from average scenario effect) & NEU : phi4 & 0.247 & 0.255 & 1.28 & (0.78, 2.11) & 0.97 & 0.331317\\
+\bottomrule
+\end{tabular}
+\end{table}

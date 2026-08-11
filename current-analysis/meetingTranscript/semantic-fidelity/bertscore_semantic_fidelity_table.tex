@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Section-level BERTScore semantic fidelity for the three GPT-generated cleaning runs.}
+\label{tab:bertscore_semantic_fidelity_runs}
+\begin{tabular}{ll l c c c l}
+\toprule
+raw_file & edited_file & section & precision & recall & f1 & status \\
+\midrule
+transcription & cleaned_contexts_run01_20260629_104226 & Elicitation & 0.820000 & 0.823000 & 0.822000 & Not retained \\
+transcription & cleaned_contexts_run03_20260629_104252 & Elicitation & 0.827000 & 0.820000 & 0.824000 & Not retained \\
+transcription & cleaned_contexts_run02_20260629_104239 & Elicitation & 0.839000 & 0.819000 & 0.829000 & Retained \\
+transcription & cleaned_contexts_run01_20260629_104226 & Project & 0.862000 & 0.842000 & 0.852000 & Not retained \\
+transcription & cleaned_contexts_run02_20260629_104239 & Project & 0.860000 & 0.846000 & 0.853000 & Not retained \\
+transcription & cleaned_contexts_run03_20260629_104252 & Project & 0.870000 & 0.845000 & 0.857000 & Retained \\
+transcription & cleaned_contexts_run02_20260629_104239 & Demonstrator & 0.809000 & 0.842000 & 0.825000 & Not retained \\
+transcription & cleaned_contexts_run03_20260629_104252 & Demonstrator & 0.834000 & 0.858000 & 0.846000 & Not retained \\
+transcription & cleaned_contexts_run01_20260629_104226 & Demonstrator & 0.869000 & 0.856000 & 0.862000 & Retained \\
+\bottomrule
+\end{tabular}
+\end{table}
