@@ -1,36 +1,29 @@
-This repository contains two main folders: previous-analysis and current-analysis. 
+This repository is organized into two main folders: `previous-analysis` and `current-analysis`.
 
-1. `previous-analysis`: contains prompt scripts, files, and analysis scripts from the first submission to the TiiS journal. The files that support the reproducibility of the experiments presented in our second manuscript. 
+## 1. Repository Structure
+### `previous-analysis`
+Contains prompt scripts, files, and analysis scripts from the first submission to the TiiS journal. These files support reproducibility for the experiments reported in the second manuscript.
 
-- The folder structures are as follows: 
-    1.1. `analysis folder`: contains all the analysis scripts and the generated outputs that have been reported in the second manuscript
-    1.2. `modefiles folder`: contains the files for generating the LLM experts used in the prompts to produce the data analyzed in this manuscript
-    1.3. `pythonscripts folder`: contains the Python scripts used to prompt the model variants. 
+- `analysis/`: analysis scripts and generated outputs reported in the second manuscript.
+- `modelfiles/`: model-definition files used to generate the LLM expert personas.
+- `pythonscripts/`: Python scripts used to prompt the model variants.
 
+### `current-analysis`
+Contains the revised prompt scripts, files, and analysis scripts used after incorporating reviewer comments.
 
-2. `current-analysis`: contains prompt scripts, files, and analysis scripts from the second submission to the TiiS journal after incorporating comments provided by the reviewers. 
-The folder structure and targets are as follows: 
-    2.1. Data preparations are in the `second-publication/current-analysis/meetingTranscript/` folder:
-        - This mainly targeted on preparations of the content that was used for the `context` and the `anchored` experiments
-            2.1.1. For the `context` experiment: the scripts and files are in `second-publication/meetingTranscript/`
-                A. Raw sections (project, demonstrations, elicitation instructions): `transcription.md`
-                B. GPT run script: `text-cleaning.py`. 
-                  - Input: `transcription.md`, and output were saved in `cleaned-context/` folder.
-                C. First BERTScore run, script: `semanticFidelity.py` 
-                  - Output saved: `semantic-fidelity/` folder in three formats (i.e., .tex, .csv, and .json) 
-                  - Higher `F1-score` saved in: `author-review-raw.json`.
-                D. Author BERTScore run, script: `semanticFidelityAuthorVersions.py` with outputs saved in three formats as well (i.e., .tex, .csv, and .json) 
-                  - Outputs saved: `semantic-fidelity/` 
-                  - Final Latex table computed: `visuals-textcleaning.ipynb`; 
-                  - Saved: `text_cleaning_fidelity_table.tex`.
-
-  2.2. Variants creation, prompting, and analysis can be found in `second-publication/current-analysis/re-run/` folder:
-    A. Modelfiles: `modelfiles/` 
-    B. Scripts per condition: `1_zero-shot/`, `2_context/`, and `3_anchor/`
-      - Questions folder: `feasibility`, `importance`, and `barrierSelect`. 
-      - Counter-files (folder structures): `re-run/1_zero-shot/zeroshotResponses/` 
-      - Raw-responses: `re-run/1_zero-shot/zeroshotResponses/zeroshotBarrierSelectRaw/`  
-    C. CSVs example access path using zero-shot: `re-run/zero-shot-raw/`
+- `meetingTranscript/`: data-preparation files for the content used in the `context` and `anchor` experiments.
+  - `transcription.md`: raw sections for the project description, demonstrations, and elicitation instructions.
+  - `text-cleaning.py`: script that cleans the transcript and writes outputs to `cleaned-context/`.
+  - `semanticFidelity.py`: first BERTScore run; outputs are saved in `semantic-fidelity/` as `.tex`, `.csv`, and `.json`.
+  - `semanticFidelityAuthorVersions.py`: author-version BERTScore run; outputs are also saved in `semantic-fidelity/`.
+  - `visuals-textcleaning.ipynb`: computes the final LaTeX table `text_cleaning_fidelity_table.tex`.
+- `re-run/`: variants creation, prompting, and analysis for the current manuscript.
+  - `modelfiles/`: model files used in the re-run prompts.
+  - `1_zero-shot/`, `2_context/`, and `3_anchor/`: scripts and outputs for the three experimental conditions.
+  - `feasibility`, `importance`, and `barrierSelect`: question sets used within each condition.
+  - `zeroshotResponses/`: zero-shot response outputs.
+  - `zeroshotBarrierSelectRaw/`: raw barrier-selection responses for the zero-shot condition.
+  - `zero-shot-raw/`: example CSV access path for zero-shot outputs.
 
 ## 2.3. Guide to the analyses:
 ### RQ1: 
@@ -97,9 +90,9 @@ Rscript "feasibility-analysis/ppc-feasibility-rq2-thres.R"
 Rscript "feasibility-analysis/feas-rq2-sensitivity.R"
 ```
 
-- Outputs: primary model in `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/`;
-- PPCs in `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/posterior-predictive-checks/`, and 
-- Prior-sensitivity outputs in `feas-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
+- Primary model: `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/`;
+- PPCs: `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/posterior-predictive-checks/`, and 
+- Prior-sensitivity: `feas-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
 
 #### RQ2-importance:
 Overall path: `current-analysis/re-run/rq2-rerun/`
@@ -114,9 +107,9 @@ Rscript "imp-rq2-analysis/ppc-importance-rq2.R"
 Rscript "imp-rq2-analysis/imp-rq2-sensitivity.R"
 ```
 
-- Outputs: primary model in `imp-ctx-zeroshot-working/bayesian-results/base-solution-threshold/`; 
-- PPCs in `imp-ctx-zeroshot-working/bayesian-results/base-solution-threshold/posterior-predictive-checks/`, and 
-- Prior-sensitivity outputs in `imp-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
+- Primary model: `imp-ctx-zeroshot-working/bayesian-results/base-solution-threshold/`; 
+- PPCs: `imp-ctx-zeroshot-working/bayesian-results/base-solution-threshold/posterior-predictive-checks/`, and 
+- Prior-sensitivity: `imp-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
 
 
 ### RQ3:
@@ -138,7 +131,7 @@ Rscript "barrier-select-rq3.R"
 Overall path: `current-analysis/re-run/rq2-rerun/`
 
 - Combined input: `feas-ctx-zeroshot-working/feas-ctx-zeroshot-responses.csv`
-- Analysis scripts: `feasibility-analysis/`
+- Analysis-scripts: `feasibility-analysis/`
 
 Run the following commands in order from `current-analysis/re-run/rq2-rerun/`:
 ```bash
@@ -147,7 +140,7 @@ Rscript "feasibility-analysis/ppc-feasibility-rq2-thres.R"
 Rscript "feasibility-analysis/feas-rq2-sensitivity.R"
 ```
 
-- Outputs: `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/`, 
+- Primary model: `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/`, 
 - PPCs: `feas-ctx-zeroshot-working/bayesian-results/base-model-threshold-trial/posterior-predictive-checks/`, and 
 - Prior-sensitivity: `feas-ctx-zeroshot-working/bayesian-results/prior-sensitivity/`
 
@@ -165,8 +158,8 @@ Rscript "imp-rq3-analysis/ppc-importance-rq3.R"
 Rscript "imp-rq3-analysis/imp-rq3-sensitivity.R"
 ```
 
-- Outputs: primary model in `imp-ctx-anchor-working/bayesian-results/base-solution-threshold/`, 
-- PPCs in `imp-ctx-anchor-working/bayesian-results/base-solution-threshold/posterior-predictive-checks/`, and, 
-- anchor-pattern outputs in `imp-ctx-anchor-working/bayesian-results/anchor-response-patterns/` and 
+- Primary model: `imp-ctx-anchor-working/bayesian-results/base-solution-threshold/`, 
+- PPCs: `imp-ctx-anchor-working/bayesian-results/base-solution-threshold/posterior-predictive-checks/`, and, 
+- Anchor-pattern: `imp-ctx-anchor-working/bayesian-results/anchor-response-patterns/` and 
   - `imp-ctx-anchor-working/bayesian-results/rq3-importance-anchor-response-patterns/`, and 
-- Prior-sensitivity outputs in `imp-ctx-anchor-working/bayesian-results/prior-sensitivity/`
+- Prior-sensitivity: `imp-ctx-anchor-working/bayesian-results/prior-sensitivity/`
