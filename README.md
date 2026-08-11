@@ -2,7 +2,7 @@ This repository is organized into two main folders: `previous-analysis` and `cur
 
 ## Repository Structure
 ### 1. Independent files
-These are files in the root of the repository supporting and referenced in the paper:
+- These are files in the root of the repository supporting and referenced in the paper:
 
   - Elicitation protocol first session: `EE-Protocol-first.pdf`
   - Elicitation protocol second session: `EE-Protocol-second.pdf`
@@ -10,16 +10,16 @@ These are files in the root of the repository supporting and referenced in the p
   - Online appendix 2: `Online-appendix2.pdf`
 
 ### 2. Previous analysis: 
-Overall path: `previous-analysis`
-Contains prompt scripts, files, and analysis scripts from the first submission to the TiiS journal. These files support reproducibility for the experiments reported in the second manuscript.
+- Overall path: `previous-analysis`
+- Contains prompt scripts, files, and analysis scripts from the first submission. - - These files support reproducibility for the experiments reported in the second manuscript.
 
   - `analysis/`: analysis scripts and generated outputs reported in the second manuscript.
   - `modelfiles/`: model-definition files used to generate the LLM expert personas.
   - `pythonscripts/`: Python scripts used to prompt the model variants.
 
 ### 3. Current analysis: 
-Overall path: `current-analysis`
-Contains the revised prompt scripts, files, and analysis scripts used after incorporating reviewer comments.
+- Overall path: `current-analysis`
+- Contains the revised prompt scripts, files, and analysis scripts used after incorporating reviewer comments.
 
 - `meetingTranscript/`: data-preparation files for the content used in the `context` and `anchor` experiments.
   - `transcription.md`: raw sections for the project description, demonstrations, and elicitation instructions.
