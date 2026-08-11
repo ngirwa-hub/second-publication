@@ -24,7 +24,7 @@ MODEL_VARIANTS = [
 #load project context
 def load_project():
     return (
-        "- The Shift to Direct Current (Shift2DC) project is one of two initiatives selected under a recent call focused on advancing direct current (DC) technologies.\n"
+        "- The XXXXXX project is one of two initiatives selected under a recent call focused on advancing direct current (DC) technologies.\n"
         "- The objective of this call is to establish guidelines for the widespread application of low and medium voltage DC systems.\n"
         "- The project will deliver 30 DC-related solutions, including software tools, simulation platforms, and hardware components such as cables and converters.\n"
         "- Several demonstrators are planned to test and showcase these solutions in real-world settings.\n"
@@ -35,9 +35,9 @@ def load_project():
 #load demonstration context
 def load_demonstration():
     return (
-        "- The Shift2DC project includes four key demonstration areas: ports, industry, data centers, and buildings.\n"
+        "- The XXXXXX project includes four key demonstration areas: ports, industry, data centers, and buildings.\n"
         "- Two of these areas—data centers and industry—feature physical demonstrators where technologies will be implemented and tested on-site.\n"
-        "- The data center demonstration is located in Germany and focuses on edge data centers. It explores how DC can be integrated to support renewable energy use, heat reuse, and powering not only the computing infrastructure but also office spaces.\n"
+        "- The data center demonstration is located in XXXXXX and focuses on edge data centers. It explores how DC can be integrated to support renewable energy use, heat reuse, and powering not only the computing infrastructure but also office spaces.\n"
         "- The industry demonstration involves a functioning factory environment where DC technologies will be piloted.\n"
         "- Live demonstrations will also take place in buildings, while the port demonstration includes a small-scale testbed supported by a digital twin to explore DC scalability in port operations.\n"
         "- In the port use case, one focus is to assess DC as a viable alternative for onshore power supply, especially in light of varying vessel frequency standards (50 Hz vs. 60 Hz).\n"

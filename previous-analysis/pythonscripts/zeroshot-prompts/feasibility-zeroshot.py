@@ -30,7 +30,7 @@ MASTER_CSV = os.path.join(OUTPUT_FOLDER, "feasibility_all.csv")
 # Load shared elicitation context
 def load_context():
     return (
-        "- The expert elicitation is based on the Shift2DC project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies. "
+        "- The expert elicitation is based on the XXXXXX project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies. "
         "- The project focuses on the development and demonstration of DC solutions in four sectors: ports, industry, data centers, and buildings."
         "- The proposed DC solutions are;\n"
         " 1. Smart and sustainable DC cables\n"
@@ -201,9 +201,9 @@ if __name__ == "__main__":
     context = "\n\n".join(context_sections)
 
     base_question = (
-        "Question: How feasible is the use of DC solutions for the target sectors described in the Shift2DC project?\n"
+        "Question: How feasible is the use of DC solutions for the target sectors described in the XXXXXX project?\n"
         "Key considerations:\n"
-        "- Consider all the listed DC solutions within the context of the Shift2DC project.\n"
+        "- Consider all the listed DC solutions within the context of the XXXXXX project.\n"
         "- Provide an overall assessment of the feasibility of these DC solutions in the target sectors.\n"
         "⚠️-Use ONLY the provided rating scale <0–4> (the feasibility Scale).\n"
         "- Do not provide justification for your choice.\n"

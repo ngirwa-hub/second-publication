@@ -44,7 +44,7 @@ VALID_BARRIER_IDS = set(BARRIERS.keys())
 # Prompt components
 def context():
     return (
-        "- The expert elicitation is based on the Shift2DC project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies.\n"
+        "- The expert elicitation is based on the XXXXXX project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies.\n"
         "- The project focuses on the development and demonstration of DC solutions in four sectors: ports, industry, data centers, and buildings."
     )
 
