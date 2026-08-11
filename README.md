@@ -1,7 +1,7 @@
 This repository is organized into two main folders: `previous-analysis` and `current-analysis`.
 
 ## Repository Structure
-### Independent files
+### 1. Independent files
 These are files in the root of the repository supporting and referenced in the paper:
 
   - Elicitation protocol first session: EE-Protocol-first.pdf
