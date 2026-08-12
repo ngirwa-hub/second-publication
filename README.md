@@ -4,10 +4,10 @@ This repository is organized into two main folders: `previous-analysis` and `cur
 ### 1. Independent files
 - These are files in the root of the repository supporting and referenced in the paper:
 
-  - Elicitation protocol first session: `EE-Protocol-first.pdf`
-  - Elicitation protocol second session: `EE-Protocol-second.pdf`
-  - Online appendix: `Online-appendix.pdf`
-  - Online appendix 2: `Online-appendix2.pdf`
+  - `EE-Protocol-first.pdf` : the elicitation protocol covered the second session with the DC experts
+  - `EE-Protocol-second.pdf` : the elicitation protocol covered the first session with the DC experts
+  - `Online-appendix.pdf` : contains extra figures and tables referenced in the paper
+  - `Online-appendix2.pdf` : contains discussions raised during first and second sessions with the DC experts
 
 ### 2. Previous analysis: 
 - Overall path: `previous-analysis`
