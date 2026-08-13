@@ -2,12 +2,12 @@
 
 ## Expert elicitation protocol
 
-- The elicitation process is part of the EU-funded **DC shift to DC project** and focuses on **users’ perceptions of medium- and low-voltage direct current technologies**.
+- The elicitation process is part of the EU-funded **XXXXXX** and focuses on **users’ perceptions of medium- and low-voltage direct current technologies**.
 - Because the project is still in its **first year** and there are **few direct current users** at present, the study uses **experts** instead of relying on user data.
 - The goal is to **gain insights** into the **challenges and opportunities** for medium- and low-voltage DC, including areas where there is still uncertainty and mixed views in the literature.
 - The protocol is designed to gather **qualitative and quantitative** input from experts through a set of prepared questions.
 - The elicitation will be used to **document expert opinions**, and to **converge on areas of agreement** and identify **areas of disagreement**.
-- The session includes brief introductions, a short overview of the broader project (kept general rather than only about the DC shift to DC project), an explanation of the expert elicitation protocol and its process, and concluding remarks.
+- The session includes brief introductions, a short overview of the broader project (kept general rather than only about the XXXXXX project), an explanation of the expert elicitation protocol and its process, and concluding remarks.
 
 - Topics selected for discussion include **barriers to adoption**, **costs**, **time**, **risks of delay**, and related general considerations.
 
@@ -15,7 +15,7 @@
 
 ## Project description
 
-The Shift to DC project aims to establish guidelines and roadmaps for the widespread adoption of DC solutions, with a focus on medium- and low-voltage DC. The project will develop multiple technologies and enablers, including software tools, simulation tools, and hardware solutions such as cables and converters. 
+The XXXXXX project aims to establish guidelines and roadmaps for the widespread adoption of DC solutions, with a focus on medium- and low-voltage DC. The project will develop multiple technologies and enablers, including software tools, simulation tools, and hardware solutions such as cables and converters. 
 
 The project is organized around:
 
@@ -32,7 +32,7 @@ Overall, the project addresses the DC ecosystem across barriers, opportunities, 
 
 ## Data center
 
-- **Location:** Germany.
+- **Location:** XXXXXX.
 - **Focus:** Edge data centers and how data centers can be integrated, including **renewables integration** and **heat reuse**.
 - **Scope:** A **micro data center** demonstrator with a small installation assembled from data center components.
 - **Technologies included:** **V2G** and **solar panels** (described as V2G solar panels) integrated on the sides of the installation.
@@ -40,7 +40,7 @@ Overall, the project addresses the DC ecosystem across barriers, opportunities, 
 
 ## Buildings
 
-- **Location:** France.
+- **Location:** XXXXXX.
 - **Type:** Residential building demonstrator.
 - **Focus:** Integrating existing DC technologies into a **DC grid**.
 - **Scope:** A **live demonstrator** for buildings, including **DPVs** and other DC-related technologies.
@@ -55,15 +55,15 @@ Overall, the project addresses the DC ecosystem across barriers, opportunities, 
 - **Focus:** Integration of **renewables** in a manufacturing setting.
 - **Scope:** Includes **renewables and chargers**; the described scale is **around 100 kW**.
 
-### Living lab / Aachen
+### Living lab / XXXXXX
 
-- **Location:** Aachen, Germany.
+- **Location:** XXXXXX, XXXXXX.
 - **Focus:** Connecting facilities using **DC technology**.
 - **Scope:** A living lab setup that **connects two buildings** with DC technology.
 
 ## Ports
 
-- **Location:** Funchal.
+- **Location:** XXXXXX.
 - **Focus:** Whether the **sea** can be an option for **onshore power supply**.
 - **Scope:** A small demonstrator with a **digital twin** on top, intended to test and scale how DC could work in ports.
 - **Technologies included:** A **10 kW PV** installation and an **11 kW V2G charger**.

@@ -2,9 +2,9 @@
 
 ## Expert elicitation protocol
 
-- The expert elicitation is part of the EU-funded **DC shift to DC project** and focuses on **users’ perceptions of medium- and low-voltage direct current technologies**.
+- The expert elicitation is part of the EU-funded **XXXXXX** and focuses on **users’ perceptions of medium- and low-voltage direct current technologies**.
 - The project is still in its **first year**, so there are **not many users yet**. Because of this early stage, the study relies on **experts** to gather insights while user data is limited.
-- The elicitation is intended to support a broader discussion beyond the project itself, while still covering the **shift to DC** context.
+- The elicitation is intended to support a broader discussion beyond the project itself, while still covering the **XXXXXX** context.
 
 ## Purpose and approach
 
@@ -24,7 +24,7 @@
 
 ## Project description
 
-The Shift to DC project aims to establish guidelines and roadmaps to enable the widespread adoption of DC solutions, with a focus on medium- and low-voltage DC. The project will develop multiple technologies, including software and simulation tools, as well as hardware components such as cables and converters. The project will address several topics reported in the literature by gathering expert input from end-user-relevant domains.
+The XXXXXX project aims to establish guidelines and roadmaps to enable the widespread adoption of DC solutions, with a focus on medium- and low-voltage DC. The project will develop multiple technologies, including software and simulation tools, as well as hardware components such as cables and converters. The project will address several topics reported in the literature by gathering expert input from end-user-relevant domains.
 
 Because the project is still early and has not yet engaged end users, the consortium decided to consult experts from multiple areas aligned with DC expertise, including ports, buildings, manufacturing, and utilities.
 
@@ -41,27 +41,27 @@ All results will be integrated and evaluated through **four industrial applicati
 
 ## Data center
 
-- Four demonstrators are planned, including a data center demonstrator in Germany.
+- Four demonstrators are planned, including a data center demonstrator in XXXXXX.
 - The focus is on edge data centers and how data centers can be integrated, particularly with renewables and heat reuse.
 - The demonstrator also considers powering the office via DC, not only the computing equipment.
-- A micro data center will be tested in Germany with a small installation assembled from data center components.
+- A micro data center will be tested in XXXXXX with a small installation assembled from data center components.
 - The installation includes V2G and solar panels, and it will operate as a real micro data center.
 
 ## Buildings
 
-- A residential building demonstrator in France will test how existing DC technologies can be integrated into a DC grid.
+- A residential building demonstrator in XXXXXX will test how existing DC technologies can be integrated into a DC grid.
 - The buildings demonstrator includes a live setup and focuses on DC-related technologies, including DPVs.
 
 ## Industry
 
 - Two industry use cases are planned.
-- One manufacturing demonstrator is located in Aachen, Germany, where technologies will be integrated and large facilities will be connected.
+- One manufacturing demonstrator is located in XXXXXX, XXXXXX, where technologies will be integrated and large facilities will be connected.
 - Another industry demonstrator is in Phoenix Contact, focusing on accommodating renewables and chargers, with a scale around 100 kW.
-- A separate industry/living-lab setup in Aachen connects two buildings using DC technology.
+- A separate industry/living-lab setup in XXXXXX connects two buildings using DC technology.
 
 ## Ports
 
-- A port demonstrator is planned in Funchal, focused on whether the sea can be an option for onshore power supply.
+- A port demonstrator is planned in XXXXXX, focused on whether the sea can be an option for onshore power supply.
 - The port demonstrator is small and includes a digital twin to explore scaling of DC in the port.
 - The objective is to test multiple technologies and to consider end-user perspectives, including people passing by (e.g., tourists) who may not realize the system is DC.
 - The installation includes approximately 10 kW of PV and 11 kW of V2G chargers.
