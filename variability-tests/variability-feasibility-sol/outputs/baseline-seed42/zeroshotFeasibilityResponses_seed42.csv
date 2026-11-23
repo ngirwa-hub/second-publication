@@ -1,0 +1,951 @@
+row_id,variant_id,base_model,model,rating,label,iteration,timestamp,raw_response
+phi4_generalist_00_20261119_203817,phi4_generalist,phi4,generalist,3,Feasible,0,20261119_203817,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_00_20261119_203817,phi4_normative,phi4,normative,3,Feasible,0,20261119_203817,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_00_20261119_203817,phi4_subject-matter,phi4,subject-matter,4,Very feasible,0,20261119_203817,4 - Very feasible
+gemma3_generalist_00_20261119_203817,gemma3_generalist,gemma3,generalist,3,Feasible,0,20261119_203817,3 - Feasible
+gemma3_normative_00_20261119_203817,gemma3_normative,gemma3,normative,3,Feasible,0,20261119_203817,3 - Feasible
+gemma3_subject-matter_00_20261119_203817,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,0,20261119_203817,3 - Feasible
+llama_generalist_00_20261119_203817,llama_generalist,llama,generalist,2,Somewhat feasible,0,20261119_203817,"2 - Somewhat feasible
+"
+llama_normative_00_20261119_203817,llama_normative,llama,normative,2,Somewhat feasible,0,20261119_203817,"2 - Somewhat feasible
+"
+llama_subject-matter_00_20261119_203817,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,0,20261119_203817,"2 - Somewhat feasible
+"
+mistral_generalist_00_20261119_203817,mistral_generalist,mistral,generalist,3,Feasible,0,20261119_203817, 3 - Feasible
+mistral_normative_00_20261119_203817,mistral_normative,mistral,normative,3,Feasible,0,20261119_203817, 3 - Feasible
+mistral_subject-matter_00_20261119_203817,mistral_subject-matter,mistral,subject-matter,3,Feasible,0,20261119_203817, 3 - Feasible
+phi4_generalist_01_20261119_203847,phi4_generalist,phi4,generalist,3,Feasible,1,20261119_203847,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_01_20261119_203847,phi4_normative,phi4,normative,3,Feasible,1,20261119_203847,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_01_20261119_203847,phi4_subject-matter,phi4,subject-matter,4,Very feasible,1,20261119_203847,4 - Very feasible
+gemma3_generalist_01_20261119_203847,gemma3_generalist,gemma3,generalist,3,Feasible,1,20261119_203847,3 - Feasible
+gemma3_normative_01_20261119_203847,gemma3_normative,gemma3,normative,3,Feasible,1,20261119_203847,3 - Feasible
+gemma3_subject-matter_01_20261119_203847,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,1,20261119_203847,3 - Feasible
+llama_generalist_01_20261119_203847,llama_generalist,llama,generalist,2,Somewhat feasible,1,20261119_203847,"2 - Somewhat feasible
+"
+llama_normative_01_20261119_203847,llama_normative,llama,normative,2,Somewhat feasible,1,20261119_203847,"2 - Somewhat feasible
+"
+llama_subject-matter_01_20261119_203847,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,1,20261119_203847,"2 - Somewhat feasible
+"
+mistral_generalist_01_20261119_203847,mistral_generalist,mistral,generalist,3,Feasible,1,20261119_203847, 3 - Feasible
+mistral_normative_01_20261119_203847,mistral_normative,mistral,normative,3,Feasible,1,20261119_203847, 3 - Feasible
+mistral_subject-matter_01_20261119_203847,mistral_subject-matter,mistral,subject-matter,3,Feasible,1,20261119_203847, 3 - Feasible
+phi4_generalist_02_20261119_203919,phi4_generalist,phi4,generalist,3,Feasible,2,20261119_203919,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_02_20261119_203919,phi4_normative,phi4,normative,3,Feasible,2,20261119_203919,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_02_20261119_203919,phi4_subject-matter,phi4,subject-matter,4,Very feasible,2,20261119_203919,4 - Very feasible
+gemma3_generalist_02_20261119_203919,gemma3_generalist,gemma3,generalist,3,Feasible,2,20261119_203919,3 - Feasible
+gemma3_normative_02_20261119_203919,gemma3_normative,gemma3,normative,3,Feasible,2,20261119_203919,3 - Feasible
+gemma3_subject-matter_02_20261119_203919,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,2,20261119_203919,3 - Feasible
+llama_generalist_02_20261119_203919,llama_generalist,llama,generalist,2,Somewhat feasible,2,20261119_203919,"2 - Somewhat feasible
+"
+llama_normative_02_20261119_203919,llama_normative,llama,normative,2,Somewhat feasible,2,20261119_203919,"2 - Somewhat feasible
+"
+llama_subject-matter_02_20261119_203919,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,2,20261119_203919,"2 - Somewhat feasible
+"
+mistral_generalist_02_20261119_203919,mistral_generalist,mistral,generalist,3,Feasible,2,20261119_203919, 3 - Feasible
+mistral_normative_02_20261119_203919,mistral_normative,mistral,normative,3,Feasible,2,20261119_203919, 3 - Feasible
+mistral_subject-matter_02_20261119_203919,mistral_subject-matter,mistral,subject-matter,3,Feasible,2,20261119_203919, 3 - Feasible
+phi4_generalist_03_20261119_203951,phi4_generalist,phi4,generalist,3,Feasible,3,20261119_203951,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_03_20261119_203951,phi4_normative,phi4,normative,3,Feasible,3,20261119_203951,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_03_20261119_203951,phi4_subject-matter,phi4,subject-matter,4,Very feasible,3,20261119_203951,4 - Very feasible
+gemma3_generalist_03_20261119_203951,gemma3_generalist,gemma3,generalist,3,Feasible,3,20261119_203951,3 - Feasible
+gemma3_normative_03_20261119_203951,gemma3_normative,gemma3,normative,3,Feasible,3,20261119_203951,3 - Feasible
+gemma3_subject-matter_03_20261119_203951,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,3,20261119_203951,3 - Feasible
+llama_generalist_03_20261119_203951,llama_generalist,llama,generalist,2,Somewhat feasible,3,20261119_203951,"2 - Somewhat feasible
+"
+llama_normative_03_20261119_203951,llama_normative,llama,normative,2,Somewhat feasible,3,20261119_203951,"2 - Somewhat feasible
+"
+llama_subject-matter_03_20261119_203951,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,3,20261119_203951,"2 - Somewhat feasible
+"
+mistral_generalist_03_20261119_203951,mistral_generalist,mistral,generalist,3,Feasible,3,20261119_203951, 3 - Feasible
+mistral_normative_03_20261119_203951,mistral_normative,mistral,normative,3,Feasible,3,20261119_203951, 3 - Feasible
+mistral_subject-matter_03_20261119_203951,mistral_subject-matter,mistral,subject-matter,3,Feasible,3,20261119_203951, 3 - Feasible
+phi4_generalist_04_20261119_204023,phi4_generalist,phi4,generalist,3,Feasible,4,20261119_204023,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_04_20261119_204023,phi4_normative,phi4,normative,3,Feasible,4,20261119_204023,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_04_20261119_204023,phi4_subject-matter,phi4,subject-matter,4,Very feasible,4,20261119_204023,4 - Very feasible
+gemma3_generalist_04_20261119_204023,gemma3_generalist,gemma3,generalist,3,Feasible,4,20261119_204023,3 - Feasible
+gemma3_normative_04_20261119_204023,gemma3_normative,gemma3,normative,3,Feasible,4,20261119_204023,3 - Feasible
+gemma3_subject-matter_04_20261119_204023,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,4,20261119_204023,3 - Feasible
+llama_generalist_04_20261119_204023,llama_generalist,llama,generalist,2,Somewhat feasible,4,20261119_204023,"2 - Somewhat feasible
+"
+llama_normative_04_20261119_204023,llama_normative,llama,normative,2,Somewhat feasible,4,20261119_204023,"2 - Somewhat feasible
+"
+llama_subject-matter_04_20261119_204023,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,4,20261119_204023,"2 - Somewhat feasible
+"
+mistral_generalist_04_20261119_204023,mistral_generalist,mistral,generalist,3,Feasible,4,20261119_204023, 3 - Feasible
+mistral_normative_04_20261119_204023,mistral_normative,mistral,normative,3,Feasible,4,20261119_204023, 3 - Feasible
+mistral_subject-matter_04_20261119_204023,mistral_subject-matter,mistral,subject-matter,3,Feasible,4,20261119_204023, 3 - Feasible
+phi4_generalist_05_20261119_204055,phi4_generalist,phi4,generalist,3,Feasible,5,20261119_204055,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_05_20261119_204055,phi4_normative,phi4,normative,3,Feasible,5,20261119_204055,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_05_20261119_204055,phi4_subject-matter,phi4,subject-matter,4,Very feasible,5,20261119_204055,4 - Very feasible
+gemma3_generalist_05_20261119_204055,gemma3_generalist,gemma3,generalist,3,Feasible,5,20261119_204055,3 - Feasible
+gemma3_normative_05_20261119_204055,gemma3_normative,gemma3,normative,3,Feasible,5,20261119_204055,3 - Feasible
+gemma3_subject-matter_05_20261119_204055,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,5,20261119_204055,3 - Feasible
+llama_generalist_05_20261119_204055,llama_generalist,llama,generalist,2,Somewhat feasible,5,20261119_204055,"2 - Somewhat feasible
+"
+llama_normative_05_20261119_204055,llama_normative,llama,normative,2,Somewhat feasible,5,20261119_204055,"2 - Somewhat feasible
+"
+llama_subject-matter_05_20261119_204055,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,5,20261119_204055,"2 - Somewhat feasible
+"
+mistral_generalist_05_20261119_204055,mistral_generalist,mistral,generalist,3,Feasible,5,20261119_204055, 3 - Feasible
+mistral_normative_05_20261119_204055,mistral_normative,mistral,normative,3,Feasible,5,20261119_204055, 3 - Feasible
+mistral_subject-matter_05_20261119_204055,mistral_subject-matter,mistral,subject-matter,3,Feasible,5,20261119_204055, 3 - Feasible
+phi4_generalist_06_20261119_204126,phi4_generalist,phi4,generalist,3,Feasible,6,20261119_204126,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_06_20261119_204126,phi4_normative,phi4,normative,3,Feasible,6,20261119_204126,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_06_20261119_204126,phi4_subject-matter,phi4,subject-matter,4,Very feasible,6,20261119_204126,4 - Very feasible
+gemma3_generalist_06_20261119_204126,gemma3_generalist,gemma3,generalist,3,Feasible,6,20261119_204126,3 - Feasible
+gemma3_normative_06_20261119_204126,gemma3_normative,gemma3,normative,3,Feasible,6,20261119_204126,3 - Feasible
+gemma3_subject-matter_06_20261119_204126,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,6,20261119_204126,3 - Feasible
+llama_generalist_06_20261119_204126,llama_generalist,llama,generalist,2,Somewhat feasible,6,20261119_204126,"2 - Somewhat feasible
+"
+llama_normative_06_20261119_204126,llama_normative,llama,normative,2,Somewhat feasible,6,20261119_204126,"2 - Somewhat feasible
+"
+llama_subject-matter_06_20261119_204126,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,6,20261119_204126,"2 - Somewhat feasible
+"
+mistral_generalist_06_20261119_204126,mistral_generalist,mistral,generalist,3,Feasible,6,20261119_204126, 3 - Feasible
+mistral_normative_06_20261119_204126,mistral_normative,mistral,normative,3,Feasible,6,20261119_204126, 3 - Feasible
+mistral_subject-matter_06_20261119_204126,mistral_subject-matter,mistral,subject-matter,3,Feasible,6,20261119_204126, 3 - Feasible
+phi4_generalist_07_20261119_204158,phi4_generalist,phi4,generalist,3,Feasible,7,20261119_204158,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_07_20261119_204158,phi4_normative,phi4,normative,3,Feasible,7,20261119_204158,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_07_20261119_204158,phi4_subject-matter,phi4,subject-matter,4,Very feasible,7,20261119_204158,4 - Very feasible
+gemma3_generalist_07_20261119_204158,gemma3_generalist,gemma3,generalist,3,Feasible,7,20261119_204158,3 - Feasible
+gemma3_normative_07_20261119_204158,gemma3_normative,gemma3,normative,3,Feasible,7,20261119_204158,3 - Feasible
+gemma3_subject-matter_07_20261119_204158,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,7,20261119_204158,3 - Feasible
+llama_generalist_07_20261119_204158,llama_generalist,llama,generalist,2,Somewhat feasible,7,20261119_204158,"2 - Somewhat feasible
+"
+llama_normative_07_20261119_204158,llama_normative,llama,normative,2,Somewhat feasible,7,20261119_204158,"2 - Somewhat feasible
+"
+llama_subject-matter_07_20261119_204158,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,7,20261119_204158,"2 - Somewhat feasible
+"
+mistral_generalist_07_20261119_204158,mistral_generalist,mistral,generalist,3,Feasible,7,20261119_204158, 3 - Feasible
+mistral_normative_07_20261119_204158,mistral_normative,mistral,normative,3,Feasible,7,20261119_204158, 3 - Feasible
+mistral_subject-matter_07_20261119_204158,mistral_subject-matter,mistral,subject-matter,3,Feasible,7,20261119_204158, 3 - Feasible
+phi4_generalist_08_20261119_204230,phi4_generalist,phi4,generalist,3,Feasible,8,20261119_204230,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_08_20261119_204230,phi4_normative,phi4,normative,3,Feasible,8,20261119_204230,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_08_20261119_204230,phi4_subject-matter,phi4,subject-matter,4,Very feasible,8,20261119_204230,4 - Very feasible
+gemma3_generalist_08_20261119_204230,gemma3_generalist,gemma3,generalist,3,Feasible,8,20261119_204230,3 - Feasible
+gemma3_normative_08_20261119_204230,gemma3_normative,gemma3,normative,3,Feasible,8,20261119_204230,3 - Feasible
+gemma3_subject-matter_08_20261119_204230,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,8,20261119_204230,3 - Feasible
+llama_generalist_08_20261119_204230,llama_generalist,llama,generalist,2,Somewhat feasible,8,20261119_204230,"2 - Somewhat feasible
+"
+llama_normative_08_20261119_204230,llama_normative,llama,normative,2,Somewhat feasible,8,20261119_204230,"2 - Somewhat feasible
+"
+llama_subject-matter_08_20261119_204230,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,8,20261119_204230,"2 - Somewhat feasible
+"
+mistral_generalist_08_20261119_204230,mistral_generalist,mistral,generalist,3,Feasible,8,20261119_204230, 3 - Feasible
+mistral_normative_08_20261119_204230,mistral_normative,mistral,normative,3,Feasible,8,20261119_204230, 3 - Feasible
+mistral_subject-matter_08_20261119_204230,mistral_subject-matter,mistral,subject-matter,3,Feasible,8,20261119_204230, 3 - Feasible
+phi4_generalist_09_20261119_204302,phi4_generalist,phi4,generalist,3,Feasible,9,20261119_204302,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_09_20261119_204302,phi4_normative,phi4,normative,3,Feasible,9,20261119_204302,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_09_20261119_204302,phi4_subject-matter,phi4,subject-matter,4,Very feasible,9,20261119_204302,4 - Very feasible
+gemma3_generalist_09_20261119_204302,gemma3_generalist,gemma3,generalist,3,Feasible,9,20261119_204302,3 - Feasible
+gemma3_normative_09_20261119_204302,gemma3_normative,gemma3,normative,3,Feasible,9,20261119_204302,3 - Feasible
+gemma3_subject-matter_09_20261119_204302,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,9,20261119_204302,3 - Feasible
+llama_generalist_09_20261119_204302,llama_generalist,llama,generalist,2,Somewhat feasible,9,20261119_204302,"2 - Somewhat feasible
+"
+llama_normative_09_20261119_204302,llama_normative,llama,normative,2,Somewhat feasible,9,20261119_204302,"2 - Somewhat feasible
+"
+llama_subject-matter_09_20261119_204302,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,9,20261119_204302,"2 - Somewhat feasible
+"
+mistral_generalist_09_20261119_204302,mistral_generalist,mistral,generalist,3,Feasible,9,20261119_204302, 3 - Feasible
+mistral_normative_09_20261119_204302,mistral_normative,mistral,normative,3,Feasible,9,20261119_204302, 3 - Feasible
+mistral_subject-matter_09_20261119_204302,mistral_subject-matter,mistral,subject-matter,3,Feasible,9,20261119_204302, 3 - Feasible
+phi4_generalist_10_20261119_204333,phi4_generalist,phi4,generalist,3,Feasible,10,20261119_204333,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_10_20261119_204333,phi4_normative,phi4,normative,3,Feasible,10,20261119_204333,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_10_20261119_204333,phi4_subject-matter,phi4,subject-matter,4,Very feasible,10,20261119_204333,4 - Very feasible
+gemma3_generalist_10_20261119_204333,gemma3_generalist,gemma3,generalist,3,Feasible,10,20261119_204333,3 - Feasible
+gemma3_normative_10_20261119_204333,gemma3_normative,gemma3,normative,3,Feasible,10,20261119_204333,3 - Feasible
+gemma3_subject-matter_10_20261119_204333,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,10,20261119_204333,3 - Feasible
+llama_generalist_10_20261119_204333,llama_generalist,llama,generalist,2,Somewhat feasible,10,20261119_204333,"2 - Somewhat feasible
+"
+llama_normative_10_20261119_204333,llama_normative,llama,normative,2,Somewhat feasible,10,20261119_204333,"2 - Somewhat feasible
+"
+llama_subject-matter_10_20261119_204333,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,10,20261119_204333,"2 - Somewhat feasible
+"
+mistral_generalist_10_20261119_204333,mistral_generalist,mistral,generalist,3,Feasible,10,20261119_204333, 3 - Feasible
+mistral_normative_10_20261119_204333,mistral_normative,mistral,normative,3,Feasible,10,20261119_204333, 3 - Feasible
+mistral_subject-matter_10_20261119_204333,mistral_subject-matter,mistral,subject-matter,3,Feasible,10,20261119_204333, 3 - Feasible
+phi4_generalist_11_20261119_204405,phi4_generalist,phi4,generalist,3,Feasible,11,20261119_204405,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_11_20261119_204405,phi4_normative,phi4,normative,3,Feasible,11,20261119_204405,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_11_20261119_204405,phi4_subject-matter,phi4,subject-matter,4,Very feasible,11,20261119_204405,4 - Very feasible
+gemma3_generalist_11_20261119_204405,gemma3_generalist,gemma3,generalist,3,Feasible,11,20261119_204405,3 - Feasible
+gemma3_normative_11_20261119_204405,gemma3_normative,gemma3,normative,3,Feasible,11,20261119_204405,3 - Feasible
+gemma3_subject-matter_11_20261119_204405,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,11,20261119_204405,3 - Feasible
+llama_generalist_11_20261119_204405,llama_generalist,llama,generalist,2,Somewhat feasible,11,20261119_204405,"2 - Somewhat feasible
+"
+llama_normative_11_20261119_204405,llama_normative,llama,normative,2,Somewhat feasible,11,20261119_204405,"2 - Somewhat feasible
+"
+llama_subject-matter_11_20261119_204405,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,11,20261119_204405,"2 - Somewhat feasible
+"
+mistral_generalist_11_20261119_204405,mistral_generalist,mistral,generalist,3,Feasible,11,20261119_204405, 3 - Feasible
+mistral_normative_11_20261119_204405,mistral_normative,mistral,normative,3,Feasible,11,20261119_204405, 3 - Feasible
+mistral_subject-matter_11_20261119_204405,mistral_subject-matter,mistral,subject-matter,3,Feasible,11,20261119_204405, 3 - Feasible
+phi4_generalist_12_20261119_204436,phi4_generalist,phi4,generalist,3,Feasible,12,20261119_204436,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_12_20261119_204436,phi4_normative,phi4,normative,3,Feasible,12,20261119_204436,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_12_20261119_204436,phi4_subject-matter,phi4,subject-matter,4,Very feasible,12,20261119_204436,4 - Very feasible
+gemma3_generalist_12_20261119_204436,gemma3_generalist,gemma3,generalist,3,Feasible,12,20261119_204436,3 - Feasible
+gemma3_normative_12_20261119_204436,gemma3_normative,gemma3,normative,3,Feasible,12,20261119_204436,3 - Feasible
+gemma3_subject-matter_12_20261119_204436,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,12,20261119_204436,3 - Feasible
+llama_generalist_12_20261119_204436,llama_generalist,llama,generalist,2,Somewhat feasible,12,20261119_204436,"2 - Somewhat feasible
+"
+llama_normative_12_20261119_204436,llama_normative,llama,normative,2,Somewhat feasible,12,20261119_204436,"2 - Somewhat feasible
+"
+llama_subject-matter_12_20261119_204436,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,12,20261119_204436,"2 - Somewhat feasible
+"
+mistral_generalist_12_20261119_204436,mistral_generalist,mistral,generalist,3,Feasible,12,20261119_204436, 3 - Feasible
+mistral_normative_12_20261119_204436,mistral_normative,mistral,normative,3,Feasible,12,20261119_204436, 3 - Feasible
+mistral_subject-matter_12_20261119_204436,mistral_subject-matter,mistral,subject-matter,3,Feasible,12,20261119_204436, 3 - Feasible
+phi4_generalist_13_20261119_204508,phi4_generalist,phi4,generalist,3,Feasible,13,20261119_204508,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_13_20261119_204508,phi4_normative,phi4,normative,3,Feasible,13,20261119_204508,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_13_20261119_204508,phi4_subject-matter,phi4,subject-matter,4,Very feasible,13,20261119_204508,4 - Very feasible
+gemma3_generalist_13_20261119_204508,gemma3_generalist,gemma3,generalist,3,Feasible,13,20261119_204508,3 - Feasible
+gemma3_normative_13_20261119_204508,gemma3_normative,gemma3,normative,3,Feasible,13,20261119_204508,3 - Feasible
+gemma3_subject-matter_13_20261119_204508,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,13,20261119_204508,3 - Feasible
+llama_generalist_13_20261119_204508,llama_generalist,llama,generalist,2,Somewhat feasible,13,20261119_204508,"2 - Somewhat feasible
+"
+llama_normative_13_20261119_204508,llama_normative,llama,normative,2,Somewhat feasible,13,20261119_204508,"2 - Somewhat feasible
+"
+llama_subject-matter_13_20261119_204508,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,13,20261119_204508,"2 - Somewhat feasible
+"
+mistral_generalist_13_20261119_204508,mistral_generalist,mistral,generalist,3,Feasible,13,20261119_204508, 3 - Feasible
+mistral_normative_13_20261119_204508,mistral_normative,mistral,normative,3,Feasible,13,20261119_204508, 3 - Feasible
+mistral_subject-matter_13_20261119_204508,mistral_subject-matter,mistral,subject-matter,3,Feasible,13,20261119_204508, 3 - Feasible
+phi4_generalist_14_20261119_204540,phi4_generalist,phi4,generalist,3,Feasible,14,20261119_204540,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_14_20261119_204540,phi4_normative,phi4,normative,3,Feasible,14,20261119_204540,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_14_20261119_204540,phi4_subject-matter,phi4,subject-matter,4,Very feasible,14,20261119_204540,4 - Very feasible
+gemma3_generalist_14_20261119_204540,gemma3_generalist,gemma3,generalist,3,Feasible,14,20261119_204540,3 - Feasible
+gemma3_normative_14_20261119_204540,gemma3_normative,gemma3,normative,3,Feasible,14,20261119_204540,3 - Feasible
+gemma3_subject-matter_14_20261119_204540,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,14,20261119_204540,3 - Feasible
+llama_generalist_14_20261119_204540,llama_generalist,llama,generalist,2,Somewhat feasible,14,20261119_204540,"2 - Somewhat feasible
+"
+llama_normative_14_20261119_204540,llama_normative,llama,normative,2,Somewhat feasible,14,20261119_204540,"2 - Somewhat feasible
+"
+llama_subject-matter_14_20261119_204540,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,14,20261119_204540,"2 - Somewhat feasible
+"
+mistral_generalist_14_20261119_204540,mistral_generalist,mistral,generalist,3,Feasible,14,20261119_204540, 3 - Feasible
+mistral_normative_14_20261119_204540,mistral_normative,mistral,normative,3,Feasible,14,20261119_204540, 3 - Feasible
+mistral_subject-matter_14_20261119_204540,mistral_subject-matter,mistral,subject-matter,3,Feasible,14,20261119_204540, 3 - Feasible
+phi4_generalist_15_20261119_204612,phi4_generalist,phi4,generalist,3,Feasible,15,20261119_204612,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_15_20261119_204612,phi4_normative,phi4,normative,3,Feasible,15,20261119_204612,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_15_20261119_204612,phi4_subject-matter,phi4,subject-matter,4,Very feasible,15,20261119_204612,4 - Very feasible
+gemma3_generalist_15_20261119_204612,gemma3_generalist,gemma3,generalist,3,Feasible,15,20261119_204612,3 - Feasible
+gemma3_normative_15_20261119_204612,gemma3_normative,gemma3,normative,3,Feasible,15,20261119_204612,3 - Feasible
+gemma3_subject-matter_15_20261119_204612,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,15,20261119_204612,3 - Feasible
+llama_generalist_15_20261119_204612,llama_generalist,llama,generalist,2,Somewhat feasible,15,20261119_204612,"2 - Somewhat feasible
+"
+llama_normative_15_20261119_204612,llama_normative,llama,normative,2,Somewhat feasible,15,20261119_204612,"2 - Somewhat feasible
+"
+llama_subject-matter_15_20261119_204612,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,15,20261119_204612,"2 - Somewhat feasible
+"
+mistral_generalist_15_20261119_204612,mistral_generalist,mistral,generalist,3,Feasible,15,20261119_204612, 3 - Feasible
+mistral_normative_15_20261119_204612,mistral_normative,mistral,normative,3,Feasible,15,20261119_204612, 3 - Feasible
+mistral_subject-matter_15_20261119_204612,mistral_subject-matter,mistral,subject-matter,3,Feasible,15,20261119_204612, 3 - Feasible
+phi4_generalist_16_20261119_204643,phi4_generalist,phi4,generalist,3,Feasible,16,20261119_204643,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_16_20261119_204643,phi4_normative,phi4,normative,3,Feasible,16,20261119_204643,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_16_20261119_204643,phi4_subject-matter,phi4,subject-matter,4,Very feasible,16,20261119_204643,4 - Very feasible
+gemma3_generalist_16_20261119_204643,gemma3_generalist,gemma3,generalist,3,Feasible,16,20261119_204643,3 - Feasible
+gemma3_normative_16_20261119_204643,gemma3_normative,gemma3,normative,3,Feasible,16,20261119_204643,3 - Feasible
+gemma3_subject-matter_16_20261119_204643,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,16,20261119_204643,3 - Feasible
+llama_generalist_16_20261119_204643,llama_generalist,llama,generalist,2,Somewhat feasible,16,20261119_204643,"2 - Somewhat feasible
+"
+llama_normative_16_20261119_204643,llama_normative,llama,normative,2,Somewhat feasible,16,20261119_204643,"2 - Somewhat feasible
+"
+llama_subject-matter_16_20261119_204643,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,16,20261119_204643,"2 - Somewhat feasible
+"
+mistral_generalist_16_20261119_204643,mistral_generalist,mistral,generalist,3,Feasible,16,20261119_204643, 3 - Feasible
+mistral_normative_16_20261119_204643,mistral_normative,mistral,normative,3,Feasible,16,20261119_204643, 3 - Feasible
+mistral_subject-matter_16_20261119_204643,mistral_subject-matter,mistral,subject-matter,3,Feasible,16,20261119_204643, 3 - Feasible
+phi4_generalist_17_20261119_204715,phi4_generalist,phi4,generalist,3,Feasible,17,20261119_204715,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_17_20261119_204715,phi4_normative,phi4,normative,3,Feasible,17,20261119_204715,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_17_20261119_204715,phi4_subject-matter,phi4,subject-matter,4,Very feasible,17,20261119_204715,4 - Very feasible
+gemma3_generalist_17_20261119_204715,gemma3_generalist,gemma3,generalist,3,Feasible,17,20261119_204715,3 - Feasible
+gemma3_normative_17_20261119_204715,gemma3_normative,gemma3,normative,3,Feasible,17,20261119_204715,3 - Feasible
+gemma3_subject-matter_17_20261119_204715,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,17,20261119_204715,3 - Feasible
+llama_generalist_17_20261119_204715,llama_generalist,llama,generalist,2,Somewhat feasible,17,20261119_204715,"2 - Somewhat feasible
+"
+llama_normative_17_20261119_204715,llama_normative,llama,normative,2,Somewhat feasible,17,20261119_204715,"2 - Somewhat feasible
+"
+llama_subject-matter_17_20261119_204715,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,17,20261119_204715,"2 - Somewhat feasible
+"
+mistral_generalist_17_20261119_204715,mistral_generalist,mistral,generalist,3,Feasible,17,20261119_204715, 3 - Feasible
+mistral_normative_17_20261119_204715,mistral_normative,mistral,normative,3,Feasible,17,20261119_204715, 3 - Feasible
+mistral_subject-matter_17_20261119_204715,mistral_subject-matter,mistral,subject-matter,3,Feasible,17,20261119_204715, 3 - Feasible
+phi4_generalist_18_20261119_204747,phi4_generalist,phi4,generalist,3,Feasible,18,20261119_204747,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_18_20261119_204747,phi4_normative,phi4,normative,3,Feasible,18,20261119_204747,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_18_20261119_204747,phi4_subject-matter,phi4,subject-matter,4,Very feasible,18,20261119_204747,4 - Very feasible
+gemma3_generalist_18_20261119_204747,gemma3_generalist,gemma3,generalist,3,Feasible,18,20261119_204747,3 - Feasible
+gemma3_normative_18_20261119_204747,gemma3_normative,gemma3,normative,3,Feasible,18,20261119_204747,3 - Feasible
+gemma3_subject-matter_18_20261119_204747,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,18,20261119_204747,3 - Feasible
+llama_generalist_18_20261119_204747,llama_generalist,llama,generalist,2,Somewhat feasible,18,20261119_204747,"2 - Somewhat feasible
+"
+llama_normative_18_20261119_204747,llama_normative,llama,normative,2,Somewhat feasible,18,20261119_204747,"2 - Somewhat feasible
+"
+llama_subject-matter_18_20261119_204747,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,18,20261119_204747,"2 - Somewhat feasible
+"
+mistral_generalist_18_20261119_204747,mistral_generalist,mistral,generalist,3,Feasible,18,20261119_204747, 3 - Feasible
+mistral_normative_18_20261119_204747,mistral_normative,mistral,normative,3,Feasible,18,20261119_204747, 3 - Feasible
+mistral_subject-matter_18_20261119_204747,mistral_subject-matter,mistral,subject-matter,3,Feasible,18,20261119_204747, 3 - Feasible
+phi4_generalist_19_20261119_204818,phi4_generalist,phi4,generalist,3,Feasible,19,20261119_204818,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_19_20261119_204818,phi4_normative,phi4,normative,3,Feasible,19,20261119_204818,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_19_20261119_204818,phi4_subject-matter,phi4,subject-matter,4,Very feasible,19,20261119_204818,4 - Very feasible
+gemma3_generalist_19_20261119_204818,gemma3_generalist,gemma3,generalist,3,Feasible,19,20261119_204818,3 - Feasible
+gemma3_normative_19_20261119_204818,gemma3_normative,gemma3,normative,3,Feasible,19,20261119_204818,3 - Feasible
+gemma3_subject-matter_19_20261119_204818,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,19,20261119_204818,3 - Feasible
+llama_generalist_19_20261119_204818,llama_generalist,llama,generalist,2,Somewhat feasible,19,20261119_204818,"2 - Somewhat feasible
+"
+llama_normative_19_20261119_204818,llama_normative,llama,normative,2,Somewhat feasible,19,20261119_204818,"2 - Somewhat feasible
+"
+llama_subject-matter_19_20261119_204818,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,19,20261119_204818,"2 - Somewhat feasible
+"
+mistral_generalist_19_20261119_204818,mistral_generalist,mistral,generalist,3,Feasible,19,20261119_204818, 3 - Feasible
+mistral_normative_19_20261119_204818,mistral_normative,mistral,normative,3,Feasible,19,20261119_204818, 3 - Feasible
+mistral_subject-matter_19_20261119_204818,mistral_subject-matter,mistral,subject-matter,3,Feasible,19,20261119_204818, 3 - Feasible
+phi4_generalist_20_20261119_204850,phi4_generalist,phi4,generalist,3,Feasible,20,20261119_204850,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_20_20261119_204850,phi4_normative,phi4,normative,3,Feasible,20,20261119_204850,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_20_20261119_204850,phi4_subject-matter,phi4,subject-matter,4,Very feasible,20,20261119_204850,4 - Very feasible
+gemma3_generalist_20_20261119_204850,gemma3_generalist,gemma3,generalist,3,Feasible,20,20261119_204850,3 - Feasible
+gemma3_normative_20_20261119_204850,gemma3_normative,gemma3,normative,3,Feasible,20,20261119_204850,3 - Feasible
+gemma3_subject-matter_20_20261119_204850,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,20,20261119_204850,3 - Feasible
+llama_generalist_20_20261119_204850,llama_generalist,llama,generalist,2,Somewhat feasible,20,20261119_204850,"2 - Somewhat feasible
+"
+llama_normative_20_20261119_204850,llama_normative,llama,normative,2,Somewhat feasible,20,20261119_204850,"2 - Somewhat feasible
+"
+llama_subject-matter_20_20261119_204850,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,20,20261119_204850,"2 - Somewhat feasible
+"
+mistral_generalist_20_20261119_204850,mistral_generalist,mistral,generalist,3,Feasible,20,20261119_204850, 3 - Feasible
+mistral_normative_20_20261119_204850,mistral_normative,mistral,normative,3,Feasible,20,20261119_204850, 3 - Feasible
+mistral_subject-matter_20_20261119_204850,mistral_subject-matter,mistral,subject-matter,3,Feasible,20,20261119_204850, 3 - Feasible
+phi4_generalist_21_20261119_204921,phi4_generalist,phi4,generalist,3,Feasible,21,20261119_204921,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_21_20261119_204921,phi4_normative,phi4,normative,3,Feasible,21,20261119_204921,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_21_20261119_204921,phi4_subject-matter,phi4,subject-matter,4,Very feasible,21,20261119_204921,4 - Very feasible
+gemma3_generalist_21_20261119_204921,gemma3_generalist,gemma3,generalist,3,Feasible,21,20261119_204921,3 - Feasible
+gemma3_normative_21_20261119_204921,gemma3_normative,gemma3,normative,3,Feasible,21,20261119_204921,3 - Feasible
+gemma3_subject-matter_21_20261119_204921,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,21,20261119_204921,3 - Feasible
+llama_generalist_21_20261119_204921,llama_generalist,llama,generalist,2,Somewhat feasible,21,20261119_204921,"2 - Somewhat feasible
+"
+llama_normative_21_20261119_204921,llama_normative,llama,normative,2,Somewhat feasible,21,20261119_204921,"2 - Somewhat feasible
+"
+llama_subject-matter_21_20261119_204921,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,21,20261119_204921,"2 - Somewhat feasible
+"
+mistral_generalist_21_20261119_204921,mistral_generalist,mistral,generalist,3,Feasible,21,20261119_204921, 3 - Feasible
+mistral_normative_21_20261119_204921,mistral_normative,mistral,normative,3,Feasible,21,20261119_204921, 3 - Feasible
+mistral_subject-matter_21_20261119_204921,mistral_subject-matter,mistral,subject-matter,3,Feasible,21,20261119_204921, 3 - Feasible
+phi4_generalist_22_20261119_204953,phi4_generalist,phi4,generalist,3,Feasible,22,20261119_204953,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_22_20261119_204953,phi4_normative,phi4,normative,3,Feasible,22,20261119_204953,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_22_20261119_204953,phi4_subject-matter,phi4,subject-matter,4,Very feasible,22,20261119_204953,4 - Very feasible
+gemma3_generalist_22_20261119_204953,gemma3_generalist,gemma3,generalist,3,Feasible,22,20261119_204953,3 - Feasible
+gemma3_normative_22_20261119_204953,gemma3_normative,gemma3,normative,3,Feasible,22,20261119_204953,3 - Feasible
+gemma3_subject-matter_22_20261119_204953,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,22,20261119_204953,3 - Feasible
+llama_generalist_22_20261119_204953,llama_generalist,llama,generalist,2,Somewhat feasible,22,20261119_204953,"2 - Somewhat feasible
+"
+llama_normative_22_20261119_204953,llama_normative,llama,normative,2,Somewhat feasible,22,20261119_204953,"2 - Somewhat feasible
+"
+llama_subject-matter_22_20261119_204953,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,22,20261119_204953,"2 - Somewhat feasible
+"
+mistral_generalist_22_20261119_204953,mistral_generalist,mistral,generalist,3,Feasible,22,20261119_204953, 3 - Feasible
+mistral_normative_22_20261119_204953,mistral_normative,mistral,normative,3,Feasible,22,20261119_204953, 3 - Feasible
+mistral_subject-matter_22_20261119_204953,mistral_subject-matter,mistral,subject-matter,3,Feasible,22,20261119_204953, 3 - Feasible
+phi4_generalist_23_20261119_205025,phi4_generalist,phi4,generalist,3,Feasible,23,20261119_205025,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_23_20261119_205025,phi4_normative,phi4,normative,3,Feasible,23,20261119_205025,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_23_20261119_205025,phi4_subject-matter,phi4,subject-matter,4,Very feasible,23,20261119_205025,4 - Very feasible
+gemma3_generalist_23_20261119_205025,gemma3_generalist,gemma3,generalist,3,Feasible,23,20261119_205025,3 - Feasible
+gemma3_normative_23_20261119_205025,gemma3_normative,gemma3,normative,3,Feasible,23,20261119_205025,3 - Feasible
+gemma3_subject-matter_23_20261119_205025,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,23,20261119_205025,3 - Feasible
+llama_generalist_23_20261119_205025,llama_generalist,llama,generalist,2,Somewhat feasible,23,20261119_205025,"2 - Somewhat feasible
+"
+llama_normative_23_20261119_205025,llama_normative,llama,normative,2,Somewhat feasible,23,20261119_205025,"2 - Somewhat feasible
+"
+llama_subject-matter_23_20261119_205025,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,23,20261119_205025,"2 - Somewhat feasible
+"
+mistral_generalist_23_20261119_205025,mistral_generalist,mistral,generalist,3,Feasible,23,20261119_205025, 3 - Feasible
+mistral_normative_23_20261119_205025,mistral_normative,mistral,normative,3,Feasible,23,20261119_205025, 3 - Feasible
+mistral_subject-matter_23_20261119_205025,mistral_subject-matter,mistral,subject-matter,3,Feasible,23,20261119_205025, 3 - Feasible
+phi4_generalist_24_20261119_205056,phi4_generalist,phi4,generalist,3,Feasible,24,20261119_205056,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_24_20261119_205056,phi4_normative,phi4,normative,3,Feasible,24,20261119_205056,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_24_20261119_205056,phi4_subject-matter,phi4,subject-matter,4,Very feasible,24,20261119_205056,4 - Very feasible
+gemma3_generalist_24_20261119_205056,gemma3_generalist,gemma3,generalist,3,Feasible,24,20261119_205056,3 - Feasible
+gemma3_normative_24_20261119_205056,gemma3_normative,gemma3,normative,3,Feasible,24,20261119_205056,3 - Feasible
+gemma3_subject-matter_24_20261119_205056,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,24,20261119_205056,3 - Feasible
+llama_generalist_24_20261119_205056,llama_generalist,llama,generalist,2,Somewhat feasible,24,20261119_205056,"2 - Somewhat feasible
+"
+llama_normative_24_20261119_205056,llama_normative,llama,normative,2,Somewhat feasible,24,20261119_205056,"2 - Somewhat feasible
+"
+llama_subject-matter_24_20261119_205056,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,24,20261119_205056,"2 - Somewhat feasible
+"
+mistral_generalist_24_20261119_205056,mistral_generalist,mistral,generalist,3,Feasible,24,20261119_205056, 3 - Feasible
+mistral_normative_24_20261119_205056,mistral_normative,mistral,normative,3,Feasible,24,20261119_205056, 3 - Feasible
+mistral_subject-matter_24_20261119_205056,mistral_subject-matter,mistral,subject-matter,3,Feasible,24,20261119_205056, 3 - Feasible
+phi4_generalist_25_20261119_205128,phi4_generalist,phi4,generalist,3,Feasible,25,20261119_205128,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_25_20261119_205128,phi4_normative,phi4,normative,3,Feasible,25,20261119_205128,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_25_20261119_205128,phi4_subject-matter,phi4,subject-matter,4,Very feasible,25,20261119_205128,4 - Very feasible
+gemma3_generalist_25_20261119_205128,gemma3_generalist,gemma3,generalist,3,Feasible,25,20261119_205128,3 - Feasible
+gemma3_normative_25_20261119_205128,gemma3_normative,gemma3,normative,3,Feasible,25,20261119_205128,3 - Feasible
+gemma3_subject-matter_25_20261119_205128,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,25,20261119_205128,3 - Feasible
+llama_generalist_25_20261119_205128,llama_generalist,llama,generalist,2,Somewhat feasible,25,20261119_205128,"2 - Somewhat feasible
+"
+llama_normative_25_20261119_205128,llama_normative,llama,normative,2,Somewhat feasible,25,20261119_205128,"2 - Somewhat feasible
+"
+llama_subject-matter_25_20261119_205128,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,25,20261119_205128,"2 - Somewhat feasible
+"
+mistral_generalist_25_20261119_205128,mistral_generalist,mistral,generalist,3,Feasible,25,20261119_205128, 3 - Feasible
+mistral_normative_25_20261119_205128,mistral_normative,mistral,normative,3,Feasible,25,20261119_205128, 3 - Feasible
+mistral_subject-matter_25_20261119_205128,mistral_subject-matter,mistral,subject-matter,3,Feasible,25,20261119_205128, 3 - Feasible
+phi4_generalist_26_20261119_205159,phi4_generalist,phi4,generalist,3,Feasible,26,20261119_205159,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_26_20261119_205159,phi4_normative,phi4,normative,3,Feasible,26,20261119_205159,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_26_20261119_205159,phi4_subject-matter,phi4,subject-matter,4,Very feasible,26,20261119_205159,4 - Very feasible
+gemma3_generalist_26_20261119_205159,gemma3_generalist,gemma3,generalist,3,Feasible,26,20261119_205159,3 - Feasible
+gemma3_normative_26_20261119_205159,gemma3_normative,gemma3,normative,3,Feasible,26,20261119_205159,3 - Feasible
+gemma3_subject-matter_26_20261119_205159,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,26,20261119_205159,3 - Feasible
+llama_generalist_26_20261119_205159,llama_generalist,llama,generalist,2,Somewhat feasible,26,20261119_205159,"2 - Somewhat feasible
+"
+llama_normative_26_20261119_205159,llama_normative,llama,normative,2,Somewhat feasible,26,20261119_205159,"2 - Somewhat feasible
+"
+llama_subject-matter_26_20261119_205159,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,26,20261119_205159,"2 - Somewhat feasible
+"
+mistral_generalist_26_20261119_205159,mistral_generalist,mistral,generalist,3,Feasible,26,20261119_205159, 3 - Feasible
+mistral_normative_26_20261119_205159,mistral_normative,mistral,normative,3,Feasible,26,20261119_205159, 3 - Feasible
+mistral_subject-matter_26_20261119_205159,mistral_subject-matter,mistral,subject-matter,3,Feasible,26,20261119_205159, 3 - Feasible
+phi4_generalist_27_20261119_205231,phi4_generalist,phi4,generalist,3,Feasible,27,20261119_205231,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_27_20261119_205231,phi4_normative,phi4,normative,3,Feasible,27,20261119_205231,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_27_20261119_205231,phi4_subject-matter,phi4,subject-matter,4,Very feasible,27,20261119_205231,4 - Very feasible
+gemma3_generalist_27_20261119_205231,gemma3_generalist,gemma3,generalist,3,Feasible,27,20261119_205231,3 - Feasible
+gemma3_normative_27_20261119_205231,gemma3_normative,gemma3,normative,3,Feasible,27,20261119_205231,3 - Feasible
+gemma3_subject-matter_27_20261119_205231,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,27,20261119_205231,3 - Feasible
+llama_generalist_27_20261119_205231,llama_generalist,llama,generalist,2,Somewhat feasible,27,20261119_205231,"2 - Somewhat feasible
+"
+llama_normative_27_20261119_205231,llama_normative,llama,normative,2,Somewhat feasible,27,20261119_205231,"2 - Somewhat feasible
+"
+llama_subject-matter_27_20261119_205231,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,27,20261119_205231,"2 - Somewhat feasible
+"
+mistral_generalist_27_20261119_205231,mistral_generalist,mistral,generalist,3,Feasible,27,20261119_205231, 3 - Feasible
+mistral_normative_27_20261119_205231,mistral_normative,mistral,normative,3,Feasible,27,20261119_205231, 3 - Feasible
+mistral_subject-matter_27_20261119_205231,mistral_subject-matter,mistral,subject-matter,3,Feasible,27,20261119_205231, 3 - Feasible
+phi4_generalist_28_20261119_205303,phi4_generalist,phi4,generalist,3,Feasible,28,20261119_205303,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_28_20261119_205303,phi4_normative,phi4,normative,3,Feasible,28,20261119_205303,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_28_20261119_205303,phi4_subject-matter,phi4,subject-matter,4,Very feasible,28,20261119_205303,4 - Very feasible
+gemma3_generalist_28_20261119_205303,gemma3_generalist,gemma3,generalist,3,Feasible,28,20261119_205303,3 - Feasible
+gemma3_normative_28_20261119_205303,gemma3_normative,gemma3,normative,3,Feasible,28,20261119_205303,3 - Feasible
+gemma3_subject-matter_28_20261119_205303,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,28,20261119_205303,3 - Feasible
+llama_generalist_28_20261119_205303,llama_generalist,llama,generalist,2,Somewhat feasible,28,20261119_205303,"2 - Somewhat feasible
+"
+llama_normative_28_20261119_205303,llama_normative,llama,normative,2,Somewhat feasible,28,20261119_205303,"2 - Somewhat feasible
+"
+llama_subject-matter_28_20261119_205303,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,28,20261119_205303,"2 - Somewhat feasible
+"
+mistral_generalist_28_20261119_205303,mistral_generalist,mistral,generalist,3,Feasible,28,20261119_205303, 3 - Feasible
+mistral_normative_28_20261119_205303,mistral_normative,mistral,normative,3,Feasible,28,20261119_205303, 3 - Feasible
+mistral_subject-matter_28_20261119_205303,mistral_subject-matter,mistral,subject-matter,3,Feasible,28,20261119_205303, 3 - Feasible
+phi4_generalist_29_20261119_205334,phi4_generalist,phi4,generalist,3,Feasible,29,20261119_205334,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_29_20261119_205334,phi4_normative,phi4,normative,3,Feasible,29,20261119_205334,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_29_20261119_205334,phi4_subject-matter,phi4,subject-matter,4,Very feasible,29,20261119_205334,4 - Very feasible
+gemma3_generalist_29_20261119_205334,gemma3_generalist,gemma3,generalist,3,Feasible,29,20261119_205334,3 - Feasible
+gemma3_normative_29_20261119_205334,gemma3_normative,gemma3,normative,3,Feasible,29,20261119_205334,3 - Feasible
+gemma3_subject-matter_29_20261119_205334,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,29,20261119_205334,3 - Feasible
+llama_generalist_29_20261119_205334,llama_generalist,llama,generalist,2,Somewhat feasible,29,20261119_205334,"2 - Somewhat feasible
+"
+llama_normative_29_20261119_205334,llama_normative,llama,normative,2,Somewhat feasible,29,20261119_205334,"2 - Somewhat feasible
+"
+llama_subject-matter_29_20261119_205334,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,29,20261119_205334,"2 - Somewhat feasible
+"
+mistral_generalist_29_20261119_205334,mistral_generalist,mistral,generalist,3,Feasible,29,20261119_205334, 3 - Feasible
+mistral_normative_29_20261119_205334,mistral_normative,mistral,normative,3,Feasible,29,20261119_205334, 3 - Feasible
+mistral_subject-matter_29_20261119_205334,mistral_subject-matter,mistral,subject-matter,3,Feasible,29,20261119_205334, 3 - Feasible
+phi4_generalist_30_20261119_205406,phi4_generalist,phi4,generalist,3,Feasible,30,20261119_205406,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_30_20261119_205406,phi4_normative,phi4,normative,3,Feasible,30,20261119_205406,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_30_20261119_205406,phi4_subject-matter,phi4,subject-matter,4,Very feasible,30,20261119_205406,4 - Very feasible
+gemma3_generalist_30_20261119_205406,gemma3_generalist,gemma3,generalist,3,Feasible,30,20261119_205406,3 - Feasible
+gemma3_normative_30_20261119_205406,gemma3_normative,gemma3,normative,3,Feasible,30,20261119_205406,3 - Feasible
+gemma3_subject-matter_30_20261119_205406,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,30,20261119_205406,3 - Feasible
+llama_generalist_30_20261119_205406,llama_generalist,llama,generalist,2,Somewhat feasible,30,20261119_205406,"2 - Somewhat feasible
+"
+llama_normative_30_20261119_205406,llama_normative,llama,normative,2,Somewhat feasible,30,20261119_205406,"2 - Somewhat feasible
+"
+llama_subject-matter_30_20261119_205406,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,30,20261119_205406,"2 - Somewhat feasible
+"
+mistral_generalist_30_20261119_205406,mistral_generalist,mistral,generalist,3,Feasible,30,20261119_205406, 3 - Feasible
+mistral_normative_30_20261119_205406,mistral_normative,mistral,normative,3,Feasible,30,20261119_205406, 3 - Feasible
+mistral_subject-matter_30_20261119_205406,mistral_subject-matter,mistral,subject-matter,3,Feasible,30,20261119_205406, 3 - Feasible
+phi4_generalist_31_20261119_205438,phi4_generalist,phi4,generalist,3,Feasible,31,20261119_205438,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_31_20261119_205438,phi4_normative,phi4,normative,3,Feasible,31,20261119_205438,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_31_20261119_205438,phi4_subject-matter,phi4,subject-matter,4,Very feasible,31,20261119_205438,4 - Very feasible
+gemma3_generalist_31_20261119_205438,gemma3_generalist,gemma3,generalist,3,Feasible,31,20261119_205438,3 - Feasible
+gemma3_normative_31_20261119_205438,gemma3_normative,gemma3,normative,3,Feasible,31,20261119_205438,3 - Feasible
+gemma3_subject-matter_31_20261119_205438,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,31,20261119_205438,3 - Feasible
+llama_generalist_31_20261119_205438,llama_generalist,llama,generalist,2,Somewhat feasible,31,20261119_205438,"2 - Somewhat feasible
+"
+llama_normative_31_20261119_205438,llama_normative,llama,normative,2,Somewhat feasible,31,20261119_205438,"2 - Somewhat feasible
+"
+llama_subject-matter_31_20261119_205438,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,31,20261119_205438,"2 - Somewhat feasible
+"
+mistral_generalist_31_20261119_205438,mistral_generalist,mistral,generalist,3,Feasible,31,20261119_205438, 3 - Feasible
+mistral_normative_31_20261119_205438,mistral_normative,mistral,normative,3,Feasible,31,20261119_205438, 3 - Feasible
+mistral_subject-matter_31_20261119_205438,mistral_subject-matter,mistral,subject-matter,3,Feasible,31,20261119_205438, 3 - Feasible
+phi4_generalist_32_20261119_205510,phi4_generalist,phi4,generalist,3,Feasible,32,20261119_205510,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_32_20261119_205510,phi4_normative,phi4,normative,3,Feasible,32,20261119_205510,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_32_20261119_205510,phi4_subject-matter,phi4,subject-matter,4,Very feasible,32,20261119_205510,4 - Very feasible
+gemma3_generalist_32_20261119_205510,gemma3_generalist,gemma3,generalist,3,Feasible,32,20261119_205510,3 - Feasible
+gemma3_normative_32_20261119_205510,gemma3_normative,gemma3,normative,3,Feasible,32,20261119_205510,3 - Feasible
+gemma3_subject-matter_32_20261119_205510,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,32,20261119_205510,3 - Feasible
+llama_generalist_32_20261119_205510,llama_generalist,llama,generalist,2,Somewhat feasible,32,20261119_205510,"2 - Somewhat feasible
+"
+llama_normative_32_20261119_205510,llama_normative,llama,normative,2,Somewhat feasible,32,20261119_205510,"2 - Somewhat feasible
+"
+llama_subject-matter_32_20261119_205510,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,32,20261119_205510,"2 - Somewhat feasible
+"
+mistral_generalist_32_20261119_205510,mistral_generalist,mistral,generalist,3,Feasible,32,20261119_205510, 3 - Feasible
+mistral_normative_32_20261119_205510,mistral_normative,mistral,normative,3,Feasible,32,20261119_205510, 3 - Feasible
+mistral_subject-matter_32_20261119_205510,mistral_subject-matter,mistral,subject-matter,3,Feasible,32,20261119_205510, 3 - Feasible
+phi4_generalist_33_20261119_205541,phi4_generalist,phi4,generalist,3,Feasible,33,20261119_205541,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_33_20261119_205541,phi4_normative,phi4,normative,3,Feasible,33,20261119_205541,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_33_20261119_205541,phi4_subject-matter,phi4,subject-matter,4,Very feasible,33,20261119_205541,4 - Very feasible
+gemma3_generalist_33_20261119_205541,gemma3_generalist,gemma3,generalist,3,Feasible,33,20261119_205541,3 - Feasible
+gemma3_normative_33_20261119_205541,gemma3_normative,gemma3,normative,3,Feasible,33,20261119_205541,3 - Feasible
+gemma3_subject-matter_33_20261119_205541,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,33,20261119_205541,3 - Feasible
+llama_generalist_33_20261119_205541,llama_generalist,llama,generalist,2,Somewhat feasible,33,20261119_205541,"2 - Somewhat feasible
+"
+llama_normative_33_20261119_205541,llama_normative,llama,normative,2,Somewhat feasible,33,20261119_205541,"2 - Somewhat feasible
+"
+llama_subject-matter_33_20261119_205541,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,33,20261119_205541,"2 - Somewhat feasible
+"
+mistral_generalist_33_20261119_205541,mistral_generalist,mistral,generalist,3,Feasible,33,20261119_205541, 3 - Feasible
+mistral_normative_33_20261119_205541,mistral_normative,mistral,normative,3,Feasible,33,20261119_205541, 3 - Feasible
+mistral_subject-matter_33_20261119_205541,mistral_subject-matter,mistral,subject-matter,3,Feasible,33,20261119_205541, 3 - Feasible
+phi4_generalist_34_20261119_205613,phi4_generalist,phi4,generalist,3,Feasible,34,20261119_205613,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_34_20261119_205613,phi4_normative,phi4,normative,3,Feasible,34,20261119_205613,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_34_20261119_205613,phi4_subject-matter,phi4,subject-matter,4,Very feasible,34,20261119_205613,4 - Very feasible
+gemma3_generalist_34_20261119_205613,gemma3_generalist,gemma3,generalist,3,Feasible,34,20261119_205613,3 - Feasible
+gemma3_normative_34_20261119_205613,gemma3_normative,gemma3,normative,3,Feasible,34,20261119_205613,3 - Feasible
+gemma3_subject-matter_34_20261119_205613,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,34,20261119_205613,3 - Feasible
+llama_generalist_34_20261119_205613,llama_generalist,llama,generalist,2,Somewhat feasible,34,20261119_205613,"2 - Somewhat feasible
+"
+llama_normative_34_20261119_205613,llama_normative,llama,normative,2,Somewhat feasible,34,20261119_205613,"2 - Somewhat feasible
+"
+llama_subject-matter_34_20261119_205613,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,34,20261119_205613,"2 - Somewhat feasible
+"
+mistral_generalist_34_20261119_205613,mistral_generalist,mistral,generalist,3,Feasible,34,20261119_205613, 3 - Feasible
+mistral_normative_34_20261119_205613,mistral_normative,mistral,normative,3,Feasible,34,20261119_205613, 3 - Feasible
+mistral_subject-matter_34_20261119_205613,mistral_subject-matter,mistral,subject-matter,3,Feasible,34,20261119_205613, 3 - Feasible
+phi4_generalist_35_20261119_205645,phi4_generalist,phi4,generalist,3,Feasible,35,20261119_205645,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_35_20261119_205645,phi4_normative,phi4,normative,3,Feasible,35,20261119_205645,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_35_20261119_205645,phi4_subject-matter,phi4,subject-matter,4,Very feasible,35,20261119_205645,4 - Very feasible
+gemma3_generalist_35_20261119_205645,gemma3_generalist,gemma3,generalist,3,Feasible,35,20261119_205645,3 - Feasible
+gemma3_normative_35_20261119_205645,gemma3_normative,gemma3,normative,3,Feasible,35,20261119_205645,3 - Feasible
+gemma3_subject-matter_35_20261119_205645,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,35,20261119_205645,3 - Feasible
+llama_generalist_35_20261119_205645,llama_generalist,llama,generalist,2,Somewhat feasible,35,20261119_205645,"2 - Somewhat feasible
+"
+llama_normative_35_20261119_205645,llama_normative,llama,normative,2,Somewhat feasible,35,20261119_205645,"2 - Somewhat feasible
+"
+llama_subject-matter_35_20261119_205645,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,35,20261119_205645,"2 - Somewhat feasible
+"
+mistral_generalist_35_20261119_205645,mistral_generalist,mistral,generalist,3,Feasible,35,20261119_205645, 3 - Feasible
+mistral_normative_35_20261119_205645,mistral_normative,mistral,normative,3,Feasible,35,20261119_205645, 3 - Feasible
+mistral_subject-matter_35_20261119_205645,mistral_subject-matter,mistral,subject-matter,3,Feasible,35,20261119_205645, 3 - Feasible
+phi4_generalist_36_20261119_205716,phi4_generalist,phi4,generalist,3,Feasible,36,20261119_205716,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_36_20261119_205716,phi4_normative,phi4,normative,3,Feasible,36,20261119_205716,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_36_20261119_205716,phi4_subject-matter,phi4,subject-matter,4,Very feasible,36,20261119_205716,4 - Very feasible
+gemma3_generalist_36_20261119_205716,gemma3_generalist,gemma3,generalist,3,Feasible,36,20261119_205716,3 - Feasible
+gemma3_normative_36_20261119_205716,gemma3_normative,gemma3,normative,3,Feasible,36,20261119_205716,3 - Feasible
+gemma3_subject-matter_36_20261119_205716,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,36,20261119_205716,3 - Feasible
+llama_generalist_36_20261119_205716,llama_generalist,llama,generalist,2,Somewhat feasible,36,20261119_205716,"2 - Somewhat feasible
+"
+llama_normative_36_20261119_205716,llama_normative,llama,normative,2,Somewhat feasible,36,20261119_205716,"2 - Somewhat feasible
+"
+llama_subject-matter_36_20261119_205716,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,36,20261119_205716,"2 - Somewhat feasible
+"
+mistral_generalist_36_20261119_205716,mistral_generalist,mistral,generalist,3,Feasible,36,20261119_205716, 3 - Feasible
+mistral_normative_36_20261119_205716,mistral_normative,mistral,normative,3,Feasible,36,20261119_205716, 3 - Feasible
+mistral_subject-matter_36_20261119_205716,mistral_subject-matter,mistral,subject-matter,3,Feasible,36,20261119_205716, 3 - Feasible
+phi4_generalist_37_20261119_205748,phi4_generalist,phi4,generalist,3,Feasible,37,20261119_205748,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_37_20261119_205748,phi4_normative,phi4,normative,3,Feasible,37,20261119_205748,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_37_20261119_205748,phi4_subject-matter,phi4,subject-matter,4,Very feasible,37,20261119_205748,4 - Very feasible
+gemma3_generalist_37_20261119_205748,gemma3_generalist,gemma3,generalist,3,Feasible,37,20261119_205748,3 - Feasible
+gemma3_normative_37_20261119_205748,gemma3_normative,gemma3,normative,3,Feasible,37,20261119_205748,3 - Feasible
+gemma3_subject-matter_37_20261119_205748,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,37,20261119_205748,3 - Feasible
+llama_generalist_37_20261119_205748,llama_generalist,llama,generalist,2,Somewhat feasible,37,20261119_205748,"2 - Somewhat feasible
+"
+llama_normative_37_20261119_205748,llama_normative,llama,normative,2,Somewhat feasible,37,20261119_205748,"2 - Somewhat feasible
+"
+llama_subject-matter_37_20261119_205748,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,37,20261119_205748,"2 - Somewhat feasible
+"
+mistral_generalist_37_20261119_205748,mistral_generalist,mistral,generalist,3,Feasible,37,20261119_205748, 3 - Feasible
+mistral_normative_37_20261119_205748,mistral_normative,mistral,normative,3,Feasible,37,20261119_205748, 3 - Feasible
+mistral_subject-matter_37_20261119_205748,mistral_subject-matter,mistral,subject-matter,3,Feasible,37,20261119_205748, 3 - Feasible
+phi4_generalist_38_20261119_205819,phi4_generalist,phi4,generalist,3,Feasible,38,20261119_205819,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_38_20261119_205819,phi4_normative,phi4,normative,3,Feasible,38,20261119_205819,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_38_20261119_205819,phi4_subject-matter,phi4,subject-matter,4,Very feasible,38,20261119_205819,4 - Very feasible
+gemma3_generalist_38_20261119_205819,gemma3_generalist,gemma3,generalist,3,Feasible,38,20261119_205819,3 - Feasible
+gemma3_normative_38_20261119_205819,gemma3_normative,gemma3,normative,3,Feasible,38,20261119_205819,3 - Feasible
+gemma3_subject-matter_38_20261119_205819,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,38,20261119_205819,3 - Feasible
+llama_generalist_38_20261119_205819,llama_generalist,llama,generalist,2,Somewhat feasible,38,20261119_205819,"2 - Somewhat feasible
+"
+llama_normative_38_20261119_205819,llama_normative,llama,normative,2,Somewhat feasible,38,20261119_205819,"2 - Somewhat feasible
+"
+llama_subject-matter_38_20261119_205819,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,38,20261119_205819,"2 - Somewhat feasible
+"
+mistral_generalist_38_20261119_205819,mistral_generalist,mistral,generalist,3,Feasible,38,20261119_205819, 3 - Feasible
+mistral_normative_38_20261119_205819,mistral_normative,mistral,normative,3,Feasible,38,20261119_205819, 3 - Feasible
+mistral_subject-matter_38_20261119_205819,mistral_subject-matter,mistral,subject-matter,3,Feasible,38,20261119_205819, 3 - Feasible
+phi4_generalist_39_20261119_205851,phi4_generalist,phi4,generalist,3,Feasible,39,20261119_205851,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_39_20261119_205851,phi4_normative,phi4,normative,3,Feasible,39,20261119_205851,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_39_20261119_205851,phi4_subject-matter,phi4,subject-matter,4,Very feasible,39,20261119_205851,4 - Very feasible
+gemma3_generalist_39_20261119_205851,gemma3_generalist,gemma3,generalist,3,Feasible,39,20261119_205851,3 - Feasible
+gemma3_normative_39_20261119_205851,gemma3_normative,gemma3,normative,3,Feasible,39,20261119_205851,3 - Feasible
+gemma3_subject-matter_39_20261119_205851,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,39,20261119_205851,3 - Feasible
+llama_generalist_39_20261119_205851,llama_generalist,llama,generalist,2,Somewhat feasible,39,20261119_205851,"2 - Somewhat feasible
+"
+llama_normative_39_20261119_205851,llama_normative,llama,normative,2,Somewhat feasible,39,20261119_205851,"2 - Somewhat feasible
+"
+llama_subject-matter_39_20261119_205851,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,39,20261119_205851,"2 - Somewhat feasible
+"
+mistral_generalist_39_20261119_205851,mistral_generalist,mistral,generalist,3,Feasible,39,20261119_205851, 3 - Feasible
+mistral_normative_39_20261119_205851,mistral_normative,mistral,normative,3,Feasible,39,20261119_205851, 3 - Feasible
+mistral_subject-matter_39_20261119_205851,mistral_subject-matter,mistral,subject-matter,3,Feasible,39,20261119_205851, 3 - Feasible
+phi4_generalist_40_20261119_205923,phi4_generalist,phi4,generalist,3,Feasible,40,20261119_205923,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_40_20261119_205923,phi4_normative,phi4,normative,3,Feasible,40,20261119_205923,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_40_20261119_205923,phi4_subject-matter,phi4,subject-matter,4,Very feasible,40,20261119_205923,4 - Very feasible
+gemma3_generalist_40_20261119_205923,gemma3_generalist,gemma3,generalist,3,Feasible,40,20261119_205923,3 - Feasible
+gemma3_normative_40_20261119_205923,gemma3_normative,gemma3,normative,3,Feasible,40,20261119_205923,3 - Feasible
+gemma3_subject-matter_40_20261119_205923,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,40,20261119_205923,3 - Feasible
+llama_generalist_40_20261119_205923,llama_generalist,llama,generalist,2,Somewhat feasible,40,20261119_205923,"2 - Somewhat feasible
+"
+llama_normative_40_20261119_205923,llama_normative,llama,normative,2,Somewhat feasible,40,20261119_205923,"2 - Somewhat feasible
+"
+llama_subject-matter_40_20261119_205923,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,40,20261119_205923,"2 - Somewhat feasible
+"
+mistral_generalist_40_20261119_205923,mistral_generalist,mistral,generalist,3,Feasible,40,20261119_205923, 3 - Feasible
+mistral_normative_40_20261119_205923,mistral_normative,mistral,normative,3,Feasible,40,20261119_205923, 3 - Feasible
+mistral_subject-matter_40_20261119_205923,mistral_subject-matter,mistral,subject-matter,3,Feasible,40,20261119_205923, 3 - Feasible
+phi4_generalist_41_20261119_205955,phi4_generalist,phi4,generalist,3,Feasible,41,20261119_205955,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_41_20261119_205955,phi4_normative,phi4,normative,3,Feasible,41,20261119_205955,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_41_20261119_205955,phi4_subject-matter,phi4,subject-matter,4,Very feasible,41,20261119_205955,4 - Very feasible
+gemma3_generalist_41_20261119_205955,gemma3_generalist,gemma3,generalist,3,Feasible,41,20261119_205955,3 - Feasible
+gemma3_normative_41_20261119_205955,gemma3_normative,gemma3,normative,3,Feasible,41,20261119_205955,3 - Feasible
+gemma3_subject-matter_41_20261119_205955,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,41,20261119_205955,3 - Feasible
+llama_generalist_41_20261119_205955,llama_generalist,llama,generalist,2,Somewhat feasible,41,20261119_205955,"2 - Somewhat feasible
+"
+llama_normative_41_20261119_205955,llama_normative,llama,normative,2,Somewhat feasible,41,20261119_205955,"2 - Somewhat feasible
+"
+llama_subject-matter_41_20261119_205955,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,41,20261119_205955,"2 - Somewhat feasible
+"
+mistral_generalist_41_20261119_205955,mistral_generalist,mistral,generalist,3,Feasible,41,20261119_205955, 3 - Feasible
+mistral_normative_41_20261119_205955,mistral_normative,mistral,normative,3,Feasible,41,20261119_205955, 3 - Feasible
+mistral_subject-matter_41_20261119_205955,mistral_subject-matter,mistral,subject-matter,3,Feasible,41,20261119_205955, 3 - Feasible
+phi4_generalist_42_20261119_210026,phi4_generalist,phi4,generalist,3,Feasible,42,20261119_210026,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_42_20261119_210026,phi4_normative,phi4,normative,3,Feasible,42,20261119_210026,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_42_20261119_210026,phi4_subject-matter,phi4,subject-matter,4,Very feasible,42,20261119_210026,4 - Very feasible
+gemma3_generalist_42_20261119_210026,gemma3_generalist,gemma3,generalist,3,Feasible,42,20261119_210026,3 - Feasible
+gemma3_normative_42_20261119_210026,gemma3_normative,gemma3,normative,3,Feasible,42,20261119_210026,3 - Feasible
+gemma3_subject-matter_42_20261119_210026,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,42,20261119_210026,3 - Feasible
+llama_generalist_42_20261119_210026,llama_generalist,llama,generalist,2,Somewhat feasible,42,20261119_210026,"2 - Somewhat feasible
+"
+llama_normative_42_20261119_210026,llama_normative,llama,normative,2,Somewhat feasible,42,20261119_210026,"2 - Somewhat feasible
+"
+llama_subject-matter_42_20261119_210026,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,42,20261119_210026,"2 - Somewhat feasible
+"
+mistral_generalist_42_20261119_210026,mistral_generalist,mistral,generalist,3,Feasible,42,20261119_210026, 3 - Feasible
+mistral_normative_42_20261119_210026,mistral_normative,mistral,normative,3,Feasible,42,20261119_210026, 3 - Feasible
+mistral_subject-matter_42_20261119_210026,mistral_subject-matter,mistral,subject-matter,3,Feasible,42,20261119_210026, 3 - Feasible
+phi4_generalist_43_20261119_210058,phi4_generalist,phi4,generalist,3,Feasible,43,20261119_210058,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_43_20261119_210058,phi4_normative,phi4,normative,3,Feasible,43,20261119_210058,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_43_20261119_210058,phi4_subject-matter,phi4,subject-matter,4,Very feasible,43,20261119_210058,4 - Very feasible
+gemma3_generalist_43_20261119_210058,gemma3_generalist,gemma3,generalist,3,Feasible,43,20261119_210058,3 - Feasible
+gemma3_normative_43_20261119_210058,gemma3_normative,gemma3,normative,3,Feasible,43,20261119_210058,3 - Feasible
+gemma3_subject-matter_43_20261119_210058,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,43,20261119_210058,3 - Feasible
+llama_generalist_43_20261119_210058,llama_generalist,llama,generalist,2,Somewhat feasible,43,20261119_210058,"2 - Somewhat feasible
+"
+llama_normative_43_20261119_210058,llama_normative,llama,normative,2,Somewhat feasible,43,20261119_210058,"2 - Somewhat feasible
+"
+llama_subject-matter_43_20261119_210058,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,43,20261119_210058,"2 - Somewhat feasible
+"
+mistral_generalist_43_20261119_210058,mistral_generalist,mistral,generalist,3,Feasible,43,20261119_210058, 3 - Feasible
+mistral_normative_43_20261119_210058,mistral_normative,mistral,normative,3,Feasible,43,20261119_210058, 3 - Feasible
+mistral_subject-matter_43_20261119_210058,mistral_subject-matter,mistral,subject-matter,3,Feasible,43,20261119_210058, 3 - Feasible
+phi4_generalist_44_20261119_210130,phi4_generalist,phi4,generalist,3,Feasible,44,20261119_210130,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_44_20261119_210130,phi4_normative,phi4,normative,3,Feasible,44,20261119_210130,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_44_20261119_210130,phi4_subject-matter,phi4,subject-matter,4,Very feasible,44,20261119_210130,4 - Very feasible
+gemma3_generalist_44_20261119_210130,gemma3_generalist,gemma3,generalist,3,Feasible,44,20261119_210130,3 - Feasible
+gemma3_normative_44_20261119_210130,gemma3_normative,gemma3,normative,3,Feasible,44,20261119_210130,3 - Feasible
+gemma3_subject-matter_44_20261119_210130,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,44,20261119_210130,3 - Feasible
+llama_generalist_44_20261119_210130,llama_generalist,llama,generalist,2,Somewhat feasible,44,20261119_210130,"2 - Somewhat feasible
+"
+llama_normative_44_20261119_210130,llama_normative,llama,normative,2,Somewhat feasible,44,20261119_210130,"2 - Somewhat feasible
+"
+llama_subject-matter_44_20261119_210130,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,44,20261119_210130,"2 - Somewhat feasible
+"
+mistral_generalist_44_20261119_210130,mistral_generalist,mistral,generalist,3,Feasible,44,20261119_210130, 3 - Feasible
+mistral_normative_44_20261119_210130,mistral_normative,mistral,normative,3,Feasible,44,20261119_210130, 3 - Feasible
+mistral_subject-matter_44_20261119_210130,mistral_subject-matter,mistral,subject-matter,3,Feasible,44,20261119_210130, 3 - Feasible
+phi4_generalist_45_20261119_210202,phi4_generalist,phi4,generalist,3,Feasible,45,20261119_210202,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_45_20261119_210202,phi4_normative,phi4,normative,3,Feasible,45,20261119_210202,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_45_20261119_210202,phi4_subject-matter,phi4,subject-matter,4,Very feasible,45,20261119_210202,4 - Very feasible
+gemma3_generalist_45_20261119_210202,gemma3_generalist,gemma3,generalist,3,Feasible,45,20261119_210202,3 - Feasible
+gemma3_normative_45_20261119_210202,gemma3_normative,gemma3,normative,3,Feasible,45,20261119_210202,3 - Feasible
+gemma3_subject-matter_45_20261119_210202,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,45,20261119_210202,3 - Feasible
+llama_generalist_45_20261119_210202,llama_generalist,llama,generalist,2,Somewhat feasible,45,20261119_210202,"2 - Somewhat feasible
+"
+llama_normative_45_20261119_210202,llama_normative,llama,normative,2,Somewhat feasible,45,20261119_210202,"2 - Somewhat feasible
+"
+llama_subject-matter_45_20261119_210202,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,45,20261119_210202,"2 - Somewhat feasible
+"
+mistral_generalist_45_20261119_210202,mistral_generalist,mistral,generalist,3,Feasible,45,20261119_210202, 3 - Feasible
+mistral_normative_45_20261119_210202,mistral_normative,mistral,normative,3,Feasible,45,20261119_210202, 3 - Feasible
+mistral_subject-matter_45_20261119_210202,mistral_subject-matter,mistral,subject-matter,3,Feasible,45,20261119_210202, 3 - Feasible
+phi4_generalist_46_20261119_210233,phi4_generalist,phi4,generalist,3,Feasible,46,20261119_210233,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_46_20261119_210233,phi4_normative,phi4,normative,3,Feasible,46,20261119_210233,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_46_20261119_210233,phi4_subject-matter,phi4,subject-matter,4,Very feasible,46,20261119_210233,4 - Very feasible
+gemma3_generalist_46_20261119_210233,gemma3_generalist,gemma3,generalist,3,Feasible,46,20261119_210233,3 - Feasible
+gemma3_normative_46_20261119_210233,gemma3_normative,gemma3,normative,3,Feasible,46,20261119_210233,3 - Feasible
+gemma3_subject-matter_46_20261119_210233,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,46,20261119_210233,3 - Feasible
+llama_generalist_46_20261119_210233,llama_generalist,llama,generalist,2,Somewhat feasible,46,20261119_210233,"2 - Somewhat feasible
+"
+llama_normative_46_20261119_210233,llama_normative,llama,normative,2,Somewhat feasible,46,20261119_210233,"2 - Somewhat feasible
+"
+llama_subject-matter_46_20261119_210233,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,46,20261119_210233,"2 - Somewhat feasible
+"
+mistral_generalist_46_20261119_210233,mistral_generalist,mistral,generalist,3,Feasible,46,20261119_210233, 3 - Feasible
+mistral_normative_46_20261119_210233,mistral_normative,mistral,normative,3,Feasible,46,20261119_210233, 3 - Feasible
+mistral_subject-matter_46_20261119_210233,mistral_subject-matter,mistral,subject-matter,3,Feasible,46,20261119_210233, 3 - Feasible
+phi4_generalist_47_20261119_210305,phi4_generalist,phi4,generalist,3,Feasible,47,20261119_210305,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_47_20261119_210305,phi4_normative,phi4,normative,3,Feasible,47,20261119_210305,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_47_20261119_210305,phi4_subject-matter,phi4,subject-matter,4,Very feasible,47,20261119_210305,4 - Very feasible
+gemma3_generalist_47_20261119_210305,gemma3_generalist,gemma3,generalist,3,Feasible,47,20261119_210305,3 - Feasible
+gemma3_normative_47_20261119_210305,gemma3_normative,gemma3,normative,3,Feasible,47,20261119_210305,3 - Feasible
+gemma3_subject-matter_47_20261119_210305,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,47,20261119_210305,3 - Feasible
+llama_generalist_47_20261119_210305,llama_generalist,llama,generalist,2,Somewhat feasible,47,20261119_210305,"2 - Somewhat feasible
+"
+llama_normative_47_20261119_210305,llama_normative,llama,normative,2,Somewhat feasible,47,20261119_210305,"2 - Somewhat feasible
+"
+llama_subject-matter_47_20261119_210305,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,47,20261119_210305,"2 - Somewhat feasible
+"
+mistral_generalist_47_20261119_210305,mistral_generalist,mistral,generalist,3,Feasible,47,20261119_210305, 3 - Feasible
+mistral_normative_47_20261119_210305,mistral_normative,mistral,normative,3,Feasible,47,20261119_210305, 3 - Feasible
+mistral_subject-matter_47_20261119_210305,mistral_subject-matter,mistral,subject-matter,3,Feasible,47,20261119_210305, 3 - Feasible
+phi4_generalist_48_20261119_210337,phi4_generalist,phi4,generalist,3,Feasible,48,20261119_210337,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_48_20261119_210337,phi4_normative,phi4,normative,3,Feasible,48,20261119_210337,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_48_20261119_210337,phi4_subject-matter,phi4,subject-matter,4,Very feasible,48,20261119_210337,4 - Very feasible
+gemma3_generalist_48_20261119_210337,gemma3_generalist,gemma3,generalist,3,Feasible,48,20261119_210337,3 - Feasible
+gemma3_normative_48_20261119_210337,gemma3_normative,gemma3,normative,3,Feasible,48,20261119_210337,3 - Feasible
+gemma3_subject-matter_48_20261119_210337,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,48,20261119_210337,3 - Feasible
+llama_generalist_48_20261119_210337,llama_generalist,llama,generalist,2,Somewhat feasible,48,20261119_210337,"2 - Somewhat feasible
+"
+llama_normative_48_20261119_210337,llama_normative,llama,normative,2,Somewhat feasible,48,20261119_210337,"2 - Somewhat feasible
+"
+llama_subject-matter_48_20261119_210337,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,48,20261119_210337,"2 - Somewhat feasible
+"
+mistral_generalist_48_20261119_210337,mistral_generalist,mistral,generalist,3,Feasible,48,20261119_210337, 3 - Feasible
+mistral_normative_48_20261119_210337,mistral_normative,mistral,normative,3,Feasible,48,20261119_210337, 3 - Feasible
+mistral_subject-matter_48_20261119_210337,mistral_subject-matter,mistral,subject-matter,3,Feasible,48,20261119_210337, 3 - Feasible
+phi4_generalist_49_20261119_210408,phi4_generalist,phi4,generalist,3,Feasible,49,20261119_210408,"3 - Feasible
+
+(Note: This rating reflects the overall feasibility of implementing DC solutions in the target sectors described in the Shift2DC project, considering the current technological advancements and the potential benefits these solutions can bring to ports, industry, data centers, and buildings.)"
+phi4_normative_49_20261119_210408,phi4_normative,phi4,normative,3,Feasible,49,20261119_210408,"3 - Feasible
+
+(Note: This assessment considers the general applicability and potential benefits of DC solutions across the specified sectors, acknowledging some challenges and limitations that may exist in implementation.)"
+phi4_subject-matter_49_20261119_210408,phi4_subject-matter,phi4,subject-matter,4,Very feasible,49,20261119_210408,4 - Very feasible
+gemma3_generalist_49_20261119_210408,gemma3_generalist,gemma3,generalist,3,Feasible,49,20261119_210408,3 - Feasible
+gemma3_normative_49_20261119_210408,gemma3_normative,gemma3,normative,3,Feasible,49,20261119_210408,3 - Feasible
+gemma3_subject-matter_49_20261119_210408,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,49,20261119_210408,3 - Feasible
+llama_generalist_49_20261119_210408,llama_generalist,llama,generalist,2,Somewhat feasible,49,20261119_210408,"2 - Somewhat feasible
+"
+llama_normative_49_20261119_210408,llama_normative,llama,normative,2,Somewhat feasible,49,20261119_210408,"2 - Somewhat feasible
+"
+llama_subject-matter_49_20261119_210408,llama_subject-matter,llama,subject-matter,2,Somewhat feasible,49,20261119_210408,"2 - Somewhat feasible
+"
+mistral_generalist_49_20261119_210408,mistral_generalist,mistral,generalist,3,Feasible,49,20261119_210408, 3 - Feasible
+mistral_normative_49_20261119_210408,mistral_normative,mistral,normative,3,Feasible,49,20261119_210408, 3 - Feasible
+mistral_subject-matter_49_20261119_210408,mistral_subject-matter,mistral,subject-matter,3,Feasible,49,20261119_210408, 3 - Feasible

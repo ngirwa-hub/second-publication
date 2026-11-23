@@ -42,7 +42,7 @@ ALL_VARIANTS = [
 def load_project():
     return (
     "## Project description\n"
-    "- The project is part of the XXXXXX initiative. It focuses on establishing guidelines and roadmaps to enable the widespread adoption of DC solutions, especially medium- and low-voltage DC. The project will develop multiple technologies, including software tools, simulation tools, and hardware solutions such as cables and converters.\n"
+    "- The project is part of the Shift2DC initiative. It focuses on establishing guidelines and roadmaps to enable the widespread adoption of DC solutions, especially medium- and low-voltage DC. The project will develop multiple technologies, including software tools, simulation tools, and hardware solutions such as cables and converters.\n"
     "- Because the project is still early, it has not yet engaged end users extensively. Instead, it examines topics reported in the literature by gathering input from experts in DC systems. Experts are drawn from several areas, including ports, buildings, manufacturing, and utilities, all aligned with the project’s energy and DC expertise.\n"
     "- The project is organized around:\n\n"
     "- An overview of DC grids\n"
@@ -58,29 +58,29 @@ def load_project():
 def load_demonstration():
     return (
     "Four demonstrators are planned across data centers, buildings, industry, and ports, described as follows\n"
-    "## Data center\nA data center demonstrator is planned in XXXXXX. The focus is on edge data centers and how data centers can be integrated, particularly with renewables and heat reuse. The demonstrator also considers powering the office via DC, not only the computing equipment. A micro data center will be tested in Germany with a small installation assembled from data center components. The installation includes vehicle-to-grid (V2G) and solar panels, and it will operate as a real micro data center.\n"
-    "## Building\nA residential building demonstrator in XXXXXX will test how existing DC technologies can be integrated into a DC grid. The buildings demonstrator includes a live setup and focuses on DC-related technologies, including distributed photovoltaic (DPV) systems.\n"
-    "## Industry\nTwo industry use cases are planned. One manufacturing demonstrator is located in XXXXXX, XXXXXX, where technologies will be integrated and large facilities will be connected. Another industry demonstrator is in Phoenix Contact, focusing on accommodating renewables and chargers, with a scale around 100 kW. A separate industry/living-lab setup in Aachen connects two buildings using DC technology.\n"
-    "## Port\nA port demonstrator is planned in XXXXXX. The objective is to assess the feasibility of DC for onshore power supply in port environments. The port demonstrator is small and includes a digital twin to explore scaling of DC in the port. In addition, the demonstrator tests multiple technologies and considers end-user perspectives, including people passing by (e.g., tourists) who may not realize the system is DC. The installation includes approximately 10 kW of PV and 11 kW of V2G chargers." 
+    "## Data center\nA data center demonstrator is planned in Germany. The focus is on edge data centers and how data centers can be integrated, particularly with renewables and heat reuse. The demonstrator also considers powering the office via DC, not only the computing equipment. A micro data center will be tested in Germany with a small installation assembled from data center components. The installation includes vehicle-to-grid (V2G) and solar panels, and it will operate as a real micro data center.\n"
+    "## Building\nA residential building demonstrator in France will test how existing DC technologies can be integrated into a DC grid. The buildings demonstrator includes a live setup and focuses on DC-related technologies, including distributed photovoltaic (DPV) systems.\n"
+    "## Industry\nTwo industry use cases are planned. One manufacturing demonstrator is located in Aachen, Germany, where technologies will be integrated and large facilities will be connected. Another industry demonstrator is in Phoenix Contact, focusing on accommodating renewables and chargers, with a scale around 100 kW. A separate industry/living-lab setup in Aachen connects two buildings using DC technology.\n"
+    "## Port\nA port demonstrator is planned in Funchal. The objective is to assess the feasibility of DC for onshore power supply in port environments. The port demonstrator is small and includes a digital twin to explore scaling of DC in the port. In addition, the demonstrator tests multiple technologies and considers end-user perspectives, including people passing by (e.g., tourists) who may not realize the system is DC. The installation includes approximately 10 kW of PV and 11 kW of V2G chargers." 
  )
 
 
 def load_elicitation():
     return (
     "## Expert elicitation protocol\n"
-    "- The elicitation process is part of the XX-funded XXXXXX project and focuses on users’ perceptions of medium- and low-voltage DC technologies.\n"
+    "- The elicitation process is part of the EU-funded Shift2DC project and focuses on users’ perceptions of medium- and low-voltage DC technologies.\n"
     "- Because the project is still in its first year and there are few direct current users at present, the study uses experts instead of relying on user data.\n"
     "- The goal is to gain insights into the challenges and opportunities for medium- and low-voltage DC, including areas where there is still uncertainty and mixed views in the literature.\n"
     "- The protocol is designed to gather qualitative and quantitative input from experts through a set of prepared questions.\n"
     "- The elicitation will be used to document expert opinions, and to converge on areas of agreement and identify areas of disagreement.\n"
-    "- The session includes brief introductions, a short overview of the broader project kept general rather than limited to the XXXXXX project, an explanation of the expert elicitation protocol and its process, and concluding remarks.\n"
+    "- The session includes brief introductions, a short overview of the broader project kept general rather than limited to the Shift2DC project, an explanation of the expert elicitation protocol and its process, and concluding remarks.\n"
     "- Topics selected for discussion include barriers to adoption, costs, time, risks of delay, and related general considerations."
     )
 
 
 def load_solutions():
     return (
-        "- The XXXXXX project includes 30 proposed DC solutions. This expert elicitation focuses on 11 of them, described as follows:\n"
+        "- The Shift2DC project includes 30 proposed DC solutions. This expert elicitation focuses on 11 of them, described as follows:\n"
         "1. Smart and sustainable DC cables: These are designed with durable, environmentally friendly materials, ensuring comparable or improved longevity relative to AC cables. The cables prioritize ergonomic use, mimicking standard AC cable handling to simplify adoption across all demonstration sites.\n"
         " 2. DC connectors: The project is developing two types of connectors—passive and smart. Passive connectors offer enhanced physical robustness, while smart connectors incorporate microelectronics to handle higher voltages and currents. n"
         " 3. Static protection system: This solution includes advanced fault detection and ultra-fast protection devices that can rapidly identify and isolate DC faults within microgrids.\n"
@@ -88,8 +88,8 @@ def load_solutions():
         " 5. Protection DC system design tool: A software tool that facilitates the design and simulation of protection systems for DC grids.\n"
         " 6. DC-DC converter: Enables power flow control among DC appliances. The converter features real-time monitoring of voltage, current, and temperature, as well as load balancing and peak shaving functionalities for improved grid performance.\n"
         " 7. LVAC-LVDC interlink converter: A low-voltage AC-DC converter designed to bridge AC and DC systems. It includes built-in droop control to reduce the number of downstream devices needed in the DC architecture.\n"
-        " 8. DC measurement device: Developed by XXXXXX XXXXXX, this solution enables easy retrofit installation and accurate, reproducible measurements without requiring on-site calibration. It aggregates multiple sensors into a single robust measurement system.\n"
-        " 9. DC solution design tool: A user-friendly, possibly open-source software tool supporting the design of DC systems. It accommodates models for technologies in the XXXXXX project and aligns with both Current-OS and ODCA frameworks. The tool emphasizes drag-and-drop usability and supports electrical sizing and techno-economic analysis.\n"
+        " 8. DC measurement device: Developed by Phoenix Contact, this solution enables easy retrofit installation and accurate, reproducible measurements without requiring on-site calibration. It aggregates multiple sensors into a single robust measurement system.\n"
+        " 9. DC solution design tool: A user-friendly, possibly open-source software tool supporting the design of DC systems. It accommodates models for technologies in the Shift2DC project and aligns with both Current-OS and ODCA frameworks. The tool emphasizes drag-and-drop usability and supports electrical sizing and techno-economic analysis.\n"
         "10. Network design tool for DC solutions: A simulation tool that integrates static models of key DC devices and supports multiple DC ecosystem configurations.\n"
         "11. Solid-state circuit breaker: A high-speed circuit breaker capable of fault detection and isolation in microseconds. It emphasizes thermal and current handling realism and includes real-time monitoring and IoT-enabled communication features.\n"
       )
@@ -227,9 +227,9 @@ if __name__ == "__main__":
         load_instructions()
     ])
     question = (
-        "Question: How feasible is the use of DC solutions for the target sectors described in the XXXXXX project?\n"
+        "Question: How feasible is the use of DC solutions for the target sectors described in the Shift2DC project?\n"
         "Key considerations:\n"
-        "- Consider all the listed DC solutions within the context of the XXXXXX project.\n"
+        "- Consider all the listed DC solutions within the context of the Shift2DC project.\n"
         "- Provide an overall assessment of the feasibility of these DC solutions in the target sectors.\n"
         "⚠️- Use ONLY the provided rating scale <0–4> (the feasibility Scale).\n"
         "- Do not provide justification for your choice.\n"

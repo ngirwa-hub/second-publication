@@ -1,0 +1,704 @@
+{
+    "question": "- The expert elicitation is based on the Shift2DC project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies.\n- The project focuses on the development and demonstration of DC solutions in four sectors: ports, industry, data centers, and buildings.\n\nYou are participating in an expert elicitation exercise.\nPlease consider the provided context and respond according to your expert role.\nYou must select exactly five (5) barriers from the list provided.\nDo not select more or fewer than five.\n⚠️ You must copy and use the barrier entries exactly as listed — including the barrier number and full label.\nDo not paraphrase, rephrase, or modify any barrier wording.\nOnly select from the list — do not add new barriers.\nThe list is shown in random order and does not reflect importance.\nNo justification is required. List the five selected barriers clearly.\n\nBarriers:\n1. lack of use-cases in which DC is advantageous\n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. lack of pilot projects\n4. public perception of DC and readiness to 'champion' installations from DC projects\n5. incompatibility of DC systems components\n6. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n7. lack of enough trained personnel in DC systems\n8. uncertain regulatory roadmap\n9. high costs of DC solutions\n10. power losses, quality and safety issues\n11. reduced reliability in DC devices",
+    "raw_responses": {
+        "phi4-generalist": "Based on the context of the Shift2DC project, here are the five selected barriers:\n\n1. lack of use-cases in which DC is advantageous\n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. lack of pilot projects\n4. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n5. uncertain regulatory roadmap",
+        "phi4-normative": "1. lack of use-cases in which DC is advantageous  \n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)  \n4. public perception of DC and readiness to 'champion' installations from DC projects  \n6. misconception and lack of knowledge leads to lengthy/expensive design and permit process  \n8. uncertain regulatory roadmap",
+        "phi4-subject-matter": "Based on the context of the Shift2DC project and the need to select exactly five barriers, here are the selected barriers:\n\n1. lack of use-cases in which DC is advantageous\n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. lack of pilot projects\n6. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n8. uncertain regulatory roadmap",
+        "gemma3-generalist": "Here are five barriers selected from the list, as requested:\n\n1. lack of use-cases in which DC is advantageous\n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n4. public perception of DC and readiness to 'champion' installations from DC projects\n5. high costs of DC solutions",
+        "gemma3-normative": "Here are five barriers selected from the provided list:\n\n1. lack of use-cases in which DC is advantageous\n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n4. high costs of DC solutions\n5. uncertain regulatory roadmap",
+        "gemma3-subject-matter": "Here are five barriers selected from the provided list, as an expert participating in the Shift2DC expert elicitation exercise:\n\n1. lack of use-cases in which DC is advantageous\n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n4. lack of enough trained personnel in DC systems\n5. high costs of DC solutions",
+        "llama-generalist": "1. Lack of use-cases in which DC is advantageous\n2. Uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. Lack of pilot projects\n4. Public perception of DC and readiness to 'champion' installations from DC projects\n5. Incompatibility of DC systems components\n",
+        "llama-normative": "1. lack of use-cases in which DC is advantageous\n2. uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. lack of pilot projects\n4. public perception of DC and readiness to 'champion' installations from DC projects\n5. incompatibility of DC systems components\n",
+        "llama-subject-matter": "1. Lack of use-cases in which DC is advantageous\n2. Uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. Lack of pilot projects\n4. Public perception of DC and readiness to 'champion' installations from DC projects\n5. Incompatibility of DC systems components\n",
+        "mistral-generalist": " Based on the provided context and my role as a general expert in renewable energy and DC technologies, the following are the five barriers I would select from the list:\n\n1. Lack of use-cases in which DC is advantageous: It's crucial to identify and demonstrate the benefits of DC technologies in various sectors to encourage their adoption.\n\n2. Uncertain utility interaction (net metering, utility ownership, and agreed standards): Clear guidelines and standards for utility interaction are necessary to ensure smooth integration of DC technologies into the existing grid infrastructure.\n\n3. Lack of pilot projects: Pilot projects are essential to test and validate the performance of DC technologies in real-world scenarios, which can help build confidence and attract investment.\n\n4. Public perception of DC and readiness to 'champion' installations from DC projects: Public acceptance and support play a significant role in the successful implementation of DC projects. Building awareness and educating the public about the benefits of DC technologies can help foster a more favorable attitude towards their adoption.\n\n5. Incompatibility of DC systems components: Ensuring compatibility between different components of DC systems is essential to ensure smooth operation and efficient energy transfer. Standardization efforts can help address this issue.\n\nThese barriers, if addressed, could contribute to a more seamless transition to a sustainable energy system using DC technologies.",
+        "mistral-normative": " Based on the provided context and my expertise, I would select the following five barriers from the list for the Shift2DC project:\n\n1. Lack of use-cases in which DC is advantageous\n2. Uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. Lack of pilot projects\n4. Public perception of DC and readiness to 'champion' installations from DC projects\n5. Incompatibility of DC systems components\n\nThese barriers present significant challenges in accelerating the transition to a sustainable energy system using DC technologies, as they impact various aspects such as market adoption, regulatory frameworks, technological compatibility, and societal acceptance. Addressing these barriers is crucial for the success of the Shift2DC project.",
+        "mistral-subject-matter": " Based on the provided context and my role as a subject-matter expert in renewable energy and DC technologies, the following are the five barriers I would select from the list:\n\n1. Lack of use-cases in which DC is advantageous\n2. Uncertain utility interaction (net metering, utility ownership, and agreed standards)\n3. Lack of pilot projects\n4. Incompatibility of DC systems components\n5. Uncertain regulatory roadmap\n\nThese barriers are significant challenges to the widespread adoption of DC technologies and directly impact the success of the Shift2DC project. Addressing these barriers through collaborative efforts, pilot projects, and policy changes can help accelerate the transition to a sustainable energy system using DC technologies."
+    },
+    "structured_responses": {
+        "phi4-generalist": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 4,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 8,
+                "model_barrier_id": 5,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 8,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "phi4-normative": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 6,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 8,
+                "model_barrier_id": 8,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 8,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "phi4-subject-matter": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 6,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 8,
+                "model_barrier_id": 8,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 8,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "gemma3-generalist": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 3,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 9,
+                "model_barrier_id": 5,
+                "model_label": "high costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 9,
+                "suggested_label": "high costs of DC solutions"
+            }
+        ],
+        "gemma3-normative": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 3,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 9,
+                "model_barrier_id": 4,
+                "model_label": "high costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 9,
+                "suggested_label": "high costs of DC solutions"
+            },
+            {
+                "barrier_id": 8,
+                "model_barrier_id": 5,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 8,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "gemma3-subject-matter": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 3,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 7,
+                "model_barrier_id": 4,
+                "model_label": "lack of enough trained personnel in DC systems",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 7,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            },
+            {
+                "barrier_id": 9,
+                "model_barrier_id": 5,
+                "model_label": "high costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 9,
+                "suggested_label": "high costs of DC solutions"
+            }
+        ],
+        "llama-generalist": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "Lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "Uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "Lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "Public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "Incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "incompatibility of DC systems components"
+            }
+        ],
+        "llama-normative": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "incompatibility of DC systems components"
+            }
+        ],
+        "llama-subject-matter": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "Lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "Uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "Lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "Public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "Incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "incompatibility of DC systems components"
+            }
+        ],
+        "mistral-generalist": [
+            {
+                "barrier_id": null,
+                "model_barrier_id": 1,
+                "model_label": "Lack of use-cases in which DC is advantageous: It's crucial to identify and demonstrate the benefits of DC technologies in various sectors to encourage their adoption.",
+                "official_label": "",
+                "label_status": "unmatched",
+                "barrier_id_status": "unverified_id",
+                "similarity": 0.42452830188679247,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": null,
+                "model_barrier_id": 2,
+                "model_label": "Uncertain utility interaction (net metering, utility ownership, and agreed standards): Clear guidelines and standards for utility interaction are necessary to ensure smooth integration of DC technologies into the existing grid infrastructure.",
+                "official_label": "",
+                "label_status": "unmatched",
+                "barrier_id_status": "unverified_id",
+                "similarity": 0.5198776758409785,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": null,
+                "model_barrier_id": 3,
+                "model_label": "Lack of pilot projects: Pilot projects are essential to test and validate the performance of DC technologies in real-world scenarios, which can help build confidence and attract investment.",
+                "official_label": "",
+                "label_status": "unmatched",
+                "barrier_id_status": "unverified_id",
+                "similarity": 0.2564102564102564,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": null,
+                "model_barrier_id": 4,
+                "model_label": "Public perception of DC and readiness to 'champion' installations from DC projects: Public acceptance and support play a significant role in the successful implementation of DC projects. Building awareness and educating the public about the benefits of DC technologies can help foster a more favorable attitude towards their adoption.",
+                "official_label": "",
+                "label_status": "unmatched",
+                "barrier_id_status": "unverified_id",
+                "similarity": 0.3942307692307692,
+                "suggested_barrier_id": 4,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": null,
+                "model_barrier_id": 5,
+                "model_label": "Incompatibility of DC systems components: Ensuring compatibility between different components of DC systems is essential to ensure smooth operation and efficient energy transfer. Standardization efforts can help address this issue.",
+                "official_label": "",
+                "label_status": "unmatched",
+                "barrier_id_status": "unverified_id",
+                "similarity": 0.2952029520295203,
+                "suggested_barrier_id": 5,
+                "suggested_label": "incompatibility of DC systems components"
+            }
+        ],
+        "mistral-normative": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "Lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "Uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "Lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "Public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "Incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "incompatibility of DC systems components"
+            }
+        ],
+        "mistral-subject-matter": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "Lack of use-cases in which DC is advantageous",
+                "official_label": "lack of use-cases in which DC is advantageous",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of use-cases in which DC is advantageous"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "Uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "Lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 4,
+                "model_label": "Incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "incompatibility of DC systems components"
+            },
+            {
+                "barrier_id": 8,
+                "model_barrier_id": 5,
+                "model_label": "Uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 8,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ]
+    },
+    "error_reason": "One or more variants did not return 5 unique, matched barriers in its first 5 entries."
+}

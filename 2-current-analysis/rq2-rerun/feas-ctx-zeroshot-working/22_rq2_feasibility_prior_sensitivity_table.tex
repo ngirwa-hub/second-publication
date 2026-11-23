@@ -1,0 +1,18 @@
+\begin{table}[tbp]
+\caption{Prior-sensitivity comparison for the RQ2 feasibility effects of Context relative to Zero-shot.}
+\label{tab:rq2_feasibility_prior_sensitivity}
+\begin{tabular}{p{2.2cm}p{3.3cm}p{3.3cm}p{3.3cm}p{4.0cm}c}
+\toprule
+Model & Regularizing OR (95\% CrI) & Primary OR (95\% CrI) & Weak OR (95\% CrI) & Conclusions (R/P/W) & Stable \\
+\midrule
+Phi-4 & 0.112 [0.053, 0.220] & 0.065 [0.024, 0.150] & 0.053 [0.017, 0.132] & Lower in Context / Lower in Context / Lower in Context & Yes \\
+Gemma3:12B & 1.235 [0.398, 3.938] & 1.512 [0.309, 8.410] & 1.677 [0.284, 12.095] & Uncertain / Uncertain / Uncertain & Yes \\
+Mistral & 1.244 [0.368, 4.116] & 1.497 [0.301, 8.470] & 1.643 [0.285, 11.654] & Uncertain / Uncertain / Uncertain & Yes \\
+LLaMa-Pro & 221.236 [105.381, 505.135] & $1.89\times 10^{3}$ [559.113, $8.02\times 10^{3}$] & $8.97\times 10^{3}$ [$1.57\times 10^{3}$, $8.89\times 10^{4}$] & Higher in Context / Higher in Context / Higher in Context & Yes \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Cells report posterior median odds ratios with 95\% credible intervals. R/P/W denotes regularizing, primary, and weak priors, respectively. Stable indicates that the inferential conclusion was identical under all three priors. OR $>1$ indicates higher odds of a higher feasibility rating in Context relative to Zero-shot.
+\end{minipage}
+\end{table}

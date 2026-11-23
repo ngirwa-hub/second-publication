@@ -1,0 +1,704 @@
+{
+    "question": "- The expert elicitation is based on the Shift2DC project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies.\n- The project focuses on the development and demonstration of DC solutions in four sectors: ports, industry, data centers, and buildings.\n\nYou are participating in an expert elicitation exercise.\nPlease consider the provided context and respond according to your expert role.\nYou must select exactly five (5) barriers from the list provided.\nDo not select more or fewer than five.\n⚠️ You must copy and use the barrier entries exactly as listed — including the barrier number and full label.\nDo not paraphrase, rephrase, or modify any barrier wording.\nOnly select from the list — do not add new barriers.\nThe list is shown in random order and does not reflect importance.\nNo justification is required. List the five selected barriers clearly.\n\nBarriers:\n1. lack of pilot projects\n2. public perception of DC and readiness to 'champion' installations from DC projects\n3. incompatibility of DC systems components\n4. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n5. lack of enough trained personnel in DC systems\n6. uncertain regulatory roadmap\n7. high costs of DC solutions\n8. power losses, quality and safety issues\n9. reduced reliability in DC devices\n10. lack of use-cases in which DC is advantageous\n11. uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+    "raw_responses": {
+        "phi4-generalist": "1. lack of pilot projects  \n2. public perception of DC and readiness to 'champion' installations from DC projects  \n4. misconception and lack of knowledge leads to lengthy/expensive design and permit process  \n5. lack of enough trained personnel in DC systems  \n6. uncertain regulatory roadmap  \n\nThese barriers highlight some of the challenges in advancing DC technologies within the Shift2DC project's focus areas.",
+        "phi4-normative": "1. lack of pilot projects  \n2. public perception of DC and readiness to 'champion' installations from DC projects  \n4. misconception and lack of knowledge leads to lengthy/expensive design and permit process  \n6. uncertain regulatory roadmap  \n11. uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+        "phi4-subject-matter": "1. lack of pilot projects  \n2. incompatibility of DC systems components  \n4. misconception and lack of knowledge leads to lengthy/expensive design and permit process  \n5. lack of enough trained personnel in DC systems  \n6. uncertain regulatory roadmap",
+        "gemma3-generalist": "Here are five barriers selected from the provided list, relevant to accelerating the adoption of DC technologies as informed by the Shift2DC project:\n\n1. lack of pilot projects\n2. public perception of DC and readiness to 'champion' installations from DC projects\n3. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n4. high costs of DC solutions\n5. uncertain regulatory roadmap",
+        "gemma3-normative": "Here are five barriers selected from the provided list:\n\n1. lack of pilot projects\n2. public perception of DC and readiness to 'champion' installations from DC projects\n3. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n4. high costs of DC solutions\n5. uncertain regulatory roadmap",
+        "gemma3-subject-matter": "Here are five barriers selected from the provided list, based on my expertise in DC technologies and the Shift2DC project context:\n\n1. lack of pilot projects\n2. misconception and lack of knowledge leads to lengthy/expensive design and permit process\n3. uncertain regulatory roadmap\n4. high costs of DC solutions\n5. uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+        "llama-generalist": "1. incompatibility of DC systems components\n2. public perception of DC and readiness to 'champion' installations from DC projects\n3. lack of enough trained personnel in DC systems\n4. uncertain regulatory roadmap\n5. high costs of DC solutions\n",
+        "llama-normative": "Based on the expert elicitation exercise and the context provided, I have selected the following five barriers:\n\n1. Incompatibility of DC systems components\n2. Lack of knowledge and misconceptions leading to lengthy and expensive design and permit process\n3. High costs of DC solutions\n4. Uncertain regulatory roadmap\n5. Lack of trained personnel in DC systems\n",
+        "llama-subject-matter": "Based on the context provided, I have selected the following five barriers:\n\n1. Incompatibility of DC systems components\n2. Public perception of DC and readiness to 'champion' installations from DC projects\n3. Lack of enough trained personnel in DC systems\n4. Uncertain regulatory roadmap\n5. High costs of DC solutions\n",
+        "mistral-generalist": " Based on the provided context and my role as a renewable energy and DC technology expert, I would select the following five barriers to the accelerated transition to a sustainable energy system through the promotion of DC technologies, as per the Shift2DC project:\n\n1. Lack of pilot projects: Insufficient demonstration and implementation of DC technologies in real-world scenarios can hinder the progress and growth of the DC industry.\n\n2. Public perception of DC and readiness to 'champion' installations from DC projects: A lack of public understanding and acceptance of DC technologies may impede the adoption and widespread deployment of these solutions.\n\n3. Incompatibility of DC systems components: Interoperability issues among various DC components can create obstacles for the integration of DC systems into existing infrastructure.\n\n4. Misconception and lack of knowledge leads to lengthy/expensive design and permit process: Limited understanding of DC technologies can result in complicated and costly design and permit processes, slowing down the adoption of these solutions.\n\n5. Lack of enough trained personnel in DC systems: A shortage of skilled professionals familiar with DC technologies may create challenges in the installation, maintenance, and operation of DC systems.",
+        "mistral-normative": " Based on the provided context and my role as a normative expert in renewable energy and DC technologies, I would select the following five barriers:\n\n1. Lack of pilot projects: The absence of successful DC pilot projects can hinder the adoption of DC technologies, as they serve as demonstrations of the viability and benefits of DC systems.\n\n2. Public perception of DC and readiness to 'champion' installations from DC projects: A positive public perception is crucial for the widespread acceptance of new technologies. If the general public is not ready to embrace DC solutions, it may slow down the transition to DC-powered energy systems.\n\n3. Incompatibility of DC systems components: Compatibility issues between various DC system components can lead to technical challenges and increased costs during installation and maintenance.\n\n4. Misconception and lack of knowledge leads to lengthy/expensive design and permit process: Inadequate understanding and misconceptions about DC technologies can result in complex and expensive design and permit processes, which may discourage potential adopters.\n\n5. Lack of enough trained personnel in DC systems: The availability of skilled professionals who are knowledgeable about DC technologies is essential for the successful implementation and operation of DC energy systems. A shortage of trained personnel can hinder the transition to DC-powered technologies.",
+        "mistral-subject-matter": " Based on the provided context and my expertise, I have selected the following five barriers to the accelerated transition to a sustainable energy system through the promotion of direct current (DC) technologies:\n\n1. Lack of pilot projects: The absence of pilot projects can hinder the development, demonstration, and validation of DC technologies, making it challenging for stakeholders to assess their viability and potential benefits.\n\n2. Incompatibility of DC systems components: The lack of standardization and interoperability among DC systems components can lead to complex and expensive integration, reducing the attractiveness of DC solutions compared to traditional AC systems.\n\n3. Misconception and lack of knowledge leads to lengthy/expensive design and permit process: A lack of understanding of DC technologies can result in lengthy and costly design and permit processes, which can delay the adoption of DC solutions and increase their overall cost.\n\n4. Lack of enough trained personnel in DC systems: The limited availability of skilled personnel with expertise in DC technologies can make it difficult to design, install, and maintain DC systems, potentially leading to increased costs and decreased efficiency.\n\n5. Uncertain regulatory roadmap: The absence of clear and consistent regulations regarding DC technologies can create uncertainty for stakeholders, making it difficult to invest in and adopt DC solutions, and potentially increasing the overall cost and complexity of their implementation.\n\nThese barriers highlight the need for further research, development, and education to overcome the challenges associated with the widespread adoption of DC technologies in various sectors, as part of the Shift2DC project and the broader transition to a sustainable energy system."
+    },
+    "structured_responses": {
+        "phi4-generalist": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "lack of enough trained personnel in DC systems",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 6,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "phi4-normative": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 6,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            },
+            {
+                "barrier_id": 11,
+                "model_barrier_id": 11,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 11,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            }
+        ],
+        "phi4-subject-matter": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 2,
+                "model_label": "incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "incompatibility of DC systems components"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "lack of enough trained personnel in DC systems",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 6,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "gemma3-generalist": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 3,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 7,
+                "model_barrier_id": 4,
+                "model_label": "high costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 7,
+                "suggested_label": "high costs of DC solutions"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 5,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "gemma3-normative": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 3,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 7,
+                "model_barrier_id": 4,
+                "model_label": "high costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 7,
+                "suggested_label": "high costs of DC solutions"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 5,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            }
+        ],
+        "gemma3-subject-matter": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "lack of pilot projects",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 1,
+                "suggested_label": "lack of pilot projects"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 2,
+                "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 3,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            },
+            {
+                "barrier_id": 7,
+                "model_barrier_id": 4,
+                "model_label": "high costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 7,
+                "suggested_label": "high costs of DC solutions"
+            },
+            {
+                "barrier_id": 11,
+                "model_barrier_id": 5,
+                "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 11,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            }
+        ],
+        "llama-generalist": [
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 1,
+                "model_label": "incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "incompatibility of DC systems components"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 3,
+                "model_label": "lack of enough trained personnel in DC systems",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 4,
+                "model_label": "uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            },
+            {
+                "barrier_id": 7,
+                "model_barrier_id": 5,
+                "model_label": "high costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 7,
+                "suggested_label": "high costs of DC solutions"
+            }
+        ],
+        "llama-normative": [
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 1,
+                "model_label": "Incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "incompatibility of DC systems components"
+            },
+            {
+                "barrier_id": null,
+                "model_barrier_id": 2,
+                "model_label": "Lack of knowledge and misconceptions leading to lengthy and expensive design and permit process",
+                "official_label": "",
+                "label_status": "unmatched",
+                "barrier_id_status": "unverified_id",
+                "similarity": 0.7431693989071039,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 7,
+                "model_barrier_id": 3,
+                "model_label": "High costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 7,
+                "suggested_label": "high costs of DC solutions"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 4,
+                "model_label": "Uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            },
+            {
+                "barrier_id": null,
+                "model_barrier_id": 5,
+                "model_label": "Lack of trained personnel in DC systems",
+                "official_label": "",
+                "label_status": "unmatched",
+                "barrier_id_status": "unverified_id",
+                "similarity": 0.9176470588235294,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            }
+        ],
+        "llama-subject-matter": [
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 1,
+                "model_label": "Incompatibility of DC systems components",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 3,
+                "suggested_label": "incompatibility of DC systems components"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "Public perception of DC and readiness to 'champion' installations from DC projects",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 1.0,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 3,
+                "model_label": "Lack of enough trained personnel in DC systems",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 4,
+                "model_label": "Uncertain regulatory roadmap",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 6,
+                "suggested_label": "uncertain regulatory roadmap"
+            },
+            {
+                "barrier_id": 7,
+                "model_barrier_id": 5,
+                "model_label": "High costs of DC solutions",
+                "official_label": "high costs of DC solutions",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 1.0,
+                "suggested_barrier_id": 7,
+                "suggested_label": "high costs of DC solutions"
+            }
+        ],
+        "mistral-generalist": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "Lack of pilot projects: Insufficient demonstration and implementation of DC technologies in real-world scenarios can hinder the progress and growth of the DC industry.",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.3253968253968254,
+                "suggested_barrier_id": 11,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "Public perception of DC and readiness to 'champion' installations from DC projects: A lack of public understanding and acceptance of DC technologies may impede the adoption and widespread deployment of these solutions.",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.5466666666666666,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "Incompatibility of DC systems components: Interoperability issues among various DC components can create obstacles for the integration of DC systems into existing infrastructure.",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.3669724770642202,
+                "suggested_barrier_id": 3,
+                "suggested_label": "incompatibility of DC systems components"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "Misconception and lack of knowledge leads to lengthy/expensive design and permit process: Limited understanding of DC technologies can result in complicated and costly design and permit processes, slowing down the adoption of these solutions.",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.5333333333333333,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "Lack of enough trained personnel in DC systems: A shortage of skilled professionals familiar with DC technologies may create challenges in the installation, maintenance, and operation of DC systems.",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.3770491803278688,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            }
+        ],
+        "mistral-normative": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "Lack of pilot projects: The absence of successful DC pilot projects can hinder the adoption of DC technologies, as they serve as demonstrations of the viability and benefits of DC systems.",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.3333333333333333,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 2,
+                "model_barrier_id": 2,
+                "model_label": "Public perception of DC and readiness to 'champion' installations from DC projects: A positive public perception is crucial for the widespread acceptance of new technologies. If the general public is not ready to embrace DC solutions, it may slow down the transition to DC-powered energy systems.",
+                "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.43386243386243384,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 3,
+                "model_label": "Incompatibility of DC systems components: Compatibility issues between various DC system components can lead to technical challenges and increased costs during installation and maintenance.",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.34934497816593885,
+                "suggested_barrier_id": 3,
+                "suggested_label": "incompatibility of DC systems components"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 4,
+                "model_label": "Misconception and lack of knowledge leads to lengthy/expensive design and permit process: Inadequate understanding and misconceptions about DC technologies can result in complex and expensive design and permit processes, which may discourage potential adopters.",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.504297994269341,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 5,
+                "model_label": "Lack of enough trained personnel in DC systems: The availability of skilled professionals who are knowledgeable about DC technologies is essential for the successful implementation and operation of DC energy systems. A shortage of trained personnel can hinder the transition to DC-powered technologies.",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.26436781609195403,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            }
+        ],
+        "mistral-subject-matter": [
+            {
+                "barrier_id": 1,
+                "model_barrier_id": 1,
+                "model_label": "Lack of pilot projects: The absence of pilot projects can hinder the development, demonstration, and validation of DC technologies, making it challenging for stakeholders to assess their viability and potential benefits.",
+                "official_label": "lack of pilot projects",
+                "label_status": "matched",
+                "barrier_id_status": "correct_id",
+                "similarity": 0.271523178807947,
+                "suggested_barrier_id": 2,
+                "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+            },
+            {
+                "barrier_id": 3,
+                "model_barrier_id": 2,
+                "model_label": "Incompatibility of DC systems components: The lack of standardization and interoperability among DC systems components can lead to complex and expensive integration, reducing the attractiveness of DC solutions compared to traditional AC systems.",
+                "official_label": "incompatibility of DC systems components",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 0.3183183183183183,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 4,
+                "model_barrier_id": 3,
+                "model_label": "Misconception and lack of knowledge leads to lengthy/expensive design and permit process: A lack of understanding of DC technologies can result in lengthy and costly design and permit processes, which can delay the adoption of DC solutions and increase their overall cost.",
+                "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 0.4888888888888889,
+                "suggested_barrier_id": 4,
+                "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+            },
+            {
+                "barrier_id": 5,
+                "model_barrier_id": 4,
+                "model_label": "Lack of enough trained personnel in DC systems: The limited availability of skilled personnel with expertise in DC technologies can make it difficult to design, install, and maintain DC systems, potentially leading to increased costs and decreased efficiency.",
+                "official_label": "lack of enough trained personnel in DC systems",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 0.3016393442622951,
+                "suggested_barrier_id": 5,
+                "suggested_label": "lack of enough trained personnel in DC systems"
+            },
+            {
+                "barrier_id": 6,
+                "model_barrier_id": 5,
+                "model_label": "Uncertain regulatory roadmap: The absence of clear and consistent regulations regarding DC technologies can create uncertainty for stakeholders, making it difficult to invest in and adopt DC solutions, and potentially increasing the overall cost and complexity of their implementation.",
+                "official_label": "uncertain regulatory roadmap",
+                "label_status": "matched",
+                "barrier_id_status": "corrected_from_label",
+                "similarity": 0.3081081081081081,
+                "suggested_barrier_id": 11,
+                "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+            }
+        ]
+    },
+    "error_reason": "One or more variants did not return 5 unique, matched barriers in its first 5 entries."
+}

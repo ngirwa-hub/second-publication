@@ -1,4 +1,4 @@
-FROM mistral:latest
+FROM llama-pro:latest
 
 PARAMETER temperature 0.65
 

@@ -1,0 +1,21 @@
+ANALYSIS: primacy and recency in the randomized barrier experiment
+Input CSV: /home/ngirwa/TiiS/second-publication/variability-tests/variability-barrier-list/outputs/randOrder-seed42/zeroshotBarrierSelectResponses_seed42_randOrder.csv
+Each base model is fitted separately; all its responses are pooled.
+All 11 shown barriers are reconstructed for every response, including nonselections.
+Model: cbind(selected, presented-selected) ~ barrier + position_group; binomial logit.
+Presentation groups: Early 1-3; Middle 4-8 (reference); Late 9-11.
+Estimator: brglm2 mean-bias-reduced logistic regression (AS_mean), for all models consistently.
+Reason: Phi-4 never selected B2, causing separation in ordinary maximum-likelihood logistic regression.
+Adjusted probabilities average predictions equally across the same 11 canonical barrier identities.
+Uncertainty: 1000 whole-iteration bootstrap resamples; seed 42
+Each resampled iteration retains its full order and all pooled responses. Individual barrier rows are not resampled independently.
+Intervals: pointwise 95% percentile bootstrap CIs; exploratory, not multiplicity-adjusted.
+Early-Middle and Late-Middle contrasts assess primacy- and recency-consistent patterns; Early-Late directly compares the ends.
+These are selection probabilities (0-100%), not shares of the 750 selections.
+Interpretation concerns the saved generation-and-selection pipeline: only the first five valid unique entries were retained.
+Fuzzy corrections, truncation of extra selections, conditioning on successful attempts, and parser-policy changes can influence findings.
+The source audit has five successful iterations with predefined aliases, followed by automatic similarity matching; see parser_policy_provenance.csv.
+No significance p-values are generated; inspect contrast estimates, intervals, and their practical size.
+Sources:
+https://search.r-project.org/CRAN/refmans/brglm2/html/brglmFit.html
+https://stat.ethz.ch/R-manual/R-devel/library/stats/html/glm.html

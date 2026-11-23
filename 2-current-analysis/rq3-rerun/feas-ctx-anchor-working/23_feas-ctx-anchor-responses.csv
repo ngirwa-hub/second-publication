@@ -1,0 +1,1081 @@
+row_id,variant_id,base_model,model,rating,label,condition,anchor_type,anchor_level,iteration
+llama_generalist_00_20261121_141936,llama_generalist,llama,generalist,4,Very feasible,context,,,0
+llama_normative_00_20261121_141936,llama_normative,llama,normative,4,Very feasible,context,,,0
+llama_subject-matter_00_20261121_141936,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,0
+mistral_generalist_00_20261121_141936,mistral_generalist,mistral,generalist,3,Feasible,context,,,0
+mistral_normative_00_20261121_141936,mistral_normative,mistral,normative,3,Feasible,context,,,0
+mistral_subject-matter_00_20261121_141936,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,0
+gemma3_generalist_00_20261121_141936,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,0
+gemma3_normative_00_20261121_141936,gemma3_normative,gemma3,normative,3,Feasible,context,,,0
+gemma3_subject-matter_00_20261121_141936,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,0
+phi4_generalist_00_20261121_141936,phi4_generalist,phi4,generalist,3,Feasible,context,,,0
+phi4_normative_00_20261121_141936,phi4_normative,phi4,normative,3,Feasible,context,,,0
+phi4_subject-matter_00_20261121_141936,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,0
+llama_generalist_01_20261121_142316,llama_generalist,llama,generalist,4,Very feasible,context,,,1
+llama_normative_01_20261121_142316,llama_normative,llama,normative,4,Very feasible,context,,,1
+llama_subject-matter_01_20261121_142316,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,1
+mistral_generalist_01_20261121_142316,mistral_generalist,mistral,generalist,3,Feasible,context,,,1
+mistral_normative_01_20261121_142316,mistral_normative,mistral,normative,3,Feasible,context,,,1
+mistral_subject-matter_01_20261121_142316,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,1
+gemma3_generalist_01_20261121_142316,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,1
+gemma3_normative_01_20261121_142316,gemma3_normative,gemma3,normative,3,Feasible,context,,,1
+gemma3_subject-matter_01_20261121_142316,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,1
+phi4_generalist_01_20261121_142316,phi4_generalist,phi4,generalist,3,Feasible,context,,,1
+phi4_normative_01_20261121_142316,phi4_normative,phi4,normative,3,Feasible,context,,,1
+phi4_subject-matter_01_20261121_142316,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,1
+llama_generalist_02_20261121_142441,llama_generalist,llama,generalist,4,Very feasible,context,,,2
+llama_normative_02_20261121_142441,llama_normative,llama,normative,4,Very feasible,context,,,2
+llama_subject-matter_02_20261121_142441,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,2
+mistral_generalist_02_20261121_142441,mistral_generalist,mistral,generalist,3,Feasible,context,,,2
+mistral_normative_02_20261121_142441,mistral_normative,mistral,normative,3,Feasible,context,,,2
+mistral_subject-matter_02_20261121_142441,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,2
+gemma3_generalist_02_20261121_142441,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,2
+gemma3_normative_02_20261121_142441,gemma3_normative,gemma3,normative,3,Feasible,context,,,2
+gemma3_subject-matter_02_20261121_142441,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,2
+phi4_generalist_02_20261121_142441,phi4_generalist,phi4,generalist,3,Feasible,context,,,2
+phi4_normative_02_20261121_142441,phi4_normative,phi4,normative,3,Feasible,context,,,2
+phi4_subject-matter_02_20261121_142441,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,2
+llama_generalist_03_20261121_142606,llama_generalist,llama,generalist,4,Very feasible,context,,,3
+llama_normative_03_20261121_142606,llama_normative,llama,normative,4,Very feasible,context,,,3
+llama_subject-matter_03_20261121_142606,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,3
+mistral_generalist_03_20261121_142606,mistral_generalist,mistral,generalist,3,Feasible,context,,,3
+mistral_normative_03_20261121_142606,mistral_normative,mistral,normative,3,Feasible,context,,,3
+mistral_subject-matter_03_20261121_142606,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,3
+gemma3_generalist_03_20261121_142606,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,3
+gemma3_normative_03_20261121_142606,gemma3_normative,gemma3,normative,3,Feasible,context,,,3
+gemma3_subject-matter_03_20261121_142606,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,3
+phi4_generalist_03_20261121_142606,phi4_generalist,phi4,generalist,3,Feasible,context,,,3
+phi4_normative_03_20261121_142606,phi4_normative,phi4,normative,3,Feasible,context,,,3
+phi4_subject-matter_03_20261121_142606,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,3
+llama_generalist_04_20261121_142731,llama_generalist,llama,generalist,4,Very feasible,context,,,4
+llama_normative_04_20261121_142731,llama_normative,llama,normative,4,Very feasible,context,,,4
+llama_subject-matter_04_20261121_142731,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,4
+mistral_generalist_04_20261121_142731,mistral_generalist,mistral,generalist,3,Feasible,context,,,4
+mistral_normative_04_20261121_142731,mistral_normative,mistral,normative,3,Feasible,context,,,4
+mistral_subject-matter_04_20261121_142731,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,4
+gemma3_generalist_04_20261121_142731,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,4
+gemma3_normative_04_20261121_142731,gemma3_normative,gemma3,normative,3,Feasible,context,,,4
+gemma3_subject-matter_04_20261121_142731,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,4
+phi4_generalist_04_20261121_142731,phi4_generalist,phi4,generalist,3,Feasible,context,,,4
+phi4_normative_04_20261121_142731,phi4_normative,phi4,normative,3,Feasible,context,,,4
+phi4_subject-matter_04_20261121_142731,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,4
+llama_generalist_05_20261121_142857,llama_generalist,llama,generalist,4,Very feasible,context,,,5
+llama_normative_05_20261121_142857,llama_normative,llama,normative,4,Very feasible,context,,,5
+llama_subject-matter_05_20261121_142857,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,5
+mistral_generalist_05_20261121_142857,mistral_generalist,mistral,generalist,3,Feasible,context,,,5
+mistral_normative_05_20261121_142857,mistral_normative,mistral,normative,3,Feasible,context,,,5
+mistral_subject-matter_05_20261121_142857,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,5
+gemma3_generalist_05_20261121_142857,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,5
+gemma3_normative_05_20261121_142857,gemma3_normative,gemma3,normative,3,Feasible,context,,,5
+gemma3_subject-matter_05_20261121_142857,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,5
+phi4_generalist_05_20261121_142857,phi4_generalist,phi4,generalist,3,Feasible,context,,,5
+phi4_normative_05_20261121_142857,phi4_normative,phi4,normative,3,Feasible,context,,,5
+phi4_subject-matter_05_20261121_142857,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,5
+llama_generalist_06_20261121_143022,llama_generalist,llama,generalist,4,Very feasible,context,,,6
+llama_normative_06_20261121_143022,llama_normative,llama,normative,4,Very feasible,context,,,6
+llama_subject-matter_06_20261121_143022,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,6
+mistral_generalist_06_20261121_143022,mistral_generalist,mistral,generalist,3,Feasible,context,,,6
+mistral_normative_06_20261121_143022,mistral_normative,mistral,normative,3,Feasible,context,,,6
+mistral_subject-matter_06_20261121_143022,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,6
+gemma3_generalist_06_20261121_143022,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,6
+gemma3_normative_06_20261121_143022,gemma3_normative,gemma3,normative,3,Feasible,context,,,6
+gemma3_subject-matter_06_20261121_143022,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,6
+phi4_generalist_06_20261121_143022,phi4_generalist,phi4,generalist,3,Feasible,context,,,6
+phi4_normative_06_20261121_143022,phi4_normative,phi4,normative,3,Feasible,context,,,6
+phi4_subject-matter_06_20261121_143022,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,6
+llama_generalist_07_20261121_143147,llama_generalist,llama,generalist,4,Very feasible,context,,,7
+llama_normative_07_20261121_143147,llama_normative,llama,normative,4,Very feasible,context,,,7
+llama_subject-matter_07_20261121_143147,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,7
+mistral_generalist_07_20261121_143147,mistral_generalist,mistral,generalist,3,Feasible,context,,,7
+mistral_normative_07_20261121_143147,mistral_normative,mistral,normative,3,Feasible,context,,,7
+mistral_subject-matter_07_20261121_143147,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,7
+gemma3_generalist_07_20261121_143147,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,7
+gemma3_normative_07_20261121_143147,gemma3_normative,gemma3,normative,3,Feasible,context,,,7
+gemma3_subject-matter_07_20261121_143147,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,7
+phi4_generalist_07_20261121_143147,phi4_generalist,phi4,generalist,3,Feasible,context,,,7
+phi4_normative_07_20261121_143147,phi4_normative,phi4,normative,3,Feasible,context,,,7
+phi4_subject-matter_07_20261121_143147,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,7
+llama_generalist_08_20261121_143313,llama_generalist,llama,generalist,4,Very feasible,context,,,8
+llama_normative_08_20261121_143313,llama_normative,llama,normative,4,Very feasible,context,,,8
+llama_subject-matter_08_20261121_143313,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,8
+mistral_generalist_08_20261121_143313,mistral_generalist,mistral,generalist,3,Feasible,context,,,8
+mistral_normative_08_20261121_143313,mistral_normative,mistral,normative,3,Feasible,context,,,8
+mistral_subject-matter_08_20261121_143313,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,8
+gemma3_generalist_08_20261121_143313,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,8
+gemma3_normative_08_20261121_143313,gemma3_normative,gemma3,normative,3,Feasible,context,,,8
+gemma3_subject-matter_08_20261121_143313,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,8
+phi4_generalist_08_20261121_143313,phi4_generalist,phi4,generalist,3,Feasible,context,,,8
+phi4_normative_08_20261121_143313,phi4_normative,phi4,normative,3,Feasible,context,,,8
+phi4_subject-matter_08_20261121_143313,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,8
+llama_generalist_09_20261121_143438,llama_generalist,llama,generalist,4,Very feasible,context,,,9
+llama_normative_09_20261121_143438,llama_normative,llama,normative,4,Very feasible,context,,,9
+llama_subject-matter_09_20261121_143438,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,9
+mistral_generalist_09_20261121_143438,mistral_generalist,mistral,generalist,3,Feasible,context,,,9
+mistral_normative_09_20261121_143438,mistral_normative,mistral,normative,3,Feasible,context,,,9
+mistral_subject-matter_09_20261121_143438,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,9
+gemma3_generalist_09_20261121_143438,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,9
+gemma3_normative_09_20261121_143438,gemma3_normative,gemma3,normative,3,Feasible,context,,,9
+gemma3_subject-matter_09_20261121_143438,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,9
+phi4_generalist_09_20261121_143438,phi4_generalist,phi4,generalist,3,Feasible,context,,,9
+phi4_normative_09_20261121_143438,phi4_normative,phi4,normative,3,Feasible,context,,,9
+phi4_subject-matter_09_20261121_143438,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,9
+llama_generalist_10_20261121_143604,llama_generalist,llama,generalist,4,Very feasible,context,,,10
+llama_normative_10_20261121_143604,llama_normative,llama,normative,4,Very feasible,context,,,10
+llama_subject-matter_10_20261121_143604,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,10
+mistral_generalist_10_20261121_143604,mistral_generalist,mistral,generalist,3,Feasible,context,,,10
+mistral_normative_10_20261121_143604,mistral_normative,mistral,normative,3,Feasible,context,,,10
+mistral_subject-matter_10_20261121_143604,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,10
+gemma3_generalist_10_20261121_143604,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,10
+gemma3_normative_10_20261121_143604,gemma3_normative,gemma3,normative,3,Feasible,context,,,10
+gemma3_subject-matter_10_20261121_143604,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,10
+phi4_generalist_10_20261121_143604,phi4_generalist,phi4,generalist,3,Feasible,context,,,10
+phi4_normative_10_20261121_143604,phi4_normative,phi4,normative,3,Feasible,context,,,10
+phi4_subject-matter_10_20261121_143604,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,10
+llama_generalist_11_20261121_143729,llama_generalist,llama,generalist,4,Very feasible,context,,,11
+llama_normative_11_20261121_143729,llama_normative,llama,normative,4,Very feasible,context,,,11
+llama_subject-matter_11_20261121_143729,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,11
+mistral_generalist_11_20261121_143729,mistral_generalist,mistral,generalist,3,Feasible,context,,,11
+mistral_normative_11_20261121_143729,mistral_normative,mistral,normative,3,Feasible,context,,,11
+mistral_subject-matter_11_20261121_143729,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,11
+gemma3_generalist_11_20261121_143729,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,11
+gemma3_normative_11_20261121_143729,gemma3_normative,gemma3,normative,3,Feasible,context,,,11
+gemma3_subject-matter_11_20261121_143729,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,11
+phi4_generalist_11_20261121_143729,phi4_generalist,phi4,generalist,3,Feasible,context,,,11
+phi4_normative_11_20261121_143729,phi4_normative,phi4,normative,3,Feasible,context,,,11
+phi4_subject-matter_11_20261121_143729,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,11
+llama_generalist_12_20261121_143854,llama_generalist,llama,generalist,4,Very feasible,context,,,12
+llama_normative_12_20261121_143854,llama_normative,llama,normative,4,Very feasible,context,,,12
+llama_subject-matter_12_20261121_143854,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,12
+mistral_generalist_12_20261121_143854,mistral_generalist,mistral,generalist,3,Feasible,context,,,12
+mistral_normative_12_20261121_143854,mistral_normative,mistral,normative,3,Feasible,context,,,12
+mistral_subject-matter_12_20261121_143854,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,12
+gemma3_generalist_12_20261121_143854,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,12
+gemma3_normative_12_20261121_143854,gemma3_normative,gemma3,normative,3,Feasible,context,,,12
+gemma3_subject-matter_12_20261121_143854,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,12
+phi4_generalist_12_20261121_143854,phi4_generalist,phi4,generalist,3,Feasible,context,,,12
+phi4_normative_12_20261121_143854,phi4_normative,phi4,normative,3,Feasible,context,,,12
+phi4_subject-matter_12_20261121_143854,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,12
+llama_generalist_13_20261121_144019,llama_generalist,llama,generalist,4,Very feasible,context,,,13
+llama_normative_13_20261121_144019,llama_normative,llama,normative,4,Very feasible,context,,,13
+llama_subject-matter_13_20261121_144019,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,13
+mistral_generalist_13_20261121_144019,mistral_generalist,mistral,generalist,3,Feasible,context,,,13
+mistral_normative_13_20261121_144019,mistral_normative,mistral,normative,3,Feasible,context,,,13
+mistral_subject-matter_13_20261121_144019,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,13
+gemma3_generalist_13_20261121_144019,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,13
+gemma3_normative_13_20261121_144019,gemma3_normative,gemma3,normative,3,Feasible,context,,,13
+gemma3_subject-matter_13_20261121_144019,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,13
+phi4_generalist_13_20261121_144019,phi4_generalist,phi4,generalist,3,Feasible,context,,,13
+phi4_normative_13_20261121_144019,phi4_normative,phi4,normative,3,Feasible,context,,,13
+phi4_subject-matter_13_20261121_144019,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,13
+llama_generalist_14_20261121_144145,llama_generalist,llama,generalist,4,Very feasible,context,,,14
+llama_normative_14_20261121_144145,llama_normative,llama,normative,4,Very feasible,context,,,14
+llama_subject-matter_14_20261121_144145,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,14
+mistral_generalist_14_20261121_144145,mistral_generalist,mistral,generalist,3,Feasible,context,,,14
+mistral_normative_14_20261121_144145,mistral_normative,mistral,normative,3,Feasible,context,,,14
+mistral_subject-matter_14_20261121_144145,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,14
+gemma3_generalist_14_20261121_144145,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,14
+gemma3_normative_14_20261121_144145,gemma3_normative,gemma3,normative,3,Feasible,context,,,14
+gemma3_subject-matter_14_20261121_144145,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,14
+phi4_generalist_14_20261121_144145,phi4_generalist,phi4,generalist,3,Feasible,context,,,14
+phi4_normative_14_20261121_144145,phi4_normative,phi4,normative,3,Feasible,context,,,14
+phi4_subject-matter_14_20261121_144145,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,14
+llama_generalist_15_20261121_144310,llama_generalist,llama,generalist,4,Very feasible,context,,,15
+llama_normative_15_20261121_144310,llama_normative,llama,normative,4,Very feasible,context,,,15
+llama_subject-matter_15_20261121_144310,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,15
+mistral_generalist_15_20261121_144310,mistral_generalist,mistral,generalist,3,Feasible,context,,,15
+mistral_normative_15_20261121_144310,mistral_normative,mistral,normative,3,Feasible,context,,,15
+mistral_subject-matter_15_20261121_144310,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,15
+gemma3_generalist_15_20261121_144310,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,15
+gemma3_normative_15_20261121_144310,gemma3_normative,gemma3,normative,3,Feasible,context,,,15
+gemma3_subject-matter_15_20261121_144310,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,15
+phi4_generalist_15_20261121_144310,phi4_generalist,phi4,generalist,3,Feasible,context,,,15
+phi4_normative_15_20261121_144310,phi4_normative,phi4,normative,3,Feasible,context,,,15
+phi4_subject-matter_15_20261121_144310,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,15
+llama_generalist_16_20261121_144435,llama_generalist,llama,generalist,4,Very feasible,context,,,16
+llama_normative_16_20261121_144435,llama_normative,llama,normative,4,Very feasible,context,,,16
+llama_subject-matter_16_20261121_144435,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,16
+mistral_generalist_16_20261121_144435,mistral_generalist,mistral,generalist,3,Feasible,context,,,16
+mistral_normative_16_20261121_144435,mistral_normative,mistral,normative,3,Feasible,context,,,16
+mistral_subject-matter_16_20261121_144435,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,16
+gemma3_generalist_16_20261121_144435,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,16
+gemma3_normative_16_20261121_144435,gemma3_normative,gemma3,normative,3,Feasible,context,,,16
+gemma3_subject-matter_16_20261121_144435,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,16
+phi4_generalist_16_20261121_144435,phi4_generalist,phi4,generalist,3,Feasible,context,,,16
+phi4_normative_16_20261121_144435,phi4_normative,phi4,normative,3,Feasible,context,,,16
+phi4_subject-matter_16_20261121_144435,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,16
+llama_generalist_17_20261121_144601,llama_generalist,llama,generalist,4,Very feasible,context,,,17
+llama_normative_17_20261121_144601,llama_normative,llama,normative,4,Very feasible,context,,,17
+llama_subject-matter_17_20261121_144601,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,17
+mistral_generalist_17_20261121_144601,mistral_generalist,mistral,generalist,3,Feasible,context,,,17
+mistral_normative_17_20261121_144601,mistral_normative,mistral,normative,3,Feasible,context,,,17
+mistral_subject-matter_17_20261121_144601,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,17
+gemma3_generalist_17_20261121_144601,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,17
+gemma3_normative_17_20261121_144601,gemma3_normative,gemma3,normative,3,Feasible,context,,,17
+gemma3_subject-matter_17_20261121_144601,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,17
+phi4_generalist_17_20261121_144601,phi4_generalist,phi4,generalist,3,Feasible,context,,,17
+phi4_normative_17_20261121_144601,phi4_normative,phi4,normative,3,Feasible,context,,,17
+phi4_subject-matter_17_20261121_144601,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,17
+llama_generalist_18_20261121_144726,llama_generalist,llama,generalist,4,Very feasible,context,,,18
+llama_normative_18_20261121_144726,llama_normative,llama,normative,4,Very feasible,context,,,18
+llama_subject-matter_18_20261121_144726,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,18
+mistral_generalist_18_20261121_144726,mistral_generalist,mistral,generalist,3,Feasible,context,,,18
+mistral_normative_18_20261121_144726,mistral_normative,mistral,normative,3,Feasible,context,,,18
+mistral_subject-matter_18_20261121_144726,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,18
+gemma3_generalist_18_20261121_144726,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,18
+gemma3_normative_18_20261121_144726,gemma3_normative,gemma3,normative,3,Feasible,context,,,18
+gemma3_subject-matter_18_20261121_144726,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,18
+phi4_generalist_18_20261121_144726,phi4_generalist,phi4,generalist,3,Feasible,context,,,18
+phi4_normative_18_20261121_144726,phi4_normative,phi4,normative,3,Feasible,context,,,18
+phi4_subject-matter_18_20261121_144726,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,18
+llama_generalist_19_20261121_144851,llama_generalist,llama,generalist,4,Very feasible,context,,,19
+llama_normative_19_20261121_144851,llama_normative,llama,normative,4,Very feasible,context,,,19
+llama_subject-matter_19_20261121_144851,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,19
+mistral_generalist_19_20261121_144851,mistral_generalist,mistral,generalist,3,Feasible,context,,,19
+mistral_normative_19_20261121_144851,mistral_normative,mistral,normative,3,Feasible,context,,,19
+mistral_subject-matter_19_20261121_144851,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,19
+gemma3_generalist_19_20261121_144851,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,19
+gemma3_normative_19_20261121_144851,gemma3_normative,gemma3,normative,3,Feasible,context,,,19
+gemma3_subject-matter_19_20261121_144851,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,19
+phi4_generalist_19_20261121_144851,phi4_generalist,phi4,generalist,3,Feasible,context,,,19
+phi4_normative_19_20261121_144851,phi4_normative,phi4,normative,3,Feasible,context,,,19
+phi4_subject-matter_19_20261121_144851,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,19
+llama_generalist_20_20261121_145016,llama_generalist,llama,generalist,4,Very feasible,context,,,20
+llama_normative_20_20261121_145016,llama_normative,llama,normative,4,Very feasible,context,,,20
+llama_subject-matter_20_20261121_145016,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,20
+mistral_generalist_20_20261121_145016,mistral_generalist,mistral,generalist,3,Feasible,context,,,20
+mistral_normative_20_20261121_145016,mistral_normative,mistral,normative,3,Feasible,context,,,20
+mistral_subject-matter_20_20261121_145016,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,20
+gemma3_generalist_20_20261121_145016,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,20
+gemma3_normative_20_20261121_145016,gemma3_normative,gemma3,normative,3,Feasible,context,,,20
+gemma3_subject-matter_20_20261121_145016,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,20
+phi4_generalist_20_20261121_145016,phi4_generalist,phi4,generalist,3,Feasible,context,,,20
+phi4_normative_20_20261121_145016,phi4_normative,phi4,normative,3,Feasible,context,,,20
+phi4_subject-matter_20_20261121_145016,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,20
+llama_generalist_21_20261121_145141,llama_generalist,llama,generalist,4,Very feasible,context,,,21
+llama_normative_21_20261121_145141,llama_normative,llama,normative,4,Very feasible,context,,,21
+llama_subject-matter_21_20261121_145141,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,21
+mistral_generalist_21_20261121_145141,mistral_generalist,mistral,generalist,3,Feasible,context,,,21
+mistral_normative_21_20261121_145141,mistral_normative,mistral,normative,3,Feasible,context,,,21
+mistral_subject-matter_21_20261121_145141,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,21
+gemma3_generalist_21_20261121_145141,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,21
+gemma3_normative_21_20261121_145141,gemma3_normative,gemma3,normative,3,Feasible,context,,,21
+gemma3_subject-matter_21_20261121_145141,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,21
+phi4_generalist_21_20261121_145141,phi4_generalist,phi4,generalist,3,Feasible,context,,,21
+phi4_normative_21_20261121_145141,phi4_normative,phi4,normative,3,Feasible,context,,,21
+phi4_subject-matter_21_20261121_145141,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,21
+llama_generalist_22_20261121_145307,llama_generalist,llama,generalist,4,Very feasible,context,,,22
+llama_normative_22_20261121_145307,llama_normative,llama,normative,4,Very feasible,context,,,22
+llama_subject-matter_22_20261121_145307,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,22
+mistral_generalist_22_20261121_145307,mistral_generalist,mistral,generalist,3,Feasible,context,,,22
+mistral_normative_22_20261121_145307,mistral_normative,mistral,normative,3,Feasible,context,,,22
+mistral_subject-matter_22_20261121_145307,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,22
+gemma3_generalist_22_20261121_145307,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,22
+gemma3_normative_22_20261121_145307,gemma3_normative,gemma3,normative,3,Feasible,context,,,22
+gemma3_subject-matter_22_20261121_145307,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,22
+phi4_generalist_22_20261121_145307,phi4_generalist,phi4,generalist,3,Feasible,context,,,22
+phi4_normative_22_20261121_145307,phi4_normative,phi4,normative,3,Feasible,context,,,22
+phi4_subject-matter_22_20261121_145307,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,22
+llama_generalist_23_20261121_145432,llama_generalist,llama,generalist,4,Very feasible,context,,,23
+llama_normative_23_20261121_145432,llama_normative,llama,normative,4,Very feasible,context,,,23
+llama_subject-matter_23_20261121_145432,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,23
+mistral_generalist_23_20261121_145432,mistral_generalist,mistral,generalist,3,Feasible,context,,,23
+mistral_normative_23_20261121_145432,mistral_normative,mistral,normative,3,Feasible,context,,,23
+mistral_subject-matter_23_20261121_145432,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,23
+gemma3_generalist_23_20261121_145432,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,23
+gemma3_normative_23_20261121_145432,gemma3_normative,gemma3,normative,3,Feasible,context,,,23
+gemma3_subject-matter_23_20261121_145432,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,23
+phi4_generalist_23_20261121_145432,phi4_generalist,phi4,generalist,3,Feasible,context,,,23
+phi4_normative_23_20261121_145432,phi4_normative,phi4,normative,3,Feasible,context,,,23
+phi4_subject-matter_23_20261121_145432,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,23
+llama_generalist_24_20261121_145557,llama_generalist,llama,generalist,4,Very feasible,context,,,24
+llama_normative_24_20261121_145557,llama_normative,llama,normative,4,Very feasible,context,,,24
+llama_subject-matter_24_20261121_145557,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,24
+mistral_generalist_24_20261121_145557,mistral_generalist,mistral,generalist,3,Feasible,context,,,24
+mistral_normative_24_20261121_145557,mistral_normative,mistral,normative,3,Feasible,context,,,24
+mistral_subject-matter_24_20261121_145557,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,24
+gemma3_generalist_24_20261121_145557,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,24
+gemma3_normative_24_20261121_145557,gemma3_normative,gemma3,normative,3,Feasible,context,,,24
+gemma3_subject-matter_24_20261121_145557,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,24
+phi4_generalist_24_20261121_145557,phi4_generalist,phi4,generalist,3,Feasible,context,,,24
+phi4_normative_24_20261121_145557,phi4_normative,phi4,normative,3,Feasible,context,,,24
+phi4_subject-matter_24_20261121_145557,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,24
+llama_generalist_25_20261121_145723,llama_generalist,llama,generalist,4,Very feasible,context,,,25
+llama_normative_25_20261121_145723,llama_normative,llama,normative,4,Very feasible,context,,,25
+llama_subject-matter_25_20261121_145723,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,25
+mistral_generalist_25_20261121_145723,mistral_generalist,mistral,generalist,3,Feasible,context,,,25
+mistral_normative_25_20261121_145723,mistral_normative,mistral,normative,3,Feasible,context,,,25
+mistral_subject-matter_25_20261121_145723,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,25
+gemma3_generalist_25_20261121_145723,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,25
+gemma3_normative_25_20261121_145723,gemma3_normative,gemma3,normative,3,Feasible,context,,,25
+gemma3_subject-matter_25_20261121_145723,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,25
+phi4_generalist_25_20261121_145723,phi4_generalist,phi4,generalist,3,Feasible,context,,,25
+phi4_normative_25_20261121_145723,phi4_normative,phi4,normative,3,Feasible,context,,,25
+phi4_subject-matter_25_20261121_145723,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,25
+llama_generalist_26_20261121_145848,llama_generalist,llama,generalist,4,Very feasible,context,,,26
+llama_normative_26_20261121_145848,llama_normative,llama,normative,4,Very feasible,context,,,26
+llama_subject-matter_26_20261121_145848,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,26
+mistral_generalist_26_20261121_145848,mistral_generalist,mistral,generalist,3,Feasible,context,,,26
+mistral_normative_26_20261121_145848,mistral_normative,mistral,normative,3,Feasible,context,,,26
+mistral_subject-matter_26_20261121_145848,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,26
+gemma3_generalist_26_20261121_145848,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,26
+gemma3_normative_26_20261121_145848,gemma3_normative,gemma3,normative,3,Feasible,context,,,26
+gemma3_subject-matter_26_20261121_145848,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,26
+phi4_generalist_26_20261121_145848,phi4_generalist,phi4,generalist,3,Feasible,context,,,26
+phi4_normative_26_20261121_145848,phi4_normative,phi4,normative,3,Feasible,context,,,26
+phi4_subject-matter_26_20261121_145848,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,26
+llama_generalist_27_20261121_150013,llama_generalist,llama,generalist,4,Very feasible,context,,,27
+llama_normative_27_20261121_150013,llama_normative,llama,normative,4,Very feasible,context,,,27
+llama_subject-matter_27_20261121_150013,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,27
+mistral_generalist_27_20261121_150013,mistral_generalist,mistral,generalist,3,Feasible,context,,,27
+mistral_normative_27_20261121_150013,mistral_normative,mistral,normative,3,Feasible,context,,,27
+mistral_subject-matter_27_20261121_150013,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,27
+gemma3_generalist_27_20261121_150013,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,27
+gemma3_normative_27_20261121_150013,gemma3_normative,gemma3,normative,3,Feasible,context,,,27
+gemma3_subject-matter_27_20261121_150013,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,27
+phi4_generalist_27_20261121_150013,phi4_generalist,phi4,generalist,3,Feasible,context,,,27
+phi4_normative_27_20261121_150013,phi4_normative,phi4,normative,3,Feasible,context,,,27
+phi4_subject-matter_27_20261121_150013,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,27
+llama_generalist_28_20261121_150139,llama_generalist,llama,generalist,4,Very feasible,context,,,28
+llama_normative_28_20261121_150139,llama_normative,llama,normative,4,Very feasible,context,,,28
+llama_subject-matter_28_20261121_150139,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,28
+mistral_generalist_28_20261121_150139,mistral_generalist,mistral,generalist,3,Feasible,context,,,28
+mistral_normative_28_20261121_150139,mistral_normative,mistral,normative,3,Feasible,context,,,28
+mistral_subject-matter_28_20261121_150139,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,28
+gemma3_generalist_28_20261121_150139,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,28
+gemma3_normative_28_20261121_150139,gemma3_normative,gemma3,normative,3,Feasible,context,,,28
+gemma3_subject-matter_28_20261121_150139,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,28
+phi4_generalist_28_20261121_150139,phi4_generalist,phi4,generalist,3,Feasible,context,,,28
+phi4_normative_28_20261121_150139,phi4_normative,phi4,normative,3,Feasible,context,,,28
+phi4_subject-matter_28_20261121_150139,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,28
+llama_generalist_29_20261121_150304,llama_generalist,llama,generalist,4,Very feasible,context,,,29
+llama_normative_29_20261121_150304,llama_normative,llama,normative,4,Very feasible,context,,,29
+llama_subject-matter_29_20261121_150304,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,29
+mistral_generalist_29_20261121_150304,mistral_generalist,mistral,generalist,3,Feasible,context,,,29
+mistral_normative_29_20261121_150304,mistral_normative,mistral,normative,3,Feasible,context,,,29
+mistral_subject-matter_29_20261121_150304,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,29
+gemma3_generalist_29_20261121_150304,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,29
+gemma3_normative_29_20261121_150304,gemma3_normative,gemma3,normative,3,Feasible,context,,,29
+gemma3_subject-matter_29_20261121_150304,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,29
+phi4_generalist_29_20261121_150304,phi4_generalist,phi4,generalist,3,Feasible,context,,,29
+phi4_normative_29_20261121_150304,phi4_normative,phi4,normative,3,Feasible,context,,,29
+phi4_subject-matter_29_20261121_150304,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,29
+llama_generalist_30_20261121_150429,llama_generalist,llama,generalist,4,Very feasible,context,,,30
+llama_normative_30_20261121_150429,llama_normative,llama,normative,4,Very feasible,context,,,30
+llama_subject-matter_30_20261121_150429,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,30
+mistral_generalist_30_20261121_150429,mistral_generalist,mistral,generalist,3,Feasible,context,,,30
+mistral_normative_30_20261121_150429,mistral_normative,mistral,normative,3,Feasible,context,,,30
+mistral_subject-matter_30_20261121_150429,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,30
+gemma3_generalist_30_20261121_150429,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,30
+gemma3_normative_30_20261121_150429,gemma3_normative,gemma3,normative,3,Feasible,context,,,30
+gemma3_subject-matter_30_20261121_150429,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,30
+phi4_generalist_30_20261121_150429,phi4_generalist,phi4,generalist,3,Feasible,context,,,30
+phi4_normative_30_20261121_150429,phi4_normative,phi4,normative,3,Feasible,context,,,30
+phi4_subject-matter_30_20261121_150429,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,30
+llama_generalist_31_20261121_150555,llama_generalist,llama,generalist,4,Very feasible,context,,,31
+llama_normative_31_20261121_150555,llama_normative,llama,normative,4,Very feasible,context,,,31
+llama_subject-matter_31_20261121_150555,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,31
+mistral_generalist_31_20261121_150555,mistral_generalist,mistral,generalist,3,Feasible,context,,,31
+mistral_normative_31_20261121_150555,mistral_normative,mistral,normative,3,Feasible,context,,,31
+mistral_subject-matter_31_20261121_150555,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,31
+gemma3_generalist_31_20261121_150555,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,31
+gemma3_normative_31_20261121_150555,gemma3_normative,gemma3,normative,3,Feasible,context,,,31
+gemma3_subject-matter_31_20261121_150555,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,31
+phi4_generalist_31_20261121_150555,phi4_generalist,phi4,generalist,3,Feasible,context,,,31
+phi4_normative_31_20261121_150555,phi4_normative,phi4,normative,3,Feasible,context,,,31
+phi4_subject-matter_31_20261121_150555,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,31
+llama_generalist_32_20261121_150720,llama_generalist,llama,generalist,4,Very feasible,context,,,32
+llama_normative_32_20261121_150720,llama_normative,llama,normative,4,Very feasible,context,,,32
+llama_subject-matter_32_20261121_150720,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,32
+mistral_generalist_32_20261121_150720,mistral_generalist,mistral,generalist,3,Feasible,context,,,32
+mistral_normative_32_20261121_150720,mistral_normative,mistral,normative,3,Feasible,context,,,32
+mistral_subject-matter_32_20261121_150720,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,32
+gemma3_generalist_32_20261121_150720,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,32
+gemma3_normative_32_20261121_150720,gemma3_normative,gemma3,normative,3,Feasible,context,,,32
+gemma3_subject-matter_32_20261121_150720,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,32
+phi4_generalist_32_20261121_150720,phi4_generalist,phi4,generalist,3,Feasible,context,,,32
+phi4_normative_32_20261121_150720,phi4_normative,phi4,normative,3,Feasible,context,,,32
+phi4_subject-matter_32_20261121_150720,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,32
+llama_generalist_33_20261121_150845,llama_generalist,llama,generalist,4,Very feasible,context,,,33
+llama_normative_33_20261121_150845,llama_normative,llama,normative,4,Very feasible,context,,,33
+llama_subject-matter_33_20261121_150845,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,33
+mistral_generalist_33_20261121_150845,mistral_generalist,mistral,generalist,3,Feasible,context,,,33
+mistral_normative_33_20261121_150845,mistral_normative,mistral,normative,3,Feasible,context,,,33
+mistral_subject-matter_33_20261121_150845,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,33
+gemma3_generalist_33_20261121_150845,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,33
+gemma3_normative_33_20261121_150845,gemma3_normative,gemma3,normative,3,Feasible,context,,,33
+gemma3_subject-matter_33_20261121_150845,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,33
+phi4_generalist_33_20261121_150845,phi4_generalist,phi4,generalist,3,Feasible,context,,,33
+phi4_normative_33_20261121_150845,phi4_normative,phi4,normative,3,Feasible,context,,,33
+phi4_subject-matter_33_20261121_150845,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,33
+llama_generalist_34_20261121_151011,llama_generalist,llama,generalist,4,Very feasible,context,,,34
+llama_normative_34_20261121_151011,llama_normative,llama,normative,4,Very feasible,context,,,34
+llama_subject-matter_34_20261121_151011,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,34
+mistral_generalist_34_20261121_151011,mistral_generalist,mistral,generalist,3,Feasible,context,,,34
+mistral_normative_34_20261121_151011,mistral_normative,mistral,normative,3,Feasible,context,,,34
+mistral_subject-matter_34_20261121_151011,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,34
+gemma3_generalist_34_20261121_151011,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,34
+gemma3_normative_34_20261121_151011,gemma3_normative,gemma3,normative,3,Feasible,context,,,34
+gemma3_subject-matter_34_20261121_151011,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,34
+phi4_generalist_34_20261121_151011,phi4_generalist,phi4,generalist,3,Feasible,context,,,34
+phi4_normative_34_20261121_151011,phi4_normative,phi4,normative,3,Feasible,context,,,34
+phi4_subject-matter_34_20261121_151011,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,34
+llama_generalist_35_20261121_151136,llama_generalist,llama,generalist,4,Very feasible,context,,,35
+llama_normative_35_20261121_151136,llama_normative,llama,normative,4,Very feasible,context,,,35
+llama_subject-matter_35_20261121_151136,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,35
+mistral_generalist_35_20261121_151136,mistral_generalist,mistral,generalist,3,Feasible,context,,,35
+mistral_normative_35_20261121_151136,mistral_normative,mistral,normative,3,Feasible,context,,,35
+mistral_subject-matter_35_20261121_151136,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,35
+gemma3_generalist_35_20261121_151136,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,35
+gemma3_normative_35_20261121_151136,gemma3_normative,gemma3,normative,3,Feasible,context,,,35
+gemma3_subject-matter_35_20261121_151136,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,35
+phi4_generalist_35_20261121_151136,phi4_generalist,phi4,generalist,3,Feasible,context,,,35
+phi4_normative_35_20261121_151136,phi4_normative,phi4,normative,3,Feasible,context,,,35
+phi4_subject-matter_35_20261121_151136,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,35
+llama_generalist_36_20261121_151302,llama_generalist,llama,generalist,4,Very feasible,context,,,36
+llama_normative_36_20261121_151302,llama_normative,llama,normative,4,Very feasible,context,,,36
+llama_subject-matter_36_20261121_151302,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,36
+mistral_generalist_36_20261121_151302,mistral_generalist,mistral,generalist,3,Feasible,context,,,36
+mistral_normative_36_20261121_151302,mistral_normative,mistral,normative,3,Feasible,context,,,36
+mistral_subject-matter_36_20261121_151302,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,36
+gemma3_generalist_36_20261121_151302,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,36
+gemma3_normative_36_20261121_151302,gemma3_normative,gemma3,normative,3,Feasible,context,,,36
+gemma3_subject-matter_36_20261121_151302,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,36
+phi4_generalist_36_20261121_151302,phi4_generalist,phi4,generalist,3,Feasible,context,,,36
+phi4_normative_36_20261121_151302,phi4_normative,phi4,normative,3,Feasible,context,,,36
+phi4_subject-matter_36_20261121_151302,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,36
+llama_generalist_37_20261121_151427,llama_generalist,llama,generalist,4,Very feasible,context,,,37
+llama_normative_37_20261121_151427,llama_normative,llama,normative,4,Very feasible,context,,,37
+llama_subject-matter_37_20261121_151427,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,37
+mistral_generalist_37_20261121_151427,mistral_generalist,mistral,generalist,3,Feasible,context,,,37
+mistral_normative_37_20261121_151427,mistral_normative,mistral,normative,3,Feasible,context,,,37
+mistral_subject-matter_37_20261121_151427,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,37
+gemma3_generalist_37_20261121_151427,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,37
+gemma3_normative_37_20261121_151427,gemma3_normative,gemma3,normative,3,Feasible,context,,,37
+gemma3_subject-matter_37_20261121_151427,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,37
+phi4_generalist_37_20261121_151427,phi4_generalist,phi4,generalist,3,Feasible,context,,,37
+phi4_normative_37_20261121_151427,phi4_normative,phi4,normative,3,Feasible,context,,,37
+phi4_subject-matter_37_20261121_151427,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,37
+llama_generalist_38_20261121_151552,llama_generalist,llama,generalist,4,Very feasible,context,,,38
+llama_normative_38_20261121_151552,llama_normative,llama,normative,4,Very feasible,context,,,38
+llama_subject-matter_38_20261121_151552,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,38
+mistral_generalist_38_20261121_151552,mistral_generalist,mistral,generalist,3,Feasible,context,,,38
+mistral_normative_38_20261121_151552,mistral_normative,mistral,normative,3,Feasible,context,,,38
+mistral_subject-matter_38_20261121_151552,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,38
+gemma3_generalist_38_20261121_151552,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,38
+gemma3_normative_38_20261121_151552,gemma3_normative,gemma3,normative,3,Feasible,context,,,38
+gemma3_subject-matter_38_20261121_151552,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,38
+phi4_generalist_38_20261121_151552,phi4_generalist,phi4,generalist,3,Feasible,context,,,38
+phi4_normative_38_20261121_151552,phi4_normative,phi4,normative,3,Feasible,context,,,38
+phi4_subject-matter_38_20261121_151552,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,38
+llama_generalist_39_20261121_151717,llama_generalist,llama,generalist,4,Very feasible,context,,,39
+llama_normative_39_20261121_151717,llama_normative,llama,normative,4,Very feasible,context,,,39
+llama_subject-matter_39_20261121_151717,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,39
+mistral_generalist_39_20261121_151717,mistral_generalist,mistral,generalist,3,Feasible,context,,,39
+mistral_normative_39_20261121_151717,mistral_normative,mistral,normative,3,Feasible,context,,,39
+mistral_subject-matter_39_20261121_151717,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,39
+gemma3_generalist_39_20261121_151717,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,39
+gemma3_normative_39_20261121_151717,gemma3_normative,gemma3,normative,3,Feasible,context,,,39
+gemma3_subject-matter_39_20261121_151717,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,39
+phi4_generalist_39_20261121_151717,phi4_generalist,phi4,generalist,3,Feasible,context,,,39
+phi4_normative_39_20261121_151717,phi4_normative,phi4,normative,3,Feasible,context,,,39
+phi4_subject-matter_39_20261121_151717,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,39
+llama_generalist_40_20261121_151831,llama_generalist,llama,generalist,4,Very feasible,context,,,40
+llama_normative_40_20261121_151831,llama_normative,llama,normative,4,Very feasible,context,,,40
+llama_subject-matter_40_20261121_151831,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,40
+mistral_generalist_40_20261121_151831,mistral_generalist,mistral,generalist,3,Feasible,context,,,40
+mistral_normative_40_20261121_151831,mistral_normative,mistral,normative,3,Feasible,context,,,40
+mistral_subject-matter_40_20261121_151831,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,40
+gemma3_generalist_40_20261121_151831,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,40
+gemma3_normative_40_20261121_151831,gemma3_normative,gemma3,normative,3,Feasible,context,,,40
+gemma3_subject-matter_40_20261121_151831,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,40
+phi4_generalist_40_20261121_151831,phi4_generalist,phi4,generalist,3,Feasible,context,,,40
+phi4_normative_40_20261121_151831,phi4_normative,phi4,normative,3,Feasible,context,,,40
+phi4_subject-matter_40_20261121_151831,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,40
+llama_generalist_41_20261121_151957,llama_generalist,llama,generalist,4,Very feasible,context,,,41
+llama_normative_41_20261121_151957,llama_normative,llama,normative,4,Very feasible,context,,,41
+llama_subject-matter_41_20261121_151957,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,41
+mistral_generalist_41_20261121_151957,mistral_generalist,mistral,generalist,3,Feasible,context,,,41
+mistral_normative_41_20261121_151957,mistral_normative,mistral,normative,3,Feasible,context,,,41
+mistral_subject-matter_41_20261121_151957,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,41
+gemma3_generalist_41_20261121_151957,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,41
+gemma3_normative_41_20261121_151957,gemma3_normative,gemma3,normative,3,Feasible,context,,,41
+gemma3_subject-matter_41_20261121_151957,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,41
+phi4_generalist_41_20261121_151957,phi4_generalist,phi4,generalist,3,Feasible,context,,,41
+phi4_normative_41_20261121_151957,phi4_normative,phi4,normative,3,Feasible,context,,,41
+phi4_subject-matter_41_20261121_151957,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,41
+llama_generalist_42_20261121_152122,llama_generalist,llama,generalist,4,Very feasible,context,,,42
+llama_normative_42_20261121_152122,llama_normative,llama,normative,4,Very feasible,context,,,42
+llama_subject-matter_42_20261121_152122,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,42
+mistral_generalist_42_20261121_152122,mistral_generalist,mistral,generalist,3,Feasible,context,,,42
+mistral_normative_42_20261121_152122,mistral_normative,mistral,normative,3,Feasible,context,,,42
+mistral_subject-matter_42_20261121_152122,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,42
+gemma3_generalist_42_20261121_152122,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,42
+gemma3_normative_42_20261121_152122,gemma3_normative,gemma3,normative,3,Feasible,context,,,42
+gemma3_subject-matter_42_20261121_152122,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,42
+phi4_generalist_42_20261121_152122,phi4_generalist,phi4,generalist,3,Feasible,context,,,42
+phi4_normative_42_20261121_152122,phi4_normative,phi4,normative,3,Feasible,context,,,42
+phi4_subject-matter_42_20261121_152122,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,42
+llama_generalist_43_20261121_152247,llama_generalist,llama,generalist,4,Very feasible,context,,,43
+llama_normative_43_20261121_152247,llama_normative,llama,normative,4,Very feasible,context,,,43
+llama_subject-matter_43_20261121_152247,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,43
+mistral_generalist_43_20261121_152247,mistral_generalist,mistral,generalist,3,Feasible,context,,,43
+mistral_normative_43_20261121_152247,mistral_normative,mistral,normative,3,Feasible,context,,,43
+mistral_subject-matter_43_20261121_152247,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,43
+gemma3_generalist_43_20261121_152247,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,43
+gemma3_normative_43_20261121_152247,gemma3_normative,gemma3,normative,3,Feasible,context,,,43
+gemma3_subject-matter_43_20261121_152247,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,43
+phi4_generalist_43_20261121_152247,phi4_generalist,phi4,generalist,3,Feasible,context,,,43
+phi4_normative_43_20261121_152247,phi4_normative,phi4,normative,3,Feasible,context,,,43
+phi4_subject-matter_43_20261121_152247,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,43
+llama_generalist_44_20261121_152413,llama_generalist,llama,generalist,4,Very feasible,context,,,44
+llama_normative_44_20261121_152413,llama_normative,llama,normative,4,Very feasible,context,,,44
+llama_subject-matter_44_20261121_152413,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,44
+mistral_generalist_44_20261121_152413,mistral_generalist,mistral,generalist,3,Feasible,context,,,44
+mistral_normative_44_20261121_152413,mistral_normative,mistral,normative,3,Feasible,context,,,44
+mistral_subject-matter_44_20261121_152413,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,44
+gemma3_generalist_44_20261121_152413,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,44
+gemma3_normative_44_20261121_152413,gemma3_normative,gemma3,normative,3,Feasible,context,,,44
+gemma3_subject-matter_44_20261121_152413,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,44
+phi4_generalist_44_20261121_152413,phi4_generalist,phi4,generalist,3,Feasible,context,,,44
+phi4_normative_44_20261121_152413,phi4_normative,phi4,normative,3,Feasible,context,,,44
+phi4_subject-matter_44_20261121_152413,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,44
+llama_generalist_45_20261121_152538,llama_generalist,llama,generalist,4,Very feasible,context,,,45
+llama_normative_45_20261121_152538,llama_normative,llama,normative,4,Very feasible,context,,,45
+llama_subject-matter_45_20261121_152538,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,45
+mistral_generalist_45_20261121_152538,mistral_generalist,mistral,generalist,3,Feasible,context,,,45
+mistral_normative_45_20261121_152538,mistral_normative,mistral,normative,3,Feasible,context,,,45
+mistral_subject-matter_45_20261121_152538,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,45
+gemma3_generalist_45_20261121_152538,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,45
+gemma3_normative_45_20261121_152538,gemma3_normative,gemma3,normative,3,Feasible,context,,,45
+gemma3_subject-matter_45_20261121_152538,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,45
+phi4_generalist_45_20261121_152538,phi4_generalist,phi4,generalist,3,Feasible,context,,,45
+phi4_normative_45_20261121_152538,phi4_normative,phi4,normative,3,Feasible,context,,,45
+phi4_subject-matter_45_20261121_152538,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,45
+llama_generalist_46_20261121_152703,llama_generalist,llama,generalist,4,Very feasible,context,,,46
+llama_normative_46_20261121_152703,llama_normative,llama,normative,4,Very feasible,context,,,46
+llama_subject-matter_46_20261121_152703,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,46
+mistral_generalist_46_20261121_152703,mistral_generalist,mistral,generalist,3,Feasible,context,,,46
+mistral_normative_46_20261121_152703,mistral_normative,mistral,normative,3,Feasible,context,,,46
+mistral_subject-matter_46_20261121_152703,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,46
+gemma3_generalist_46_20261121_152703,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,46
+gemma3_normative_46_20261121_152703,gemma3_normative,gemma3,normative,3,Feasible,context,,,46
+gemma3_subject-matter_46_20261121_152703,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,46
+phi4_generalist_46_20261121_152703,phi4_generalist,phi4,generalist,3,Feasible,context,,,46
+phi4_normative_46_20261121_152703,phi4_normative,phi4,normative,3,Feasible,context,,,46
+phi4_subject-matter_46_20261121_152703,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,46
+llama_generalist_47_20261121_152828,llama_generalist,llama,generalist,4,Very feasible,context,,,47
+llama_normative_47_20261121_152828,llama_normative,llama,normative,4,Very feasible,context,,,47
+llama_subject-matter_47_20261121_152828,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,47
+mistral_generalist_47_20261121_152828,mistral_generalist,mistral,generalist,3,Feasible,context,,,47
+mistral_normative_47_20261121_152828,mistral_normative,mistral,normative,3,Feasible,context,,,47
+mistral_subject-matter_47_20261121_152828,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,47
+gemma3_generalist_47_20261121_152828,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,47
+gemma3_normative_47_20261121_152828,gemma3_normative,gemma3,normative,3,Feasible,context,,,47
+gemma3_subject-matter_47_20261121_152828,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,47
+phi4_generalist_47_20261121_152828,phi4_generalist,phi4,generalist,3,Feasible,context,,,47
+phi4_normative_47_20261121_152828,phi4_normative,phi4,normative,3,Feasible,context,,,47
+phi4_subject-matter_47_20261121_152828,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,47
+llama_generalist_48_20261121_152954,llama_generalist,llama,generalist,4,Very feasible,context,,,48
+llama_normative_48_20261121_152954,llama_normative,llama,normative,4,Very feasible,context,,,48
+llama_subject-matter_48_20261121_152954,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,48
+mistral_generalist_48_20261121_152954,mistral_generalist,mistral,generalist,3,Feasible,context,,,48
+mistral_normative_48_20261121_152954,mistral_normative,mistral,normative,3,Feasible,context,,,48
+mistral_subject-matter_48_20261121_152954,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,48
+gemma3_generalist_48_20261121_152954,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,48
+gemma3_normative_48_20261121_152954,gemma3_normative,gemma3,normative,3,Feasible,context,,,48
+gemma3_subject-matter_48_20261121_152954,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,48
+phi4_generalist_48_20261121_152954,phi4_generalist,phi4,generalist,3,Feasible,context,,,48
+phi4_normative_48_20261121_152954,phi4_normative,phi4,normative,3,Feasible,context,,,48
+phi4_subject-matter_48_20261121_152954,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,48
+llama_generalist_49_20261121_153119,llama_generalist,llama,generalist,4,Very feasible,context,,,49
+llama_normative_49_20261121_153119,llama_normative,llama,normative,4,Very feasible,context,,,49
+llama_subject-matter_49_20261121_153119,llama_subject-matter,llama,subject-matter,4,Very feasible,context,,,49
+mistral_generalist_49_20261121_153119,mistral_generalist,mistral,generalist,3,Feasible,context,,,49
+mistral_normative_49_20261121_153119,mistral_normative,mistral,normative,3,Feasible,context,,,49
+mistral_subject-matter_49_20261121_153119,mistral_subject-matter,mistral,subject-matter,3,Feasible,context,,,49
+gemma3_generalist_49_20261121_153119,gemma3_generalist,gemma3,generalist,3,Feasible,context,,,49
+gemma3_normative_49_20261121_153119,gemma3_normative,gemma3,normative,3,Feasible,context,,,49
+gemma3_subject-matter_49_20261121_153119,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,context,,,49
+phi4_generalist_49_20261121_153119,phi4_generalist,phi4,generalist,3,Feasible,context,,,49
+phi4_normative_49_20261121_153119,phi4_normative,phi4,normative,3,Feasible,context,,,49
+phi4_subject-matter_49_20261121_153119,phi4_subject-matter,phi4,subject-matter,3,Feasible,context,,,49
+ANCHOR_WORD_phi4_generalist_00_20261122_193136,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_phi4_normative_00_20261122_193136,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_phi4_subject-matter_00_20261122_193136,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_llama_generalist_00_20261122_193136,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_llama_normative_00_20261122_193136,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_llama_subject-matter_00_20261122_193136,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_mistral_generalist_00_20261122_193136,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_mistral_normative_00_20261122_193136,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_mistral_subject-matter_00_20261122_193136,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_gemma3_generalist_00_20261122_193136,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_gemma3_normative_00_20261122_193136,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_gemma3_subject-matter_00_20261122_193136,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,0
+ANCHOR_WORD_phi4_generalist_01_20261122_193544,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_phi4_normative_01_20261122_193544,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_phi4_subject-matter_01_20261122_193544,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_llama_generalist_01_20261122_193544,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_llama_normative_01_20261122_193544,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_llama_subject-matter_01_20261122_193544,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_mistral_generalist_01_20261122_193544,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_mistral_normative_01_20261122_193544,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_mistral_subject-matter_01_20261122_193544,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_gemma3_generalist_01_20261122_193544,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_gemma3_normative_01_20261122_193544,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_gemma3_subject-matter_01_20261122_193544,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,1
+ANCHOR_WORD_phi4_generalist_02_20261122_193645,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_phi4_normative_02_20261122_193645,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_phi4_subject-matter_02_20261122_193645,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_llama_generalist_02_20261122_193645,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_llama_normative_02_20261122_193645,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_llama_subject-matter_02_20261122_193645,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_mistral_generalist_02_20261122_193645,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_mistral_normative_02_20261122_193645,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_mistral_subject-matter_02_20261122_193645,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_gemma3_generalist_02_20261122_193645,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_gemma3_normative_02_20261122_193645,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_gemma3_subject-matter_02_20261122_193645,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,2
+ANCHOR_WORD_phi4_generalist_03_20261122_193747,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_phi4_normative_03_20261122_193747,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_phi4_subject-matter_03_20261122_193747,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_llama_generalist_03_20261122_193747,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_llama_normative_03_20261122_193747,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_llama_subject-matter_03_20261122_193747,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_mistral_generalist_03_20261122_193747,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_mistral_normative_03_20261122_193747,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_mistral_subject-matter_03_20261122_193747,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_gemma3_generalist_03_20261122_193747,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_gemma3_normative_03_20261122_193747,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_gemma3_subject-matter_03_20261122_193747,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,3
+ANCHOR_WORD_phi4_generalist_05_20261122_193950,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_phi4_normative_05_20261122_193950,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_phi4_subject-matter_05_20261122_193950,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_llama_generalist_05_20261122_193950,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_llama_normative_05_20261122_193950,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_llama_subject-matter_05_20261122_193950,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_mistral_generalist_05_20261122_193950,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_mistral_normative_05_20261122_193950,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_mistral_subject-matter_05_20261122_193950,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_gemma3_generalist_05_20261122_193950,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_gemma3_normative_05_20261122_193950,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_gemma3_subject-matter_05_20261122_193950,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,5
+ANCHOR_WORD_phi4_generalist_06_20261122_194051,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_phi4_normative_06_20261122_194051,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_phi4_subject-matter_06_20261122_194051,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_llama_generalist_06_20261122_194051,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_llama_normative_06_20261122_194051,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_llama_subject-matter_06_20261122_194051,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_mistral_generalist_06_20261122_194051,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_mistral_normative_06_20261122_194051,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_mistral_subject-matter_06_20261122_194051,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_gemma3_generalist_06_20261122_194051,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_gemma3_normative_06_20261122_194051,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_gemma3_subject-matter_06_20261122_194051,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,6
+ANCHOR_WORD_phi4_generalist_07_20261122_194153,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_phi4_normative_07_20261122_194153,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_phi4_subject-matter_07_20261122_194153,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_llama_generalist_07_20261122_194153,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_llama_normative_07_20261122_194153,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_llama_subject-matter_07_20261122_194153,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_mistral_generalist_07_20261122_194153,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_mistral_normative_07_20261122_194153,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_mistral_subject-matter_07_20261122_194153,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_gemma3_generalist_07_20261122_194153,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_gemma3_normative_07_20261122_194153,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_gemma3_subject-matter_07_20261122_194153,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,7
+ANCHOR_WORD_phi4_generalist_08_20261122_194257,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_phi4_normative_08_20261122_194257,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_phi4_subject-matter_08_20261122_194257,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_llama_generalist_08_20261122_194257,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_llama_normative_08_20261122_194257,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_llama_subject-matter_08_20261122_194257,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_mistral_generalist_08_20261122_194257,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_mistral_normative_08_20261122_194257,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_mistral_subject-matter_08_20261122_194257,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_gemma3_generalist_08_20261122_194257,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_gemma3_normative_08_20261122_194257,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_gemma3_subject-matter_08_20261122_194257,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,8
+ANCHOR_WORD_phi4_generalist_09_20261122_194400,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_phi4_normative_09_20261122_194400,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_phi4_subject-matter_09_20261122_194400,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_llama_generalist_09_20261122_194400,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_llama_normative_09_20261122_194400,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_llama_subject-matter_09_20261122_194400,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_mistral_generalist_09_20261122_194400,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_mistral_normative_09_20261122_194400,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_mistral_subject-matter_09_20261122_194400,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_gemma3_generalist_09_20261122_194400,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_gemma3_normative_09_20261122_194400,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_gemma3_subject-matter_09_20261122_194400,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,9
+ANCHOR_WORD_phi4_generalist_10_20261122_194501,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_phi4_normative_10_20261122_194501,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_phi4_subject-matter_10_20261122_194501,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_llama_generalist_10_20261122_194501,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_llama_normative_10_20261122_194501,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_llama_subject-matter_10_20261122_194501,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_mistral_generalist_10_20261122_194501,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_mistral_normative_10_20261122_194501,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_mistral_subject-matter_10_20261122_194501,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_gemma3_generalist_10_20261122_194501,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_gemma3_normative_10_20261122_194501,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_WORD_gemma3_subject-matter_10_20261122_194501,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_WORD,,10
+ANCHOR_EXAMPLE_phi4_generalist_00_20261122_195514,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_phi4_normative_00_20261122_195514,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_phi4_subject-matter_00_20261122_195514,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_llama_generalist_00_20261122_195514,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_llama_normative_00_20261122_195514,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_llama_subject-matter_00_20261122_195514,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_mistral_generalist_00_20261122_195514,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_mistral_normative_00_20261122_195514,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_mistral_subject-matter_00_20261122_195514,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_gemma3_generalist_00_20261122_195514,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_gemma3_normative_00_20261122_195514,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_gemma3_subject-matter_00_20261122_195514,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,0
+ANCHOR_EXAMPLE_phi4_generalist_01_20261122_195616,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_phi4_normative_01_20261122_195616,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_phi4_subject-matter_01_20261122_195616,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_llama_generalist_01_20261122_195616,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_llama_normative_01_20261122_195616,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_llama_subject-matter_01_20261122_195616,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_mistral_generalist_01_20261122_195616,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_mistral_normative_01_20261122_195616,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_mistral_subject-matter_01_20261122_195616,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_gemma3_generalist_01_20261122_195616,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_gemma3_normative_01_20261122_195616,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_gemma3_subject-matter_01_20261122_195616,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,1
+ANCHOR_EXAMPLE_phi4_generalist_02_20261122_195718,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_phi4_normative_02_20261122_195718,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_phi4_subject-matter_02_20261122_195718,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_llama_generalist_02_20261122_195718,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_llama_normative_02_20261122_195718,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_llama_subject-matter_02_20261122_195718,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_mistral_generalist_02_20261122_195718,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_mistral_normative_02_20261122_195718,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_mistral_subject-matter_02_20261122_195718,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_gemma3_generalist_02_20261122_195718,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_gemma3_normative_02_20261122_195718,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_gemma3_subject-matter_02_20261122_195718,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,2
+ANCHOR_EXAMPLE_phi4_generalist_03_20261122_195821,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_phi4_normative_03_20261122_195821,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_phi4_subject-matter_03_20261122_195821,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_llama_generalist_03_20261122_195821,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_llama_normative_03_20261122_195821,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_llama_subject-matter_03_20261122_195821,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_mistral_generalist_03_20261122_195821,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_mistral_normative_03_20261122_195821,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_mistral_subject-matter_03_20261122_195821,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_gemma3_generalist_03_20261122_195821,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_gemma3_normative_03_20261122_195821,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_gemma3_subject-matter_03_20261122_195821,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,3
+ANCHOR_EXAMPLE_phi4_generalist_04_20261122_195924,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_phi4_normative_04_20261122_195924,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_phi4_subject-matter_04_20261122_195924,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_llama_generalist_04_20261122_195924,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_llama_normative_04_20261122_195924,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_llama_subject-matter_04_20261122_195924,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_mistral_generalist_04_20261122_195924,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_mistral_normative_04_20261122_195924,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_mistral_subject-matter_04_20261122_195924,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_gemma3_generalist_04_20261122_195924,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_gemma3_normative_04_20261122_195924,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_gemma3_subject-matter_04_20261122_195924,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,4
+ANCHOR_EXAMPLE_phi4_generalist_05_20261122_200026,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_phi4_normative_05_20261122_200026,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_phi4_subject-matter_05_20261122_200026,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_llama_generalist_05_20261122_200026,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_llama_normative_05_20261122_200026,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_llama_subject-matter_05_20261122_200026,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_mistral_generalist_05_20261122_200026,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_mistral_normative_05_20261122_200026,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_mistral_subject-matter_05_20261122_200026,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_gemma3_generalist_05_20261122_200026,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_gemma3_normative_05_20261122_200026,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_gemma3_subject-matter_05_20261122_200026,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,5
+ANCHOR_EXAMPLE_phi4_generalist_06_20261122_200129,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_phi4_normative_06_20261122_200129,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_phi4_subject-matter_06_20261122_200129,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_llama_generalist_06_20261122_200129,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_llama_normative_06_20261122_200129,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_llama_subject-matter_06_20261122_200129,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_mistral_generalist_06_20261122_200129,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_mistral_normative_06_20261122_200129,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_mistral_subject-matter_06_20261122_200129,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_gemma3_generalist_06_20261122_200129,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_gemma3_normative_06_20261122_200129,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_gemma3_subject-matter_06_20261122_200129,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,6
+ANCHOR_EXAMPLE_phi4_generalist_07_20261122_200232,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_phi4_normative_07_20261122_200232,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_phi4_subject-matter_07_20261122_200232,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_llama_generalist_07_20261122_200232,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_llama_normative_07_20261122_200232,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_llama_subject-matter_07_20261122_200232,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_mistral_generalist_07_20261122_200232,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_mistral_normative_07_20261122_200232,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_mistral_subject-matter_07_20261122_200232,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_gemma3_generalist_07_20261122_200232,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_gemma3_normative_07_20261122_200232,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_gemma3_subject-matter_07_20261122_200232,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,7
+ANCHOR_EXAMPLE_phi4_generalist_08_20261122_200334,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_phi4_normative_08_20261122_200334,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_phi4_subject-matter_08_20261122_200334,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_llama_generalist_08_20261122_200334,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_llama_normative_08_20261122_200334,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_llama_subject-matter_08_20261122_200334,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_mistral_generalist_08_20261122_200334,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_mistral_normative_08_20261122_200334,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_mistral_subject-matter_08_20261122_200334,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_gemma3_generalist_08_20261122_200334,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_gemma3_normative_08_20261122_200334,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_gemma3_subject-matter_08_20261122_200334,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,8
+ANCHOR_EXAMPLE_phi4_generalist_09_20261122_200437,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_phi4_normative_09_20261122_200437,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_phi4_subject-matter_09_20261122_200437,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_llama_generalist_09_20261122_200437,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_llama_normative_09_20261122_200437,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_llama_subject-matter_09_20261122_200437,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_mistral_generalist_09_20261122_200437,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_mistral_normative_09_20261122_200437,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_mistral_subject-matter_09_20261122_200437,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_gemma3_generalist_09_20261122_200437,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_gemma3_normative_09_20261122_200437,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_EXAMPLE_gemma3_subject-matter_09_20261122_200437,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_EXAMPLE,,9
+ANCHOR_NUM_LOW_phi4_generalist_00_20261122_200545,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_phi4_normative_00_20261122_200545,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_phi4_subject-matter_00_20261122_200545,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_llama_generalist_00_20261122_200545,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_llama_normative_00_20261122_200545,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_llama_subject-matter_00_20261122_200545,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_mistral_generalist_00_20261122_200545,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_mistral_normative_00_20261122_200545,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_mistral_subject-matter_00_20261122_200545,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_gemma3_generalist_00_20261122_200545,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_gemma3_normative_00_20261122_200545,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_gemma3_subject-matter_00_20261122_200545,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,0
+ANCHOR_NUM_LOW_phi4_generalist_01_20261122_200649,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_phi4_normative_01_20261122_200649,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_phi4_subject-matter_01_20261122_200649,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_llama_generalist_01_20261122_200649,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_llama_normative_01_20261122_200649,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_llama_subject-matter_01_20261122_200649,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_mistral_generalist_01_20261122_200649,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_mistral_normative_01_20261122_200649,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_mistral_subject-matter_01_20261122_200649,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_gemma3_generalist_01_20261122_200649,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_gemma3_normative_01_20261122_200649,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_gemma3_subject-matter_01_20261122_200649,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,1
+ANCHOR_NUM_LOW_phi4_generalist_02_20261122_200754,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_phi4_normative_02_20261122_200754,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_phi4_subject-matter_02_20261122_200754,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_llama_generalist_02_20261122_200754,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_llama_normative_02_20261122_200754,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_llama_subject-matter_02_20261122_200754,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_mistral_generalist_02_20261122_200754,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_mistral_normative_02_20261122_200754,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_mistral_subject-matter_02_20261122_200754,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_gemma3_generalist_02_20261122_200754,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_gemma3_normative_02_20261122_200754,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_gemma3_subject-matter_02_20261122_200754,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,2
+ANCHOR_NUM_LOW_phi4_generalist_03_20261122_200859,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_phi4_normative_03_20261122_200859,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_phi4_subject-matter_03_20261122_200859,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_llama_generalist_03_20261122_200859,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_llama_normative_03_20261122_200859,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_llama_subject-matter_03_20261122_200859,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_mistral_generalist_03_20261122_200859,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_mistral_normative_03_20261122_200859,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_mistral_subject-matter_03_20261122_200859,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_gemma3_generalist_03_20261122_200859,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_gemma3_normative_03_20261122_200859,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_gemma3_subject-matter_03_20261122_200859,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,3
+ANCHOR_NUM_LOW_phi4_generalist_04_20261122_201003,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_phi4_normative_04_20261122_201003,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_phi4_subject-matter_04_20261122_201003,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_llama_generalist_04_20261122_201003,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_llama_normative_04_20261122_201003,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_llama_subject-matter_04_20261122_201003,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_mistral_generalist_04_20261122_201003,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_mistral_normative_04_20261122_201003,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_mistral_subject-matter_04_20261122_201003,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_gemma3_generalist_04_20261122_201003,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_gemma3_normative_04_20261122_201003,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_gemma3_subject-matter_04_20261122_201003,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,4
+ANCHOR_NUM_LOW_phi4_generalist_05_20261122_201108,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_phi4_normative_05_20261122_201108,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_phi4_subject-matter_05_20261122_201108,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_llama_generalist_05_20261122_201108,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_llama_normative_05_20261122_201108,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_llama_subject-matter_05_20261122_201108,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_mistral_generalist_05_20261122_201108,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_mistral_normative_05_20261122_201108,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_mistral_subject-matter_05_20261122_201108,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_gemma3_generalist_05_20261122_201108,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_gemma3_normative_05_20261122_201108,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_gemma3_subject-matter_05_20261122_201108,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,5
+ANCHOR_NUM_LOW_phi4_generalist_06_20261122_201213,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_phi4_normative_06_20261122_201213,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_phi4_subject-matter_06_20261122_201213,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_llama_generalist_06_20261122_201213,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_llama_normative_06_20261122_201213,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_llama_subject-matter_06_20261122_201213,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_mistral_generalist_06_20261122_201213,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_mistral_normative_06_20261122_201213,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_mistral_subject-matter_06_20261122_201213,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_gemma3_generalist_06_20261122_201213,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_gemma3_normative_06_20261122_201213,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_gemma3_subject-matter_06_20261122_201213,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,6
+ANCHOR_NUM_LOW_phi4_generalist_07_20261122_201318,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_phi4_normative_07_20261122_201318,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_phi4_subject-matter_07_20261122_201318,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_llama_generalist_07_20261122_201318,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_llama_normative_07_20261122_201318,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_llama_subject-matter_07_20261122_201318,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_mistral_generalist_07_20261122_201318,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_mistral_normative_07_20261122_201318,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_mistral_subject-matter_07_20261122_201318,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_gemma3_generalist_07_20261122_201318,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_gemma3_normative_07_20261122_201318,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_gemma3_subject-matter_07_20261122_201318,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,7
+ANCHOR_NUM_LOW_phi4_generalist_08_20261122_201422,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_phi4_normative_08_20261122_201422,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_phi4_subject-matter_08_20261122_201422,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_llama_generalist_08_20261122_201422,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_llama_normative_08_20261122_201422,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_llama_subject-matter_08_20261122_201422,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_mistral_generalist_08_20261122_201422,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_mistral_normative_08_20261122_201422,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_mistral_subject-matter_08_20261122_201422,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_gemma3_generalist_08_20261122_201422,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_gemma3_normative_08_20261122_201422,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_gemma3_subject-matter_08_20261122_201422,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,8
+ANCHOR_NUM_LOW_phi4_generalist_09_20261122_201527,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_phi4_normative_09_20261122_201527,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_phi4_subject-matter_09_20261122_201527,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_llama_generalist_09_20261122_201527,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_llama_normative_09_20261122_201527,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_llama_subject-matter_09_20261122_201527,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_mistral_generalist_09_20261122_201527,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_mistral_normative_09_20261122_201527,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_mistral_subject-matter_09_20261122_201527,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_gemma3_generalist_09_20261122_201527,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_gemma3_normative_09_20261122_201527,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_LOW_gemma3_subject-matter_09_20261122_201527,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_LOW,low,9
+ANCHOR_NUM_HIGH_phi4_generalist_00_20261122_201724,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_phi4_normative_00_20261122_201724,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_phi4_subject-matter_00_20261122_201724,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_llama_generalist_00_20261122_201724,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_llama_normative_00_20261122_201724,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_llama_subject-matter_00_20261122_201724,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_mistral_generalist_00_20261122_201724,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_mistral_normative_00_20261122_201724,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_mistral_subject-matter_00_20261122_201724,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_gemma3_generalist_00_20261122_201724,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_gemma3_normative_00_20261122_201724,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_gemma3_subject-matter_00_20261122_201724,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,0
+ANCHOR_NUM_HIGH_phi4_generalist_01_20261122_201822,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_phi4_normative_01_20261122_201822,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_phi4_subject-matter_01_20261122_201822,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_llama_generalist_01_20261122_201822,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_llama_normative_01_20261122_201822,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_llama_subject-matter_01_20261122_201822,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_mistral_generalist_01_20261122_201822,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_mistral_normative_01_20261122_201822,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_mistral_subject-matter_01_20261122_201822,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_gemma3_generalist_01_20261122_201822,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_gemma3_normative_01_20261122_201822,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_gemma3_subject-matter_01_20261122_201822,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,1
+ANCHOR_NUM_HIGH_phi4_generalist_02_20261122_201920,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_phi4_normative_02_20261122_201920,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_phi4_subject-matter_02_20261122_201920,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_llama_generalist_02_20261122_201920,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_llama_normative_02_20261122_201920,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_llama_subject-matter_02_20261122_201920,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_mistral_generalist_02_20261122_201920,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_mistral_normative_02_20261122_201920,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_mistral_subject-matter_02_20261122_201920,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_gemma3_generalist_02_20261122_201920,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_gemma3_normative_02_20261122_201920,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_gemma3_subject-matter_02_20261122_201920,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,2
+ANCHOR_NUM_HIGH_phi4_generalist_03_20261122_202017,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_phi4_normative_03_20261122_202017,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_phi4_subject-matter_03_20261122_202017,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_llama_generalist_03_20261122_202017,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_llama_normative_03_20261122_202017,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_llama_subject-matter_03_20261122_202017,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_mistral_generalist_03_20261122_202017,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_mistral_normative_03_20261122_202017,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_mistral_subject-matter_03_20261122_202017,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_gemma3_generalist_03_20261122_202017,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_gemma3_normative_03_20261122_202017,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_gemma3_subject-matter_03_20261122_202017,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,3
+ANCHOR_NUM_HIGH_phi4_generalist_04_20261122_202115,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_phi4_normative_04_20261122_202115,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_phi4_subject-matter_04_20261122_202115,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_llama_generalist_04_20261122_202115,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_llama_normative_04_20261122_202115,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_llama_subject-matter_04_20261122_202115,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_mistral_generalist_04_20261122_202115,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_mistral_normative_04_20261122_202115,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_mistral_subject-matter_04_20261122_202115,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_gemma3_generalist_04_20261122_202115,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_gemma3_normative_04_20261122_202115,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_gemma3_subject-matter_04_20261122_202115,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,4
+ANCHOR_NUM_HIGH_phi4_generalist_05_20261122_202213,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_phi4_normative_05_20261122_202213,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_phi4_subject-matter_05_20261122_202213,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_llama_generalist_05_20261122_202213,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_llama_normative_05_20261122_202213,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_llama_subject-matter_05_20261122_202213,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_mistral_generalist_05_20261122_202213,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_mistral_normative_05_20261122_202213,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_mistral_subject-matter_05_20261122_202213,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_gemma3_generalist_05_20261122_202213,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_gemma3_normative_05_20261122_202213,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_gemma3_subject-matter_05_20261122_202213,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,5
+ANCHOR_NUM_HIGH_phi4_generalist_06_20261122_202311,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_phi4_normative_06_20261122_202311,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_phi4_subject-matter_06_20261122_202311,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_llama_generalist_06_20261122_202311,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_llama_normative_06_20261122_202311,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_llama_subject-matter_06_20261122_202311,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_mistral_generalist_06_20261122_202311,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_mistral_normative_06_20261122_202311,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_mistral_subject-matter_06_20261122_202311,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_gemma3_generalist_06_20261122_202311,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_gemma3_normative_06_20261122_202311,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_gemma3_subject-matter_06_20261122_202311,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,6
+ANCHOR_NUM_HIGH_phi4_generalist_07_20261122_202409,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_phi4_normative_07_20261122_202409,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_phi4_subject-matter_07_20261122_202409,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_llama_generalist_07_20261122_202409,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_llama_normative_07_20261122_202409,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_llama_subject-matter_07_20261122_202409,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_mistral_generalist_07_20261122_202409,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_mistral_normative_07_20261122_202409,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_mistral_subject-matter_07_20261122_202409,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_gemma3_generalist_07_20261122_202409,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_gemma3_normative_07_20261122_202409,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_gemma3_subject-matter_07_20261122_202409,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,7
+ANCHOR_NUM_HIGH_phi4_generalist_08_20261122_202507,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_phi4_normative_08_20261122_202507,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_phi4_subject-matter_08_20261122_202507,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_llama_generalist_08_20261122_202507,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_llama_normative_08_20261122_202507,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_llama_subject-matter_08_20261122_202507,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_mistral_generalist_08_20261122_202507,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_mistral_normative_08_20261122_202507,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_mistral_subject-matter_08_20261122_202507,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_gemma3_generalist_08_20261122_202507,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_gemma3_normative_08_20261122_202507,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_gemma3_subject-matter_08_20261122_202507,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,8
+ANCHOR_NUM_HIGH_phi4_generalist_09_20261122_202604,phi4_generalist,phi4,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_phi4_normative_09_20261122_202604,phi4_normative,phi4,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_phi4_subject-matter_09_20261122_202604,phi4_subject-matter,phi4,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_llama_generalist_09_20261122_202604,llama_generalist,llama,generalist,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_llama_normative_09_20261122_202604,llama_normative,llama,normative,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_llama_subject-matter_09_20261122_202604,llama_subject-matter,llama,subject-matter,4,Very feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_mistral_generalist_09_20261122_202604,mistral_generalist,mistral,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_mistral_normative_09_20261122_202604,mistral_normative,mistral,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_mistral_subject-matter_09_20261122_202604,mistral_subject-matter,mistral,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_gemma3_generalist_09_20261122_202604,gemma3_generalist,gemma3,generalist,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_gemma3_normative_09_20261122_202604,gemma3_normative,gemma3,normative,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9
+ANCHOR_NUM_HIGH_gemma3_subject-matter_09_20261122_202604,gemma3_subject-matter,gemma3,subject-matter,3,Feasible,anchor,ANCHOR_NUM_HIGH,high,9

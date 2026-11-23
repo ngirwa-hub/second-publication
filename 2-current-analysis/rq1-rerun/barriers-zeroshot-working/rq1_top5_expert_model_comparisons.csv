@@ -1,0 +1,5 @@
+unit,expert_top5,model_top5,shared_barriers,model_only,expert_only,n_shared,n_union,jaccard
+Gemma3:12B,"B9, B10, B8, B11, B6","B11, B9, B10, B8, B4","B9, B10, B8, B11",B4,B6,4,6,0.6666666666666666
+LLaMa-Pro,"B9, B10, B8, B11, B6","B11, B7, B4, B9, B2","B9, B11","B7, B4, B2","B10, B8, B6",2,8,0.25
+Mistral,"B9, B10, B8, B11, B6","B11, B7, B10, B4, B9","B9, B10, B11","B7, B4","B8, B6",3,7,0.42857142857142855
+Phi-4,"B9, B10, B8, B11, B6","B10, B9, B11, B4, B8","B9, B10, B8, B11",B4,B6,4,6,0.6666666666666666

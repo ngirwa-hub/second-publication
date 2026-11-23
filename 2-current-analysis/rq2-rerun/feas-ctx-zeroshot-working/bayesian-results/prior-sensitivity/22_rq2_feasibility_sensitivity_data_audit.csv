@@ -1,0 +1,10 @@
+base_model,condition,rating_value,n
+gemma3,ZEROSHOT,3,150
+gemma3,CONTEXT,3,150
+llama,ZEROSHOT,2,150
+llama,CONTEXT,4,150
+mistral,ZEROSHOT,3,150
+mistral,CONTEXT,3,150
+phi4,ZEROSHOT,3,100
+phi4,ZEROSHOT,4,50
+phi4,CONTEXT,3,150

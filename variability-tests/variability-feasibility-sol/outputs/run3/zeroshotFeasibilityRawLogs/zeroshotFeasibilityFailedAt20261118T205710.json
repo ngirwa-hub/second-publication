@@ -1,0 +1,67 @@
+{
+    "question": "Question: How feasible is the use of DC solutions for the target sectors described in the Shift2DC project?\nKey considerations:\n- Consider all the listed DC solutions within the context of the Shift2DC project.\n- Provide an overall assessment of the feasibility of these DC solutions in the target sectors.\n⚠️-Use ONLY the provided rating scale <0–4> (the feasibility Scale).\n- Do not provide justification for your choice.\n- Focus on the overall feasibility rather than assessing each solution individually.\n\n\nFeasibility Scale:\n0- Not able to respond\n1 - Not feasible\n2 - Somewhat feasible\n3 - Feasible\n4 - Very feasible\n",
+    "structured_responses": {
+        "phi4-generalist": {
+            "rating": null,
+            "label": ""
+        },
+        "phi4-normative": {
+            "rating": 3,
+            "label": "Feasible"
+        },
+        "phi4-subject-matter": {
+            "rating": 4,
+            "label": "Very feasible"
+        },
+        "gemma3-generalist": {
+            "rating": 3,
+            "label": "Feasible"
+        },
+        "gemma3-normative": {
+            "rating": 3,
+            "label": "Feasible"
+        },
+        "gemma3-subject-matter": {
+            "rating": 3,
+            "label": "Feasible"
+        },
+        "llama-generalist": {
+            "rating": 2,
+            "label": "Somewhat feasible"
+        },
+        "llama-normative": {
+            "rating": 4,
+            "label": "Very feasible"
+        },
+        "llama-subject-matter": {
+            "rating": 2,
+            "label": "Somewhat feasible"
+        },
+        "mistral-generalist": {
+            "rating": 3,
+            "label": "Feasible"
+        },
+        "mistral-normative": {
+            "rating": 3,
+            "label": "Feasible"
+        },
+        "mistral-subject-matter": {
+            "rating": 3,
+            "label": "Feasible"
+        }
+    },
+    "raw_responses": {
+        "phi4-generalist": "",
+        "phi4-normative": "3 - Feasible\n\n(Note: This assessment considers the collective potential and current technological advancements of the listed DC solutions across the specified sectors, acknowledging existing challenges and the need for further development and integration.)",
+        "phi4-subject-matter": "4 - Very feasible\n\n(Note: This rating reflects an overall assessment considering the integration potential and benefits of DC technologies in ports, industry, data centers, and buildings as outlined in the Shift2DC project.)",
+        "gemma3-generalist": "3 - Feasible",
+        "gemma3-normative": "3 - Feasible",
+        "gemma3-subject-matter": "3 - Feasible",
+        "llama-generalist": "2 - Somewhat feasible\n",
+        "llama-normative": "4 - Very feasible\n",
+        "llama-subject-matter": "2 - Somewhat feasible\n",
+        "mistral-generalist": " 3 - Feasible",
+        "mistral-normative": " 3 - Feasible",
+        "mistral-subject-matter": " 3 - Feasible"
+    }
+}

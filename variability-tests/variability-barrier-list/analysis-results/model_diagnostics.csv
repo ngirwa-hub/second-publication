@@ -1,0 +1,5 @@
+"model","estimator","converged","pooled_binomial_rows","iteration_clusters","requested_bootstrap_fits","successful_bootstrap_fits","fit_warnings","bootstrap_error_messages"
+"Phi-4","Mean-bias-reduced binomial logistic regression",TRUE,550,50,1000,1000,"",""
+"Gemma 3","Mean-bias-reduced binomial logistic regression",TRUE,550,50,1000,1000,"",""
+"Llama","Mean-bias-reduced binomial logistic regression",TRUE,550,50,1000,1000,"",""
+"Mistral","Mean-bias-reduced binomial logistic regression",TRUE,550,50,1000,1000,"",""

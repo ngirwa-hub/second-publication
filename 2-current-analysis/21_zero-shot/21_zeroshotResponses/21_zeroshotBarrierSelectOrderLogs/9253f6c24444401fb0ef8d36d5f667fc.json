@@ -1,0 +1,1017 @@
+{
+  "condition": "ZERO_SHOT",
+  "anchor_type": "",
+  "anchor_level": "",
+  "attempt_id": "9253f6c24444401fb0ef8d36d5f667fc",
+  "iteration": 22,
+  "attempt_number": 1,
+  "timestamp": "2026-11-20T15:02:46.000890+00:00",
+  "status": "success",
+  "algorithm": "Fisher-Yates",
+  "shuffle_source": "SystemRandom",
+  "shuffle_seed": null,
+  "model_seed": 42,
+  "model_variants": [
+    "phi4-generalist",
+    "phi4-normative",
+    "phi4-subject-matter",
+    "gemma3-generalist",
+    "gemma3-normative",
+    "gemma3-subject-matter",
+    "llama-generalist",
+    "llama-normative",
+    "llama-subject-matter",
+    "mistral-generalist",
+    "mistral-normative",
+    "mistral-subject-matter"
+  ],
+  "order": [
+    {
+      "displayed_position": 1,
+      "barrier_id": 1,
+      "official_label": "power losses, quality and safety issues"
+    },
+    {
+      "displayed_position": 2,
+      "barrier_id": 7,
+      "official_label": "incompatibility of DC systems components"
+    },
+    {
+      "displayed_position": 3,
+      "barrier_id": 8,
+      "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+    },
+    {
+      "displayed_position": 4,
+      "barrier_id": 9,
+      "official_label": "lack of enough trained personnel in DC systems"
+    },
+    {
+      "displayed_position": 5,
+      "barrier_id": 11,
+      "official_label": "high costs of DC solutions"
+    },
+    {
+      "displayed_position": 6,
+      "barrier_id": 5,
+      "official_label": "lack of pilot projects"
+    },
+    {
+      "displayed_position": 7,
+      "barrier_id": 10,
+      "official_label": "uncertain regulatory roadmap"
+    },
+    {
+      "displayed_position": 8,
+      "barrier_id": 4,
+      "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+    },
+    {
+      "displayed_position": 9,
+      "barrier_id": 3,
+      "official_label": "lack of use-cases in which DC is advantageous"
+    },
+    {
+      "displayed_position": 10,
+      "barrier_id": 2,
+      "official_label": "reduced reliability in DC devices"
+    },
+    {
+      "displayed_position": 11,
+      "barrier_id": 6,
+      "official_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+    }
+  ],
+  "prompt": "- The expert elicitation is based on the Shift2DC project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies.\n- The project focuses on the development and demonstration of DC solutions in four sectors: ports, industry, data centers, and buildings.\n\nYou are participating in an expert elicitation exercise.\nPlease consider the provided context and respond according to your expert role.\nYou must select exactly five (5) barriers from the list provided.\nDo not select more or fewer than five.\n⚠️ You must copy and use the barrier entries exactly as listed — including the full label.\nDo not paraphrase, rephrase, or modify any barrier wording.\nOnly select from the list — do not add new barriers.\nThe list is shown in random order and does not reflect importance.\nNo justification is required. Return only five lines, each starting with '- ' followed by one selected full barrier label. Do not number the selections.\n\nBarriers:\n- power losses, quality and safety issues\n- incompatibility of DC systems components\n- misconception and lack of knowledge leads to lengthy/expensive design and permit process\n- lack of enough trained personnel in DC systems\n- high costs of DC solutions\n- lack of pilot projects\n- uncertain regulatory roadmap\n- uncertain utility interaction (net metering, utility ownership, and agreed standards)\n- lack of use-cases in which DC is advantageous\n- reduced reliability in DC devices\n- public perception of DC and readiness to 'champion' installations from DC projects",
+  "prompt_sha256": "0088c62fb09355e1355b4eeb5577e5a0302ab9423b6b1115bc763e25cff8b771",
+  "parser_policy": {
+    "selection_rule": "first_five_unique_valid_in_response_order",
+    "similarity_metric": "SequenceMatcher on normalized full labels",
+    "threshold": 0.85,
+    "minimum_margin": 0.05,
+    "aliases": {},
+    "matching_policy": "automatic_similarity_without_predefined_aliases"
+  },
+  "selection_audit": {
+    "phi4-generalist": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 4,
+          "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6331360946745562,
+          "suggested_barrier_id": 4,
+          "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "phi4-normative": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 4,
+          "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6331360946745562,
+          "suggested_barrier_id": 4,
+          "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "phi4-subject-matter": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 4,
+          "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6331360946745562,
+          "suggested_barrier_id": 4,
+          "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "gemma3-generalist": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 6,
+          "official_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+          "model_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6274509803921569,
+          "suggested_barrier_id": 6,
+          "suggested_label": "public perception of DC and readiness to 'champion' installations from DC projects",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "gemma3-normative": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 4,
+          "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6331360946745562,
+          "suggested_barrier_id": 4,
+          "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "gemma3-subject-matter": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "llama-generalist": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "llama-normative": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "llama-subject-matter": {
+      "parsed_entries": 5,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 5,
+          "selection_status": "selected"
+        }
+      ]
+    },
+    "mistral-generalist": {
+      "parsed_entries": 7,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 5,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 6,
+          "selection_status": "extra_valid"
+        },
+        {
+          "barrier_id": 4,
+          "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "model_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6331360946745562,
+          "suggested_barrier_id": 4,
+          "suggested_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)",
+          "response_line": 7,
+          "selection_status": "extra_valid"
+        }
+      ]
+    },
+    "mistral-normative": {
+      "parsed_entries": 6,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 8,
+          "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "model_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5833333333333333,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 5,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": null,
+          "official_label": "",
+          "model_label": "These barriers have been selected due to their direct impact on the adoption and implementation of DC technologies in the Shift2DC project's focus sectors. Power losses, quality, and safety issues are significant concerns in the transition to DC systems. Incompatibility of components hinders seamless integration and efficient operation. Lack of knowledge and trained personnel can lead to lengthy and expensive design and permit processes, while an uncertain regulatory roadmap and utility interaction can create uncertainty and potential barriers to adoption.",
+          "label_status": "unmatched",
+          "match_method": "unmatched",
+          "match_similarity": 0.26127527216174184,
+          "match_margin": 0.10089791367117582,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 7,
+          "selection_status": "unmatched"
+        }
+      ]
+    },
+    "mistral-subject-matter": {
+      "parsed_entries": 7,
+      "selected_count": 5,
+      "entries": [
+        {
+          "barrier_id": 1,
+          "official_label": "power losses, quality and safety issues",
+          "model_label": "power losses, quality and safety issues",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5492957746478873,
+          "suggested_barrier_id": 1,
+          "suggested_label": "power losses, quality and safety issues",
+          "response_line": 1,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 7,
+          "official_label": "incompatibility of DC systems components",
+          "model_label": "incompatibility of DC systems components",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 7,
+          "suggested_label": "incompatibility of DC systems components",
+          "response_line": 2,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 9,
+          "official_label": "lack of enough trained personnel in DC systems",
+          "model_label": "lack of enough trained personnel in DC systems",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5164835164835164,
+          "suggested_barrier_id": 9,
+          "suggested_label": "lack of enough trained personnel in DC systems",
+          "response_line": 3,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 11,
+          "official_label": "high costs of DC solutions",
+          "model_label": "high costs of DC solutions",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.5151515151515151,
+          "suggested_barrier_id": 11,
+          "suggested_label": "high costs of DC solutions",
+          "response_line": 4,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": 10,
+          "official_label": "uncertain regulatory roadmap",
+          "model_label": "uncertain regulatory roadmap",
+          "label_status": "matched",
+          "match_method": "exact_normalized",
+          "match_similarity": 1.0,
+          "match_margin": 0.6666666666666667,
+          "suggested_barrier_id": 10,
+          "suggested_label": "uncertain regulatory roadmap",
+          "response_line": 5,
+          "selection_status": "selected"
+        },
+        {
+          "barrier_id": null,
+          "official_label": "",
+          "model_label": "These barriers are significant challenges that need to be addressed in order to accelerate the transition to a sustainable energy system using direct current (DC) technologies. Power losses, quality, and safety issues are crucial concerns as they impact the efficiency and reliability of DC power systems. Incompatibility of DC systems components can hinder the integration of various components in a system, leading to increased costs and potential system failures. A lack of trained personnel in DC systems can slow down the adoption and implementation of DC technologies, as skilled workers are essential for the design, installation, and maintenance of these systems. High costs of DC solutions can be a barrier to widespread adoption, particularly in regions with limited financial resources. An uncertain regulatory roadmap can create uncertainty and slow down the adoption of DC technologies, as regulations play a critical role in shaping the market for these technologies.",
+          "label_status": "unmatched",
+          "match_method": "unmatched",
+          "match_similarity": 0.12155745489078823,
+          "match_margin": 0.008638794603706895,
+          "suggested_barrier_id": 8,
+          "suggested_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+          "response_line": 7,
+          "selection_status": "unmatched"
+        },
+        {
+          "barrier_id": null,
+          "official_label": "",
+          "model_label": "The Shift2DC project aims to address these challenges and promote the use of DC technologies in ports, industry, data centers, and buildings. Through the development and demonstration of DC solutions, the project aims to demonstrate the advantages of DC technologies and promote their widespread adoption. By addressing these barriers, the project aims to accelerate the transition to a sustainable energy system using direct current (DC) technologies.",
+          "label_status": "unmatched",
+          "match_method": "unmatched",
+          "match_similarity": 0.1437371663244353,
+          "match_margin": 0.0019747142171556153,
+          "suggested_barrier_id": 3,
+          "suggested_label": "lack of use-cases in which DC is advantageous",
+          "response_line": 9,
+          "selection_status": "unmatched"
+        }
+      ]
+    }
+  },
+  "raw_log": "21_zeroshotBarrierSelectRandOrderIter22Attempt9253f6c24444401fb0ef8d36d5f667fc.txt",
+  "finished_at": "2026-11-20T15:03:39.924907+00:00",
+  "failed_models": []
+}

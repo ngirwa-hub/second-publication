@@ -1,0 +1,841 @@
+row_id,base_model,variant_id,model,rating,label,iteration,timestamp,raw_response,condition,anchor_type,anchor_level
+ANCHOR_WORD_phi4_generalist_00_20261122_193136,phi4,phi4_generalist,generalist,3,Feasible,0,20261122_193136,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_00_20261122_193136,phi4,phi4_normative,normative,3,Feasible,0,20261122_193136,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_00_20261122_193136,phi4,phi4_subject-matter,subject-matter,3,Feasible,0,20261122_193136,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_00_20261122_193136,llama,llama_generalist,generalist,4,Very feasible,0,20261122_193136,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_00_20261122_193136,llama,llama_normative,normative,4,Very feasible,0,20261122_193136,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_00_20261122_193136,llama,llama_subject-matter,subject-matter,4,Very feasible,0,20261122_193136,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_00_20261122_193136,mistral,mistral_generalist,generalist,3,Feasible,0,20261122_193136, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_00_20261122_193136,mistral,mistral_normative,normative,3,Feasible,0,20261122_193136, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_00_20261122_193136,mistral,mistral_subject-matter,subject-matter,3,Feasible,0,20261122_193136, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_00_20261122_193136,gemma3,gemma3_generalist,generalist,3,Feasible,0,20261122_193136,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_00_20261122_193136,gemma3,gemma3_normative,normative,3,Feasible,0,20261122_193136,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_00_20261122_193136,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,0,20261122_193136,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_01_20261122_193544,phi4,phi4_generalist,generalist,3,Feasible,1,20261122_193544,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_01_20261122_193544,phi4,phi4_normative,normative,3,Feasible,1,20261122_193544,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_01_20261122_193544,phi4,phi4_subject-matter,subject-matter,3,Feasible,1,20261122_193544,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_01_20261122_193544,llama,llama_generalist,generalist,4,Very feasible,1,20261122_193544,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_01_20261122_193544,llama,llama_normative,normative,4,Very feasible,1,20261122_193544,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_01_20261122_193544,llama,llama_subject-matter,subject-matter,4,Very feasible,1,20261122_193544,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_01_20261122_193544,mistral,mistral_generalist,generalist,3,Feasible,1,20261122_193544, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_01_20261122_193544,mistral,mistral_normative,normative,3,Feasible,1,20261122_193544, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_01_20261122_193544,mistral,mistral_subject-matter,subject-matter,3,Feasible,1,20261122_193544, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_01_20261122_193544,gemma3,gemma3_generalist,generalist,3,Feasible,1,20261122_193544,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_01_20261122_193544,gemma3,gemma3_normative,normative,3,Feasible,1,20261122_193544,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_01_20261122_193544,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,1,20261122_193544,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_02_20261122_193645,phi4,phi4_generalist,generalist,3,Feasible,2,20261122_193645,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_02_20261122_193645,phi4,phi4_normative,normative,3,Feasible,2,20261122_193645,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_02_20261122_193645,phi4,phi4_subject-matter,subject-matter,3,Feasible,2,20261122_193645,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_02_20261122_193645,llama,llama_generalist,generalist,4,Very feasible,2,20261122_193645,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_02_20261122_193645,llama,llama_normative,normative,4,Very feasible,2,20261122_193645,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_02_20261122_193645,llama,llama_subject-matter,subject-matter,4,Very feasible,2,20261122_193645,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_02_20261122_193645,mistral,mistral_generalist,generalist,3,Feasible,2,20261122_193645, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_02_20261122_193645,mistral,mistral_normative,normative,3,Feasible,2,20261122_193645, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_02_20261122_193645,mistral,mistral_subject-matter,subject-matter,3,Feasible,2,20261122_193645, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_02_20261122_193645,gemma3,gemma3_generalist,generalist,3,Feasible,2,20261122_193645,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_02_20261122_193645,gemma3,gemma3_normative,normative,3,Feasible,2,20261122_193645,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_02_20261122_193645,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,2,20261122_193645,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_03_20261122_193747,phi4,phi4_generalist,generalist,3,Feasible,3,20261122_193747,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_03_20261122_193747,phi4,phi4_normative,normative,3,Feasible,3,20261122_193747,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_03_20261122_193747,phi4,phi4_subject-matter,subject-matter,3,Feasible,3,20261122_193747,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_03_20261122_193747,llama,llama_generalist,generalist,4,Very feasible,3,20261122_193747,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_03_20261122_193747,llama,llama_normative,normative,4,Very feasible,3,20261122_193747,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_03_20261122_193747,llama,llama_subject-matter,subject-matter,4,Very feasible,3,20261122_193747,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_03_20261122_193747,mistral,mistral_generalist,generalist,3,Feasible,3,20261122_193747, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_03_20261122_193747,mistral,mistral_normative,normative,3,Feasible,3,20261122_193747, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_03_20261122_193747,mistral,mistral_subject-matter,subject-matter,3,Feasible,3,20261122_193747, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_03_20261122_193747,gemma3,gemma3_generalist,generalist,3,Feasible,3,20261122_193747,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_03_20261122_193747,gemma3,gemma3_normative,normative,3,Feasible,3,20261122_193747,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_03_20261122_193747,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,3,20261122_193747,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_05_20261122_193950,phi4,phi4_generalist,generalist,3,Feasible,5,20261122_193950,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_05_20261122_193950,phi4,phi4_normative,normative,3,Feasible,5,20261122_193950,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_05_20261122_193950,phi4,phi4_subject-matter,subject-matter,3,Feasible,5,20261122_193950,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_05_20261122_193950,llama,llama_generalist,generalist,4,Very feasible,5,20261122_193950,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_05_20261122_193950,llama,llama_normative,normative,4,Very feasible,5,20261122_193950,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_05_20261122_193950,llama,llama_subject-matter,subject-matter,4,Very feasible,5,20261122_193950,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_05_20261122_193950,mistral,mistral_generalist,generalist,3,Feasible,5,20261122_193950, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_05_20261122_193950,mistral,mistral_normative,normative,3,Feasible,5,20261122_193950, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_05_20261122_193950,mistral,mistral_subject-matter,subject-matter,3,Feasible,5,20261122_193950, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_05_20261122_193950,gemma3,gemma3_generalist,generalist,3,Feasible,5,20261122_193950,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_05_20261122_193950,gemma3,gemma3_normative,normative,3,Feasible,5,20261122_193950,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_05_20261122_193950,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,5,20261122_193950,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_06_20261122_194051,phi4,phi4_generalist,generalist,3,Feasible,6,20261122_194051,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_06_20261122_194051,phi4,phi4_normative,normative,3,Feasible,6,20261122_194051,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_06_20261122_194051,phi4,phi4_subject-matter,subject-matter,3,Feasible,6,20261122_194051,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_06_20261122_194051,llama,llama_generalist,generalist,4,Very feasible,6,20261122_194051,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_06_20261122_194051,llama,llama_normative,normative,4,Very feasible,6,20261122_194051,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_06_20261122_194051,llama,llama_subject-matter,subject-matter,4,Very feasible,6,20261122_194051,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_06_20261122_194051,mistral,mistral_generalist,generalist,3,Feasible,6,20261122_194051, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_06_20261122_194051,mistral,mistral_normative,normative,3,Feasible,6,20261122_194051, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_06_20261122_194051,mistral,mistral_subject-matter,subject-matter,3,Feasible,6,20261122_194051, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_06_20261122_194051,gemma3,gemma3_generalist,generalist,3,Feasible,6,20261122_194051,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_06_20261122_194051,gemma3,gemma3_normative,normative,3,Feasible,6,20261122_194051,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_06_20261122_194051,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,6,20261122_194051,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_07_20261122_194153,phi4,phi4_generalist,generalist,3,Feasible,7,20261122_194153,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_07_20261122_194153,phi4,phi4_normative,normative,3,Feasible,7,20261122_194153,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_07_20261122_194153,phi4,phi4_subject-matter,subject-matter,3,Feasible,7,20261122_194153,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_07_20261122_194153,llama,llama_generalist,generalist,4,Very feasible,7,20261122_194153,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_07_20261122_194153,llama,llama_normative,normative,4,Very feasible,7,20261122_194153,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_07_20261122_194153,llama,llama_subject-matter,subject-matter,4,Very feasible,7,20261122_194153,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_07_20261122_194153,mistral,mistral_generalist,generalist,3,Feasible,7,20261122_194153, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_07_20261122_194153,mistral,mistral_normative,normative,3,Feasible,7,20261122_194153, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_07_20261122_194153,mistral,mistral_subject-matter,subject-matter,3,Feasible,7,20261122_194153, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_07_20261122_194153,gemma3,gemma3_generalist,generalist,3,Feasible,7,20261122_194153,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_07_20261122_194153,gemma3,gemma3_normative,normative,3,Feasible,7,20261122_194153,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_07_20261122_194153,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,7,20261122_194153,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_08_20261122_194257,phi4,phi4_generalist,generalist,3,Feasible,8,20261122_194257,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_08_20261122_194257,phi4,phi4_normative,normative,3,Feasible,8,20261122_194257,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_08_20261122_194257,phi4,phi4_subject-matter,subject-matter,3,Feasible,8,20261122_194257,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_08_20261122_194257,llama,llama_generalist,generalist,4,Very feasible,8,20261122_194257,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_08_20261122_194257,llama,llama_normative,normative,4,Very feasible,8,20261122_194257,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_08_20261122_194257,llama,llama_subject-matter,subject-matter,4,Very feasible,8,20261122_194257,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_08_20261122_194257,mistral,mistral_generalist,generalist,3,Feasible,8,20261122_194257, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_08_20261122_194257,mistral,mistral_normative,normative,3,Feasible,8,20261122_194257, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_08_20261122_194257,mistral,mistral_subject-matter,subject-matter,3,Feasible,8,20261122_194257, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_08_20261122_194257,gemma3,gemma3_generalist,generalist,3,Feasible,8,20261122_194257,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_08_20261122_194257,gemma3,gemma3_normative,normative,3,Feasible,8,20261122_194257,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_08_20261122_194257,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,8,20261122_194257,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_09_20261122_194400,phi4,phi4_generalist,generalist,3,Feasible,9,20261122_194400,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_09_20261122_194400,phi4,phi4_normative,normative,3,Feasible,9,20261122_194400,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_09_20261122_194400,phi4,phi4_subject-matter,subject-matter,3,Feasible,9,20261122_194400,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_09_20261122_194400,llama,llama_generalist,generalist,4,Very feasible,9,20261122_194400,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_09_20261122_194400,llama,llama_normative,normative,4,Very feasible,9,20261122_194400,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_09_20261122_194400,llama,llama_subject-matter,subject-matter,4,Very feasible,9,20261122_194400,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_09_20261122_194400,mistral,mistral_generalist,generalist,3,Feasible,9,20261122_194400, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_09_20261122_194400,mistral,mistral_normative,normative,3,Feasible,9,20261122_194400, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_09_20261122_194400,mistral,mistral_subject-matter,subject-matter,3,Feasible,9,20261122_194400, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_09_20261122_194400,gemma3,gemma3_generalist,generalist,3,Feasible,9,20261122_194400,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_09_20261122_194400,gemma3,gemma3_normative,normative,3,Feasible,9,20261122_194400,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_09_20261122_194400,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,9,20261122_194400,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_generalist_10_20261122_194501,phi4,phi4_generalist,generalist,3,Feasible,10,20261122_194501,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, along with the comprehensive scope of the Shift2DC project, which includes a variety of demonstrators and technological solutions across multiple sectors. While there are challenges in terms of costs, standards, and user adoption, the project's structured approach and alignment with ongoing European initiatives suggest a feasible path forward for these DC solutions in the targeted sectors.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_normative_10_20261122_194501,phi4,phi4_normative,normative,3,Feasible,10,20261122_194501,"3 - Feasible
+
+This rating reflects the current state of European efforts and standardization in LV/MV-DC microgrids across sectors, indicating a reasonable likelihood of successful deployment and integration of the Shift2DC project's DC solutions.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_phi4_subject-matter_10_20261122_194501,phi4,phi4_subject-matter,subject-matter,3,Feasible,10,20261122_194501,"3 - Feasible
+
+This rating reflects the current state of European efforts in deploying and standardizing LV/MV-DC microgrids, alongside the promising technologies developed within the Shift2DC project. Given the ongoing advancements, expert input, and demonstrated prototypes, DC solutions appear feasible for implementation across the target sectors (data centers, buildings, industry, and ports). However, the complete integration and widespread adoption still face challenges, such as regulatory barriers, infrastructure costs, and the need for further standardization, which prevent a ""Very feasible"" rating. The existing groundwork and demonstrated prototypes support the feasibility of these solutions, making them a realistic option for the near future.",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_generalist_10_20261122_194501,llama,llama_generalist,generalist,4,Very feasible,10,20261122_194501,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_normative_10_20261122_194501,llama,llama_normative,normative,4,Very feasible,10,20261122_194501,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_llama_subject-matter_10_20261122_194501,llama,llama_subject-matter,subject-matter,4,Very feasible,10,20261122_194501,"4 - Very feasible
+",ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_generalist_10_20261122_194501,mistral,mistral_generalist,generalist,3,Feasible,10,20261122_194501, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_normative_10_20261122_194501,mistral,mistral_normative,normative,3,Feasible,10,20261122_194501, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_mistral_subject-matter_10_20261122_194501,mistral,mistral_subject-matter,subject-matter,3,Feasible,10,20261122_194501, 3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_generalist_10_20261122_194501,gemma3,gemma3_generalist,generalist,3,Feasible,10,20261122_194501,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_normative_10_20261122_194501,gemma3,gemma3_normative,normative,3,Feasible,10,20261122_194501,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_WORD_gemma3_subject-matter_10_20261122_194501,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,10,20261122_194501,3 - Feasible,ANCHORED,ANCHOR_WORD,
+ANCHOR_EXAMPLE_phi4_generalist_00_20261122_195514,phi4,phi4_generalist,generalist,3,Feasible,0,20261122_195514,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_00_20261122_195514,phi4,phi4_normative,normative,3,Feasible,0,20261122_195514,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_00_20261122_195514,phi4,phi4_subject-matter,subject-matter,3,Feasible,0,20261122_195514,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_00_20261122_195514,llama,llama_generalist,generalist,4,Very feasible,0,20261122_195514,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_00_20261122_195514,llama,llama_normative,normative,4,Very feasible,0,20261122_195514,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_00_20261122_195514,llama,llama_subject-matter,subject-matter,4,Very feasible,0,20261122_195514,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_00_20261122_195514,mistral,mistral_generalist,generalist,3,Feasible,0,20261122_195514, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_00_20261122_195514,mistral,mistral_normative,normative,3,Feasible,0,20261122_195514, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_00_20261122_195514,mistral,mistral_subject-matter,subject-matter,3,Feasible,0,20261122_195514, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_00_20261122_195514,gemma3,gemma3_generalist,generalist,3,Feasible,0,20261122_195514,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_00_20261122_195514,gemma3,gemma3_normative,normative,3,Feasible,0,20261122_195514,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_00_20261122_195514,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,0,20261122_195514,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_01_20261122_195616,phi4,phi4_generalist,generalist,3,Feasible,1,20261122_195616,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_01_20261122_195616,phi4,phi4_normative,normative,3,Feasible,1,20261122_195616,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_01_20261122_195616,phi4,phi4_subject-matter,subject-matter,3,Feasible,1,20261122_195616,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_01_20261122_195616,llama,llama_generalist,generalist,4,Very feasible,1,20261122_195616,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_01_20261122_195616,llama,llama_normative,normative,4,Very feasible,1,20261122_195616,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_01_20261122_195616,llama,llama_subject-matter,subject-matter,4,Very feasible,1,20261122_195616,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_01_20261122_195616,mistral,mistral_generalist,generalist,3,Feasible,1,20261122_195616, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_01_20261122_195616,mistral,mistral_normative,normative,3,Feasible,1,20261122_195616, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_01_20261122_195616,mistral,mistral_subject-matter,subject-matter,3,Feasible,1,20261122_195616, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_01_20261122_195616,gemma3,gemma3_generalist,generalist,3,Feasible,1,20261122_195616,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_01_20261122_195616,gemma3,gemma3_normative,normative,3,Feasible,1,20261122_195616,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_01_20261122_195616,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,1,20261122_195616,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_02_20261122_195718,phi4,phi4_generalist,generalist,3,Feasible,2,20261122_195718,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_02_20261122_195718,phi4,phi4_normative,normative,3,Feasible,2,20261122_195718,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_02_20261122_195718,phi4,phi4_subject-matter,subject-matter,3,Feasible,2,20261122_195718,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_02_20261122_195718,llama,llama_generalist,generalist,4,Very feasible,2,20261122_195718,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_02_20261122_195718,llama,llama_normative,normative,4,Very feasible,2,20261122_195718,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_02_20261122_195718,llama,llama_subject-matter,subject-matter,4,Very feasible,2,20261122_195718,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_02_20261122_195718,mistral,mistral_generalist,generalist,3,Feasible,2,20261122_195718, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_02_20261122_195718,mistral,mistral_normative,normative,3,Feasible,2,20261122_195718, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_02_20261122_195718,mistral,mistral_subject-matter,subject-matter,3,Feasible,2,20261122_195718, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_02_20261122_195718,gemma3,gemma3_generalist,generalist,3,Feasible,2,20261122_195718,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_02_20261122_195718,gemma3,gemma3_normative,normative,3,Feasible,2,20261122_195718,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_02_20261122_195718,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,2,20261122_195718,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_03_20261122_195821,phi4,phi4_generalist,generalist,3,Feasible,3,20261122_195821,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_03_20261122_195821,phi4,phi4_normative,normative,3,Feasible,3,20261122_195821,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_03_20261122_195821,phi4,phi4_subject-matter,subject-matter,3,Feasible,3,20261122_195821,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_03_20261122_195821,llama,llama_generalist,generalist,4,Very feasible,3,20261122_195821,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_03_20261122_195821,llama,llama_normative,normative,4,Very feasible,3,20261122_195821,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_03_20261122_195821,llama,llama_subject-matter,subject-matter,4,Very feasible,3,20261122_195821,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_03_20261122_195821,mistral,mistral_generalist,generalist,3,Feasible,3,20261122_195821, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_03_20261122_195821,mistral,mistral_normative,normative,3,Feasible,3,20261122_195821, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_03_20261122_195821,mistral,mistral_subject-matter,subject-matter,3,Feasible,3,20261122_195821, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_03_20261122_195821,gemma3,gemma3_generalist,generalist,3,Feasible,3,20261122_195821,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_03_20261122_195821,gemma3,gemma3_normative,normative,3,Feasible,3,20261122_195821,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_03_20261122_195821,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,3,20261122_195821,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_04_20261122_195924,phi4,phi4_generalist,generalist,3,Feasible,4,20261122_195924,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_04_20261122_195924,phi4,phi4_normative,normative,3,Feasible,4,20261122_195924,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_04_20261122_195924,phi4,phi4_subject-matter,subject-matter,3,Feasible,4,20261122_195924,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_04_20261122_195924,llama,llama_generalist,generalist,4,Very feasible,4,20261122_195924,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_04_20261122_195924,llama,llama_normative,normative,4,Very feasible,4,20261122_195924,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_04_20261122_195924,llama,llama_subject-matter,subject-matter,4,Very feasible,4,20261122_195924,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_04_20261122_195924,mistral,mistral_generalist,generalist,3,Feasible,4,20261122_195924, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_04_20261122_195924,mistral,mistral_normative,normative,3,Feasible,4,20261122_195924, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_04_20261122_195924,mistral,mistral_subject-matter,subject-matter,3,Feasible,4,20261122_195924, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_04_20261122_195924,gemma3,gemma3_generalist,generalist,3,Feasible,4,20261122_195924,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_04_20261122_195924,gemma3,gemma3_normative,normative,3,Feasible,4,20261122_195924,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_04_20261122_195924,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,4,20261122_195924,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_05_20261122_200026,phi4,phi4_generalist,generalist,3,Feasible,5,20261122_200026,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_05_20261122_200026,phi4,phi4_normative,normative,3,Feasible,5,20261122_200026,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_05_20261122_200026,phi4,phi4_subject-matter,subject-matter,3,Feasible,5,20261122_200026,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_05_20261122_200026,llama,llama_generalist,generalist,4,Very feasible,5,20261122_200026,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_05_20261122_200026,llama,llama_normative,normative,4,Very feasible,5,20261122_200026,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_05_20261122_200026,llama,llama_subject-matter,subject-matter,4,Very feasible,5,20261122_200026,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_05_20261122_200026,mistral,mistral_generalist,generalist,3,Feasible,5,20261122_200026, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_05_20261122_200026,mistral,mistral_normative,normative,3,Feasible,5,20261122_200026, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_05_20261122_200026,mistral,mistral_subject-matter,subject-matter,3,Feasible,5,20261122_200026, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_05_20261122_200026,gemma3,gemma3_generalist,generalist,3,Feasible,5,20261122_200026,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_05_20261122_200026,gemma3,gemma3_normative,normative,3,Feasible,5,20261122_200026,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_05_20261122_200026,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,5,20261122_200026,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_06_20261122_200129,phi4,phi4_generalist,generalist,3,Feasible,6,20261122_200129,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_06_20261122_200129,phi4,phi4_normative,normative,3,Feasible,6,20261122_200129,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_06_20261122_200129,phi4,phi4_subject-matter,subject-matter,3,Feasible,6,20261122_200129,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_06_20261122_200129,llama,llama_generalist,generalist,4,Very feasible,6,20261122_200129,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_06_20261122_200129,llama,llama_normative,normative,4,Very feasible,6,20261122_200129,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_06_20261122_200129,llama,llama_subject-matter,subject-matter,4,Very feasible,6,20261122_200129,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_06_20261122_200129,mistral,mistral_generalist,generalist,3,Feasible,6,20261122_200129, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_06_20261122_200129,mistral,mistral_normative,normative,3,Feasible,6,20261122_200129, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_06_20261122_200129,mistral,mistral_subject-matter,subject-matter,3,Feasible,6,20261122_200129, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_06_20261122_200129,gemma3,gemma3_generalist,generalist,3,Feasible,6,20261122_200129,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_06_20261122_200129,gemma3,gemma3_normative,normative,3,Feasible,6,20261122_200129,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_06_20261122_200129,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,6,20261122_200129,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_07_20261122_200232,phi4,phi4_generalist,generalist,3,Feasible,7,20261122_200232,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_07_20261122_200232,phi4,phi4_normative,normative,3,Feasible,7,20261122_200232,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_07_20261122_200232,phi4,phi4_subject-matter,subject-matter,3,Feasible,7,20261122_200232,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_07_20261122_200232,llama,llama_generalist,generalist,4,Very feasible,7,20261122_200232,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_07_20261122_200232,llama,llama_normative,normative,4,Very feasible,7,20261122_200232,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_07_20261122_200232,llama,llama_subject-matter,subject-matter,4,Very feasible,7,20261122_200232,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_07_20261122_200232,mistral,mistral_generalist,generalist,3,Feasible,7,20261122_200232, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_07_20261122_200232,mistral,mistral_normative,normative,3,Feasible,7,20261122_200232, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_07_20261122_200232,mistral,mistral_subject-matter,subject-matter,3,Feasible,7,20261122_200232, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_07_20261122_200232,gemma3,gemma3_generalist,generalist,3,Feasible,7,20261122_200232,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_07_20261122_200232,gemma3,gemma3_normative,normative,3,Feasible,7,20261122_200232,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_07_20261122_200232,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,7,20261122_200232,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_08_20261122_200334,phi4,phi4_generalist,generalist,3,Feasible,8,20261122_200334,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_08_20261122_200334,phi4,phi4_normative,normative,3,Feasible,8,20261122_200334,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_08_20261122_200334,phi4,phi4_subject-matter,subject-matter,3,Feasible,8,20261122_200334,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_08_20261122_200334,llama,llama_generalist,generalist,4,Very feasible,8,20261122_200334,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_08_20261122_200334,llama,llama_normative,normative,4,Very feasible,8,20261122_200334,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_08_20261122_200334,llama,llama_subject-matter,subject-matter,4,Very feasible,8,20261122_200334,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_08_20261122_200334,mistral,mistral_generalist,generalist,3,Feasible,8,20261122_200334, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_08_20261122_200334,mistral,mistral_normative,normative,3,Feasible,8,20261122_200334, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_08_20261122_200334,mistral,mistral_subject-matter,subject-matter,3,Feasible,8,20261122_200334, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_08_20261122_200334,gemma3,gemma3_generalist,generalist,3,Feasible,8,20261122_200334,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_08_20261122_200334,gemma3,gemma3_normative,normative,3,Feasible,8,20261122_200334,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_08_20261122_200334,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,8,20261122_200334,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_generalist_09_20261122_200437,phi4,phi4_generalist,generalist,3,Feasible,9,20261122_200437,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of development, the involvement of experts, and the planned demonstrations across various application areas.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_normative_09_20261122_200437,phi4,phi4_normative,normative,3,Feasible,9,20261122_200437,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions, considering the current stage of the project, the technological readiness, and the potential for integration within the specified sectors (data centers, buildings, industry, and ports). The project's focus on developing and demonstrating a wide range of DC technologies, including smart cables, connectors, protection systems, converters, and design tools, suggests a strong foundation for feasibility. The involvement of experts and the strategic selection of demonstration sites across diverse sectors further support the project's potential to address the technical and societal challenges associated with the adoption of DC solutions. However, the project is still in its early stages, with limited direct user engagement, which might pose challenges to immediate widespread adoption. Therefore, while the project's approach and technological focus are promising, the feasibility is rated as ""Feasible"" to account for the transitional nature of the project and the broader adoption challenges ahead.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_phi4_subject-matter_09_20261122_200437,phi4,phi4_subject-matter,subject-matter,3,Feasible,9,20261122_200437,"3 - Feasible
+
+This rating reflects the overall feasibility of the DC solutions in the target sectors described in the Shift2DC project, considering the current state of technology, the project's comprehensive approach, and the alignment with industry needs and standards.",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_generalist_09_20261122_200437,llama,llama_generalist,generalist,4,Very feasible,9,20261122_200437,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_normative_09_20261122_200437,llama,llama_normative,normative,4,Very feasible,9,20261122_200437,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_llama_subject-matter_09_20261122_200437,llama,llama_subject-matter,subject-matter,4,Very feasible,9,20261122_200437,"4 - Very feasible
+",ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_generalist_09_20261122_200437,mistral,mistral_generalist,generalist,3,Feasible,9,20261122_200437, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_normative_09_20261122_200437,mistral,mistral_normative,normative,3,Feasible,9,20261122_200437, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_mistral_subject-matter_09_20261122_200437,mistral,mistral_subject-matter,subject-matter,3,Feasible,9,20261122_200437, 3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_generalist_09_20261122_200437,gemma3,gemma3_generalist,generalist,3,Feasible,9,20261122_200437,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_normative_09_20261122_200437,gemma3,gemma3_normative,normative,3,Feasible,9,20261122_200437,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_EXAMPLE_gemma3_subject-matter_09_20261122_200437,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,9,20261122_200437,3 - Feasible,ANCHORED,ANCHOR_EXAMPLE,
+ANCHOR_NUM_LOW_phi4_generalist_00_20261122_200545,phi4,phi4_generalist,generalist,3,Feasible,0,20261122_200545,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_00_20261122_200545,phi4,phi4_normative,normative,3,Feasible,0,20261122_200545,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_00_20261122_200545,phi4,phi4_subject-matter,subject-matter,3,Feasible,0,20261122_200545,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_00_20261122_200545,llama,llama_generalist,generalist,4,Very feasible,0,20261122_200545,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_00_20261122_200545,llama,llama_normative,normative,4,Very feasible,0,20261122_200545,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_00_20261122_200545,llama,llama_subject-matter,subject-matter,4,Very feasible,0,20261122_200545,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_00_20261122_200545,mistral,mistral_generalist,generalist,3,Feasible,0,20261122_200545, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_00_20261122_200545,mistral,mistral_normative,normative,3,Feasible,0,20261122_200545, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_00_20261122_200545,mistral,mistral_subject-matter,subject-matter,3,Feasible,0,20261122_200545, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_00_20261122_200545,gemma3,gemma3_generalist,generalist,3,Feasible,0,20261122_200545,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_00_20261122_200545,gemma3,gemma3_normative,normative,3,Feasible,0,20261122_200545,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_00_20261122_200545,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,0,20261122_200545,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_01_20261122_200649,phi4,phi4_generalist,generalist,3,Feasible,1,20261122_200649,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_01_20261122_200649,phi4,phi4_normative,normative,3,Feasible,1,20261122_200649,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_01_20261122_200649,phi4,phi4_subject-matter,subject-matter,3,Feasible,1,20261122_200649,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_01_20261122_200649,llama,llama_generalist,generalist,4,Very feasible,1,20261122_200649,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_01_20261122_200649,llama,llama_normative,normative,4,Very feasible,1,20261122_200649,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_01_20261122_200649,llama,llama_subject-matter,subject-matter,4,Very feasible,1,20261122_200649,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_01_20261122_200649,mistral,mistral_generalist,generalist,3,Feasible,1,20261122_200649, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_01_20261122_200649,mistral,mistral_normative,normative,3,Feasible,1,20261122_200649, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_01_20261122_200649,mistral,mistral_subject-matter,subject-matter,3,Feasible,1,20261122_200649, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_01_20261122_200649,gemma3,gemma3_generalist,generalist,3,Feasible,1,20261122_200649,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_01_20261122_200649,gemma3,gemma3_normative,normative,3,Feasible,1,20261122_200649,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_01_20261122_200649,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,1,20261122_200649,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_02_20261122_200754,phi4,phi4_generalist,generalist,3,Feasible,2,20261122_200754,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_02_20261122_200754,phi4,phi4_normative,normative,3,Feasible,2,20261122_200754,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_02_20261122_200754,phi4,phi4_subject-matter,subject-matter,3,Feasible,2,20261122_200754,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_02_20261122_200754,llama,llama_generalist,generalist,4,Very feasible,2,20261122_200754,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_02_20261122_200754,llama,llama_normative,normative,4,Very feasible,2,20261122_200754,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_02_20261122_200754,llama,llama_subject-matter,subject-matter,4,Very feasible,2,20261122_200754,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_02_20261122_200754,mistral,mistral_generalist,generalist,3,Feasible,2,20261122_200754, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_02_20261122_200754,mistral,mistral_normative,normative,3,Feasible,2,20261122_200754, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_02_20261122_200754,mistral,mistral_subject-matter,subject-matter,3,Feasible,2,20261122_200754, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_02_20261122_200754,gemma3,gemma3_generalist,generalist,3,Feasible,2,20261122_200754,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_02_20261122_200754,gemma3,gemma3_normative,normative,3,Feasible,2,20261122_200754,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_02_20261122_200754,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,2,20261122_200754,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_03_20261122_200859,phi4,phi4_generalist,generalist,3,Feasible,3,20261122_200859,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_03_20261122_200859,phi4,phi4_normative,normative,3,Feasible,3,20261122_200859,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_03_20261122_200859,phi4,phi4_subject-matter,subject-matter,3,Feasible,3,20261122_200859,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_03_20261122_200859,llama,llama_generalist,generalist,4,Very feasible,3,20261122_200859,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_03_20261122_200859,llama,llama_normative,normative,4,Very feasible,3,20261122_200859,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_03_20261122_200859,llama,llama_subject-matter,subject-matter,4,Very feasible,3,20261122_200859,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_03_20261122_200859,mistral,mistral_generalist,generalist,3,Feasible,3,20261122_200859, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_03_20261122_200859,mistral,mistral_normative,normative,3,Feasible,3,20261122_200859, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_03_20261122_200859,mistral,mistral_subject-matter,subject-matter,3,Feasible,3,20261122_200859, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_03_20261122_200859,gemma3,gemma3_generalist,generalist,3,Feasible,3,20261122_200859,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_03_20261122_200859,gemma3,gemma3_normative,normative,3,Feasible,3,20261122_200859,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_03_20261122_200859,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,3,20261122_200859,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_04_20261122_201003,phi4,phi4_generalist,generalist,3,Feasible,4,20261122_201003,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_04_20261122_201003,phi4,phi4_normative,normative,3,Feasible,4,20261122_201003,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_04_20261122_201003,phi4,phi4_subject-matter,subject-matter,3,Feasible,4,20261122_201003,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_04_20261122_201003,llama,llama_generalist,generalist,4,Very feasible,4,20261122_201003,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_04_20261122_201003,llama,llama_normative,normative,4,Very feasible,4,20261122_201003,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_04_20261122_201003,llama,llama_subject-matter,subject-matter,4,Very feasible,4,20261122_201003,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_04_20261122_201003,mistral,mistral_generalist,generalist,3,Feasible,4,20261122_201003, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_04_20261122_201003,mistral,mistral_normative,normative,3,Feasible,4,20261122_201003, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_04_20261122_201003,mistral,mistral_subject-matter,subject-matter,3,Feasible,4,20261122_201003, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_04_20261122_201003,gemma3,gemma3_generalist,generalist,3,Feasible,4,20261122_201003,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_04_20261122_201003,gemma3,gemma3_normative,normative,3,Feasible,4,20261122_201003,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_04_20261122_201003,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,4,20261122_201003,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_05_20261122_201108,phi4,phi4_generalist,generalist,3,Feasible,5,20261122_201108,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_05_20261122_201108,phi4,phi4_normative,normative,3,Feasible,5,20261122_201108,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_05_20261122_201108,phi4,phi4_subject-matter,subject-matter,3,Feasible,5,20261122_201108,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_05_20261122_201108,llama,llama_generalist,generalist,4,Very feasible,5,20261122_201108,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_05_20261122_201108,llama,llama_normative,normative,4,Very feasible,5,20261122_201108,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_05_20261122_201108,llama,llama_subject-matter,subject-matter,4,Very feasible,5,20261122_201108,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_05_20261122_201108,mistral,mistral_generalist,generalist,3,Feasible,5,20261122_201108, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_05_20261122_201108,mistral,mistral_normative,normative,3,Feasible,5,20261122_201108, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_05_20261122_201108,mistral,mistral_subject-matter,subject-matter,3,Feasible,5,20261122_201108, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_05_20261122_201108,gemma3,gemma3_generalist,generalist,3,Feasible,5,20261122_201108,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_05_20261122_201108,gemma3,gemma3_normative,normative,3,Feasible,5,20261122_201108,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_05_20261122_201108,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,5,20261122_201108,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_06_20261122_201213,phi4,phi4_generalist,generalist,3,Feasible,6,20261122_201213,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_06_20261122_201213,phi4,phi4_normative,normative,3,Feasible,6,20261122_201213,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_06_20261122_201213,phi4,phi4_subject-matter,subject-matter,3,Feasible,6,20261122_201213,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_06_20261122_201213,llama,llama_generalist,generalist,4,Very feasible,6,20261122_201213,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_06_20261122_201213,llama,llama_normative,normative,4,Very feasible,6,20261122_201213,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_06_20261122_201213,llama,llama_subject-matter,subject-matter,4,Very feasible,6,20261122_201213,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_06_20261122_201213,mistral,mistral_generalist,generalist,3,Feasible,6,20261122_201213, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_06_20261122_201213,mistral,mistral_normative,normative,3,Feasible,6,20261122_201213, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_06_20261122_201213,mistral,mistral_subject-matter,subject-matter,3,Feasible,6,20261122_201213, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_06_20261122_201213,gemma3,gemma3_generalist,generalist,3,Feasible,6,20261122_201213,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_06_20261122_201213,gemma3,gemma3_normative,normative,3,Feasible,6,20261122_201213,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_06_20261122_201213,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,6,20261122_201213,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_07_20261122_201318,phi4,phi4_generalist,generalist,3,Feasible,7,20261122_201318,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_07_20261122_201318,phi4,phi4_normative,normative,3,Feasible,7,20261122_201318,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_07_20261122_201318,phi4,phi4_subject-matter,subject-matter,3,Feasible,7,20261122_201318,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_07_20261122_201318,llama,llama_generalist,generalist,4,Very feasible,7,20261122_201318,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_07_20261122_201318,llama,llama_normative,normative,4,Very feasible,7,20261122_201318,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_07_20261122_201318,llama,llama_subject-matter,subject-matter,4,Very feasible,7,20261122_201318,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_07_20261122_201318,mistral,mistral_generalist,generalist,3,Feasible,7,20261122_201318, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_07_20261122_201318,mistral,mistral_normative,normative,3,Feasible,7,20261122_201318, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_07_20261122_201318,mistral,mistral_subject-matter,subject-matter,3,Feasible,7,20261122_201318, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_07_20261122_201318,gemma3,gemma3_generalist,generalist,3,Feasible,7,20261122_201318,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_07_20261122_201318,gemma3,gemma3_normative,normative,3,Feasible,7,20261122_201318,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_07_20261122_201318,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,7,20261122_201318,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_08_20261122_201422,phi4,phi4_generalist,generalist,3,Feasible,8,20261122_201422,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_08_20261122_201422,phi4,phi4_normative,normative,3,Feasible,8,20261122_201422,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_08_20261122_201422,phi4,phi4_subject-matter,subject-matter,3,Feasible,8,20261122_201422,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_08_20261122_201422,llama,llama_generalist,generalist,4,Very feasible,8,20261122_201422,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_08_20261122_201422,llama,llama_normative,normative,4,Very feasible,8,20261122_201422,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_08_20261122_201422,llama,llama_subject-matter,subject-matter,4,Very feasible,8,20261122_201422,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_08_20261122_201422,mistral,mistral_generalist,generalist,3,Feasible,8,20261122_201422, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_08_20261122_201422,mistral,mistral_normative,normative,3,Feasible,8,20261122_201422, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_08_20261122_201422,mistral,mistral_subject-matter,subject-matter,3,Feasible,8,20261122_201422, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_08_20261122_201422,gemma3,gemma3_generalist,generalist,3,Feasible,8,20261122_201422,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_08_20261122_201422,gemma3,gemma3_normative,normative,3,Feasible,8,20261122_201422,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_08_20261122_201422,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,8,20261122_201422,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_generalist_09_20261122_201527,phi4,phi4_generalist,generalist,3,Feasible,9,20261122_201527,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible transition to DC solutions. Additionally, the reported distribution-efficiency improvements with DC microgrids further bolster the feasibility assessment. However, considering the early stage of the project and the limited current use of DC technologies, the rating is not at the highest level, acknowledging the challenges and uncertainties that remain.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_normative_09_20261122_201527,phi4,phi4_normative,normative,3,Feasible,9,20261122_201527,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the technical, economic, and societal contexts. The project's focus on developing comprehensive tools, prototypes, and demonstrators, along with the integration of renewables and smart technologies, indicates a strong potential for successful implementation. However, the early stage of the project and the challenges associated with transitioning to DC systems suggest that while feasible, there may still be hurdles to overcome in achieving widespread adoption. The reported efficiency improvements and the strategic planning around DC solutions further support the feasibility of these technologies in the target sectors.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_phi4_subject-matter_09_20261122_201527,phi4,phi4_subject-matter,subject-matter,3,Feasible,9,20261122_201527,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are well-aligned with current technological advancements and project goals, yet some challenges in widespread adoption and integration remain. The presence of multiple demonstrators and feasibility studies supports the feasibility assessment.",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_generalist_09_20261122_201527,llama,llama_generalist,generalist,4,Very feasible,9,20261122_201527,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_normative_09_20261122_201527,llama,llama_normative,normative,4,Very feasible,9,20261122_201527,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_llama_subject-matter_09_20261122_201527,llama,llama_subject-matter,subject-matter,4,Very feasible,9,20261122_201527,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_generalist_09_20261122_201527,mistral,mistral_generalist,generalist,3,Feasible,9,20261122_201527, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_normative_09_20261122_201527,mistral,mistral_normative,normative,3,Feasible,9,20261122_201527, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_mistral_subject-matter_09_20261122_201527,mistral,mistral_subject-matter,subject-matter,3,Feasible,9,20261122_201527, 3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_generalist_09_20261122_201527,gemma3,gemma3_generalist,generalist,3,Feasible,9,20261122_201527,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_normative_09_20261122_201527,gemma3,gemma3_normative,normative,3,Feasible,9,20261122_201527,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_LOW_gemma3_subject-matter_09_20261122_201527,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,9,20261122_201527,3 - Feasible,ANCHORED,ANCHOR_NUM_LOW,low
+ANCHOR_NUM_HIGH_phi4_generalist_00_20261122_201724,phi4,phi4_generalist,generalist,3,Feasible,0,20261122_201724,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_00_20261122_201724,phi4,phi4_normative,normative,3,Feasible,0,20261122_201724,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_00_20261122_201724,phi4,phi4_subject-matter,subject-matter,3,Feasible,0,20261122_201724,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_00_20261122_201724,llama,llama_generalist,generalist,4,Very feasible,0,20261122_201724,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_00_20261122_201724,llama,llama_normative,normative,4,Very feasible,0,20261122_201724,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_00_20261122_201724,llama,llama_subject-matter,subject-matter,4,Very feasible,0,20261122_201724,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_00_20261122_201724,mistral,mistral_generalist,generalist,3,Feasible,0,20261122_201724, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_00_20261122_201724,mistral,mistral_normative,normative,3,Feasible,0,20261122_201724, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_00_20261122_201724,mistral,mistral_subject-matter,subject-matter,3,Feasible,0,20261122_201724, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_00_20261122_201724,gemma3,gemma3_generalist,generalist,3,Feasible,0,20261122_201724,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_00_20261122_201724,gemma3,gemma3_normative,normative,3,Feasible,0,20261122_201724,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_00_20261122_201724,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,0,20261122_201724,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_01_20261122_201822,phi4,phi4_generalist,generalist,3,Feasible,1,20261122_201822,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_01_20261122_201822,phi4,phi4_normative,normative,3,Feasible,1,20261122_201822,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_01_20261122_201822,phi4,phi4_subject-matter,subject-matter,3,Feasible,1,20261122_201822,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_01_20261122_201822,llama,llama_generalist,generalist,4,Very feasible,1,20261122_201822,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_01_20261122_201822,llama,llama_normative,normative,4,Very feasible,1,20261122_201822,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_01_20261122_201822,llama,llama_subject-matter,subject-matter,4,Very feasible,1,20261122_201822,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_01_20261122_201822,mistral,mistral_generalist,generalist,3,Feasible,1,20261122_201822, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_01_20261122_201822,mistral,mistral_normative,normative,3,Feasible,1,20261122_201822, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_01_20261122_201822,mistral,mistral_subject-matter,subject-matter,3,Feasible,1,20261122_201822, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_01_20261122_201822,gemma3,gemma3_generalist,generalist,3,Feasible,1,20261122_201822,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_01_20261122_201822,gemma3,gemma3_normative,normative,3,Feasible,1,20261122_201822,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_01_20261122_201822,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,1,20261122_201822,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_02_20261122_201920,phi4,phi4_generalist,generalist,3,Feasible,2,20261122_201920,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_02_20261122_201920,phi4,phi4_normative,normative,3,Feasible,2,20261122_201920,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_02_20261122_201920,phi4,phi4_subject-matter,subject-matter,3,Feasible,2,20261122_201920,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_02_20261122_201920,llama,llama_generalist,generalist,4,Very feasible,2,20261122_201920,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_02_20261122_201920,llama,llama_normative,normative,4,Very feasible,2,20261122_201920,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_02_20261122_201920,llama,llama_subject-matter,subject-matter,4,Very feasible,2,20261122_201920,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_02_20261122_201920,mistral,mistral_generalist,generalist,3,Feasible,2,20261122_201920, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_02_20261122_201920,mistral,mistral_normative,normative,3,Feasible,2,20261122_201920, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_02_20261122_201920,mistral,mistral_subject-matter,subject-matter,3,Feasible,2,20261122_201920, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_02_20261122_201920,gemma3,gemma3_generalist,generalist,3,Feasible,2,20261122_201920,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_02_20261122_201920,gemma3,gemma3_normative,normative,3,Feasible,2,20261122_201920,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_02_20261122_201920,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,2,20261122_201920,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_03_20261122_202017,phi4,phi4_generalist,generalist,3,Feasible,3,20261122_202017,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_03_20261122_202017,phi4,phi4_normative,normative,3,Feasible,3,20261122_202017,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_03_20261122_202017,phi4,phi4_subject-matter,subject-matter,3,Feasible,3,20261122_202017,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_03_20261122_202017,llama,llama_generalist,generalist,4,Very feasible,3,20261122_202017,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_03_20261122_202017,llama,llama_normative,normative,4,Very feasible,3,20261122_202017,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_03_20261122_202017,llama,llama_subject-matter,subject-matter,4,Very feasible,3,20261122_202017,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_03_20261122_202017,mistral,mistral_generalist,generalist,3,Feasible,3,20261122_202017, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_03_20261122_202017,mistral,mistral_normative,normative,3,Feasible,3,20261122_202017, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_03_20261122_202017,mistral,mistral_subject-matter,subject-matter,3,Feasible,3,20261122_202017, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_03_20261122_202017,gemma3,gemma3_generalist,generalist,3,Feasible,3,20261122_202017,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_03_20261122_202017,gemma3,gemma3_normative,normative,3,Feasible,3,20261122_202017,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_03_20261122_202017,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,3,20261122_202017,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_04_20261122_202115,phi4,phi4_generalist,generalist,3,Feasible,4,20261122_202115,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_04_20261122_202115,phi4,phi4_normative,normative,3,Feasible,4,20261122_202115,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_04_20261122_202115,phi4,phi4_subject-matter,subject-matter,3,Feasible,4,20261122_202115,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_04_20261122_202115,llama,llama_generalist,generalist,4,Very feasible,4,20261122_202115,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_04_20261122_202115,llama,llama_normative,normative,4,Very feasible,4,20261122_202115,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_04_20261122_202115,llama,llama_subject-matter,subject-matter,4,Very feasible,4,20261122_202115,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_04_20261122_202115,mistral,mistral_generalist,generalist,3,Feasible,4,20261122_202115, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_04_20261122_202115,mistral,mistral_normative,normative,3,Feasible,4,20261122_202115, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_04_20261122_202115,mistral,mistral_subject-matter,subject-matter,3,Feasible,4,20261122_202115, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_04_20261122_202115,gemma3,gemma3_generalist,generalist,3,Feasible,4,20261122_202115,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_04_20261122_202115,gemma3,gemma3_normative,normative,3,Feasible,4,20261122_202115,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_04_20261122_202115,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,4,20261122_202115,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_05_20261122_202213,phi4,phi4_generalist,generalist,3,Feasible,5,20261122_202213,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_05_20261122_202213,phi4,phi4_normative,normative,3,Feasible,5,20261122_202213,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_05_20261122_202213,phi4,phi4_subject-matter,subject-matter,3,Feasible,5,20261122_202213,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_05_20261122_202213,llama,llama_generalist,generalist,4,Very feasible,5,20261122_202213,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_05_20261122_202213,llama,llama_normative,normative,4,Very feasible,5,20261122_202213,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_05_20261122_202213,llama,llama_subject-matter,subject-matter,4,Very feasible,5,20261122_202213,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_05_20261122_202213,mistral,mistral_generalist,generalist,3,Feasible,5,20261122_202213, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_05_20261122_202213,mistral,mistral_normative,normative,3,Feasible,5,20261122_202213, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_05_20261122_202213,mistral,mistral_subject-matter,subject-matter,3,Feasible,5,20261122_202213, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_05_20261122_202213,gemma3,gemma3_generalist,generalist,3,Feasible,5,20261122_202213,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_05_20261122_202213,gemma3,gemma3_normative,normative,3,Feasible,5,20261122_202213,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_05_20261122_202213,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,5,20261122_202213,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_06_20261122_202311,phi4,phi4_generalist,generalist,3,Feasible,6,20261122_202311,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_06_20261122_202311,phi4,phi4_normative,normative,3,Feasible,6,20261122_202311,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_06_20261122_202311,phi4,phi4_subject-matter,subject-matter,3,Feasible,6,20261122_202311,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_06_20261122_202311,llama,llama_generalist,generalist,4,Very feasible,6,20261122_202311,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_06_20261122_202311,llama,llama_normative,normative,4,Very feasible,6,20261122_202311,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_06_20261122_202311,llama,llama_subject-matter,subject-matter,4,Very feasible,6,20261122_202311,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_06_20261122_202311,mistral,mistral_generalist,generalist,3,Feasible,6,20261122_202311, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_06_20261122_202311,mistral,mistral_normative,normative,3,Feasible,6,20261122_202311, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_06_20261122_202311,mistral,mistral_subject-matter,subject-matter,3,Feasible,6,20261122_202311, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_06_20261122_202311,gemma3,gemma3_generalist,generalist,3,Feasible,6,20261122_202311,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_06_20261122_202311,gemma3,gemma3_normative,normative,3,Feasible,6,20261122_202311,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_06_20261122_202311,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,6,20261122_202311,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_07_20261122_202409,phi4,phi4_generalist,generalist,3,Feasible,7,20261122_202409,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_07_20261122_202409,phi4,phi4_normative,normative,3,Feasible,7,20261122_202409,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_07_20261122_202409,phi4,phi4_subject-matter,subject-matter,3,Feasible,7,20261122_202409,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_07_20261122_202409,llama,llama_generalist,generalist,4,Very feasible,7,20261122_202409,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_07_20261122_202409,llama,llama_normative,normative,4,Very feasible,7,20261122_202409,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_07_20261122_202409,llama,llama_subject-matter,subject-matter,4,Very feasible,7,20261122_202409,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_07_20261122_202409,mistral,mistral_generalist,generalist,3,Feasible,7,20261122_202409, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_07_20261122_202409,mistral,mistral_normative,normative,3,Feasible,7,20261122_202409, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_07_20261122_202409,mistral,mistral_subject-matter,subject-matter,3,Feasible,7,20261122_202409, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_07_20261122_202409,gemma3,gemma3_generalist,generalist,3,Feasible,7,20261122_202409,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_07_20261122_202409,gemma3,gemma3_normative,normative,3,Feasible,7,20261122_202409,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_07_20261122_202409,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,7,20261122_202409,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_08_20261122_202507,phi4,phi4_generalist,generalist,3,Feasible,8,20261122_202507,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_08_20261122_202507,phi4,phi4_normative,normative,3,Feasible,8,20261122_202507,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_08_20261122_202507,phi4,phi4_subject-matter,subject-matter,3,Feasible,8,20261122_202507,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_08_20261122_202507,llama,llama_generalist,generalist,4,Very feasible,8,20261122_202507,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_08_20261122_202507,llama,llama_normative,normative,4,Very feasible,8,20261122_202507,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_08_20261122_202507,llama,llama_subject-matter,subject-matter,4,Very feasible,8,20261122_202507,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_08_20261122_202507,mistral,mistral_generalist,generalist,3,Feasible,8,20261122_202507, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_08_20261122_202507,mistral,mistral_normative,normative,3,Feasible,8,20261122_202507, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_08_20261122_202507,mistral,mistral_subject-matter,subject-matter,3,Feasible,8,20261122_202507, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_08_20261122_202507,gemma3,gemma3_generalist,generalist,3,Feasible,8,20261122_202507,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_08_20261122_202507,gemma3,gemma3_normative,normative,3,Feasible,8,20261122_202507,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_08_20261122_202507,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,8,20261122_202507,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_generalist_09_20261122_202604,phi4,phi4_generalist,generalist,3,Feasible,9,20261122_202604,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors described by the Shift2DC project. The project's comprehensive approach, including the development of technologies, simulation tools, and demonstrators across various sectors, supports a feasible pathway for adoption. However, as the project is in its early stages and involves complex integration challenges, it is not yet ""very feasible,"" but it is more than ""somewhat feasible.""",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_normative_09_20261122_202604,phi4,phi4_normative,normative,3,Feasible,9,20261122_202604,"3 - Feasible
+
+This rating reflects an overall assessment of the Shift2DC project's DC solutions across various sectors, considering the demonstrated potential, technological readiness, and the strategic alignment with renewable energy integration, despite some existing uncertainties and challenges.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_phi4_subject-matter_09_20261122_202604,phi4,phi4_subject-matter,subject-matter,3,Feasible,9,20261122_202604,"3 - Feasible
+
+This rating reflects the overall feasibility of implementing the DC solutions in the target sectors of data centers, buildings, industry, and ports as described in the Shift2DC project. The solutions are innovative and align with current trends in renewable energy integration, yet they face challenges typical of emerging technologies, such as interoperability and regulatory barriers. The project's comprehensive approach, including prototypes and feasibility studies, supports the feasibility of these solutions, despite some uncertainties and mixed views in the literature.",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_generalist_09_20261122_202604,llama,llama_generalist,generalist,4,Very feasible,9,20261122_202604,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_normative_09_20261122_202604,llama,llama_normative,normative,4,Very feasible,9,20261122_202604,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_llama_subject-matter_09_20261122_202604,llama,llama_subject-matter,subject-matter,4,Very feasible,9,20261122_202604,"4 - Very feasible
+",ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_generalist_09_20261122_202604,mistral,mistral_generalist,generalist,3,Feasible,9,20261122_202604, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_normative_09_20261122_202604,mistral,mistral_normative,normative,3,Feasible,9,20261122_202604, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_mistral_subject-matter_09_20261122_202604,mistral,mistral_subject-matter,subject-matter,3,Feasible,9,20261122_202604, 3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_generalist_09_20261122_202604,gemma3,gemma3_generalist,generalist,3,Feasible,9,20261122_202604,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_normative_09_20261122_202604,gemma3,gemma3_normative,normative,3,Feasible,9,20261122_202604,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high
+ANCHOR_NUM_HIGH_gemma3_subject-matter_09_20261122_202604,gemma3,gemma3_subject-matter,subject-matter,3,Feasible,9,20261122_202604,3 - Feasible,ANCHORED,ANCHOR_NUM_HIGH,high

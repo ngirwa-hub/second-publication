@@ -1,0 +1,5 @@
+base_model,conclusions,conclusion_stable,OR_median_min,OR_median_max,minimum_probability_OR_gt_1,maximum_probability_OR_gt_1
+gemma3,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.2349994122829488,1.677226430022869,0.64125,0.7105
+llama,regularizing: higher in Context; primary: higher in Context; weak: higher in Context,TRUE,221.23619212371904,8971.076528970903,1,1
+mistral,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.2436823286923422,1.6427837539043568,0.64025,0.7085
+phi4,regularizing: lower in Context; primary: lower in Context; weak: lower in Context,TRUE,0.05316946481682441,0.11169890046644965,0,0

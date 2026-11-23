@@ -1,0 +1,18 @@
+\begin{table}[tbp]
+\caption{RQ2 feasibility: posterior effects of Context relative to Zero-shot under the primary prior.}
+\label{tab:rq2_feasibility_bayesian}
+\begin{tabular}{lcccc}
+\toprule
+Model & OR & 95\% CrI & $P(OR>1)$ & Interpretation \\
+\midrule
+Gemma3:12B & 1.512 & [0.309, 8.410] & 0.688 & Uncertain \\
+LLaMa-Pro & 1892.920 & [559.113, 8024.034] & $>0.999$ & Higher in Context \\
+Mistral & 1.497 & [0.301, 8.470] & 0.682 & Uncertain \\
+Phi-4 & 0.065 & [0.024, 0.150] & $<0.001$ & Lower in Context \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} OR $>1$ indicates higher odds of receiving a higher feasibility rating in Context relative to Zero-shot. CrI denotes the 95\% Bayesian credible interval. The primary effect prior was Normal$(0,1.5)$.
+\end{minipage}
+\end{table}

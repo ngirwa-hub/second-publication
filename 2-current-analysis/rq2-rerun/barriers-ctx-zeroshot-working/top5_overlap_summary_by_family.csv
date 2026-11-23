@@ -1,0 +1,5 @@
+family,zeroshot_top5,context_top5,retained,added_context,dropped_context,n_intersection,n_union,jaccard
+gemma3,"B4, B8, B9, B10, B11","B1, B4, B9, B10, B11","B4, B9, B10, B11",B1,B8,4,6,0.667
+llama,"B2, B4, B7, B9, B11","B1, B4, B7, B10, B11","B4, B7, B11","B1, B10","B2, B9",3,7,0.429
+mistral,"B4, B7, B9, B10, B11","B4, B7, B9, B10, B11","B4, B7, B9, B10, B11",—,—,5,5,1
+phi4,"B4, B8, B9, B10, B11","B4, B8, B9, B10, B11","B4, B8, B9, B10, B11",—,—,5,5,1

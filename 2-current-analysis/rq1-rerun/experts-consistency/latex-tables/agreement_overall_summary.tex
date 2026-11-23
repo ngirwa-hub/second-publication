@@ -1,0 +1,21 @@
+\begin{table*}[tbp]
+\caption{Overall Expert Summaries and Group/Session Comparisons}
+\label{tab:expert_overall_summary}
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X*{3}{>{\centering\arraybackslash}X}cc@{}}
+\toprule
+Measure & \shortstack{Consortium\\($n=13$)} & \shortstack{Industry\\($n=11$)} & \shortstack{Pooled $\alpha$\\{[95\% CI]}} & $p$ & $p_{\mathrm{Holm}}$ \\
+\midrule
+Feasibility: very feasible (\%) & 15.4\% & 36.4\% & --- & 0.357 & 0.818 \\
+Importance: ordinal \ensuremath{\alpha} & -0.031 [-0.053, 0.181] & 0.005 [-0.044, 0.264] & -0.002 [-0.027, 0.120] & 0.273 & 0.818 \\
+Barriers: nominal \ensuremath{\alpha} & 0.087 [0.006, 0.328] & 0.045 [-0.012, 0.339] & 0.070 [0.021, 0.221] & 0.582 & 0.818 \\
+\bottomrule
+\end{tabularx}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Feasibility entries are percentages rating the single question very feasible (4); all remaining responses were feasible (3). No agreement coefficient is reported for this single rated object. Importance and barrier entries are Krippendorff's $\alpha$ [95\% expert-bootstrap CI], using ordinal measurement across the three shared technologies and nominal measurement across the 11 barriers, respectively. Alpha coefficients are not percentages. The overall $p$-values compare group/session response distributions, not alpha coefficients: two-sided Fisher's exact test for feasibility and whole-expert permutation tests for importance and barriers. Holm adjustment covers these three comparisons.
+\end{minipage}
+\end{table*}

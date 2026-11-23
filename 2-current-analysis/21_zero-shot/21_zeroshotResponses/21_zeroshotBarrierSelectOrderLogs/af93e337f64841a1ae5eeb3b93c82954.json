@@ -1,0 +1,87 @@
+{
+  "condition": "ZERO_SHOT",
+  "anchor_type": "",
+  "anchor_level": "",
+  "attempt_id": "af93e337f64841a1ae5eeb3b93c82954",
+  "iteration": 15,
+  "attempt_number": 1,
+  "timestamp": "2026-11-20T14:35:21.720396+00:00",
+  "status": "started",
+  "algorithm": "Fisher-Yates",
+  "shuffle_source": "SystemRandom",
+  "shuffle_seed": null,
+  "model_seed": 42,
+  "model_variants": [
+    "phi4-generalist",
+    "phi4-normative",
+    "phi4-subject-matter",
+    "gemma3-generalist",
+    "gemma3-normative",
+    "gemma3-subject-matter",
+    "llama-generalist",
+    "llama-normative",
+    "llama-subject-matter",
+    "mistral-generalist",
+    "mistral-normative",
+    "mistral-subject-matter"
+  ],
+  "order": [
+    {
+      "displayed_position": 1,
+      "barrier_id": 11,
+      "official_label": "high costs of DC solutions"
+    },
+    {
+      "displayed_position": 2,
+      "barrier_id": 5,
+      "official_label": "lack of pilot projects"
+    },
+    {
+      "displayed_position": 3,
+      "barrier_id": 2,
+      "official_label": "reduced reliability in DC devices"
+    },
+    {
+      "displayed_position": 4,
+      "barrier_id": 7,
+      "official_label": "incompatibility of DC systems components"
+    },
+    {
+      "displayed_position": 5,
+      "barrier_id": 6,
+      "official_label": "public perception of DC and readiness to 'champion' installations from DC projects"
+    },
+    {
+      "displayed_position": 6,
+      "barrier_id": 9,
+      "official_label": "lack of enough trained personnel in DC systems"
+    },
+    {
+      "displayed_position": 7,
+      "barrier_id": 3,
+      "official_label": "lack of use-cases in which DC is advantageous"
+    },
+    {
+      "displayed_position": 8,
+      "barrier_id": 4,
+      "official_label": "uncertain utility interaction (net metering, utility ownership, and agreed standards)"
+    },
+    {
+      "displayed_position": 9,
+      "barrier_id": 1,
+      "official_label": "power losses, quality and safety issues"
+    },
+    {
+      "displayed_position": 10,
+      "barrier_id": 10,
+      "official_label": "uncertain regulatory roadmap"
+    },
+    {
+      "displayed_position": 11,
+      "barrier_id": 8,
+      "official_label": "misconception and lack of knowledge leads to lengthy/expensive design and permit process"
+    }
+  ],
+  "prompt": "- The expert elicitation is based on the Shift2DC project, which aims to accelerate the transition to a sustainable energy system by promoting the use of direct current (DC) technologies.\n- The project focuses on the development and demonstration of DC solutions in four sectors: ports, industry, data centers, and buildings.\n\nYou are participating in an expert elicitation exercise.\nPlease consider the provided context and respond according to your expert role.\nYou must select exactly five (5) barriers from the list provided.\nDo not select more or fewer than five.\n⚠️ You must copy and use the barrier entries exactly as listed — including the full label.\nDo not paraphrase, rephrase, or modify any barrier wording.\nOnly select from the list — do not add new barriers.\nThe list is shown in random order and does not reflect importance.\nNo justification is required. Return only five lines, each starting with '- ' followed by one selected full barrier label. Do not number the selections.\n\nBarriers:\n- high costs of DC solutions\n- lack of pilot projects\n- reduced reliability in DC devices\n- incompatibility of DC systems components\n- public perception of DC and readiness to 'champion' installations from DC projects\n- lack of enough trained personnel in DC systems\n- lack of use-cases in which DC is advantageous\n- uncertain utility interaction (net metering, utility ownership, and agreed standards)\n- power losses, quality and safety issues\n- uncertain regulatory roadmap\n- misconception and lack of knowledge leads to lengthy/expensive design and permit process",
+  "prompt_sha256": "0ce0ad5291076b7141a95ef860be45d78a19aaa5bfa6530a8fe6cc20e3d435a1"
+}

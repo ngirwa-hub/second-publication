@@ -49,7 +49,7 @@ os.makedirs(RAW_LOG_DIR, exist_ok=True)
 # ==== Context ====
 def load_context():
     return (
-        "- The XXXXXX project promotes DC technologies in ports, industry, data centers, and buildings.\n"
+        "- The Shift2DC project promotes DC technologies in ports, industry, data centers, and buildings.\n"
         "- Evaluate the importance of the listed DC solution.\n"
     )
 

@@ -1,0 +1,623 @@
+row_id,variant_id,source,model,rating,label,iteration,condition
+he01_s1,he01,human,s1,3,feasible,,zeroshot
+he02_s1,he02,human,s1,3,feasible,,zeroshot
+he03_s1,he03,human,s1,3,feasible,,zeroshot
+he04_s1,he04,human,s1,4,very feasible,,zeroshot
+he05_s1,he05,human,s1,4,very feasible,,zeroshot
+he06_s1,he06,human,s1,3,feasible,,zeroshot
+he07_s1,he07,human,s1,3,feasible,,zeroshot
+he08_s1,he08,human,s1,3,feasible,,zeroshot
+he09_s1,he09,human,s1,3,feasible,,zeroshot
+he10_s1,he10,human,s1,3,feasible,,zeroshot
+he11_s1,he11,human,s1,3,feasible,,zeroshot
+he12_s2,he13,human,s2,4,very feasible,,zeroshot
+he13_s2,he14,human,s2,3,feasible,,zeroshot
+he14_s2,he15,human,s2,4,very feasible,,zeroshot
+he15_s2,he16,human,s2,4,very feasible,,zeroshot
+he18_s2,he17,human,s2,3,feasible,,zeroshot
+he19_s2,he18,human,s2,3,feasible,,zeroshot
+he20_s2,he19,human,s2,3,feasible,,zeroshot
+he21_s2,he20,human,s2,3,feasible,,zeroshot
+he22_s2,he21,human,s2,3,feasible,,zeroshot
+he23_s2,he22,human,s2,3,feasible,,zeroshot
+he24_s2,he23,human,s2,4,very feasible,,zeroshot
+phi4_generalist_00_20260628_224056,phi4_generalist,llm,generalist,3,Feasible,0,zeroshot
+phi4_normative_00_20260628_224056,phi4_normative,llm,normative,3,Feasible,0,zeroshot
+phi4_subject-matter_00_20260628_224056,phi4_subject-matter,llm,subject-matter,4,Very feasible,0,zeroshot
+gemma3_generalist_00_20260628_224056,gemma3_generalist,llm,generalist,3,Feasible,0,zeroshot
+gemma3_normative_00_20260628_224056,gemma3_normative,llm,normative,3,Feasible,0,zeroshot
+gemma3_subject-matter_00_20260628_224056,gemma3_subject-matter,llm,subject-matter,3,Feasible,0,zeroshot
+llama_generalist_00_20260628_224056,llama_generalist,llm,generalist,2,Somewhat feasible,0,zeroshot
+llama_normative_00_20260628_224056,llama_normative,llm,normative,3,Feasible,0,zeroshot
+llama_subject-matter_00_20260628_224056,llama_subject-matter,llm,subject-matter,3,Feasible,0,zeroshot
+mistral_generalist_00_20260628_224056,mistral_generalist,llm,generalist,3,Feasible,0,zeroshot
+mistral_normative_00_20260628_224056,mistral_normative,llm,normative,3,Feasible,0,zeroshot
+mistral_subject-matter_00_20260628_224056,mistral_subject-matter,llm,subject-matter,3,Feasible,0,zeroshot
+phi4_generalist_01_20260628_224201,phi4_generalist,llm,generalist,3,Feasible,1,zeroshot
+phi4_normative_01_20260628_224201,phi4_normative,llm,normative,3,Feasible,1,zeroshot
+phi4_subject-matter_01_20260628_224201,phi4_subject-matter,llm,subject-matter,4,Very feasible,1,zeroshot
+gemma3_generalist_01_20260628_224201,gemma3_generalist,llm,generalist,3,Feasible,1,zeroshot
+gemma3_normative_01_20260628_224201,gemma3_normative,llm,normative,3,Feasible,1,zeroshot
+gemma3_subject-matter_01_20260628_224201,gemma3_subject-matter,llm,subject-matter,3,Feasible,1,zeroshot
+llama_generalist_01_20260628_224201,llama_generalist,llm,generalist,3,Feasible,1,zeroshot
+llama_normative_01_20260628_224201,llama_normative,llm,normative,3,Feasible,1,zeroshot
+llama_subject-matter_01_20260628_224201,llama_subject-matter,llm,subject-matter,3,Feasible,1,zeroshot
+mistral_generalist_01_20260628_224201,mistral_generalist,llm,generalist,3,Feasible,1,zeroshot
+mistral_normative_01_20260628_224201,mistral_normative,llm,normative,3,Feasible,1,zeroshot
+mistral_subject-matter_01_20260628_224201,mistral_subject-matter,llm,subject-matter,3,Feasible,1,zeroshot
+phi4_generalist_02_20260628_224306,phi4_generalist,llm,generalist,3,Feasible,2,zeroshot
+phi4_normative_02_20260628_224306,phi4_normative,llm,normative,3,Feasible,2,zeroshot
+phi4_subject-matter_02_20260628_224306,phi4_subject-matter,llm,subject-matter,3,Feasible,2,zeroshot
+gemma3_generalist_02_20260628_224306,gemma3_generalist,llm,generalist,3,Feasible,2,zeroshot
+gemma3_normative_02_20260628_224306,gemma3_normative,llm,normative,3,Feasible,2,zeroshot
+gemma3_subject-matter_02_20260628_224306,gemma3_subject-matter,llm,subject-matter,3,Feasible,2,zeroshot
+llama_generalist_02_20260628_224306,llama_generalist,llm,generalist,3,Feasible,2,zeroshot
+llama_normative_02_20260628_224306,llama_normative,llm,normative,2,Somewhat feasible,2,zeroshot
+llama_subject-matter_02_20260628_224306,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,2,zeroshot
+mistral_generalist_02_20260628_224306,mistral_generalist,llm,generalist,3,Feasible,2,zeroshot
+mistral_normative_02_20260628_224306,mistral_normative,llm,normative,3,Feasible,2,zeroshot
+mistral_subject-matter_02_20260628_224306,mistral_subject-matter,llm,subject-matter,3,Feasible,2,zeroshot
+phi4_generalist_03_20260628_224414,phi4_generalist,llm,generalist,3,Feasible,3,zeroshot
+phi4_normative_03_20260628_224414,phi4_normative,llm,normative,3,Feasible,3,zeroshot
+phi4_subject-matter_03_20260628_224414,phi4_subject-matter,llm,subject-matter,3,Feasible,3,zeroshot
+gemma3_generalist_03_20260628_224414,gemma3_generalist,llm,generalist,3,Feasible,3,zeroshot
+gemma3_normative_03_20260628_224414,gemma3_normative,llm,normative,3,Feasible,3,zeroshot
+gemma3_subject-matter_03_20260628_224414,gemma3_subject-matter,llm,subject-matter,3,Feasible,3,zeroshot
+llama_generalist_03_20260628_224414,llama_generalist,llm,generalist,2,Somewhat feasible,3,zeroshot
+llama_normative_03_20260628_224414,llama_normative,llm,normative,4,Very feasible,3,zeroshot
+llama_subject-matter_03_20260628_224414,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,3,zeroshot
+mistral_generalist_03_20260628_224414,mistral_generalist,llm,generalist,3,Feasible,3,zeroshot
+mistral_normative_03_20260628_224414,mistral_normative,llm,normative,3,Feasible,3,zeroshot
+mistral_subject-matter_03_20260628_224414,mistral_subject-matter,llm,subject-matter,3,Feasible,3,zeroshot
+phi4_generalist_04_20260628_224519,phi4_generalist,llm,generalist,4,Very feasible,4,zeroshot
+phi4_normative_04_20260628_224519,phi4_normative,llm,normative,3,Feasible,4,zeroshot
+phi4_subject-matter_04_20260628_224519,phi4_subject-matter,llm,subject-matter,3,Feasible,4,zeroshot
+gemma3_generalist_04_20260628_224519,gemma3_generalist,llm,generalist,3,Feasible,4,zeroshot
+gemma3_normative_04_20260628_224519,gemma3_normative,llm,normative,3,Feasible,4,zeroshot
+gemma3_subject-matter_04_20260628_224519,gemma3_subject-matter,llm,subject-matter,3,Feasible,4,zeroshot
+llama_generalist_04_20260628_224519,llama_generalist,llm,generalist,3,Feasible,4,zeroshot
+llama_normative_04_20260628_224519,llama_normative,llm,normative,3,Feasible,4,zeroshot
+llama_subject-matter_04_20260628_224519,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,4,zeroshot
+mistral_generalist_04_20260628_224519,mistral_generalist,llm,generalist,3,Feasible,4,zeroshot
+mistral_normative_04_20260628_224519,mistral_normative,llm,normative,3,Feasible,4,zeroshot
+mistral_subject-matter_04_20260628_224519,mistral_subject-matter,llm,subject-matter,3,Feasible,4,zeroshot
+phi4_generalist_05_20260628_224626,phi4_generalist,llm,generalist,4,Very feasible,5,zeroshot
+phi4_normative_05_20260628_224626,phi4_normative,llm,normative,3,Feasible,5,zeroshot
+phi4_subject-matter_05_20260628_224626,phi4_subject-matter,llm,subject-matter,3,Feasible,5,zeroshot
+gemma3_generalist_05_20260628_224626,gemma3_generalist,llm,generalist,3,Feasible,5,zeroshot
+gemma3_normative_05_20260628_224626,gemma3_normative,llm,normative,3,Feasible,5,zeroshot
+gemma3_subject-matter_05_20260628_224626,gemma3_subject-matter,llm,subject-matter,3,Feasible,5,zeroshot
+llama_generalist_05_20260628_224626,llama_generalist,llm,generalist,3,Feasible,5,zeroshot
+llama_normative_05_20260628_224626,llama_normative,llm,normative,4,Very feasible,5,zeroshot
+llama_subject-matter_05_20260628_224626,llama_subject-matter,llm,subject-matter,3,Feasible,5,zeroshot
+mistral_generalist_05_20260628_224626,mistral_generalist,llm,generalist,3,Feasible,5,zeroshot
+mistral_normative_05_20260628_224626,mistral_normative,llm,normative,3,Feasible,5,zeroshot
+mistral_subject-matter_05_20260628_224626,mistral_subject-matter,llm,subject-matter,3,Feasible,5,zeroshot
+phi4_generalist_06_20260628_224729,phi4_generalist,llm,generalist,3,Feasible,6,zeroshot
+phi4_normative_06_20260628_224729,phi4_normative,llm,normative,3,Feasible,6,zeroshot
+phi4_subject-matter_06_20260628_224729,phi4_subject-matter,llm,subject-matter,3,Feasible,6,zeroshot
+gemma3_generalist_06_20260628_224729,gemma3_generalist,llm,generalist,3,Feasible,6,zeroshot
+gemma3_normative_06_20260628_224729,gemma3_normative,llm,normative,3,Feasible,6,zeroshot
+gemma3_subject-matter_06_20260628_224729,gemma3_subject-matter,llm,subject-matter,3,Feasible,6,zeroshot
+llama_generalist_06_20260628_224729,llama_generalist,llm,generalist,3,Feasible,6,zeroshot
+llama_normative_06_20260628_224729,llama_normative,llm,normative,2,Somewhat feasible,6,zeroshot
+llama_subject-matter_06_20260628_224729,llama_subject-matter,llm,subject-matter,3,Feasible,6,zeroshot
+mistral_generalist_06_20260628_224729,mistral_generalist,llm,generalist,3,Feasible,6,zeroshot
+mistral_normative_06_20260628_224729,mistral_normative,llm,normative,3,Feasible,6,zeroshot
+mistral_subject-matter_06_20260628_224729,mistral_subject-matter,llm,subject-matter,3,Feasible,6,zeroshot
+phi4_generalist_07_20260628_224838,phi4_generalist,llm,generalist,3,Feasible,7,zeroshot
+phi4_normative_07_20260628_224838,phi4_normative,llm,normative,4,Very feasible,7,zeroshot
+phi4_subject-matter_07_20260628_224838,phi4_subject-matter,llm,subject-matter,3,Feasible,7,zeroshot
+gemma3_generalist_07_20260628_224838,gemma3_generalist,llm,generalist,3,Feasible,7,zeroshot
+gemma3_normative_07_20260628_224838,gemma3_normative,llm,normative,3,Feasible,7,zeroshot
+gemma3_subject-matter_07_20260628_224838,gemma3_subject-matter,llm,subject-matter,3,Feasible,7,zeroshot
+llama_generalist_07_20260628_224838,llama_generalist,llm,generalist,3,Feasible,7,zeroshot
+llama_normative_07_20260628_224838,llama_normative,llm,normative,3,Feasible,7,zeroshot
+llama_subject-matter_07_20260628_224838,llama_subject-matter,llm,subject-matter,3,Feasible,7,zeroshot
+mistral_generalist_07_20260628_224838,mistral_generalist,llm,generalist,3,Feasible,7,zeroshot
+mistral_normative_07_20260628_224838,mistral_normative,llm,normative,3,Feasible,7,zeroshot
+mistral_subject-matter_07_20260628_224838,mistral_subject-matter,llm,subject-matter,3,Feasible,7,zeroshot
+phi4_generalist_08_20260628_224942,phi4_generalist,llm,generalist,3,Feasible,8,zeroshot
+phi4_normative_08_20260628_224942,phi4_normative,llm,normative,3,Feasible,8,zeroshot
+phi4_subject-matter_08_20260628_224942,phi4_subject-matter,llm,subject-matter,3,Feasible,8,zeroshot
+gemma3_generalist_08_20260628_224942,gemma3_generalist,llm,generalist,3,Feasible,8,zeroshot
+gemma3_normative_08_20260628_224942,gemma3_normative,llm,normative,3,Feasible,8,zeroshot
+gemma3_subject-matter_08_20260628_224942,gemma3_subject-matter,llm,subject-matter,3,Feasible,8,zeroshot
+llama_generalist_08_20260628_224942,llama_generalist,llm,generalist,2,Somewhat feasible,8,zeroshot
+llama_normative_08_20260628_224942,llama_normative,llm,normative,4,Very feasible,8,zeroshot
+llama_subject-matter_08_20260628_224942,llama_subject-matter,llm,subject-matter,3,Feasible,8,zeroshot
+mistral_generalist_08_20260628_224942,mistral_generalist,llm,generalist,3,Feasible,8,zeroshot
+mistral_normative_08_20260628_224942,mistral_normative,llm,normative,3,Feasible,8,zeroshot
+mistral_subject-matter_08_20260628_224942,mistral_subject-matter,llm,subject-matter,3,Feasible,8,zeroshot
+phi4_generalist_09_20260628_225045,phi4_generalist,llm,generalist,3,Feasible,9,zeroshot
+phi4_normative_09_20260628_225045,phi4_normative,llm,normative,4,Very feasible,9,zeroshot
+phi4_subject-matter_09_20260628_225045,phi4_subject-matter,llm,subject-matter,3,Feasible,9,zeroshot
+gemma3_generalist_09_20260628_225045,gemma3_generalist,llm,generalist,3,Feasible,9,zeroshot
+gemma3_normative_09_20260628_225045,gemma3_normative,llm,normative,3,Feasible,9,zeroshot
+gemma3_subject-matter_09_20260628_225045,gemma3_subject-matter,llm,subject-matter,3,Feasible,9,zeroshot
+llama_generalist_09_20260628_225045,llama_generalist,llm,generalist,4,Very feasible,9,zeroshot
+llama_normative_09_20260628_225045,llama_normative,llm,normative,4,Very feasible,9,zeroshot
+llama_subject-matter_09_20260628_225045,llama_subject-matter,llm,subject-matter,3,Feasible,9,zeroshot
+mistral_generalist_09_20260628_225045,mistral_generalist,llm,generalist,3,Feasible,9,zeroshot
+mistral_normative_09_20260628_225045,mistral_normative,llm,normative,3,Feasible,9,zeroshot
+mistral_subject-matter_09_20260628_225045,mistral_subject-matter,llm,subject-matter,3,Feasible,9,zeroshot
+phi4_generalist_10_20260628_225156,phi4_generalist,llm,generalist,3,Feasible,10,zeroshot
+phi4_normative_10_20260628_225156,phi4_normative,llm,normative,3,Feasible,10,zeroshot
+phi4_subject-matter_10_20260628_225156,phi4_subject-matter,llm,subject-matter,3,Feasible,10,zeroshot
+gemma3_generalist_10_20260628_225156,gemma3_generalist,llm,generalist,3,Feasible,10,zeroshot
+gemma3_normative_10_20260628_225156,gemma3_normative,llm,normative,3,Feasible,10,zeroshot
+gemma3_subject-matter_10_20260628_225156,gemma3_subject-matter,llm,subject-matter,3,Feasible,10,zeroshot
+llama_generalist_10_20260628_225156,llama_generalist,llm,generalist,3,Feasible,10,zeroshot
+llama_normative_10_20260628_225156,llama_normative,llm,normative,3,Feasible,10,zeroshot
+llama_subject-matter_10_20260628_225156,llama_subject-matter,llm,subject-matter,3,Feasible,10,zeroshot
+mistral_generalist_10_20260628_225156,mistral_generalist,llm,generalist,3,Feasible,10,zeroshot
+mistral_normative_10_20260628_225156,mistral_normative,llm,normative,3,Feasible,10,zeroshot
+mistral_subject-matter_10_20260628_225156,mistral_subject-matter,llm,subject-matter,3,Feasible,10,zeroshot
+phi4_generalist_11_20260628_225301,phi4_generalist,llm,generalist,3,Feasible,11,zeroshot
+phi4_normative_11_20260628_225301,phi4_normative,llm,normative,3,Feasible,11,zeroshot
+phi4_subject-matter_11_20260628_225301,phi4_subject-matter,llm,subject-matter,4,Very feasible,11,zeroshot
+gemma3_generalist_11_20260628_225301,gemma3_generalist,llm,generalist,3,Feasible,11,zeroshot
+gemma3_normative_11_20260628_225301,gemma3_normative,llm,normative,3,Feasible,11,zeroshot
+gemma3_subject-matter_11_20260628_225301,gemma3_subject-matter,llm,subject-matter,3,Feasible,11,zeroshot
+llama_generalist_11_20260628_225301,llama_generalist,llm,generalist,3,Feasible,11,zeroshot
+llama_normative_11_20260628_225301,llama_normative,llm,normative,4,Very feasible,11,zeroshot
+llama_subject-matter_11_20260628_225301,llama_subject-matter,llm,subject-matter,4,Very feasible,11,zeroshot
+mistral_generalist_11_20260628_225301,mistral_generalist,llm,generalist,3,Feasible,11,zeroshot
+mistral_normative_11_20260628_225301,mistral_normative,llm,normative,3,Feasible,11,zeroshot
+mistral_subject-matter_11_20260628_225301,mistral_subject-matter,llm,subject-matter,3,Feasible,11,zeroshot
+phi4_generalist_12_20260628_225404,phi4_generalist,llm,generalist,3,Feasible,12,zeroshot
+phi4_normative_12_20260628_225404,phi4_normative,llm,normative,3,Feasible,12,zeroshot
+phi4_subject-matter_12_20260628_225404,phi4_subject-matter,llm,subject-matter,3,Feasible,12,zeroshot
+gemma3_generalist_12_20260628_225404,gemma3_generalist,llm,generalist,3,Feasible,12,zeroshot
+gemma3_normative_12_20260628_225404,gemma3_normative,llm,normative,3,Feasible,12,zeroshot
+gemma3_subject-matter_12_20260628_225404,gemma3_subject-matter,llm,subject-matter,3,Feasible,12,zeroshot
+llama_generalist_12_20260628_225404,llama_generalist,llm,generalist,2,Somewhat feasible,12,zeroshot
+llama_normative_12_20260628_225404,llama_normative,llm,normative,3,Feasible,12,zeroshot
+llama_subject-matter_12_20260628_225404,llama_subject-matter,llm,subject-matter,3,Feasible,12,zeroshot
+mistral_generalist_12_20260628_225404,mistral_generalist,llm,generalist,3,Feasible,12,zeroshot
+mistral_normative_12_20260628_225404,mistral_normative,llm,normative,3,Feasible,12,zeroshot
+mistral_subject-matter_12_20260628_225404,mistral_subject-matter,llm,subject-matter,3,Feasible,12,zeroshot
+phi4_generalist_13_20260628_225514,phi4_generalist,llm,generalist,3,Feasible,13,zeroshot
+phi4_normative_13_20260628_225514,phi4_normative,llm,normative,3,Feasible,13,zeroshot
+phi4_subject-matter_13_20260628_225514,phi4_subject-matter,llm,subject-matter,3,Feasible,13,zeroshot
+gemma3_generalist_13_20260628_225514,gemma3_generalist,llm,generalist,3,Feasible,13,zeroshot
+gemma3_normative_13_20260628_225514,gemma3_normative,llm,normative,3,Feasible,13,zeroshot
+gemma3_subject-matter_13_20260628_225514,gemma3_subject-matter,llm,subject-matter,3,Feasible,13,zeroshot
+llama_generalist_13_20260628_225514,llama_generalist,llm,generalist,3,Feasible,13,zeroshot
+llama_normative_13_20260628_225514,llama_normative,llm,normative,2,Somewhat feasible,13,zeroshot
+llama_subject-matter_13_20260628_225514,llama_subject-matter,llm,subject-matter,3,Feasible,13,zeroshot
+mistral_generalist_13_20260628_225514,mistral_generalist,llm,generalist,3,Feasible,13,zeroshot
+mistral_normative_13_20260628_225514,mistral_normative,llm,normative,3,Feasible,13,zeroshot
+mistral_subject-matter_13_20260628_225514,mistral_subject-matter,llm,subject-matter,3,Feasible,13,zeroshot
+phi4_generalist_14_20260628_225620,phi4_generalist,llm,generalist,3,Feasible,14,zeroshot
+phi4_normative_14_20260628_225620,phi4_normative,llm,normative,3,Feasible,14,zeroshot
+phi4_subject-matter_14_20260628_225620,phi4_subject-matter,llm,subject-matter,3,Feasible,14,zeroshot
+gemma3_generalist_14_20260628_225620,gemma3_generalist,llm,generalist,3,Feasible,14,zeroshot
+gemma3_normative_14_20260628_225620,gemma3_normative,llm,normative,3,Feasible,14,zeroshot
+gemma3_subject-matter_14_20260628_225620,gemma3_subject-matter,llm,subject-matter,3,Feasible,14,zeroshot
+llama_generalist_14_20260628_225620,llama_generalist,llm,generalist,1,Not feasible,14,zeroshot
+llama_normative_14_20260628_225620,llama_normative,llm,normative,3,Feasible,14,zeroshot
+llama_subject-matter_14_20260628_225620,llama_subject-matter,llm,subject-matter,3,Feasible,14,zeroshot
+mistral_generalist_14_20260628_225620,mistral_generalist,llm,generalist,3,Feasible,14,zeroshot
+mistral_normative_14_20260628_225620,mistral_normative,llm,normative,3,Feasible,14,zeroshot
+mistral_subject-matter_14_20260628_225620,mistral_subject-matter,llm,subject-matter,3,Feasible,14,zeroshot
+phi4_generalist_15_20260628_225724,phi4_generalist,llm,generalist,3,Feasible,15,zeroshot
+phi4_normative_15_20260628_225724,phi4_normative,llm,normative,3,Feasible,15,zeroshot
+phi4_subject-matter_15_20260628_225724,phi4_subject-matter,llm,subject-matter,4,Very feasible,15,zeroshot
+gemma3_generalist_15_20260628_225724,gemma3_generalist,llm,generalist,3,Feasible,15,zeroshot
+gemma3_normative_15_20260628_225724,gemma3_normative,llm,normative,3,Feasible,15,zeroshot
+gemma3_subject-matter_15_20260628_225724,gemma3_subject-matter,llm,subject-matter,3,Feasible,15,zeroshot
+llama_generalist_15_20260628_225724,llama_generalist,llm,generalist,3,Feasible,15,zeroshot
+llama_normative_15_20260628_225724,llama_normative,llm,normative,2,Somewhat feasible,15,zeroshot
+llama_subject-matter_15_20260628_225724,llama_subject-matter,llm,subject-matter,4,Very feasible,15,zeroshot
+mistral_generalist_15_20260628_225724,mistral_generalist,llm,generalist,3,Feasible,15,zeroshot
+mistral_normative_15_20260628_225724,mistral_normative,llm,normative,3,Feasible,15,zeroshot
+mistral_subject-matter_15_20260628_225724,mistral_subject-matter,llm,subject-matter,3,Feasible,15,zeroshot
+phi4_generalist_16_20260628_225832,phi4_generalist,llm,generalist,3,Feasible,16,zeroshot
+phi4_normative_16_20260628_225832,phi4_normative,llm,normative,3,Feasible,16,zeroshot
+phi4_subject-matter_16_20260628_225832,phi4_subject-matter,llm,subject-matter,3,Feasible,16,zeroshot
+gemma3_generalist_16_20260628_225832,gemma3_generalist,llm,generalist,3,Feasible,16,zeroshot
+gemma3_normative_16_20260628_225832,gemma3_normative,llm,normative,3,Feasible,16,zeroshot
+gemma3_subject-matter_16_20260628_225832,gemma3_subject-matter,llm,subject-matter,3,Feasible,16,zeroshot
+llama_generalist_16_20260628_225832,llama_generalist,llm,generalist,3,Feasible,16,zeroshot
+llama_normative_16_20260628_225832,llama_normative,llm,normative,3,Feasible,16,zeroshot
+llama_subject-matter_16_20260628_225832,llama_subject-matter,llm,subject-matter,3,Feasible,16,zeroshot
+mistral_generalist_16_20260628_225832,mistral_generalist,llm,generalist,3,Feasible,16,zeroshot
+mistral_normative_16_20260628_225832,mistral_normative,llm,normative,3,Feasible,16,zeroshot
+mistral_subject-matter_16_20260628_225832,mistral_subject-matter,llm,subject-matter,3,Feasible,16,zeroshot
+phi4_generalist_17_20260628_225936,phi4_generalist,llm,generalist,3,Feasible,17,zeroshot
+phi4_normative_17_20260628_225936,phi4_normative,llm,normative,3,Feasible,17,zeroshot
+phi4_subject-matter_17_20260628_225936,phi4_subject-matter,llm,subject-matter,3,Feasible,17,zeroshot
+gemma3_generalist_17_20260628_225936,gemma3_generalist,llm,generalist,3,Feasible,17,zeroshot
+gemma3_normative_17_20260628_225936,gemma3_normative,llm,normative,3,Feasible,17,zeroshot
+gemma3_subject-matter_17_20260628_225936,gemma3_subject-matter,llm,subject-matter,3,Feasible,17,zeroshot
+llama_generalist_17_20260628_225936,llama_generalist,llm,generalist,2,Somewhat feasible,17,zeroshot
+llama_normative_17_20260628_225936,llama_normative,llm,normative,3,Feasible,17,zeroshot
+llama_subject-matter_17_20260628_225936,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,17,zeroshot
+mistral_generalist_17_20260628_225936,mistral_generalist,llm,generalist,3,Feasible,17,zeroshot
+mistral_normative_17_20260628_225936,mistral_normative,llm,normative,3,Feasible,17,zeroshot
+mistral_subject-matter_17_20260628_225936,mistral_subject-matter,llm,subject-matter,3,Feasible,17,zeroshot
+phi4_generalist_18_20260628_230042,phi4_generalist,llm,generalist,3,Feasible,18,zeroshot
+phi4_normative_18_20260628_230042,phi4_normative,llm,normative,3,Feasible,18,zeroshot
+phi4_subject-matter_18_20260628_230042,phi4_subject-matter,llm,subject-matter,3,Feasible,18,zeroshot
+gemma3_generalist_18_20260628_230042,gemma3_generalist,llm,generalist,3,Feasible,18,zeroshot
+gemma3_normative_18_20260628_230042,gemma3_normative,llm,normative,3,Feasible,18,zeroshot
+gemma3_subject-matter_18_20260628_230042,gemma3_subject-matter,llm,subject-matter,3,Feasible,18,zeroshot
+llama_generalist_18_20260628_230042,llama_generalist,llm,generalist,2,Somewhat feasible,18,zeroshot
+llama_normative_18_20260628_230042,llama_normative,llm,normative,3,Feasible,18,zeroshot
+llama_subject-matter_18_20260628_230042,llama_subject-matter,llm,subject-matter,3,Feasible,18,zeroshot
+mistral_generalist_18_20260628_230042,mistral_generalist,llm,generalist,3,Feasible,18,zeroshot
+mistral_normative_18_20260628_230042,mistral_normative,llm,normative,3,Feasible,18,zeroshot
+mistral_subject-matter_18_20260628_230042,mistral_subject-matter,llm,subject-matter,3,Feasible,18,zeroshot
+phi4_generalist_19_20260628_230144,phi4_generalist,llm,generalist,3,Feasible,19,zeroshot
+phi4_normative_19_20260628_230144,phi4_normative,llm,normative,3,Feasible,19,zeroshot
+phi4_subject-matter_19_20260628_230144,phi4_subject-matter,llm,subject-matter,3,Feasible,19,zeroshot
+gemma3_generalist_19_20260628_230144,gemma3_generalist,llm,generalist,3,Feasible,19,zeroshot
+gemma3_normative_19_20260628_230144,gemma3_normative,llm,normative,3,Feasible,19,zeroshot
+gemma3_subject-matter_19_20260628_230144,gemma3_subject-matter,llm,subject-matter,3,Feasible,19,zeroshot
+llama_generalist_19_20260628_230144,llama_generalist,llm,generalist,3,Feasible,19,zeroshot
+llama_normative_19_20260628_230144,llama_normative,llm,normative,3,Feasible,19,zeroshot
+llama_subject-matter_19_20260628_230144,llama_subject-matter,llm,subject-matter,3,Feasible,19,zeroshot
+mistral_generalist_19_20260628_230144,mistral_generalist,llm,generalist,3,Feasible,19,zeroshot
+mistral_normative_19_20260628_230144,mistral_normative,llm,normative,3,Feasible,19,zeroshot
+mistral_subject-matter_19_20260628_230144,mistral_subject-matter,llm,subject-matter,3,Feasible,19,zeroshot
+phi4_generalist_20_20260628_230247,phi4_generalist,llm,generalist,3,Feasible,20,zeroshot
+phi4_normative_20_20260628_230247,phi4_normative,llm,normative,3,Feasible,20,zeroshot
+phi4_subject-matter_20_20260628_230247,phi4_subject-matter,llm,subject-matter,3,Feasible,20,zeroshot
+gemma3_generalist_20_20260628_230247,gemma3_generalist,llm,generalist,3,Feasible,20,zeroshot
+gemma3_normative_20_20260628_230247,gemma3_normative,llm,normative,3,Feasible,20,zeroshot
+gemma3_subject-matter_20_20260628_230247,gemma3_subject-matter,llm,subject-matter,3,Feasible,20,zeroshot
+llama_generalist_20_20260628_230247,llama_generalist,llm,generalist,3,Feasible,20,zeroshot
+llama_normative_20_20260628_230247,llama_normative,llm,normative,3,Feasible,20,zeroshot
+llama_subject-matter_20_20260628_230247,llama_subject-matter,llm,subject-matter,3,Feasible,20,zeroshot
+mistral_generalist_20_20260628_230247,mistral_generalist,llm,generalist,3,Feasible,20,zeroshot
+mistral_normative_20_20260628_230247,mistral_normative,llm,normative,3,Feasible,20,zeroshot
+mistral_subject-matter_20_20260628_230247,mistral_subject-matter,llm,subject-matter,3,Feasible,20,zeroshot
+phi4_generalist_21_20260628_230353,phi4_generalist,llm,generalist,3,Feasible,21,zeroshot
+phi4_normative_21_20260628_230353,phi4_normative,llm,normative,3,Feasible,21,zeroshot
+phi4_subject-matter_21_20260628_230353,phi4_subject-matter,llm,subject-matter,3,Feasible,21,zeroshot
+gemma3_generalist_21_20260628_230353,gemma3_generalist,llm,generalist,3,Feasible,21,zeroshot
+gemma3_normative_21_20260628_230353,gemma3_normative,llm,normative,3,Feasible,21,zeroshot
+gemma3_subject-matter_21_20260628_230353,gemma3_subject-matter,llm,subject-matter,3,Feasible,21,zeroshot
+llama_generalist_21_20260628_230353,llama_generalist,llm,generalist,2,Somewhat feasible,21,zeroshot
+llama_normative_21_20260628_230353,llama_normative,llm,normative,4,Very feasible,21,zeroshot
+llama_subject-matter_21_20260628_230353,llama_subject-matter,llm,subject-matter,3,Feasible,21,zeroshot
+mistral_generalist_21_20260628_230353,mistral_generalist,llm,generalist,3,Feasible,21,zeroshot
+mistral_normative_21_20260628_230353,mistral_normative,llm,normative,3,Feasible,21,zeroshot
+mistral_subject-matter_21_20260628_230353,mistral_subject-matter,llm,subject-matter,3,Feasible,21,zeroshot
+phi4_generalist_22_20260628_230503,phi4_generalist,llm,generalist,3,Feasible,22,zeroshot
+phi4_normative_22_20260628_230503,phi4_normative,llm,normative,4,Very feasible,22,zeroshot
+phi4_subject-matter_22_20260628_230503,phi4_subject-matter,llm,subject-matter,4,Very feasible,22,zeroshot
+gemma3_generalist_22_20260628_230503,gemma3_generalist,llm,generalist,3,Feasible,22,zeroshot
+gemma3_normative_22_20260628_230503,gemma3_normative,llm,normative,3,Feasible,22,zeroshot
+gemma3_subject-matter_22_20260628_230503,gemma3_subject-matter,llm,subject-matter,3,Feasible,22,zeroshot
+llama_generalist_22_20260628_230503,llama_generalist,llm,generalist,3,Feasible,22,zeroshot
+llama_normative_22_20260628_230503,llama_normative,llm,normative,3,Feasible,22,zeroshot
+llama_subject-matter_22_20260628_230503,llama_subject-matter,llm,subject-matter,3,Feasible,22,zeroshot
+mistral_generalist_22_20260628_230503,mistral_generalist,llm,generalist,3,Feasible,22,zeroshot
+mistral_normative_22_20260628_230503,mistral_normative,llm,normative,3,Feasible,22,zeroshot
+mistral_subject-matter_22_20260628_230503,mistral_subject-matter,llm,subject-matter,3,Feasible,22,zeroshot
+phi4_generalist_23_20260628_230607,phi4_generalist,llm,generalist,3,Feasible,23,zeroshot
+phi4_normative_23_20260628_230607,phi4_normative,llm,normative,3,Feasible,23,zeroshot
+phi4_subject-matter_23_20260628_230607,phi4_subject-matter,llm,subject-matter,3,Feasible,23,zeroshot
+gemma3_generalist_23_20260628_230607,gemma3_generalist,llm,generalist,3,Feasible,23,zeroshot
+gemma3_normative_23_20260628_230607,gemma3_normative,llm,normative,3,Feasible,23,zeroshot
+gemma3_subject-matter_23_20260628_230607,gemma3_subject-matter,llm,subject-matter,3,Feasible,23,zeroshot
+llama_generalist_23_20260628_230607,llama_generalist,llm,generalist,4,Very feasible,23,zeroshot
+llama_normative_23_20260628_230607,llama_normative,llm,normative,3,Feasible,23,zeroshot
+llama_subject-matter_23_20260628_230607,llama_subject-matter,llm,subject-matter,1,Not feasible,23,zeroshot
+mistral_generalist_23_20260628_230607,mistral_generalist,llm,generalist,3,Feasible,23,zeroshot
+mistral_normative_23_20260628_230607,mistral_normative,llm,normative,3,Feasible,23,zeroshot
+mistral_subject-matter_23_20260628_230607,mistral_subject-matter,llm,subject-matter,3,Feasible,23,zeroshot
+phi4_generalist_24_20260628_230718,phi4_generalist,llm,generalist,3,Feasible,24,zeroshot
+phi4_normative_24_20260628_230718,phi4_normative,llm,normative,4,Very feasible,24,zeroshot
+phi4_subject-matter_24_20260628_230718,phi4_subject-matter,llm,subject-matter,4,Very feasible,24,zeroshot
+gemma3_generalist_24_20260628_230718,gemma3_generalist,llm,generalist,3,Feasible,24,zeroshot
+gemma3_normative_24_20260628_230718,gemma3_normative,llm,normative,3,Feasible,24,zeroshot
+gemma3_subject-matter_24_20260628_230718,gemma3_subject-matter,llm,subject-matter,3,Feasible,24,zeroshot
+llama_generalist_24_20260628_230718,llama_generalist,llm,generalist,3,Feasible,24,zeroshot
+llama_normative_24_20260628_230718,llama_normative,llm,normative,3,Feasible,24,zeroshot
+llama_subject-matter_24_20260628_230718,llama_subject-matter,llm,subject-matter,4,Very feasible,24,zeroshot
+mistral_generalist_24_20260628_230718,mistral_generalist,llm,generalist,3,Feasible,24,zeroshot
+mistral_normative_24_20260628_230718,mistral_normative,llm,normative,3,Feasible,24,zeroshot
+mistral_subject-matter_24_20260628_230718,mistral_subject-matter,llm,subject-matter,3,Feasible,24,zeroshot
+phi4_generalist_25_20260628_230822,phi4_generalist,llm,generalist,3,Feasible,25,zeroshot
+phi4_normative_25_20260628_230822,phi4_normative,llm,normative,3,Feasible,25,zeroshot
+phi4_subject-matter_25_20260628_230822,phi4_subject-matter,llm,subject-matter,3,Feasible,25,zeroshot
+gemma3_generalist_25_20260628_230822,gemma3_generalist,llm,generalist,3,Feasible,25,zeroshot
+gemma3_normative_25_20260628_230822,gemma3_normative,llm,normative,3,Feasible,25,zeroshot
+gemma3_subject-matter_25_20260628_230822,gemma3_subject-matter,llm,subject-matter,3,Feasible,25,zeroshot
+llama_generalist_25_20260628_230822,llama_generalist,llm,generalist,3,Feasible,25,zeroshot
+llama_normative_25_20260628_230822,llama_normative,llm,normative,3,Feasible,25,zeroshot
+llama_subject-matter_25_20260628_230822,llama_subject-matter,llm,subject-matter,3,Feasible,25,zeroshot
+mistral_generalist_25_20260628_230822,mistral_generalist,llm,generalist,3,Feasible,25,zeroshot
+mistral_normative_25_20260628_230822,mistral_normative,llm,normative,3,Feasible,25,zeroshot
+mistral_subject-matter_25_20260628_230822,mistral_subject-matter,llm,subject-matter,3,Feasible,25,zeroshot
+phi4_generalist_26_20260628_230934,phi4_generalist,llm,generalist,3,Feasible,26,zeroshot
+phi4_normative_26_20260628_230934,phi4_normative,llm,normative,4,Very feasible,26,zeroshot
+phi4_subject-matter_26_20260628_230934,phi4_subject-matter,llm,subject-matter,3,Feasible,26,zeroshot
+gemma3_generalist_26_20260628_230934,gemma3_generalist,llm,generalist,3,Feasible,26,zeroshot
+gemma3_normative_26_20260628_230934,gemma3_normative,llm,normative,3,Feasible,26,zeroshot
+gemma3_subject-matter_26_20260628_230934,gemma3_subject-matter,llm,subject-matter,3,Feasible,26,zeroshot
+llama_generalist_26_20260628_230934,llama_generalist,llm,generalist,3,Feasible,26,zeroshot
+llama_normative_26_20260628_230934,llama_normative,llm,normative,3,Feasible,26,zeroshot
+llama_subject-matter_26_20260628_230934,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,26,zeroshot
+mistral_generalist_26_20260628_230934,mistral_generalist,llm,generalist,3,Feasible,26,zeroshot
+mistral_normative_26_20260628_230934,mistral_normative,llm,normative,3,Feasible,26,zeroshot
+mistral_subject-matter_26_20260628_230934,mistral_subject-matter,llm,subject-matter,3,Feasible,26,zeroshot
+phi4_generalist_27_20260628_231122,phi4_generalist,llm,generalist,3,Feasible,27,zeroshot
+phi4_normative_27_20260628_231122,phi4_normative,llm,normative,3,Feasible,27,zeroshot
+phi4_subject-matter_27_20260628_231122,phi4_subject-matter,llm,subject-matter,3,Feasible,27,zeroshot
+gemma3_generalist_27_20260628_231122,gemma3_generalist,llm,generalist,3,Feasible,27,zeroshot
+gemma3_normative_27_20260628_231122,gemma3_normative,llm,normative,3,Feasible,27,zeroshot
+gemma3_subject-matter_27_20260628_231122,gemma3_subject-matter,llm,subject-matter,3,Feasible,27,zeroshot
+llama_generalist_27_20260628_231122,llama_generalist,llm,generalist,2,Somewhat feasible,27,zeroshot
+llama_normative_27_20260628_231122,llama_normative,llm,normative,2,Somewhat feasible,27,zeroshot
+llama_subject-matter_27_20260628_231122,llama_subject-matter,llm,subject-matter,3,Feasible,27,zeroshot
+mistral_generalist_27_20260628_231122,mistral_generalist,llm,generalist,3,Feasible,27,zeroshot
+mistral_normative_27_20260628_231122,mistral_normative,llm,normative,3,Feasible,27,zeroshot
+mistral_subject-matter_27_20260628_231122,mistral_subject-matter,llm,subject-matter,3,Feasible,27,zeroshot
+phi4_generalist_28_20260628_231307,phi4_generalist,llm,generalist,3,Feasible,28,zeroshot
+phi4_normative_28_20260628_231307,phi4_normative,llm,normative,3,Feasible,28,zeroshot
+phi4_subject-matter_28_20260628_231307,phi4_subject-matter,llm,subject-matter,3,Feasible,28,zeroshot
+gemma3_generalist_28_20260628_231307,gemma3_generalist,llm,generalist,3,Feasible,28,zeroshot
+gemma3_normative_28_20260628_231307,gemma3_normative,llm,normative,3,Feasible,28,zeroshot
+gemma3_subject-matter_28_20260628_231307,gemma3_subject-matter,llm,subject-matter,3,Feasible,28,zeroshot
+llama_generalist_28_20260628_231307,llama_generalist,llm,generalist,3,Feasible,28,zeroshot
+llama_normative_28_20260628_231307,llama_normative,llm,normative,1,Not feasible,28,zeroshot
+llama_subject-matter_28_20260628_231307,llama_subject-matter,llm,subject-matter,3,Feasible,28,zeroshot
+mistral_generalist_28_20260628_231307,mistral_generalist,llm,generalist,3,Feasible,28,zeroshot
+mistral_normative_28_20260628_231307,mistral_normative,llm,normative,3,Feasible,28,zeroshot
+mistral_subject-matter_28_20260628_231307,mistral_subject-matter,llm,subject-matter,3,Feasible,28,zeroshot
+phi4_generalist_29_20260628_231446,phi4_generalist,llm,generalist,3,Feasible,29,zeroshot
+phi4_normative_29_20260628_231446,phi4_normative,llm,normative,3,Feasible,29,zeroshot
+phi4_subject-matter_29_20260628_231446,phi4_subject-matter,llm,subject-matter,4,Very feasible,29,zeroshot
+gemma3_generalist_29_20260628_231446,gemma3_generalist,llm,generalist,3,Feasible,29,zeroshot
+gemma3_normative_29_20260628_231446,gemma3_normative,llm,normative,3,Feasible,29,zeroshot
+gemma3_subject-matter_29_20260628_231446,gemma3_subject-matter,llm,subject-matter,3,Feasible,29,zeroshot
+llama_generalist_29_20260628_231446,llama_generalist,llm,generalist,3,Feasible,29,zeroshot
+llama_normative_29_20260628_231446,llama_normative,llm,normative,3,Feasible,29,zeroshot
+llama_subject-matter_29_20260628_231446,llama_subject-matter,llm,subject-matter,3,Feasible,29,zeroshot
+mistral_generalist_29_20260628_231446,mistral_generalist,llm,generalist,3,Feasible,29,zeroshot
+mistral_normative_29_20260628_231446,mistral_normative,llm,normative,3,Feasible,29,zeroshot
+mistral_subject-matter_29_20260628_231446,mistral_subject-matter,llm,subject-matter,3,Feasible,29,zeroshot
+phi4_generalist_30_20260628_231640,phi4_generalist,llm,generalist,3,Feasible,30,zeroshot
+phi4_normative_30_20260628_231640,phi4_normative,llm,normative,3,Feasible,30,zeroshot
+phi4_subject-matter_30_20260628_231640,phi4_subject-matter,llm,subject-matter,3,Feasible,30,zeroshot
+gemma3_generalist_30_20260628_231640,gemma3_generalist,llm,generalist,3,Feasible,30,zeroshot
+gemma3_normative_30_20260628_231640,gemma3_normative,llm,normative,3,Feasible,30,zeroshot
+gemma3_subject-matter_30_20260628_231640,gemma3_subject-matter,llm,subject-matter,3,Feasible,30,zeroshot
+llama_generalist_30_20260628_231640,llama_generalist,llm,generalist,3,Feasible,30,zeroshot
+llama_normative_30_20260628_231640,llama_normative,llm,normative,4,Very feasible,30,zeroshot
+llama_subject-matter_30_20260628_231640,llama_subject-matter,llm,subject-matter,3,Feasible,30,zeroshot
+mistral_generalist_30_20260628_231640,mistral_generalist,llm,generalist,3,Feasible,30,zeroshot
+mistral_normative_30_20260628_231640,mistral_normative,llm,normative,3,Feasible,30,zeroshot
+mistral_subject-matter_30_20260628_231640,mistral_subject-matter,llm,subject-matter,3,Feasible,30,zeroshot
+phi4_generalist_31_20260628_231745,phi4_generalist,llm,generalist,3,Feasible,31,zeroshot
+phi4_normative_31_20260628_231745,phi4_normative,llm,normative,3,Feasible,31,zeroshot
+phi4_subject-matter_31_20260628_231745,phi4_subject-matter,llm,subject-matter,3,Feasible,31,zeroshot
+gemma3_generalist_31_20260628_231745,gemma3_generalist,llm,generalist,3,Feasible,31,zeroshot
+gemma3_normative_31_20260628_231745,gemma3_normative,llm,normative,3,Feasible,31,zeroshot
+gemma3_subject-matter_31_20260628_231745,gemma3_subject-matter,llm,subject-matter,3,Feasible,31,zeroshot
+llama_generalist_31_20260628_231745,llama_generalist,llm,generalist,3,Feasible,31,zeroshot
+llama_normative_31_20260628_231745,llama_normative,llm,normative,3,Feasible,31,zeroshot
+llama_subject-matter_31_20260628_231745,llama_subject-matter,llm,subject-matter,4,Very feasible,31,zeroshot
+mistral_generalist_31_20260628_231745,mistral_generalist,llm,generalist,3,Feasible,31,zeroshot
+mistral_normative_31_20260628_231745,mistral_normative,llm,normative,3,Feasible,31,zeroshot
+mistral_subject-matter_31_20260628_231745,mistral_subject-matter,llm,subject-matter,3,Feasible,31,zeroshot
+phi4_generalist_32_20260628_231850,phi4_generalist,llm,generalist,3,Feasible,32,zeroshot
+phi4_normative_32_20260628_231850,phi4_normative,llm,normative,3,Feasible,32,zeroshot
+phi4_subject-matter_32_20260628_231850,phi4_subject-matter,llm,subject-matter,3,Feasible,32,zeroshot
+gemma3_generalist_32_20260628_231850,gemma3_generalist,llm,generalist,3,Feasible,32,zeroshot
+gemma3_normative_32_20260628_231850,gemma3_normative,llm,normative,3,Feasible,32,zeroshot
+gemma3_subject-matter_32_20260628_231850,gemma3_subject-matter,llm,subject-matter,3,Feasible,32,zeroshot
+llama_generalist_32_20260628_231850,llama_generalist,llm,generalist,3,Feasible,32,zeroshot
+llama_normative_32_20260628_231850,llama_normative,llm,normative,2,Somewhat feasible,32,zeroshot
+llama_subject-matter_32_20260628_231850,llama_subject-matter,llm,subject-matter,3,Feasible,32,zeroshot
+mistral_generalist_32_20260628_231850,mistral_generalist,llm,generalist,3,Feasible,32,zeroshot
+mistral_normative_32_20260628_231850,mistral_normative,llm,normative,3,Feasible,32,zeroshot
+mistral_subject-matter_32_20260628_231850,mistral_subject-matter,llm,subject-matter,3,Feasible,32,zeroshot
+phi4_generalist_33_20260628_231957,phi4_generalist,llm,generalist,3,Feasible,33,zeroshot
+phi4_normative_33_20260628_231957,phi4_normative,llm,normative,3,Feasible,33,zeroshot
+phi4_subject-matter_33_20260628_231957,phi4_subject-matter,llm,subject-matter,3,Feasible,33,zeroshot
+gemma3_generalist_33_20260628_231957,gemma3_generalist,llm,generalist,3,Feasible,33,zeroshot
+gemma3_normative_33_20260628_231957,gemma3_normative,llm,normative,3,Feasible,33,zeroshot
+gemma3_subject-matter_33_20260628_231957,gemma3_subject-matter,llm,subject-matter,3,Feasible,33,zeroshot
+llama_generalist_33_20260628_231957,llama_generalist,llm,generalist,3,Feasible,33,zeroshot
+llama_normative_33_20260628_231957,llama_normative,llm,normative,3,Feasible,33,zeroshot
+llama_subject-matter_33_20260628_231957,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,33,zeroshot
+mistral_generalist_33_20260628_231957,mistral_generalist,llm,generalist,3,Feasible,33,zeroshot
+mistral_normative_33_20260628_231957,mistral_normative,llm,normative,3,Feasible,33,zeroshot
+mistral_subject-matter_33_20260628_231957,mistral_subject-matter,llm,subject-matter,3,Feasible,33,zeroshot
+phi4_generalist_34_20260628_232105,phi4_generalist,llm,generalist,3,Feasible,34,zeroshot
+phi4_normative_34_20260628_232105,phi4_normative,llm,normative,3,Feasible,34,zeroshot
+phi4_subject-matter_34_20260628_232105,phi4_subject-matter,llm,subject-matter,3,Feasible,34,zeroshot
+gemma3_generalist_34_20260628_232105,gemma3_generalist,llm,generalist,3,Feasible,34,zeroshot
+gemma3_normative_34_20260628_232105,gemma3_normative,llm,normative,3,Feasible,34,zeroshot
+gemma3_subject-matter_34_20260628_232105,gemma3_subject-matter,llm,subject-matter,3,Feasible,34,zeroshot
+llama_generalist_34_20260628_232105,llama_generalist,llm,generalist,2,Somewhat feasible,34,zeroshot
+llama_normative_34_20260628_232105,llama_normative,llm,normative,2,Somewhat feasible,34,zeroshot
+llama_subject-matter_34_20260628_232105,llama_subject-matter,llm,subject-matter,3,Feasible,34,zeroshot
+mistral_generalist_34_20260628_232105,mistral_generalist,llm,generalist,3,Feasible,34,zeroshot
+mistral_normative_34_20260628_232105,mistral_normative,llm,normative,3,Feasible,34,zeroshot
+mistral_subject-matter_34_20260628_232105,mistral_subject-matter,llm,subject-matter,3,Feasible,34,zeroshot
+phi4_generalist_35_20260628_232207,phi4_generalist,llm,generalist,3,Feasible,35,zeroshot
+phi4_normative_35_20260628_232207,phi4_normative,llm,normative,4,Very feasible,35,zeroshot
+phi4_subject-matter_35_20260628_232207,phi4_subject-matter,llm,subject-matter,3,Feasible,35,zeroshot
+gemma3_generalist_35_20260628_232207,gemma3_generalist,llm,generalist,3,Feasible,35,zeroshot
+gemma3_normative_35_20260628_232207,gemma3_normative,llm,normative,3,Feasible,35,zeroshot
+gemma3_subject-matter_35_20260628_232207,gemma3_subject-matter,llm,subject-matter,3,Feasible,35,zeroshot
+llama_generalist_35_20260628_232207,llama_generalist,llm,generalist,1,Not feasible,35,zeroshot
+llama_normative_35_20260628_232207,llama_normative,llm,normative,3,Feasible,35,zeroshot
+llama_subject-matter_35_20260628_232207,llama_subject-matter,llm,subject-matter,3,Feasible,35,zeroshot
+mistral_generalist_35_20260628_232207,mistral_generalist,llm,generalist,3,Feasible,35,zeroshot
+mistral_normative_35_20260628_232207,mistral_normative,llm,normative,3,Feasible,35,zeroshot
+mistral_subject-matter_35_20260628_232207,mistral_subject-matter,llm,subject-matter,3,Feasible,35,zeroshot
+phi4_generalist_36_20260628_232315,phi4_generalist,llm,generalist,3,Feasible,36,zeroshot
+phi4_normative_36_20260628_232315,phi4_normative,llm,normative,3,Feasible,36,zeroshot
+phi4_subject-matter_36_20260628_232315,phi4_subject-matter,llm,subject-matter,4,Very feasible,36,zeroshot
+gemma3_generalist_36_20260628_232315,gemma3_generalist,llm,generalist,3,Feasible,36,zeroshot
+gemma3_normative_36_20260628_232315,gemma3_normative,llm,normative,3,Feasible,36,zeroshot
+gemma3_subject-matter_36_20260628_232315,gemma3_subject-matter,llm,subject-matter,3,Feasible,36,zeroshot
+llama_generalist_36_20260628_232315,llama_generalist,llm,generalist,3,Feasible,36,zeroshot
+llama_normative_36_20260628_232315,llama_normative,llm,normative,3,Feasible,36,zeroshot
+llama_subject-matter_36_20260628_232315,llama_subject-matter,llm,subject-matter,3,Feasible,36,zeroshot
+mistral_generalist_36_20260628_232315,mistral_generalist,llm,generalist,3,Feasible,36,zeroshot
+mistral_normative_36_20260628_232315,mistral_normative,llm,normative,3,Feasible,36,zeroshot
+mistral_subject-matter_36_20260628_232315,mistral_subject-matter,llm,subject-matter,3,Feasible,36,zeroshot
+phi4_generalist_37_20260628_232419,phi4_generalist,llm,generalist,3,Feasible,37,zeroshot
+phi4_normative_37_20260628_232419,phi4_normative,llm,normative,3,Feasible,37,zeroshot
+phi4_subject-matter_37_20260628_232419,phi4_subject-matter,llm,subject-matter,3,Feasible,37,zeroshot
+gemma3_generalist_37_20260628_232419,gemma3_generalist,llm,generalist,3,Feasible,37,zeroshot
+gemma3_normative_37_20260628_232419,gemma3_normative,llm,normative,3,Feasible,37,zeroshot
+gemma3_subject-matter_37_20260628_232419,gemma3_subject-matter,llm,subject-matter,3,Feasible,37,zeroshot
+llama_generalist_37_20260628_232419,llama_generalist,llm,generalist,3,Feasible,37,zeroshot
+llama_normative_37_20260628_232419,llama_normative,llm,normative,3,Feasible,37,zeroshot
+llama_subject-matter_37_20260628_232419,llama_subject-matter,llm,subject-matter,3,Feasible,37,zeroshot
+mistral_generalist_37_20260628_232419,mistral_generalist,llm,generalist,3,Feasible,37,zeroshot
+mistral_normative_37_20260628_232419,mistral_normative,llm,normative,3,Feasible,37,zeroshot
+mistral_subject-matter_37_20260628_232419,mistral_subject-matter,llm,subject-matter,3,Feasible,37,zeroshot
+phi4_generalist_38_20260628_232524,phi4_generalist,llm,generalist,3,Feasible,38,zeroshot
+phi4_normative_38_20260628_232524,phi4_normative,llm,normative,3,Feasible,38,zeroshot
+phi4_subject-matter_38_20260628_232524,phi4_subject-matter,llm,subject-matter,3,Feasible,38,zeroshot
+gemma3_generalist_38_20260628_232524,gemma3_generalist,llm,generalist,3,Feasible,38,zeroshot
+gemma3_normative_38_20260628_232524,gemma3_normative,llm,normative,3,Feasible,38,zeroshot
+gemma3_subject-matter_38_20260628_232524,gemma3_subject-matter,llm,subject-matter,3,Feasible,38,zeroshot
+llama_generalist_38_20260628_232524,llama_generalist,llm,generalist,2,Somewhat feasible,38,zeroshot
+llama_normative_38_20260628_232524,llama_normative,llm,normative,3,Feasible,38,zeroshot
+llama_subject-matter_38_20260628_232524,llama_subject-matter,llm,subject-matter,4,Very feasible,38,zeroshot
+mistral_generalist_38_20260628_232524,mistral_generalist,llm,generalist,3,Feasible,38,zeroshot
+mistral_normative_38_20260628_232524,mistral_normative,llm,normative,3,Feasible,38,zeroshot
+mistral_subject-matter_38_20260628_232524,mistral_subject-matter,llm,subject-matter,3,Feasible,38,zeroshot
+phi4_generalist_39_20260628_232630,phi4_generalist,llm,generalist,3,Feasible,39,zeroshot
+phi4_normative_39_20260628_232630,phi4_normative,llm,normative,3,Feasible,39,zeroshot
+phi4_subject-matter_39_20260628_232630,phi4_subject-matter,llm,subject-matter,3,Feasible,39,zeroshot
+gemma3_generalist_39_20260628_232630,gemma3_generalist,llm,generalist,3,Feasible,39,zeroshot
+gemma3_normative_39_20260628_232630,gemma3_normative,llm,normative,3,Feasible,39,zeroshot
+gemma3_subject-matter_39_20260628_232630,gemma3_subject-matter,llm,subject-matter,3,Feasible,39,zeroshot
+llama_generalist_39_20260628_232630,llama_generalist,llm,generalist,3,Feasible,39,zeroshot
+llama_normative_39_20260628_232630,llama_normative,llm,normative,3,Feasible,39,zeroshot
+llama_subject-matter_39_20260628_232630,llama_subject-matter,llm,subject-matter,3,Feasible,39,zeroshot
+mistral_generalist_39_20260628_232630,mistral_generalist,llm,generalist,3,Feasible,39,zeroshot
+mistral_normative_39_20260628_232630,mistral_normative,llm,normative,3,Feasible,39,zeroshot
+mistral_subject-matter_39_20260628_232630,mistral_subject-matter,llm,subject-matter,3,Feasible,39,zeroshot
+phi4_generalist_40_20260628_232737,phi4_generalist,llm,generalist,3,Feasible,40,zeroshot
+phi4_normative_40_20260628_232737,phi4_normative,llm,normative,3,Feasible,40,zeroshot
+phi4_subject-matter_40_20260628_232737,phi4_subject-matter,llm,subject-matter,3,Feasible,40,zeroshot
+gemma3_generalist_40_20260628_232737,gemma3_generalist,llm,generalist,3,Feasible,40,zeroshot
+gemma3_normative_40_20260628_232737,gemma3_normative,llm,normative,3,Feasible,40,zeroshot
+gemma3_subject-matter_40_20260628_232737,gemma3_subject-matter,llm,subject-matter,3,Feasible,40,zeroshot
+llama_generalist_40_20260628_232737,llama_generalist,llm,generalist,2,Somewhat feasible,40,zeroshot
+llama_normative_40_20260628_232737,llama_normative,llm,normative,3,Feasible,40,zeroshot
+llama_subject-matter_40_20260628_232737,llama_subject-matter,llm,subject-matter,3,Feasible,40,zeroshot
+mistral_generalist_40_20260628_232737,mistral_generalist,llm,generalist,3,Feasible,40,zeroshot
+mistral_normative_40_20260628_232737,mistral_normative,llm,normative,3,Feasible,40,zeroshot
+mistral_subject-matter_40_20260628_232737,mistral_subject-matter,llm,subject-matter,3,Feasible,40,zeroshot
+phi4_generalist_41_20260628_232842,phi4_generalist,llm,generalist,3,Feasible,41,zeroshot
+phi4_normative_41_20260628_232842,phi4_normative,llm,normative,3,Feasible,41,zeroshot
+phi4_subject-matter_41_20260628_232842,phi4_subject-matter,llm,subject-matter,3,Feasible,41,zeroshot
+gemma3_generalist_41_20260628_232842,gemma3_generalist,llm,generalist,3,Feasible,41,zeroshot
+gemma3_normative_41_20260628_232842,gemma3_normative,llm,normative,3,Feasible,41,zeroshot
+gemma3_subject-matter_41_20260628_232842,gemma3_subject-matter,llm,subject-matter,3,Feasible,41,zeroshot
+llama_generalist_41_20260628_232842,llama_generalist,llm,generalist,3,Feasible,41,zeroshot
+llama_normative_41_20260628_232842,llama_normative,llm,normative,3,Feasible,41,zeroshot
+llama_subject-matter_41_20260628_232842,llama_subject-matter,llm,subject-matter,3,Feasible,41,zeroshot
+mistral_generalist_41_20260628_232842,mistral_generalist,llm,generalist,3,Feasible,41,zeroshot
+mistral_normative_41_20260628_232842,mistral_normative,llm,normative,3,Feasible,41,zeroshot
+mistral_subject-matter_41_20260628_232842,mistral_subject-matter,llm,subject-matter,3,Feasible,41,zeroshot
+phi4_generalist_42_20260628_232950,phi4_generalist,llm,generalist,3,Feasible,42,zeroshot
+phi4_normative_42_20260628_232950,phi4_normative,llm,normative,4,Very feasible,42,zeroshot
+phi4_subject-matter_42_20260628_232950,phi4_subject-matter,llm,subject-matter,4,Very feasible,42,zeroshot
+gemma3_generalist_42_20260628_232950,gemma3_generalist,llm,generalist,3,Feasible,42,zeroshot
+gemma3_normative_42_20260628_232950,gemma3_normative,llm,normative,3,Feasible,42,zeroshot
+gemma3_subject-matter_42_20260628_232950,gemma3_subject-matter,llm,subject-matter,3,Feasible,42,zeroshot
+llama_generalist_42_20260628_232950,llama_generalist,llm,generalist,2,Somewhat feasible,42,zeroshot
+llama_normative_42_20260628_232950,llama_normative,llm,normative,2,Somewhat feasible,42,zeroshot
+llama_subject-matter_42_20260628_232950,llama_subject-matter,llm,subject-matter,3,Feasible,42,zeroshot
+mistral_generalist_42_20260628_232950,mistral_generalist,llm,generalist,3,Feasible,42,zeroshot
+mistral_normative_42_20260628_232950,mistral_normative,llm,normative,3,Feasible,42,zeroshot
+mistral_subject-matter_42_20260628_232950,mistral_subject-matter,llm,subject-matter,3,Feasible,42,zeroshot
+phi4_generalist_43_20260628_233053,phi4_generalist,llm,generalist,3,Feasible,43,zeroshot
+phi4_normative_43_20260628_233053,phi4_normative,llm,normative,4,Very feasible,43,zeroshot
+phi4_subject-matter_43_20260628_233053,phi4_subject-matter,llm,subject-matter,3,Feasible,43,zeroshot
+gemma3_generalist_43_20260628_233053,gemma3_generalist,llm,generalist,3,Feasible,43,zeroshot
+gemma3_normative_43_20260628_233053,gemma3_normative,llm,normative,3,Feasible,43,zeroshot
+gemma3_subject-matter_43_20260628_233053,gemma3_subject-matter,llm,subject-matter,3,Feasible,43,zeroshot
+llama_generalist_43_20260628_233053,llama_generalist,llm,generalist,2,Somewhat feasible,43,zeroshot
+llama_normative_43_20260628_233053,llama_normative,llm,normative,3,Feasible,43,zeroshot
+llama_subject-matter_43_20260628_233053,llama_subject-matter,llm,subject-matter,1,Not feasible,43,zeroshot
+mistral_generalist_43_20260628_233053,mistral_generalist,llm,generalist,3,Feasible,43,zeroshot
+mistral_normative_43_20260628_233053,mistral_normative,llm,normative,3,Feasible,43,zeroshot
+mistral_subject-matter_43_20260628_233053,mistral_subject-matter,llm,subject-matter,3,Feasible,43,zeroshot
+phi4_generalist_44_20260628_233159,phi4_generalist,llm,generalist,3,Feasible,44,zeroshot
+phi4_normative_44_20260628_233159,phi4_normative,llm,normative,3,Feasible,44,zeroshot
+phi4_subject-matter_44_20260628_233159,phi4_subject-matter,llm,subject-matter,4,Very feasible,44,zeroshot
+gemma3_generalist_44_20260628_233159,gemma3_generalist,llm,generalist,3,Feasible,44,zeroshot
+gemma3_normative_44_20260628_233159,gemma3_normative,llm,normative,3,Feasible,44,zeroshot
+gemma3_subject-matter_44_20260628_233159,gemma3_subject-matter,llm,subject-matter,3,Feasible,44,zeroshot
+llama_generalist_44_20260628_233159,llama_generalist,llm,generalist,2,Somewhat feasible,44,zeroshot
+llama_normative_44_20260628_233159,llama_normative,llm,normative,3,Feasible,44,zeroshot
+llama_subject-matter_44_20260628_233159,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,44,zeroshot
+mistral_generalist_44_20260628_233159,mistral_generalist,llm,generalist,3,Feasible,44,zeroshot
+mistral_normative_44_20260628_233159,mistral_normative,llm,normative,3,Feasible,44,zeroshot
+mistral_subject-matter_44_20260628_233159,mistral_subject-matter,llm,subject-matter,3,Feasible,44,zeroshot
+phi4_generalist_45_20260628_233300,phi4_generalist,llm,generalist,3,Feasible,45,zeroshot
+phi4_normative_45_20260628_233300,phi4_normative,llm,normative,3,Feasible,45,zeroshot
+phi4_subject-matter_45_20260628_233300,phi4_subject-matter,llm,subject-matter,4,Very feasible,45,zeroshot
+gemma3_generalist_45_20260628_233300,gemma3_generalist,llm,generalist,3,Feasible,45,zeroshot
+gemma3_normative_45_20260628_233300,gemma3_normative,llm,normative,3,Feasible,45,zeroshot
+gemma3_subject-matter_45_20260628_233300,gemma3_subject-matter,llm,subject-matter,3,Feasible,45,zeroshot
+llama_generalist_45_20260628_233300,llama_generalist,llm,generalist,3,Feasible,45,zeroshot
+llama_normative_45_20260628_233300,llama_normative,llm,normative,3,Feasible,45,zeroshot
+llama_subject-matter_45_20260628_233300,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,45,zeroshot
+mistral_generalist_45_20260628_233300,mistral_generalist,llm,generalist,3,Feasible,45,zeroshot
+mistral_normative_45_20260628_233300,mistral_normative,llm,normative,3,Feasible,45,zeroshot
+mistral_subject-matter_45_20260628_233300,mistral_subject-matter,llm,subject-matter,3,Feasible,45,zeroshot
+phi4_generalist_46_20260628_233410,phi4_generalist,llm,generalist,4,Very feasible,46,zeroshot
+phi4_normative_46_20260628_233410,phi4_normative,llm,normative,3,Feasible,46,zeroshot
+phi4_subject-matter_46_20260628_233410,phi4_subject-matter,llm,subject-matter,3,Feasible,46,zeroshot
+gemma3_generalist_46_20260628_233410,gemma3_generalist,llm,generalist,3,Feasible,46,zeroshot
+gemma3_normative_46_20260628_233410,gemma3_normative,llm,normative,3,Feasible,46,zeroshot
+gemma3_subject-matter_46_20260628_233410,gemma3_subject-matter,llm,subject-matter,3,Feasible,46,zeroshot
+llama_generalist_46_20260628_233410,llama_generalist,llm,generalist,3,Feasible,46,zeroshot
+llama_normative_46_20260628_233410,llama_normative,llm,normative,2,Somewhat feasible,46,zeroshot
+llama_subject-matter_46_20260628_233410,llama_subject-matter,llm,subject-matter,4,Very feasible,46,zeroshot
+mistral_generalist_46_20260628_233410,mistral_generalist,llm,generalist,3,Feasible,46,zeroshot
+mistral_normative_46_20260628_233410,mistral_normative,llm,normative,3,Feasible,46,zeroshot
+mistral_subject-matter_46_20260628_233410,mistral_subject-matter,llm,subject-matter,3,Feasible,46,zeroshot
+phi4_generalist_47_20260628_233514,phi4_generalist,llm,generalist,3,Feasible,47,zeroshot
+phi4_normative_47_20260628_233514,phi4_normative,llm,normative,4,Very feasible,47,zeroshot
+phi4_subject-matter_47_20260628_233514,phi4_subject-matter,llm,subject-matter,4,Very feasible,47,zeroshot
+gemma3_generalist_47_20260628_233514,gemma3_generalist,llm,generalist,3,Feasible,47,zeroshot
+gemma3_normative_47_20260628_233514,gemma3_normative,llm,normative,3,Feasible,47,zeroshot
+gemma3_subject-matter_47_20260628_233514,gemma3_subject-matter,llm,subject-matter,3,Feasible,47,zeroshot
+llama_generalist_47_20260628_233514,llama_generalist,llm,generalist,1,Not feasible,47,zeroshot
+llama_normative_47_20260628_233514,llama_normative,llm,normative,2,Somewhat feasible,47,zeroshot
+llama_subject-matter_47_20260628_233514,llama_subject-matter,llm,subject-matter,2,Somewhat feasible,47,zeroshot
+mistral_generalist_47_20260628_233514,mistral_generalist,llm,generalist,3,Feasible,47,zeroshot
+mistral_normative_47_20260628_233514,mistral_normative,llm,normative,3,Feasible,47,zeroshot
+mistral_subject-matter_47_20260628_233514,mistral_subject-matter,llm,subject-matter,3,Feasible,47,zeroshot
+phi4_generalist_48_20260628_233614,phi4_generalist,llm,generalist,3,Feasible,48,zeroshot
+phi4_normative_48_20260628_233614,phi4_normative,llm,normative,4,Very feasible,48,zeroshot
+phi4_subject-matter_48_20260628_233614,phi4_subject-matter,llm,subject-matter,3,Feasible,48,zeroshot
+gemma3_generalist_48_20260628_233614,gemma3_generalist,llm,generalist,3,Feasible,48,zeroshot
+gemma3_normative_48_20260628_233614,gemma3_normative,llm,normative,3,Feasible,48,zeroshot
+gemma3_subject-matter_48_20260628_233614,gemma3_subject-matter,llm,subject-matter,3,Feasible,48,zeroshot
+llama_generalist_48_20260628_233614,llama_generalist,llm,generalist,3,Feasible,48,zeroshot
+llama_normative_48_20260628_233614,llama_normative,llm,normative,3,Feasible,48,zeroshot
+llama_subject-matter_48_20260628_233614,llama_subject-matter,llm,subject-matter,1,Not feasible,48,zeroshot
+mistral_generalist_48_20260628_233614,mistral_generalist,llm,generalist,3,Feasible,48,zeroshot
+mistral_normative_48_20260628_233614,mistral_normative,llm,normative,3,Feasible,48,zeroshot
+mistral_subject-matter_48_20260628_233614,mistral_subject-matter,llm,subject-matter,3,Feasible,48,zeroshot
+phi4_generalist_49_20260628_233720,phi4_generalist,llm,generalist,3,Feasible,49,zeroshot
+phi4_normative_49_20260628_233720,phi4_normative,llm,normative,3,Feasible,49,zeroshot
+phi4_subject-matter_49_20260628_233720,phi4_subject-matter,llm,subject-matter,3,Feasible,49,zeroshot
+gemma3_generalist_49_20260628_233720,gemma3_generalist,llm,generalist,3,Feasible,49,zeroshot
+gemma3_normative_49_20260628_233720,gemma3_normative,llm,normative,3,Feasible,49,zeroshot
+gemma3_subject-matter_49_20260628_233720,gemma3_subject-matter,llm,subject-matter,3,Feasible,49,zeroshot
+llama_generalist_49_20260628_233720,llama_generalist,llm,generalist,3,Feasible,49,zeroshot
+llama_normative_49_20260628_233720,llama_normative,llm,normative,2,Somewhat feasible,49,zeroshot
+llama_subject-matter_49_20260628_233720,llama_subject-matter,llm,subject-matter,3,Feasible,49,zeroshot
+mistral_generalist_49_20260628_233720,mistral_generalist,llm,generalist,3,Feasible,49,zeroshot
+mistral_normative_49_20260628_233720,mistral_normative,llm,normative,3,Feasible,49,zeroshot
+mistral_subject-matter_49_20260628_233720,mistral_subject-matter,llm,subject-matter,3,Feasible,49,zeroshot

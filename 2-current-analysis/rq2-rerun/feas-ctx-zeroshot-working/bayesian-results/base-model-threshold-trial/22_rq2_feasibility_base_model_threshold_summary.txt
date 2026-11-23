@@ -1,0 +1,56 @@
+ Family: cumulative 
+  Links: mu = logit 
+Formula: rating | thres(3, gr = base_model) ~ condition * base_model 
+   Data: df (Number of observations: 1200) 
+  Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
+         total post-warmup draws = 8000
+
+Regression Coefficients:
+                       Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+Intercept[gemma3,1]       -6.15      1.02    -8.29    -4.22 1.00     6304
+Intercept[gemma3,2]       -5.54      0.94    -7.43    -3.73 1.00     6700
+Intercept[gemma3,3]        5.25      1.12     3.14     7.56 1.00     9327
+Intercept[llama,1]        -8.85      1.11   -11.08    -6.73 1.00     5533
+Intercept[llama,2]         0.11      0.93    -1.71     1.93 1.00     8211
+Intercept[llama,3]         0.59      0.94    -1.23     2.44 1.00     8033
+Intercept[mistral,1]      -6.15      1.01    -8.19    -4.23 1.00     6896
+Intercept[mistral,2]      -5.55      0.92    -7.33    -3.76 1.00     7034
+Intercept[mistral,3]       5.26      1.13     3.14     7.53 1.00     9134
+Intercept[phi4,1]         -5.89      1.14    -8.22    -3.78 1.00     7734
+Intercept[phi4,2]         -5.26      1.06    -7.32    -3.21 1.00     8515
+Intercept[phi4,3]          3.54      1.08     1.46     5.69 1.00     9564
+condition1                -0.80      0.25    -1.31    -0.31 1.00     7471
+base_model1               -0.64      0.87    -2.34     1.06 1.00     7018
+base_model2                0.40      0.85    -1.23     2.09 1.00     7005
+base_model3               -0.63      0.84    -2.28     1.01 1.00     7418
+condition1:base_model1     0.65      0.43    -0.20     1.47 1.00     7256
+condition1:base_model2    -4.05      0.47    -5.04    -3.19 1.00     6523
+condition1:base_model3     0.65      0.43    -0.20     1.50 1.00     7219
+                       Tail_ESS
+Intercept[gemma3,1]        5748
+Intercept[gemma3,2]        6104
+Intercept[gemma3,3]        6621
+Intercept[llama,1]         5567
+Intercept[llama,2]         6094
+Intercept[llama,3]         7072
+Intercept[mistral,1]       6226
+Intercept[mistral,2]       6046
+Intercept[mistral,3]       6675
+Intercept[phi4,1]          5767
+Intercept[phi4,2]          5798
+Intercept[phi4,3]          5865
+condition1                 5910
+base_model1                5486
+base_model2                5806
+base_model3                6349
+condition1:base_model1     5238
+condition1:base_model2     5475
+condition1:base_model3     5769
+
+Further Distributional Parameters:
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00   NA       NA       NA
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Barrier presentation across experimental conditions. Randomized-order counts exclude failed retries.}
+\label{tab:barrier-presentation-orders}
+\begin{tabular}{lp{0.62\linewidth}}
+\hline
+Condition & Presentation order or method \\
+\hline
+Baseline & B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11 \\
+Baseline (seed 42) & B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11 \\
+Run1 (seed 42) & B3, B4, B5, B6, B7, B8, B9, B10, B11, B1, B2 \\
+Run1 & B3, B4, B5, B6, B7, B8, B9, B10, B11, B1, B2 \\
+Run2 & B5, B6, B7, B8, B9, B10, B11, B1, B2, B3, B4 \\
+Run3 & B7, B8, B9, B10, B11, B1, B2, B3, B4, B5, B6 \\
+Random (seed 42) & Fisher-Yates; 50 unique orders among 50 successful iterations; 0 repeat occurrences \\
+\hline
+\end{tabular}
+\end{table}

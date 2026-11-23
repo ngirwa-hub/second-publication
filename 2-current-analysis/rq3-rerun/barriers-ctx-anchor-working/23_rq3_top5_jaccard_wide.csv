@@ -1,0 +1,5 @@
+family,model_label,context_top5,pooled_anchors_top5,jaccard_pooled,word_top5,jaccard_word,example_top5,jaccard_example,low_numeric_top5,jaccard_low_numeric,high_numeric_top5,jaccard_high_numeric
+phi4,Phi4,"B4, B8, B9, B10, B11","B4, B8, B9, B10, B11",1,"B4, B8, B9, B10, B11",1,"B1, B5, B9, B10, B11",0.429,"B3, B4, B8, B10, B11",0.667,"B1, B4, B5, B9, B10",0.429
+gemma3,Gemma3:12B,"B1, B4, B9, B10, B11","B1, B8, B9, B10, B11",0.667,"B4, B8, B9, B10, B11",0.667,"B1, B8, B9, B10, B11",0.667,"B4, B8, B9, B10, B11",0.667,"B1, B4, B8, B10, B11",0.667
+mistral,Mistral,"B4, B7, B9, B10, B11","B1, B4, B7, B10, B11",0.667,"B4, B7, B9, B10, B11",1,"B1, B3, B7, B10, B11",0.429,"B4, B5, B7, B9, B10",0.667,"B1, B2, B4, B10, B11",0.429
+llama,LLaMa-Pro,"B1, B4, B7, B10, B11","B1, B4, B6, B10, B11",0.667,"B2, B4, B8, B9, B11",0.25,"B1, B2, B3, B10, B11",0.429,"B1, B6, B7, B10, B11",0.667,"B1, B2, B4, B6, B10",0.429
