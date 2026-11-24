@@ -1,0 +1,27 @@
+\begin{landscape}
+\begin{longtable}{lllcccccc}
+\caption{RQ3 importance: primary-prior upper-end probability contrasts classified as greater under the word and example anchors.} \label{tab:rq3_importance_upper_end_greater} \\
+\toprule
+Model & DC solution & Anchor & Context $P(Y=4)$ & Anchor $P(Y=4)$ & $\Delta$ & 95\% CrI & $P(\Delta>0)$ & Interpretation \\ 
+\midrule
+\endfirsthead
+\caption[]{RQ3 importance: primary-prior upper-end probability contrasts classified as greater under the word and example anchors.} \\ 
+\toprule
+Model & DC solution & Anchor & Context $P(Y=4)$ & Anchor $P(Y=4)$ & $\Delta$ & 95\% CrI & $P(\Delta>0)$ & Interpretation \\ 
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{Continued on next page} \\ 
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+LLaMa-Pro & DC connectors & Word & 0.322 & 0.650 & +0.327 & [0.139, 0.494] & $>0.999$ & Greater \\
+LLaMa-Pro & DC-DC converter & Word & 0.358 & 0.652 & +0.293 & [0.104, 0.457] & 0.999 & Greater \\
+LLaMa-Pro & Static protection system & Word & 0.649 & 0.966 & +0.312 & [0.211, 0.397] & $>0.999$ & Greater \\
+Phi-4 & DC measurement device & Word & 0.681 & 0.968 & +0.281 & [0.179, 0.365] & $>0.999$ & Greater \\
+Phi-4 & LVAC-LVDC interlink converter & Word & 0.653 & 0.966 & +0.308 & [0.210, 0.392] & $>0.999$ & Greater \\
+\midrule
+\multicolumn{9}{p{0.96\linewidth}}{\footnotesize\textit{Note.} $\Delta$ is the posterior anchor-minus-Context difference in $P(Y=4)$. Only contrasts classified as greater upper-end concentration under the anchor are included. Only ratings 3 and 4 were observed in the importance data; consequently, $P(Y=1)$ was not estimated by the fitted importance model.}\\
+\end{longtable}
+\end{landscape}

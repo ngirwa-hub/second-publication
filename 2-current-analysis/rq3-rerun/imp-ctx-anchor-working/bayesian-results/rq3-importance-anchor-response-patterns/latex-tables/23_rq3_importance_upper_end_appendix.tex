@@ -1,0 +1,110 @@
+\begin{landscape}
+\begin{longtable}{lllcccccc}
+\caption{RQ3 importance: primary-prior upper-end probability contrasts for the word and example anchors.} \label{tab:rq3_importance_upper_end_appendix} \\
+\toprule
+Model & DC solution & Anchor & Context $P(Y=4)$ & Anchor $P(Y=4)$ & $\Delta$ & 95\% CrI & $P(\Delta>0)$ & Interpretation \\
+\midrule
+\endfirsthead
+\caption[]{RQ3 importance: primary-prior upper-end probability contrasts for the word and example anchors.} \\ 
+\toprule
+Model & DC solution & Anchor & Context $P(Y=4)$ & Anchor $P(Y=4)$ & $\Delta$ & 95\% CrI & $P(\Delta>0)$ & Interpretation \\
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{Continued on next page} \\ 
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Gemma3:12B & DC connectors & Word & 0.996 & 0.998 & +0.001 & [-0.024, 0.011] & 0.607 & Uncertain \\
+Gemma3:12B & DC connectors & Example & 0.996 & 0.997 & +0.001 & [-0.025, 0.010] & 0.612 & Uncertain \\
+Gemma3:12B & DC measurement device & Word & 0.996 & 0.997 & +0.001 & [-0.024, 0.011] & 0.602 & Uncertain \\
+Gemma3:12B & DC measurement device & Example & 0.996 & 0.997 & +0.001 & [-0.023, 0.011] & 0.604 & Uncertain \\
+Gemma3:12B & DC solution design tool & Word & 0.996 & 0.997 & +0.001 & [-0.025, 0.011] & 0.597 & Uncertain \\
+Gemma3:12B & DC solution design tool & Example & 0.996 & 0.998 & +0.001 & [-0.025, 0.011] & 0.612 & Uncertain \\
+Gemma3:12B & DC-DC converter & Word & 0.975 & 0.990 & +0.013 & [-0.034, 0.042] & 0.807 & Uncertain \\
+Gemma3:12B & DC-DC converter & Example & 0.975 & 0.990 & +0.013 & [-0.035, 0.041] & 0.814 & Uncertain \\
+Gemma3:12B & LVAC-LVDC interlink converter & Word & 0.004 & 0.003 & -0.001 & [-0.010, 0.026] & 0.405 & Uncertain \\
+Gemma3:12B & LVAC-LVDC interlink converter & Example & 0.004 & 0.003 & -0.001 & [-0.010, 0.024] & 0.390 & Uncertain \\
+Gemma3:12B & Network design tool for DC solutions & Word & 0.989 & 0.994 & +0.004 & [-0.030, 0.022] & 0.710 & Uncertain \\
+Gemma3:12B & Network design tool for DC solutions & Example & 0.989 & 0.994 & +0.004 & [-0.033, 0.022] & 0.709 & Uncertain \\
+Gemma3:12B & Protection DC system design tool & Word & 0.996 & 0.997 & +0.001 & [-0.025, 0.011] & 0.602 & Uncertain \\
+Gemma3:12B & Protection DC system design tool & Example & 0.996 & 0.997 & +0.001 & [-0.023, 0.011] & 0.606 & Uncertain \\
+Gemma3:12B & Semiconductor-based circuit breaker & Word & 0.996 & 0.997 & +0.001 & [-0.024, 0.011] & 0.609 & Uncertain \\
+Gemma3:12B & Semiconductor-based circuit breaker & Example & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.611 & Uncertain \\
+Gemma3:12B & Smart and sustainable DC cables & Word & 0.977 & 0.991 & +0.012 & [-0.034, 0.040] & 0.811 & Uncertain \\
+Gemma3:12B & Smart and sustainable DC cables & Example & 0.977 & 0.394 & -0.582 & [-0.741, -0.409] & $<0.001$ & Reduced \\
+Gemma3:12B & Solid-state circuit breaker & Word & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.601 & Uncertain \\
+Gemma3:12B & Solid-state circuit breaker & Example & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.599 & Uncertain \\
+Gemma3:12B & Static protection system & Word & 0.996 & 0.997 & +0.001 & [-0.022, 0.010] & 0.602 & Uncertain \\
+Gemma3:12B & Static protection system & Example & 0.996 & 0.997 & +0.001 & [-0.022, 0.010] & 0.604 & Uncertain \\
+LLaMa-Pro & DC connectors & Word & 0.322 & 0.650 & +0.327 & [0.139, 0.494] & $>0.999$ & Greater \\
+LLaMa-Pro & DC connectors & Example & 0.322 & 0.330 & +0.007 & [-0.152, 0.192] & 0.533 & Uncertain \\
+LLaMa-Pro & DC measurement device & Word & 0.940 & 0.071 & -0.865 & [-0.928, -0.748] & $<0.001$ & Reduced \\
+LLaMa-Pro & DC measurement device & Example & 0.940 & 0.072 & -0.865 & [-0.928, -0.749] & $<0.001$ & Reduced \\
+LLaMa-Pro & DC solution design tool & Word & 0.939 & 0.072 & -0.865 & [-0.928, -0.746] & $<0.001$ & Reduced \\
+LLaMa-Pro & DC solution design tool & Example & 0.939 & 0.071 & -0.866 & [-0.928, -0.751] & $<0.001$ & Reduced \\
+LLaMa-Pro & DC-DC converter & Word & 0.358 & 0.652 & +0.293 & [0.104, 0.457] & 0.999 & Greater \\
+LLaMa-Pro & DC-DC converter & Example & 0.358 & 0.333 & -0.025 & [-0.190, 0.159] & 0.389 & Uncertain \\
+LLaMa-Pro & LVAC-LVDC interlink converter & Word & 0.017 & 0.008 & -0.008 & [-0.031, 0.034] & 0.242 & Uncertain \\
+LLaMa-Pro & LVAC-LVDC interlink converter & Example & 0.017 & 0.008 & -0.008 & [-0.030, 0.034] & 0.243 & Uncertain \\
+LLaMa-Pro & Network design tool for DC solutions & Word & 0.004 & 0.003 & -0.001 & [-0.010, 0.024] & 0.392 & Uncertain \\
+LLaMa-Pro & Network design tool for DC solutions & Example & 0.004 & 0.003 & -0.001 & [-0.010, 0.024] & 0.394 & Uncertain \\
+LLaMa-Pro & Protection DC system design tool & Word & 0.631 & 0.046 & -0.579 & [-0.669, -0.463] & $<0.001$ & Reduced \\
+LLaMa-Pro & Protection DC system design tool & Example & 0.631 & 0.349 & -0.282 & [-0.446, -0.097] & 0.001 & Reduced \\
+LLaMa-Pro & Semiconductor-based circuit breaker & Word & 0.982 & 0.992 & +0.008 & [-0.033, 0.032] & 0.774 & Uncertain \\
+LLaMa-Pro & Semiconductor-based circuit breaker & Example & 0.982 & 0.718 & -0.263 & [-0.432, -0.125] & $<0.001$ & Reduced \\
+LLaMa-Pro & Smart and sustainable DC cables & Word & 0.959 & 0.707 & -0.251 & [-0.423, -0.109] & $<0.001$ & Reduced \\
+LLaMa-Pro & Smart and sustainable DC cables & Example & 0.959 & 0.076 & -0.881 & [-0.942, -0.761] & $<0.001$ & Reduced \\
+LLaMa-Pro & Solid-state circuit breaker & Word & 0.961 & 0.706 & -0.253 & [-0.427, -0.114] & $<0.001$ & Reduced \\
+LLaMa-Pro & Solid-state circuit breaker & Example & 0.961 & 0.387 & -0.572 & [-0.730, -0.396] & $<0.001$ & Reduced \\
+LLaMa-Pro & Static protection system & Word & 0.649 & 0.966 & +0.312 & [0.211, 0.397] & $>0.999$ & Greater \\
+LLaMa-Pro & Static protection system & Example & 0.649 & 0.047 & -0.597 & [-0.682, -0.479] & $<0.001$ & Reduced \\
+Mistral & DC connectors & Word & 0.977 & 0.991 & +0.012 & [-0.035, 0.040] & 0.803 & Uncertain \\
+Mistral & DC connectors & Example & 0.977 & 0.991 & +0.012 & [-0.035, 0.040] & 0.806 & Uncertain \\
+Mistral & DC measurement device & Word & 0.311 & 0.032 & -0.273 & [-0.358, -0.173] & $<0.001$ & Reduced \\
+Mistral & DC measurement device & Example & 0.311 & 0.327 & +0.016 & [-0.148, 0.203] & 0.567 & Uncertain \\
+Mistral & DC solution design tool & Word & 0.996 & 0.997 & +0.001 & [-0.024, 0.010] & 0.602 & Uncertain \\
+Mistral & DC solution design tool & Example & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.603 & Uncertain \\
+Mistral & DC-DC converter & Word & 0.974 & 0.715 & -0.258 & [-0.430, -0.122] & $<0.001$ & Reduced \\
+Mistral & DC-DC converter & Example & 0.974 & 0.990 & +0.014 & [-0.033, 0.042] & 0.820 & Uncertain \\
+Mistral & LVAC-LVDC interlink converter & Word & 0.310 & 0.032 & -0.273 & [-0.357, -0.173] & $<0.001$ & Reduced \\
+Mistral & LVAC-LVDC interlink converter & Example & 0.310 & 0.328 & +0.019 & [-0.145, 0.204] & 0.585 & Uncertain \\
+Mistral & Network design tool for DC solutions & Word & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.609 & Uncertain \\
+Mistral & Network design tool for DC solutions & Example & 0.996 & 0.997 & +0.001 & [-0.025, 0.010] & 0.604 & Uncertain \\
+Mistral & Protection DC system design tool & Word & 0.961 & 0.707 & -0.252 & [-0.422, -0.117] & $<0.001$ & Reduced \\
+Mistral & Protection DC system design tool & Example & 0.961 & 0.705 & -0.254 & [-0.427, -0.116] & $<0.001$ & Reduced \\
+Mistral & Semiconductor-based circuit breaker & Word & 0.964 & 0.705 & -0.256 & [-0.428, -0.115] & $<0.001$ & Reduced \\
+Mistral & Semiconductor-based circuit breaker & Example & 0.964 & 0.988 & +0.022 & [-0.033, 0.056] & 0.864 & Uncertain \\
+Mistral & Smart and sustainable DC cables & Word & 0.004 & 0.003 & -0.001 & [-0.011, 0.024] & 0.388 & Uncertain \\
+Mistral & Smart and sustainable DC cables & Example & 0.004 & 0.003 & -0.001 & [-0.011, 0.023] & 0.396 & Uncertain \\
+Mistral & Solid-state circuit breaker & Word & 0.989 & 0.994 & +0.004 & [-0.033, 0.022] & 0.705 & Uncertain \\
+Mistral & Solid-state circuit breaker & Example & 0.989 & 0.994 & +0.004 & [-0.032, 0.022] & 0.702 & Uncertain \\
+Mistral & Static protection system & Word & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.603 & Uncertain \\
+Mistral & Static protection system & Example & 0.996 & 0.998 & +0.001 & [-0.025, 0.010] & 0.610 & Uncertain \\
+Phi-4 & DC connectors & Word & 0.996 & 0.997 & +0.001 & [-0.023, 0.011] & 0.611 & Uncertain \\
+Phi-4 & DC connectors & Example & 0.996 & 0.997 & +0.001 & [-0.024, 0.011] & 0.605 & Uncertain \\
+Phi-4 & DC measurement device & Word & 0.681 & 0.968 & +0.281 & [0.179, 0.365] & $>0.999$ & Greater \\
+Phi-4 & DC measurement device & Example & 0.681 & 0.670 & -0.012 & [-0.194, 0.155] & 0.446 & Uncertain \\
+Phi-4 & DC solution design tool & Word & 0.996 & 0.997 & +0.001 & [-0.025, 0.010] & 0.603 & Uncertain \\
+Phi-4 & DC solution design tool & Example & 0.996 & 0.997 & +0.001 & [-0.024, 0.010] & 0.601 & Uncertain \\
+Phi-4 & DC-DC converter & Word & 0.996 & 0.997 & +0.001 & [-0.024, 0.011] & 0.606 & Uncertain \\
+Phi-4 & DC-DC converter & Example & 0.996 & 0.997 & +0.001 & [-0.024, 0.011] & 0.611 & Uncertain \\
+Phi-4 & LVAC-LVDC interlink converter & Word & 0.653 & 0.966 & +0.308 & [0.210, 0.392] & $>0.999$ & Greater \\
+Phi-4 & LVAC-LVDC interlink converter & Example & 0.653 & 0.047 & -0.601 & [-0.687, -0.487] & $<0.001$ & Reduced \\
+Phi-4 & Network design tool for DC solutions & Word & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.604 & Uncertain \\
+Phi-4 & Network design tool for DC solutions & Example & 0.996 & 0.998 & +0.001 & [-0.025, 0.010] & 0.606 & Uncertain \\
+Phi-4 & Protection DC system design tool & Word & 0.996 & 0.997 & +0.001 & [-0.026, 0.010] & 0.597 & Uncertain \\
+Phi-4 & Protection DC system design tool & Example & 0.996 & 0.997 & +0.001 & [-0.024, 0.010] & 0.608 & Uncertain \\
+Phi-4 & Semiconductor-based circuit breaker & Word & 0.996 & 0.997 & +0.001 & [-0.025, 0.010] & 0.605 & Uncertain \\
+Phi-4 & Semiconductor-based circuit breaker & Example & 0.996 & 0.997 & +0.001 & [-0.025, 0.010] & 0.600 & Uncertain \\
+Phi-4 & Smart and sustainable DC cables & Word & 0.996 & 0.997 & +0.001 & [-0.025, 0.011] & 0.598 & Uncertain \\
+Phi-4 & Smart and sustainable DC cables & Example & 0.996 & 0.997 & +0.001 & [-0.023, 0.011] & 0.602 & Uncertain \\
+Phi-4 & Solid-state circuit breaker & Word & 0.996 & 0.997 & +0.001 & [-0.023, 0.010] & 0.609 & Uncertain \\
+Phi-4 & Solid-state circuit breaker & Example & 0.996 & 0.997 & +0.001 & [-0.024, 0.010] & 0.600 & Uncertain \\
+Phi-4 & Static protection system & Word & 0.996 & 0.998 & +0.001 & [-0.023, 0.011] & 0.600 & Uncertain \\
+Phi-4 & Static protection system & Example & 0.996 & 0.997 & +0.001 & [-0.024, 0.011] & 0.599 & Uncertain \\
+\midrule
+\multicolumn{9}{p{0.96\linewidth}}{\footnotesize\textit{Note.} $\Delta$ is the posterior anchor-minus-Context difference in $P(Y=4)$. Only ratings 3 and 4 were observed in the importance data; consequently, $P(Y=1)$ was not estimated by the fitted importance model.}\\
+\end{longtable}
+\end{landscape}

@@ -1,4 +1,4 @@
-This repository is organized into two main folders: `previous-analysis` and `current-analysis`.
+This repository contains [previous-analysis](previous-analysis/), [current-analysis](current-analysis/), [2-current-analysis](2-current-analysis/), and [variability-tests](variability-tests/).
 
 ## Repository Structure
 ### 1. Independent files
@@ -173,3 +173,27 @@ Rscript "imp-rq3-analysis/imp-rq3-sensitivity.R"
 - Anchor-pattern: `imp-ctx-anchor-working/bayesian-results/anchor-response-patterns/` and 
   - `imp-ctx-anchor-working/bayesian-results/rq3-importance-anchor-response-patterns/`, and 
 - Prior-sensitivity: `imp-ctx-anchor-working/bayesian-results/prior-sensitivity/`
+
+### 4. Seeded reruns: [2-current-analysis](2-current-analysis/)
+
+This folder replicates the experiments in [current-analysis](current-analysis/), using Ollama generation seed 42 for feasibility, importance, and barrier selection. Barrier-selection prompts also use Fisher–Yates shuffling to present all 11 barriers in a randomly generated order for each iteration. The shuffle uses system randomness independently of the generation seed. See the [analysis guide above](#guide-to-the-analyses) for the shared methods and workflow.
+
+- Prompt scripts, response CSVs, and logs: [Zero-shot](2-current-analysis/21_zero-shot/), [Context](2-current-analysis/22_context/), and [Anchor](2-current-analysis/23_anchor/).
+- Analysis notebooks, R scripts, and result folders: [RQ1](2-current-analysis/rq1-rerun/), [RQ2](2-current-analysis/rq2-rerun/), and [RQ3](2-current-analysis/rq3-rerun/).
+
+### 5. Variability tests: [variability-tests](variability-tests/)
+
+These tests assessed whether changing the presentation order of the 11 DC solutions (feasibility question) or the 11 barriers (barrier-selection question), and introducing generation seed 42, produced different responses from the original baseline. Each condition contains 50 iterations for all 12 variants: four base models with three expert roles each.
+
+| Condition | DC-solution order / feasibility outputs | Barrier order / selection outputs |
+|---|---|---|
+| Original baseline, no explicit generation seed | [Baseline](variability-tests/variability-feasibility-sol/baseline-run/) | [Baseline](variability-tests/variability-barrier-list/baseline-run/) |
+| Baseline order, generation seed 42 | [Seeded baseline](variability-tests/variability-feasibility-sol/outputs/baseline-seed42/) | [Seeded baseline](variability-tests/variability-barrier-list/outputs/baseline-seed42/) |
+| Fixed reordered list: Run1, no explicit generation seed | [Run1](variability-tests/variability-feasibility-sol/outputs/run1/) | [Run1](variability-tests/variability-barrier-list/outputs/run1/) |
+| Fixed reordered list: Run2, no explicit generation seed | [Run2](variability-tests/variability-feasibility-sol/outputs/run2/) | [Run2](variability-tests/variability-barrier-list/outputs/run2/) |
+| Fixed reordered list: Run3, no explicit generation seed | [Run3](variability-tests/variability-feasibility-sol/outputs/run3/) | [Run3](variability-tests/variability-barrier-list/outputs/run3/) |
+| Run1 order, generation seed 42 | [Seeded Run1](variability-tests/variability-feasibility-sol/outputs/run1-seed42/) | [Seeded Run1](variability-tests/variability-barrier-list/outputs/run1-seed42/) |
+| Fisher–Yates order generated per iteration, generation seed 42 | — | [Randomized order](variability-tests/variability-barrier-list/outputs/randOrder-seed42/) |
+
+- [Feasibility comparison notebook](variability-tests/variability-feasibility-sol/feasibility-shuffle.ipynb): compares rating distributions; generated PNG/EPS figures are in the [experiment folder](variability-tests/variability-feasibility-sol/).
+- [Barrier comparison notebook](variability-tests/variability-barrier-list/barrier-selection-shuffle.ipynb): compares selection shares; tables, figures, and ordering-analysis outputs are in [analysis-results](variability-tests/variability-barrier-list/analysis-results/).

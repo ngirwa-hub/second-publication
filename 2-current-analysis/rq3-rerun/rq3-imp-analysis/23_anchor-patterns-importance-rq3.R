@@ -1,19 +1,4 @@
 # Run with:
-# cd "/Users/HP/Documents/second-publication/current-analysis/re-run/rq3-rerun" && Rscript "imp-rq3-analysis/anchor-patterns-importance-rq3.R"
-#
-# Post-estimation analysis for RQ3 importance:
-#   1. word/example upper-end response concentration, P(Y = 4);
-#   2. one primary-prior CSV and one primary-prior LaTeX table.
-#
-# Only ratings 3 and 4 occur in the importance data and are retained by
-# the fitted ordinal models. P(Y = 1) is therefore not an estimated
-# category, so P(Y = 1) + P(Y = 4) cannot be derived for importance.
-# The valid importance endpoint estimand is P(Y = 4).
-#
-# This script does not refit a model or perform prior sensitivity. It
-# reuses the completed primary fit from importance-rq3.R. Numeric-anchor
-# ordinal effects are already reported by the main importance pipeline
-# and are not paired here.
 
 required_packages <- c(
   "brms",
@@ -85,11 +70,11 @@ latex_dir <- file.path(output_dir, "latex-tables")
 
 input_path <- file.path(
   working_dir,
-  "imp-ctx-anchor-responses.csv"
+  "23_imp-ctx-anchor-responses.csv"
 )
 primary_fit_path <- file.path(
   primary_dir,
-  "rq3_importance_base_solution_threshold_fit.rds"
+  "23_rq3_importance_base_solution_threshold_fit.rds"
 )
 
 required_paths <- c(
@@ -590,7 +575,7 @@ readr::write_csv(
   primary_extremity,
   file.path(
     output_dir,
-    "rq3_importance_primary_upper_end_contrasts.csv"
+    "23_rq3_importance_primary_upper_end_contrasts.csv"
   )
 )
 
@@ -598,7 +583,7 @@ writeLines(
   full_latex_lines,
   file.path(
     latex_dir,
-    "rq3_importance_upper_end_appendix.tex"
+    "23_rq3_importance_upper_end_appendix.tex"
   ),
   useBytes = TRUE
 )
@@ -607,7 +592,7 @@ writeLines(
   greater_latex_lines,
   file.path(
     latex_dir,
-    "rq3_importance_upper_end_greater_only.tex"
+    "23_rq3_importance_upper_end_greater_only.tex"
   ),
   useBytes = TRUE
 )

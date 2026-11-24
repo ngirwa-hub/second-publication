@@ -1,12 +1,4 @@
 # Run with:
-# cd "/Users/HP/Documents/second-publication/current-analysis/re-run/rq3-rerun" && Rscript "imp-rq3-analysis/ppc-importance-rq3.R"
-#
-# Posterior predictive checks for the RQ3 importance model with
-# base-model/DC-solution-specific ordinal thresholds.
-#
-# This script does not refit the model or generate new language-model
-# responses. It compares observed ratings with replicated ordinal
-# ratings drawn from the fitted Bayesian model.
 
 required_packages <- c(
   "brms",
@@ -60,7 +52,7 @@ rq3_dir <- dirname(script_dir)
 input_path <- file.path(
   rq3_dir,
   "imp-ctx-anchor-working",
-  "imp-ctx-anchor-responses.csv"
+  "23_imp-ctx-anchor-responses.csv"
 )
 
 analysis_dir <- file.path(
@@ -72,7 +64,7 @@ analysis_dir <- file.path(
 
 fit_path <- file.path(
   analysis_dir,
-  "rq3_importance_base_solution_threshold_fit.rds"
+  "23_rq3_importance_base_solution_threshold_fit.rds"
 )
 
 output_dir <- file.path(
@@ -492,7 +484,7 @@ readr::write_csv(
   ppc_distribution,
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_ppc_rating_proportions.csv"
+    "23_rq3_importance_base_solution_threshold_ppc_rating_proportions.csv"
   )
 )
 
@@ -543,7 +535,7 @@ readr::write_csv(
   ppc_summary,
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_ppc_summary.csv"
+    "23_rq3_importance_base_solution_threshold_ppc_summary.csv"
   )
 )
 
@@ -602,7 +594,7 @@ readr::write_csv(
   ppc_medians,
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_ppc_median_ratings.csv"
+    "23_rq3_importance_base_solution_threshold_ppc_median_ratings.csv"
   )
 )
 
@@ -727,6 +719,7 @@ for (current_base_model in base_models) {
     filename = file.path(
       output_dir,
       paste0(
+        "23_",
         "rq3_importance_ppc_distributions_",
         safe_base_model,
         ".png"
@@ -743,6 +736,7 @@ for (current_base_model in base_models) {
     filename = file.path(
       output_dir,
       paste0(
+        "23_",
         "rq3_importance_ppc_distributions_",
         safe_base_model,
         ".eps"

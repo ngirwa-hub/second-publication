@@ -1,15 +1,5 @@
-# Run with:
-# Rscript /home/ngirwa/TiiS/second-publication/2-current-analysis/rq3-rerun/rq3-feasibility-analysis/23_anchor-patterns-feasibility-rq3.R
-#
-# Post-estimation analysis for RQ3 feasibility:
-#   1. word/example anchor-associated endpoint concentration, defined as
-#      P(Y = 1) + P(Y = 4);
-#   2. one primary-prior CSV and one primary-prior LaTeX table.
-#
-# This script does not refit a model or perform prior sensitivity. It
-# reuses the completed primary fit from feasibility-rq3.R. Numeric-anchor
-# ordinal effects are already reported by the main feasibility pipeline
-# and are therefore not recomputed or paired here.
+# Run command: Rscript /home/ngirwa/TiiS/second-publication/2-current-analysis/rq3-rerun/rq3-feasibility-analysis/23_anchor-patterns-feasibility-rq3.R
+
 
 required_packages <- c(
   "brms",

@@ -1,0 +1,17 @@
+base_model,anchor_type,conclusions,conclusion_stable,OR_median_min,OR_median_max,minimum_probability_OR_gt_1,maximum_probability_OR_gt_1
+gemma3,ANCHOR_EXAMPLE,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0679375515978422,1.4969905141343867,0.53925,0.611625
+gemma3,ANCHOR_NUM_HIGH,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0675512865463013,1.5006241850192605,0.537125,0.608125
+gemma3,ANCHOR_NUM_LOW,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.069013724376624,1.4713999305713532,0.53925,0.613375
+gemma3,ANCHOR_WORD,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0772561643420615,1.4297405895158812,0.5435,0.597875
+llama,ANCHOR_EXAMPLE,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.2385643717709143,4.300081524799035,0.620625,0.8215
+llama,ANCHOR_NUM_HIGH,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.23181631306257,4.40521881252252,0.61875,0.818375
+llama,ANCHOR_NUM_LOW,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.2362280505587326,4.5415278206921545,0.618625,0.8175
+llama,ANCHOR_WORD,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.237018679340604,4.29381819832453,0.62325,0.823125
+mistral,ANCHOR_EXAMPLE,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0689890859055526,1.459489192201555,0.538875,0.60475
+mistral,ANCHOR_NUM_HIGH,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.070454207844251,1.4901291389892202,0.543875,0.6115
+mistral,ANCHOR_NUM_LOW,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0759651620617303,1.446547973602438,0.540125,0.61375
+mistral,ANCHOR_WORD,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0691208995139396,1.4514423227959776,0.540875,0.60375
+phi4,ANCHOR_EXAMPLE,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0618156268432615,1.481577967155988,0.537125,0.617375
+phi4,ANCHOR_NUM_HIGH,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0839929703995825,1.4633046884339684,0.5415,0.6095
+phi4,ANCHOR_NUM_LOW,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.084034626374001,1.4707562246680952,0.542625,0.611375
+phi4,ANCHOR_WORD,regularizing: uncertain; primary: uncertain; weak: uncertain,TRUE,1.0613151565735426,1.4717508013011882,0.532125,0.610375

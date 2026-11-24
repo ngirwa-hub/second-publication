@@ -1,19 +1,4 @@
-# Run after the primary model and PPC:
-# cd "/Users/HP/Documents/second-publication/current-analysis/re-run/rq3-rerun" && Rscript "imp-rq3-analysis/imp-rq3-sensitivity.R"
-#
-# Prior-sensitivity analysis for RQ3 importance.
-#
-# The same cumulative-logit model with base-model/DC-solution-specific
-# thresholds is evaluated under three priors on every direct
-# anchor-versus-Context log odds ratio:
-#   regularizing: Normal(0, 0.75)
-#   primary:      Normal(0, 1.50)
-#   weak:         Normal(0, 2.50)
-#
-# The completed primary fit from importance-rq3.R is reused. Only the
-# regularizing and weak alternatives are newly fitted. Data, likelihood,
-# thresholds, contrasts, MCMC settings, and PPC procedure are otherwise
-# held constant.
+# Run command: 
 
 required_packages <- c(
   "brms",
@@ -71,7 +56,7 @@ rq3_dir <- dirname(script_dir)
 input_path <- file.path(
   rq3_dir,
   "imp-ctx-anchor-working",
-  "imp-ctx-anchor-responses.csv"
+  "23_imp-ctx-anchor-responses.csv"
 )
 
 primary_dir <- file.path(
@@ -83,7 +68,7 @@ primary_dir <- file.path(
 
 primary_fit_path <- file.path(
   primary_dir,
-  "rq3_importance_base_solution_threshold_fit.rds"
+  "23_rq3_importance_base_solution_threshold_fit.rds"
 )
 
 output_dir <- file.path(
@@ -353,7 +338,7 @@ readr::write_csv(
   data_audit,
   file.path(
     output_dir,
-    "rq3_importance_sensitivity_data_audit.csv"
+    "23_rq3_importance_sensitivity_data_audit.csv"
   )
 )
 
@@ -391,7 +376,7 @@ readr::write_csv(
   prior_specifications,
   file.path(
     output_dir,
-    "rq3_importance_prior_specifications.csv"
+    "23_rq3_importance_prior_specifications.csv"
   )
 )
 
@@ -760,6 +745,7 @@ for (prior_index in seq_len(nrow(prior_specifications))) {
     current_fit <- brms::brm(
       formula = sensitivity_formula,
       data = df,
+      cores = 1,
       family = cumulative(
         link = "logit",
         threshold = "flexible"
@@ -858,7 +844,7 @@ for (prior_index in seq_len(nrow(prior_specifications))) {
     file.path(
       prior_output_dir,
       paste0(
-        "rq3_importance_",
+        "23_rq3_importance_",
         prior_name,
         "_ppc_rating_proportions.csv"
       )
@@ -887,7 +873,7 @@ readr::write_csv(
   combined_effects,
   file.path(
     output_dir,
-    "rq3_importance_prior_sensitivity_effects.csv"
+    "23_rq3_importance_prior_sensitivity_effects.csv"
   )
 )
 
@@ -895,7 +881,7 @@ readr::write_csv(
   combined_diagnostics,
   file.path(
     output_dir,
-    "rq3_importance_prior_sensitivity_diagnostics.csv"
+    "23_rq3_importance_prior_sensitivity_diagnostics.csv"
   )
 )
 
@@ -903,7 +889,7 @@ readr::write_csv(
   combined_ppc,
   file.path(
     output_dir,
-    "rq3_importance_prior_sensitivity_ppc_all.csv"
+    "23_rq3_importance_prior_sensitivity_ppc_all.csv"
   )
 )
 
@@ -930,7 +916,7 @@ readr::write_csv(
   ppc_summary,
   file.path(
     output_dir,
-    "rq3_importance_prior_sensitivity_ppc_summary.csv"
+    "23_rq3_importance_prior_sensitivity_ppc_summary.csv"
   )
 )
 
@@ -995,7 +981,7 @@ readr::write_csv(
   robustness,
   file.path(
     output_dir,
-    "rq3_importance_prior_sensitivity_robustness.csv"
+    "23_rq3_importance_prior_sensitivity_robustness.csv"
   )
 )
 
@@ -1012,7 +998,7 @@ readr::write_csv(
   robustness_summary,
   file.path(
     output_dir,
-    "rq3_importance_prior_sensitivity_robustness_summary.csv"
+    "23_rq3_importance_prior_sensitivity_robustness_summary.csv"
   )
 )
 

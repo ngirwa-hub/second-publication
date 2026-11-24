@@ -1,18 +1,5 @@
-# Run with:
-# cd "/Users/HP/Documents/second-publication/current-analysis/re-run/rq3-rerun" && Rscript "imp-rq3-analysis/importance-rq3.R"
-#
-# Bayesian cumulative-logit ordinal model: RQ3 importance -- each anchor type versus Context for every base model and DC solution.
-#
-# The model:
-# - pools model variants and iterations within each base-model/solution
-#   group;
-# - does not assume iteration-wise pairing or use a random intercept;
-# - retains the unequal numbers of Context and anchor observations;
-# - estimates a separate ordinal threshold for each base-model/solution
-#   group;
-# - estimates 176 direct anchor-versus-Context effects:
-#   four anchors x four base models x eleven DC solutions;
-# - gives every direct contrast the same Normal(0, 1.5) prior.
+# Run command:
+
 
 required_packages <- c(
   "brms",
@@ -72,7 +59,7 @@ rq3_dir <- dirname(script_dir)
 input_path <- file.path(
   rq3_dir,
   "imp-ctx-anchor-working",
-  "imp-ctx-anchor-responses.csv"
+  "23_imp-ctx-anchor-responses.csv"
 )
 
 output_dir <- file.path(
@@ -293,7 +280,7 @@ readr::write_csv(
   audit,
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_data_audit.csv"
+    "23_rq3_importance_base_solution_threshold_data_audit.csv"
   )
 )
 
@@ -309,7 +296,7 @@ readr::write_csv(
   group_mapping,
   file.path(
     output_dir,
-    "rq3_importance_base_solution_mapping.csv"
+    "23_rq3_importance_base_solution_mapping.csv"
   )
 )
 
@@ -335,6 +322,7 @@ threshold_formula <- brms::bf(
 fit <- brms::brm(
   formula = threshold_formula,
   data = df,
+  cores = 1,
   family = cumulative(
     link = "logit",
     threshold = "flexible"
@@ -350,7 +338,7 @@ fit <- brms::brm(
   ),
   file = file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_fit"
+    "23_rq3_importance_base_solution_threshold_fit"
   ),
   file_refit = "on_change"
 )
@@ -359,7 +347,7 @@ writeLines(
   capture.output(print(summary(fit))),
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_summary.txt"
+    "23_rq3_importance_base_solution_threshold_summary.txt"
   )
 )
 
@@ -375,7 +363,7 @@ readr::write_csv(
   as.data.frame(draw_diagnostics),
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_draw_diagnostics.csv"
+    "23_rq3_importance_base_solution_threshold_draw_diagnostics.csv"
   )
 )
 
@@ -421,7 +409,7 @@ readr::write_csv(
   diagnostic_summary,
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_diagnostic_summary.csv"
+    "23_rq3_importance_base_solution_threshold_diagnostic_summary.csv"
   )
 )
 
@@ -568,7 +556,7 @@ readr::write_csv(
   results,
   file.path(
     output_dir,
-    "rq3_importance_base_solution_threshold_anchor_effects.csv"
+    "23_rq3_importance_base_solution_threshold_anchor_effects.csv"
   )
 )
 

@@ -1,0 +1,38 @@
+\begin{longtable}[tbp]{p{2.0cm}p{2.2cm}p{3.1cm}p{3.1cm}p{3.1cm}p{3.7cm}c}
+\caption{Prior-sensitivity comparison for the RQ3 feasibility effects of each anchor type relative to Context.} \label{tab:rq3_feasibility_prior_sensitivity} \\
+\toprule
+Model & Anchor type & Regularizing OR (95\% CrI) & Primary OR (95\% CrI) & Weak OR (95\% CrI) & Conclusions (R/P/W) & Stable \\
+\midrule
+\endfirsthead
+\caption[]{Prior-sensitivity comparison for the RQ3 feasibility effects of each anchor type relative to Context.} \\
+\toprule
+Model & Anchor type & Regularizing OR (95\% CrI) & Primary OR (95\% CrI) & Weak OR (95\% CrI) & Conclusions (R/P/W) & Stable \\
+\midrule
+\endhead
+\midrule
+\multicolumn{7}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Phi-4 & Example & 1.062 [0.282, 4.144] & 1.244 [0.166, 10.965] & 1.482 [0.113, 23.228] & Uncertain / Uncertain / Uncertain & Yes \\
+Phi-4 & Word & 1.061 [0.298, 3.948] & 1.271 [0.157, 10.657] & 1.472 [0.126, 22.255] & Uncertain / Uncertain / Uncertain & Yes \\
+Phi-4 & High numeric & 1.084 [0.286, 4.073] & 1.213 [0.165, 10.598] & 1.463 [0.116, 23.195] & Uncertain / Uncertain / Uncertain & Yes \\
+Phi-4 & Low numeric & 1.084 [0.296, 4.039] & 1.248 [0.161, 10.937] & 1.471 [0.123, 21.430] & Uncertain / Uncertain / Uncertain & Yes \\
+Gemma3:12B & Example & 1.068 [0.291, 4.006] & 1.263 [0.157, 10.581] & 1.497 [0.112, 23.213] & Uncertain / Uncertain / Uncertain & Yes \\
+Gemma3:12B & Word & 1.077 [0.277, 4.054] & 1.226 [0.156, 11.116] & 1.430 [0.113, 24.743] & Uncertain / Uncertain / Uncertain & Yes \\
+Gemma3:12B & High numeric & 1.068 [0.278, 4.022] & 1.239 [0.155, 10.944] & 1.501 [0.115, 23.163] & Uncertain / Uncertain / Uncertain & Yes \\
+Gemma3:12B & Low numeric & 1.069 [0.285, 4.106] & 1.239 [0.155, 11.143] & 1.471 [0.111, 23.212] & Uncertain / Uncertain / Uncertain & Yes \\
+Mistral & Example & 1.069 [0.295, 4.134] & 1.244 [0.154, 11.312] & 1.459 [0.113, 24.334] & Uncertain / Uncertain / Uncertain & Yes \\
+Mistral & Word & 1.069 [0.285, 3.938] & 1.234 [0.154, 10.853] & 1.451 [0.114, 22.803] & Uncertain / Uncertain / Uncertain & Yes \\
+Mistral & High numeric & 1.070 [0.284, 4.089] & 1.217 [0.163, 10.893] & 1.490 [0.114, 23.426] & Uncertain / Uncertain / Uncertain & Yes \\
+Mistral & Low numeric & 1.076 [0.276, 4.151] & 1.250 [0.158, 10.561] & 1.447 [0.109, 21.249] & Uncertain / Uncertain / Uncertain & Yes \\
+LLaMa-Pro & Example & 1.239 [0.337, 4.718] & 2.082 [0.236, 28.734] & 4.300 [0.257, 231.607] & Uncertain / Uncertain / Uncertain & Yes \\
+LLaMa-Pro & Word & 1.237 [0.339, 4.893] & 2.019 [0.247, 28.388] & 4.294 [0.275, 230.295] & Uncertain / Uncertain / Uncertain & Yes \\
+LLaMa-Pro & High numeric & 1.232 [0.329, 5.166] & 2.042 [0.244, 25.241] & 4.405 [0.246, 253.727] & Uncertain / Uncertain / Uncertain & Yes \\
+LLaMa-Pro & Low numeric & 1.236 [0.325, 5.121] & 2.016 [0.228, 28.347] & 4.542 [0.250, 288.766] & Uncertain / Uncertain / Uncertain & Yes \\
+\end{longtable}
+
+\noindent\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} Cells report posterior median odds ratios with 95\% credible intervals. R/P/W denotes regularizing, primary, and weak priors, respectively. Stable indicates that the inferential conclusion was identical under all three priors. OR $>1$ indicates higher odds of a higher feasibility rating under the specified anchor relative to Context.
+\end{minipage}
