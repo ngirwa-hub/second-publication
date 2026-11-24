@@ -1,0 +1,19 @@
+\begin{table}[tbp]
+\caption{Posterior predictive checks for the RQ2 importance primary model.}
+\label{tab:rq2_importance_primary_ppc}
+\begin{tabular}{lcccc}
+\toprule
+Model & Within 95\% PPI & Coverage & Median absolute difference & Maximum absolute difference \\
+\midrule
+Phi-4 & 66/66 & 100.0\% & 0.000 & 0.013 \\
+Gemma3:12B & 66/66 & 100.0\% & 0.007 & 0.033 \\
+Mistral & 63/66 & 95.5\% & 0.007 & 0.040 \\
+LLaMa-Pro & 62/66 & 93.9\% & 0.007 & 0.033 \\
+Overall & 257/264 & 97.3\% & 0.007 & 0.040 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Note.} PPI denotes the 95\% posterior predictive interval. Coverage is the proportion of observed rating-category proportions that fell within their corresponding PPIs. Absolute differences compare the observed rating-category proportions with the posterior-predicted median proportions. Each base model contributed 66 checks: 11 DC solutions $\times$ 2 conditions $\times$ 3 observed rating categories. The overall row contains all 264 checks.
+\end{minipage}
+\end{table}
